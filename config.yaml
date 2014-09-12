@@ -1,0 +1,10 @@
+---
+contentdir: "content"
+layoutdir:  "layouts"
+publishdir: "output"
+taxonomies:
+  tag:     "tags"
+  project: "projects"
+baseurl:    "http://www.galaktor.net"
+title:      "galaktor's website"
+...
