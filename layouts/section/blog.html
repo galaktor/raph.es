@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+{{ partial "head.html" . }}
+
+<body>
+    {{ partial "top.html" . }}
+  <div id="bloglist">
+    <ul>
+      {{ range .Data.Pages }}
+      {{ .Render "li" }}
+      {{ end }}
+    </ul>
+  </div>
+
+{{ partial "foot.html" . }}
+
+</body>

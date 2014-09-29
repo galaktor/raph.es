@@ -1,0 +1,78 @@
+@-webkit-keyframes fade-full {
+    0% {
+        opacity: 0.85;
+    }
+    30% {
+        opacity: 0.20;
+    }
+    75% {
+        opacity: 0.50;
+    }
+    100% {
+        opacity: 0.85;
+    }
+}
+
+@keyframes fade-full {
+    0% {
+        opacity: 0.85;
+    }
+    30% {
+        opacity: 0.20;
+    }
+    75% {
+        opacity: 0.50;
+    }
+    100% {
+        opacity: 0.85;
+    }
+}
+
+#logo { 
+}
+
+div.line {
+    overflow: hidden;;
+    max-height: 1.1em;
+    min-width: 40em; /* adjust to logo divs used */
+}
+
+div.pixel, div.pixel-fade, div.pixel-empty {
+    border: 0.075em solid rgba(50, 50, 50, .8);
+    float: left;
+    width: 1em;
+    height: 0.9em;
+    margin: 0.05em;
+    opacity: 0.93;
+    background-color: #251010;
+}
+div.pixel-empty {
+    opacity: 0.1;
+}
+div.pixel-fade {
+    -webkit-animation:fade-full 5.0s forwards linear infinite;
+    animation:        fade-full 5.0s forwards linear infinite;
+    background-color: #955555;
+}
+div.pixel-fade:nth-of-type(odd) {
+    -webkit-animation-delay: -1.3s;
+    animation-delay: -1.3s;
+    -webkit-animation-duration: 5.7s;
+    animation-duration: 5.7s;
+}
+div.pixel-fade:nth-of-type(even) {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 3.4s;
+    animation-duration: 3.4s;
+}
+div.pixel:hover, div.pixel-fade:hover, div.pixel:active, div.pixel-fade:active {
+    opacity: 0.9;
+    background-color: #F5C560;
+    border-color: transparent;
+    -webkit-animation: none;
+    animation: none;
+}
+div.pixel:active, div.pixel-fade:active {
+    background-color: #F53030;
+}

@@ -1,0 +1,36 @@
+copyright  = "Copyright Raphael Estrada 2011 - 2014"
+contentdir = "content"
+layoutdir  = "layouts"
+publishdir = "output"
+baseurl    = "http://www.galaktor.net"
+title      = "r4ph h4cks"
+
+[taxonomies]
+  tag      = "tags"
+  project  = "projects"
+  series   = "series"
+
+[permalinks]
+  blog     = "/blog/:year/:month/:filename/"
+
+[[menu.main]]
+  name     = "home"
+  url      = "/"
+  weight   = 0
+
+[[menu.main]]
+  name     = "blog"
+  url      = "/blog"
+  weight   = 1
+
+[[menu.main]]
+  name     = "projects"
+  url      = "/projects"
+  weight   = 2
+
+[[menu.main]]
+  name     = "about"
+  url      = "/about"
+  weight   = 3
+
+
