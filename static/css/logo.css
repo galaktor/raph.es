@@ -1,18 +1,18 @@
 @-webkit-keyframes fade-full {
     0% {
-        opacity: 0.5;
-    }
-    33% {
         opacity: 0.25;
     }
+    33% {
+        opacity: 0.45;
+    }
     50% {
-	opacity: 0.1
+	opacity: 0.9
     }
     66% {
-        opacity: 0.15;
+        opacity: 0.45;
     }
     100% {
-        opacity: 0.5;
+        opacity: 0.25;
     }
 }
 
@@ -58,7 +58,7 @@ div.pixel-empty {
 div.pixel-fade {
     -webkit-animation:fade-full 8s forwards ease infinite;
     animation:        fade-full 8s forwards ease infinite;
-    background: linear-gradient(130deg, #959595 15%, #151515);
+    background: linear-gradient(130deg, #DDAAAA 15%, #AA5555);
 }
 div.pixel-fade:nth-of-type(odd) {
     -webkit-animation-delay: -1.3s;
