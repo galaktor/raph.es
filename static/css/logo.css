@@ -1,30 +1,36 @@
 @-webkit-keyframes fade-full {
     0% {
-        opacity: 0.85;
+        opacity: 0.5;
     }
-    30% {
-        opacity: 0.20;
+    33% {
+        opacity: 0.25;
     }
-    75% {
-        opacity: 0.50;
+    50% {
+	opacity: 0.1
+    }
+    66% {
+        opacity: 0.15;
     }
     100% {
-        opacity: 0.85;
+        opacity: 0.5;
     }
 }
 
 @keyframes fade-full {
     0% {
-        opacity: 0.85;
+        opacity: 0.5;
     }
-    30% {
-        opacity: 0.20;
+    20% {
+        opacity: 0.25;
     }
-    75% {
-        opacity: 0.50;
+    50% {
+	opacity: 0.85
+    }
+    80% {
+        opacity: 0.15;
     }
     100% {
-        opacity: 0.85;
+        opacity: 0.5;
     }
 }
 
@@ -32,47 +38,48 @@
 }
 
 div.line {
-    overflow: hidden;;
-    max-height: 1.1em;
-    min-width: 40em; /* adjust to logo divs used */
+    overflow: hidden;
+    min-width: 40em; /* prevent wrap; adjust to logo divs used */
 }
 
 div.pixel, div.pixel-fade, div.pixel-empty {
+    border-radius: 0.25em;
     border: 0.075em solid rgba(50, 50, 50, .8);
     float: left;
-    width: 1em;
-    height: 0.9em;
-    margin: 0.05em;
+    width: 0.7em;
+    height: 0.7em;
+    margin: 0.08em;
     opacity: 0.93;
-    background-color: #251010;
+    background: linear-gradient(130deg, #AA8585 15%, #251010);
 }
 div.pixel-empty {
     opacity: 0.1;
 }
 div.pixel-fade {
-    -webkit-animation:fade-full 5.0s forwards linear infinite;
-    animation:        fade-full 5.0s forwards linear infinite;
-    background-color: #955555;
+    -webkit-animation:fade-full 8s forwards ease infinite;
+    animation:        fade-full 8s forwards ease infinite;
+    background: linear-gradient(130deg, #959595 15%, #757575);
 }
 div.pixel-fade:nth-of-type(odd) {
     -webkit-animation-delay: -1.3s;
-    animation-delay: -1.3s;
-    -webkit-animation-duration: 5.7s;
-    animation-duration: 5.7s;
+    animation-delay: -2.4s;
+    -webkit-animation-duration: 12s;
+    animation-duration: 12s;
 }
 div.pixel-fade:nth-of-type(even) {
-    -webkit-animation-delay: 0.5s;
+    -webkit-animation-delay: 6.5s;
     animation-delay: 0.5s;
-    -webkit-animation-duration: 3.4s;
-    animation-duration: 3.4s;
+    -webkit-animation-duration: 17s;
+    animation-duration: 17s;
 }
 div.pixel:hover, div.pixel-fade:hover, div.pixel:active, div.pixel-fade:active {
     opacity: 0.9;
-    background-color: #F5C560;
     border-color: transparent;
+    background: linear-gradient(130deg, #DDDD15 15%, #AAAA15);
     -webkit-animation: none;
     animation: none;
 }
 div.pixel:active, div.pixel-fade:active {
-    background-color: #F53030;
+    -webkit-animation: none;
+    animation: none;
 }

@@ -12,16 +12,30 @@ html {
     color: #AA6666;
 }
 
+#top {
+    overflow: hidden;
+}
+
 #menu ul {
+    font-size: 1.4em;
     padding: 0;
     margin: 0;
-    list-style-type: none;
+    float: left;
 }
 
 #menu li {
     display: inline;
-    padding-left: 4pt;
-    padding-right: 4pt;
+    padding-right: 0.5em;
+}
+
+#menu a, #menu a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: #251010;
+}
+
+#menu a:hover {
+    color: #AAAA15;
 }
 
 #bloglist ul {
@@ -30,5 +44,5 @@ html {
 
 footer p {
 /*    margin: 5pt;
-    padding: 0;    */
+      padding: 0;    */
 }
