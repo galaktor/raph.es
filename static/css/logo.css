@@ -20,13 +20,13 @@
     0% {
         opacity: 0.5;
     }
-    20% {
+    33% {
         opacity: 0.25;
     }
     50% {
-	opacity: 0.85
+	opacity: 0.1
     }
-    80% {
+    66% {
         opacity: 0.15;
     }
     100% {
@@ -39,11 +39,11 @@
 
 div.line {
     overflow: hidden;
-    min-width: 40em; /* prevent wrap; adjust to logo divs used */
+    min-width: 42em; /* prevent wrap; adjust to logo divs used */
+    
 }
 
 div.pixel, div.pixel-fade, div.pixel-empty {
-    border-radius: 0.25em;
     border: 0.075em solid rgba(50, 50, 50, .8);
     float: left;
     width: 0.7em;
@@ -58,7 +58,7 @@ div.pixel-empty {
 div.pixel-fade {
     -webkit-animation:fade-full 8s forwards ease infinite;
     animation:        fade-full 8s forwards ease infinite;
-    background: linear-gradient(130deg, #959595 15%, #757575);
+    background: linear-gradient(130deg, #959595 15%, #151515);
 }
 div.pixel-fade:nth-of-type(odd) {
     -webkit-animation-delay: -1.3s;
@@ -76,10 +76,6 @@ div.pixel:hover, div.pixel-fade:hover, div.pixel:active, div.pixel-fade:active {
     opacity: 0.9;
     border-color: transparent;
     background: linear-gradient(130deg, #DDDD15 15%, #AAAA15);
-    -webkit-animation: none;
-    animation: none;
-}
-div.pixel:active, div.pixel-fade:active {
     -webkit-animation: none;
     animation: none;
 }
