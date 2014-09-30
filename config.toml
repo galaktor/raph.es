@@ -1,9 +1,9 @@
-copyright  = "Copyright Raphael Estrada 2011 - 2014"
+copyright  = "copyright (c) Raphael Estrada 2011 - 2014"
 contentdir = "content"
 layoutdir  = "layouts"
 publishdir = "output"
 baseurl    = "http://www.galaktor.net"
-title      = "r4ph h4cks"
+title      = "raph haXx"
 
 [taxonomies]
   tag      = "tags"

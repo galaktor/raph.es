@@ -2,6 +2,7 @@ html {
     font-family: Courier, monospace;
     margin: 0;
     padding: 0;
+    width: 40em; /* make sure the logo min-width fits into this */
 }
 
 #title h1 {
@@ -42,7 +43,21 @@ html {
     list-style-type: circle;
 }
 
+footer {
+    float: right;
+    margin-top: 3em;
+    font-size: 0.8em;
+}
+
 footer p {
-/*    margin: 5pt;
-      padding: 0;    */
+    margin: 0.5em 0;;
+}
+
+#social ul {
+    padding: 0;
+    margin: 0;
+}
+
+#social li {
+    display: inline;
 }
