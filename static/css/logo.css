@@ -18,64 +18,69 @@
 
 @keyframes fade-full {
     0% {
-        opacity: 0.5;
-    }
-    33% {
         opacity: 0.25;
     }
+    33% {
+        opacity: 0.45;
+    }
     50% {
-	opacity: 0.1
+	opacity: 0.9
     }
     66% {
-        opacity: 0.15;
+        opacity: 0.45;
     }
     100% {
-        opacity: 0.5;
+        opacity: 0.25;
     }
 }
 
-#logo { 
+#logo {
 }
 
 div.line {
-    overflow: hidden;
+    overflow:  hidden;
     min-width: 42em; /* prevent wrap; adjust to logo divs used */
     
 }
 
 div.pixel, div.pixel-fade, div.pixel-empty {
-    border: 0.075em solid rgba(50, 50, 50, .8);
-    float: left;
-    width: 0.7em;
-    height: 0.7em;
-    margin: 0.08em;
-    opacity: 0.93;
+    border:     0.075em solid rgba(50, 50, 50, .8);
+    float:      left;
+    width:      0.7em;
+    height:     0.7em;
+    margin:     0.08em;
+    opacity:    0.93;
     background: linear-gradient(130deg, #AA8585 15%, #251010);
 }
+
 div.pixel-empty {
     opacity: 0.1;
 }
+
 div.pixel-fade {
-    -webkit-animation:fade-full 8s forwards ease infinite;
-    animation:        fade-full 8s forwards ease infinite;
-    background: linear-gradient(130deg, #DDAAAA 15%, #AA5555);
+    -webkit-animation: fade-full 8s forwards ease infinite;
+    animation:         fade-full 8s forwards ease infinite;
+    background:        linear-gradient(130deg, #DDAAAA 15%, #AA5555);
 }
+
 div.pixel-fade:nth-of-type(odd) {
-    -webkit-animation-delay: -1.3s;
-    animation-delay: -2.4s;
+    -webkit-animation-delay:    -2.4s;
+    animation-delay:            -2.4s;
     -webkit-animation-duration: 12s;
-    animation-duration: 12s;
+    animation-duration:         12s;
 }
+
 div.pixel-fade:nth-of-type(even) {
-    -webkit-animation-delay: 6.5s;
-    animation-delay: 0.5s;
+    -webkit-animation-delay:     0.5s;
+    animation-delay:             0.5s;
     -webkit-animation-duration: 17s;
-    animation-duration: 17s;
+    animation-duration:         17s;
 }
+
 div.pixel:hover, div.pixel-fade:hover, div.pixel:active, div.pixel-fade:active {
-    opacity: 0.9;
-    border-color: transparent;
-    background: linear-gradient(130deg, #DDDD15 15%, #AAAA15);
+    opacity:           0.9;
+    border-color:      transparent;
+    background:        linear-gradient(130deg, #DDDD15 15%, #AAAA15);
     -webkit-animation: none;
-    animation: none;
+    animation:         none;
 }
