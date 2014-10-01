@@ -39,8 +39,6 @@
 
 div.line {
     overflow:  hidden;
-    min-width: 42em; /* prevent wrap; adjust to logo divs used */
-    
 }
 
 div.pixel, div.pixel-fade, div.pixel-empty {
@@ -48,9 +46,9 @@ div.pixel, div.pixel-fade, div.pixel-empty {
     float:      left;
     width:      0.7em;
     height:     0.7em;
-    margin:     0.08em;
+    margin:     0.05em;
     opacity:    0.93;
-    background: linear-gradient(130deg, #AA8585 15%, #251010);
+    background: linear-gradient(130deg, #994545 15%, #251010);
 }
 
 div.pixel-empty {
@@ -60,7 +58,7 @@ div.pixel-empty {
 div.pixel-fade {
     -webkit-animation: fade-full 8s forwards ease infinite;
     animation:         fade-full 8s forwards ease infinite;
-    background:        linear-gradient(130deg, #DDAAAA 15%, #AA5555);
+    background:        linear-gradient(130deg, #DDAAAA 15%, #AA8585);
 }
 
 div.pixel-fade:nth-of-type(odd) {

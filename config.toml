@@ -14,7 +14,7 @@ title      = "raph haXx"
   blog     = "/blog/:year/:month/:filename/"
 
 [[menu.main]]
-  name     = "home"
+  name     = "root"
   url      = "/"
   weight   = 0
 
