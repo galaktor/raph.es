@@ -1,6 +1,6 @@
 <div id="menu">
   <ul>
-    {{ range .Site.Menus.main }}<li><a href="{{ .Url }}">{{ upper .Name }}</a></li>{{ end }}
+    {{ range .Site.Menus.main }}<li><a href="{{ .Url }}">&#123{{ upper .Name }}&#125</a></li>{{ end }}
   </ul>
 </div>
 

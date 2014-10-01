@@ -45,12 +45,13 @@ html {
 
 footer {
     float: right;
-    margin-top: 3em;
     font-size: 0.8em;
 }
 
-footer p {
-    margin: 0.5em 0;;
+footer div {
+    clear: both;
+    float: right;
+    margin: 0.1em 0;
 }
 
 #social ul {
@@ -60,4 +61,8 @@ footer p {
 
 #social li {
     display: inline;
+}
+
+#footspace {
+    margin: 3em 0 0 0;
 }
