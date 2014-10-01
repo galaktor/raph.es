@@ -1,16 +1,31 @@
+@-webkit-keyframes blink {
+    0% {
+	opacity: 0;
+    }
+    49% {
+	opacity: 0;
+    }
+    50% {
+	opacity: 1;
+    }
+    99 % {
+	opacity: 1;
+    }
+}
+
+div.cursor {
+    float: left;
+    width:   0.1em;
+    height:  1em;
+    background-color: #454545;
+    -webkit-animation: blink 1s forwards linear infinite;
+}
+
 html {
     font-family: Courier, monospace;
     margin: 0;
     padding: 0;
     width: 40em; /* make sure the logo min-width fits into this */
-}
-
-#title h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 40pt;
-    letter-spacing: -2pt;
-    color: #AA6666;
 }
 
 #top {
@@ -24,9 +39,11 @@ html {
     float: left;
 }
 
+/* TODO: content area with min height */
+
 #menu li {
     display: inline;
-    padding-right: 0.5em;
+    padding-right: 0.3em;
 }
 
 #menu a, #menu a:hover {
@@ -40,7 +57,7 @@ html {
 }
 
 #bloglist ul {
-    list-style-type: circle;
+    list-style-type: none;
 }
 
 footer {
