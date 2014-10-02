@@ -12,7 +12,7 @@ title      = "raph haXx"
 
 [permalinks]
   blog     = "/blog/:year/:month/:filename/"
-  projects = "/projects/:year/:month/:filename/"
+  projects = "/project/:year/:month/:filename/"
 
 [[menu.main]]
   name     = "root"
@@ -26,7 +26,7 @@ title      = "raph haXx"
 
 [[menu.main]]
   name     = "projects"
-  url      = "/projects"
+  url      = "/project"
   weight   = 2
 
 [[menu.main]]

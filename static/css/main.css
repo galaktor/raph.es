@@ -63,8 +63,27 @@ html {
     color: #DD1515;
 }
 
-#bloglist ul {
+div.sectionlist ul  {
     list-style-type: none;
+}
+
+div.thumbnail {
+    float: left;
+    border: 0.15em dotted black;
+    margin: 0.5em 0.5em;
+    padding: 0.5em;
+    height: 6em;
+}
+
+div.thumbnail pre {
+    margin: auto;
+    padding: 0;
+    /* todo: class of pre */
+    /* todo: center */
+}
+
+div.clearboth {
+    clear: both;
 }
 
 footer {

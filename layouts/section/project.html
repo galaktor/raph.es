@@ -3,10 +3,10 @@
 {{ partial "head.html" . }}
 <body>
     {{ partial "top.html" . }}
-  <div id="bloglist">
+  <div class="sectionlist">
     <ul>
       {{ range .Data.Pages }}
-      {{ .Render "li" }}
+        <li>{{ .Render "thumb" }}</li>
       {{ end }}
     </ul>
   </div>

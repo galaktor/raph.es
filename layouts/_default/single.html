@@ -4,5 +4,7 @@
   {{ partial "top.html" . }}
   <h1>{{ .Title }}</h1>
   <p>{{ .Content }}</p>
+  <h1>Tags</h1>
+  {{ range .Params.tags }}<p>{{ . | urlize  }}</p>{{ end }}
   {{ partial "foot.html" . }}
 </body>

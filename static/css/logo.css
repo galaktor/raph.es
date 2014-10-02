@@ -16,6 +16,18 @@
     }
 }
 
+@-webkit-keyframes fade-subtle {
+    0% {
+	opacity: 1;
+    }
+    50% {
+	opacity: 0.8;
+    }
+    100% {
+	opacity: 1;
+    }
+}
+
 @keyframes fade-full {
     0% {
         opacity: 0.25;
@@ -53,16 +65,16 @@ div.pixel, div.pixel-fade, div.pixel-empty {
     /* todo: animate static chars */
 }
 
-div.pixel-empty {
-    opacity: 0.1;
-}
-
 div.pixel-fade {
     font-weight: bold;
     -webkit-animation: fade-full 8s forwards ease infinite;
     animation:         fade-full 8s forwards ease infinite;
 /*    background:        linear-gradient(130deg, #DDAAAA 15%, #AA8585); */
     color: #555555;
+}
+
+div.pixel:nth-of-type(odd) {
+    -webkit-animation: fade-subtle 3s forwards linear infinite;
 }
 
 div.pixel-fade:nth-of-type(odd) {
