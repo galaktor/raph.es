@@ -36,7 +36,7 @@ html {
 }
 
 #top {
-    width: 38em; /* make sure the logo min-width fits into this */
+    width: 35em; /* make sure the logo min-width fits into this */
 }
 
 
@@ -60,7 +60,7 @@ html {
 }
 
 #menu a:hover {
-    color: #AA4545;
+    color: #DD1515;
 }
 
 #bloglist ul {

@@ -35,6 +35,7 @@
 }
 
 #logo {
+    font-family: Courier New, Courier, monospace;
 }
 
 div.line {
@@ -42,13 +43,14 @@ div.line {
 }
 
 div.pixel, div.pixel-fade, div.pixel-empty {
-    border:     0.075em solid rgba(50, 50, 50, .8);
-    float:      left;
-    width:      0.7em;
-    height:     0.7em;
-    margin:     0.05em;
-    opacity:    0.93;
-    background: linear-gradient(130deg, #994545 15%, #251010);
+    font-weight: bolder;
+    font-size:   1.3em;
+    float:       left;
+    width:       0.57em;
+    margin:     -0.25em 0.01em;
+    opacity:     0.93;
+    color:      #101010;
+    /* todo: animate static chars */
 }
 
 div.pixel-empty {
@@ -56,9 +58,11 @@ div.pixel-empty {
 }
 
 div.pixel-fade {
+    font-weight: bold;
     -webkit-animation: fade-full 8s forwards ease infinite;
     animation:         fade-full 8s forwards ease infinite;
-    background:        linear-gradient(130deg, #DDAAAA 15%, #AA8585);
+/*    background:        linear-gradient(130deg, #DDAAAA 15%, #AA8585); */
+    color: #555555;
 }
 
 div.pixel-fade:nth-of-type(odd) {
@@ -77,8 +81,8 @@ div.pixel-fade:nth-of-type(even) {
 
 div.pixel:hover, div.pixel-fade:hover, div.pixel:active, div.pixel-fade:active {
     opacity:           0.9;
-    border-color:      transparent;
-    background:        linear-gradient(130deg, #DDDD15 15%, #AAAA15);
+/*    background:        linear-gradient(130deg, #DDDD15 15%, #AAAA15); */
+    color: #DD1515;
     -webkit-animation: none;
     animation:         none;
 }

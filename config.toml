@@ -12,6 +12,7 @@ title      = "raph haXx"
 
 [permalinks]
   blog     = "/blog/:year/:month/:filename/"
+  projects = "/projects/:year/:month/:filename/"
 
 [[menu.main]]
   name     = "root"

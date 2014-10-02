@@ -9,9 +9,9 @@ do
     echo "<div class=\"line\">"
   elif [[ "$char" == $' ' ]]
   then
-    echo "<div class=\"pixel-fade\"></div>"
+    echo "<div class=\"pixel-fade\">:</div>"
   else
-    echo "<div class=\"pixel\"></div>"
+    echo "<div class=\"pixel\">&#164;</div>"
   fi
 done < logo.txt
 echo "</div>"
