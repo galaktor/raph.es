@@ -36,6 +36,7 @@ html {
 
 #top {
     width: 35em; /* make sure the logo min-width fits into this */
+    font-size: 1.5em;
 }
 
 
@@ -62,20 +63,16 @@ html {
     color: #DD1515;
 }
 
-div.bloglist ul, div.thumblist ul  {
+ul.blogs, ul.thumbs  {
     list-style-type: none;
-}
-
-div.thumblist ul {
-
 }
 
 div.thumbnail {
     float: left;
-    border: 0.2em dashed white;
+    border: 0.15em dashed white;
     margin: 0.5em 0.5em;
     padding: 0.5em;
-    background: linear-gradient(160deg, rgba(100, 100, 100, 1) 15%, rgba(20, 20, 20, 1));
+    background: linear-gradient(160deg, rgba(90, 90, 90, 1) 15%, rgba(20, 20, 20, 1));
 }
 
 div.thumbnail a, div.thumbnail a:visited, div.thumbnail a:hover {

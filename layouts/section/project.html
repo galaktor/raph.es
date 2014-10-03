@@ -3,12 +3,10 @@
 {{ partial "head.html" . }}
 <body>
     {{ partial "top.html" . }}
-  <div class="thumblist">
-    <ul>
+    <ul class="thumbs">
       {{ range .Data.Pages }}
         <li>{{ .Render "thumb" }}</li>
       {{ end }}
     </ul>
-  </div>
   {{ partial "foot.html" . }}
 </body>

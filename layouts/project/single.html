@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{{ partial "head.html" . }}
+<body>
+  {{ partial "top.html" . }}
+  <h1>{{ .Title }}</h1>
+  <p>{{ .Content }}</p>
+  <h1>Related blog posts:</h1>
+  {{ $related := index .Site.Taxonomies.projects .Params.project }}
+  <ul class="blogs">
+  {{ range $k,$v := $related }}
+    {{ $v.Page.Render "li" }}
+  {{ end }}  
+  </ul>
+  {{ partial "foot.html" . }}
+</body>

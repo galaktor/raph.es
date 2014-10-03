@@ -1,3 +1,27 @@
+@-webkit-keyframes fade-subtle {
+    30% {
+	opacity: 1;
+    }
+    50% {
+	opacity: 0.75;
+    }
+    100% {
+	opacity: 1;
+    }
+}
+
+@keyframes fade-subtle {
+    30% {
+	opacity: 1;
+    }
+    50% {
+	opacity: 0.75;
+    }
+    100% {
+	opacity: 1;
+    }
+}
+
 @-webkit-keyframes fade-full {
     0% {
         opacity: 0.25;
@@ -13,18 +37,6 @@
     }
     100% {
         opacity: 0.25;
-    }
-}
-
-@-webkit-keyframes fade-subtle {
-    0% {
-	opacity: 1;
-    }
-    50% {
-	opacity: 0.8;
-    }
-    100% {
-	opacity: 1;
     }
 }
 
@@ -61,7 +73,7 @@ div.pixel, div.pixel-fade, div.pixel-empty {
     width:       0.57em;
     margin:     -0.27em 0em;
     opacity:     0.93;
-    color:      #101010;
+    color:      #101040;
     /* todo: animate static chars */
 }
 
@@ -70,11 +82,19 @@ div.pixel-fade {
     -webkit-animation: fade-full 8s forwards ease infinite;
     animation:         fade-full 8s forwards ease infinite;
 /*    background:        linear-gradient(130deg, #DDAAAA 15%, #AA8585); */
-    color: #555555;
+    color: #555515;
 }
 
 div.pixel:nth-of-type(odd) {
-    -webkit-animation: fade-subtle 3s forwards linear infinite;
+    -webkit-animation: fade-subtle 5s forwards linear infinite;
+    animation: fade-subtle 5s forwards linear infinite;
+    -webkit-animation-delay: -1.6s;
+    animation-delay: -1.6s;
+}
+
+div.pixel:nth-of-type(even) {
+    -webkit-animation: fade-subtle 8s forwards linear infinite;
+    animation: fade-subtle 8s forwards linear infinite;
 }
 
 div.pixel-fade:nth-of-type(odd) {
