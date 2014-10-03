@@ -1,9 +1,9 @@
 +++
 date = "2014-10-02T16:16:49+01:00"
 draft = false
-title = "The Bat-Man"
+title = "This is a ridiculously long project name! aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaah!"
 projects = [ "gamepad" ]
-ascii = " ._M_.\n(     )\n `'V`'"
+ascii = "ascii/batman.txt"
 +++
 # Cool Project
 Hey there project! Blah.

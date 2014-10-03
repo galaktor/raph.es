@@ -1,4 +1,4 @@
 <div class="thumbnail">
-  <a href="{{ .Permalink }}">{{ .Title }}</a>
-  <pre>{{ .Params.ascii }}</pre>
+  <a href="{{ .Permalink }}">{{ .Title }}<pre class="ascii-thumb">{{ partial .Params.ascii . }}</pre></a>
+  
 </div>

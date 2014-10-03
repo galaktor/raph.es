@@ -59,7 +59,7 @@ div.pixel, div.pixel-fade, div.pixel-empty {
     font-size:   1.3em;
     float:       left;
     width:       0.57em;
-    margin:     -0.25em 0.01em;
+    margin:     -0.27em 0em;
     opacity:     0.93;
     color:      #101010;
     /* todo: animate static chars */

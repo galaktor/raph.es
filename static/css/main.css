@@ -32,7 +32,6 @@ html {
     font-family: Courier, monospace;
     margin: 0;
     padding: 0;
-
 }
 
 #top {
@@ -63,21 +62,32 @@ html {
     color: #DD1515;
 }
 
-div.sectionlist ul  {
+div.bloglist ul, div.thumblist ul  {
     list-style-type: none;
+}
+
+div.thumblist ul {
+
 }
 
 div.thumbnail {
     float: left;
-    border: 0.15em dotted black;
+    border: 0.2em dashed white;
     margin: 0.5em 0.5em;
     padding: 0.5em;
-    height: 6em;
+    background: linear-gradient(160deg, rgba(100, 100, 100, 1) 15%, rgba(20, 20, 20, 1));
 }
 
-div.thumbnail pre {
-    margin: auto;
+div.thumbnail a, div.thumbnail a:visited, div.thumbnail a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+div.thumbnail pre.ascii-thumb {
     padding: 0;
+    margin: 0;
+    text-align: center;
     /* todo: class of pre */
     /* todo: center */
 }
