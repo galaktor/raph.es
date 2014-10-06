@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" . }}
+<body>
+    {{ partial "top.html" . }}
+    <h1>content tagged with &quot;{{ lower .Title }}&quot;</h1>
+    <ul class="blogs">
+      {{ range .Data.Pages }}
+        <li>&#36;&#062; <time>&quot;{{ .Date.Format "2006-01-02" }}&quot;</time> &#124; <a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  {{ partial "foot.html" . }}
+</body>
