@@ -30,11 +30,17 @@ I buy into the introvert-extrovert spectrum, but the rest is too dynamic for any
 ## Why does your website look so weird?
 Thanks! I'll take an internet full of weird, imperfect, but *self-made* websites with character over the flood of Wordpress templates and Facebook pages any day. Believe it or not, this page looks just how I want it to. You can read about it in the [project description](/project/website).
 
-## Why won't you eat this sugarlicious cake I made you? You're hurting my feelings!
-I'm sincerely sorry. But just like your and my ancestors, I live on a ketogenic diet, which means effectively zero sugar, starch and wheat. If I did eat your cake, the insulin spike that would follow would probably send me into a coma. Or at least make me feel really terrible. Because - in case you didn't know - people didn't evolve to eat stuff like that. Go ahead if you like, but I'll respectfully pass.
+## Here, have some cake!
+That's not a question. And thanks, but I will not and cannot take in carbohydrates such as those found in sugar, flour and starch. I have long and strong opinions on the subject, but the gist of it is: they make most people fat and even more people sick (eventually). Thanks for the offer, though!
 
-## You never eat cake?! You poor, poor thing!
-Gee, thanks! But I'm good. I've got some great sugar-free and wheat-free cake recipes. You should try them some time! Also, I just ate a five egg omelette with bacon and mascarpone. And later I might eat peanut butter straigt out of the jar, with a big fat spoon and whipped cream on top. Life has it's moments.
+## Did you just order tea at this bar?
+Yes, I did. See, I don't drink alcohol. Not just because alcoholic drinks are typically full of carbs which will make me ill. But also because it's unhealthy, expensive, slows me down and makes me dumb.
 
-## Are you out of your mind? All that fat is going to kill you!
-Nah. In case you didn't know, our bodies have evolved over millions of years of consuming mainly animal fats and some protein. From my point of view, most of the western world is on some kind of high-carbohydrate, glycogenic diet fad. Evolution and biochemistry got my back on this one.
+## Are you a hippy and/or straight-edge fundamentalist?
+You make that sound like a bad thing. Maybe. [They](http://reason.com/archives/2012/12/24/half-the-facts-you-know-are-probably-wro) say "half the facts you know are probably wrong":
+
+> "Facts are being manufactured all of the time, and (...) many of them turn out to be wrong. Checking each one is how the scientific process is supposed to work."
+
+> "**There simply is no substitute for skepticism.**"
+
+Just ask yourself how you know what you think you know about, well, anything. But especially things you seem to have "known" all your life, i.e. things you learned as a child from family and teachers. In what you could call my personal little renaissance I began to revisit subjects which I had taken for granted all my life, including but not limited to religion, diet and habits I had adopted by imitating my environment. Even little things like how I tie my shoes (note to self: blog material right there). This process is ongoing and far from over. I do some things different than most people around me, but I consider that to be a good thing. You should try it sometime ;-)
