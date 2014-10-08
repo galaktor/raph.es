@@ -50,12 +50,23 @@ p {
     margin-top: 0;
 }
 
+blockquote {
+    font-size: 1.3em;
+    font-style: oblique;
+}
+
+cite {
+    font-size: 0.6em;
+    font-style: normal;
+    margin-left: 1.5em;
+}
+
 figure {
     background-color: white;
-    float: left;
-    margin: 0.5em;
+    margin: 0.35em;
     padding: 0.5em;
-    border: 0.05em dashed black;
+    border: 0.07em dashed black;
+    float: left;
 }
 
 figure img {
