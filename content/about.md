@@ -4,7 +4,7 @@ draft = false
 title = "Hi, I'm Raph."
 tags = [ "baz" ]
 +++
-{{% figure src="/img/about_raph_thumb.png" caption="Accomplishments makes me happy." link="/img/about_raph.png" %}}
+{{% figure src="/img/about_raph_thumb.png" alt="Accomplishments makes me happy." link="/img/about_raph.png" %}}
 > "Half the facts you know are probably wrong."
 >
 > "There simply is no substitute for skepticism."
@@ -14,9 +14,9 @@ tags = [ "baz" ]
 
 {{% clear %}}
 
-I was a geek before it was cool. I pretend to be a grown-up and most of the time people fall for it. By day, I get paid to beat up computers until they do what other people want them to do. By night I often sleep or (preferably) try to make cool - often useless (but still cool) - *stuff*.
+I was a geek before it was cool. I pretend to be a grown-up. Most of the time people seem to believe it. By day, I get paid to shout at computers until they do what other people want them to do. By night I often sleep or (preferably) try to make *stuff*.
 
-On this humble website, I braindump the things that occupy my brain during the rare moments I find for myself.
+On this humble website, I dump the things which occupy my brain-cycles during the rare moments I find any to be idle.
 
 
 # Frequently asked questions
@@ -25,8 +25,8 @@ TODO RAPH: MOVE SOME OF THIS INTO BLOG POSTS AND LINK THEM
 ## How's it going?
 Great.
 
-## Did you see the game last night?
-Nope.
+## Did you see that ludicrous display last night?
+[Nope](https://www.youtube.com/watch?v=gWJIQm9qH-w).
 
 ## Any plans for the weekend?
 Nope.
@@ -35,6 +35,9 @@ Nope.
 ...because they are much more interesting than their frequent counterparts.
 
 ## What happened to your old Blogger blog?
+I didn't like Blogger for a number or reasons, and snapped into using Twitter almost overnight. Now I control over my content back and prefer static website generation combined with free web hosting. Read more [here](/blog/2000/01/todo/).
+
+MOVE
 For a while, I blogged fairly frequently, which for me means once or twice a month. I even had a few minutes in the sun when the odd post hit Hacker News. That all stopped the moment I discovered Twitter.
 
 Twitter gave me a convenient tool to rant, dump my thoughts in bite-size chunks and perpetuate cool things I found on the interwebs. The simplicity of use compared to writing and re-writing a blog entry for days just kept me from blogging at all.
@@ -60,8 +63,9 @@ Thanks again, but I will not and cannot take in carbohydrates such as those foun
 Yes, I did. See, I don't drink alcohol. Read more [here](/blog/2000/01/alcohol/).
 
 ## Are you some kind of straight-edge fundamentalist?
-Maybe! But you make that sound like it's a bad thing.
+Maybe! But you make that sound like it's a bad thing. Read more [here](/blog/2000/01/todo/).
 
+MOVE
 Just ask yourself how you know what you think you know about... well, anything. But especially things you recall to have "known" all your life, i.e. things you learned as a child from family and teachers. When we're young, we absorb and accept "facts" like a sponge. But many aren't factual at all, we just copy them from our environment and foget about them. From a basic evolutionary point of view, this is useful behavior. But we can do better.
 
 In what you could call my personal little renaissance I began to revisit subjects which I had taken for granted all my life, including (but not limited to) religion, diet and habits I had adopted by imitating my environment. Like that bread and oatmeal are supposed to be healthy, but watch out for them eggs! Or how you have to eat every little bit that was put onto your plate, even if you're not hungry. Or how cool people drink beer when they go out. Even when and how I tie my shoes (note to self: blog material right there).
