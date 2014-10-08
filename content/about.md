@@ -4,6 +4,7 @@ draft = false
 title = "Hi, I'm Raph."
 tags = [ "baz" ]
 +++
+{{% figure src="/img/about_raph_thumb.png" caption="Accomplishments makes me happy." link="/img/about_raph.png" %}}
 I was a geek before it was cool. By day I pretend to be a grown-up and most of the time people fall for it. I get paid to beat up computers until they do what other people want them to do.
 
 On this humble website, I braindump the things that occupy my brain during the rare moments I find for myself.
@@ -37,10 +38,16 @@ That's not a question. And thanks, but I will not and cannot take in carbohydrat
 Yes, I did. See, I don't drink alcohol. Not just because alcoholic drinks are typically full of carbs which will make me ill. But also because it's unhealthy, expensive, slows me down and makes me dumb.
 
 ## Are you a hippy and/or straight-edge fundamentalist?
-You make that sound like a bad thing. Maybe. [They](http://reason.com/archives/2012/12/24/half-the-facts-you-know-are-probably-wro) say "half the facts you know are probably wrong":
+Maybe! But you make that sound like it's a bad thing.
 
-> "Facts are being manufactured all of the time, and (...) many of them turn out to be wrong. Checking each one is how the scientific process is supposed to work."
+Just ask yourself how you know what you think you know about, well, anything. But especially things you recall to have "known" all your life, i.e. things you learned as a child from family and teachers.
 
-> "**There simply is no substitute for skepticism.**"
+In what you could call my personal little renaissance I began to revisit subjects which I had taken for granted all my life, including (but not limited to) religion, diet and habits I had adopted by imitating my environment. Like that bread and oatmeal are supposed to be healthy, but watch out for them eggs! Or how you have to eat every little bit that was put onto your plate. Or how cool people drink beer when they go out. Even little things like how I tie my shoes (note to self: blog material right there).
 
-Just ask yourself how you know what you think you know about, well, anything. But especially things you seem to have "known" all your life, i.e. things you learned as a child from family and teachers. In what you could call my personal little renaissance I began to revisit subjects which I had taken for granted all my life, including but not limited to religion, diet and habits I had adopted by imitating my environment. Even little things like how I tie my shoes (note to self: blog material right there). This process is ongoing and far from over. I do some things different than most people around me, but I consider that to be a good thing. You should try it sometime ;-)
+This process is ongoing and far from over. I do some things different than most people around me, but I consider that to be a good thing. You should try it sometime ;-)
+
+> "Half the facts you know are probably wrong."
+>
+> "There simply is no substitute for skepticism."
+>
+> -- <cite>Samuel Arbesman ("The Half-Life of Facts")</cite> & <cite>Ronald Baily ([reason.com](http://reason.com/archives/2012/12/24/half-the-facts-you-know-are-probably-wro))</cite>
