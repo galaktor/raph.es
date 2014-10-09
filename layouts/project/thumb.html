@@ -1,6 +1,6 @@
-<div class="thumbnail">
-  <a href="{{ .Permalink }}">
-    <span class="title">{{ .Title }}</span>
-    <pre class="ascii-thumb">{{ partial .Params.ascii . }}</pre>
-  </a>
+<div class="project-thumb">
+  <span class="title">id:<a href="{{ .Permalink }}">"{{ lower .Title | urlize }}"</a></span>
+  {{ .Render "bar" }}
+  <pre class="phase"><{{ if isset .Params "phase" }}{{ index .Params "phase" }}{{ else }}idea{{ end }}></pre>
+  <pre class="ascii"><a href="{{ .Permalink }}">{{ partial .Params.ascii . }}</a></pre>
 </div>

@@ -3,6 +3,7 @@
 <body>
   {{ partial "top.html" . }}
   <h1>{{ .Title }}</h1>
+  <span class="metadata">{{ .Params.author }} @ {{ .Date.Format "2006-01-02 15:04T+1:00" }}</span>
   <p>{{ .Content }}</p>
   {{ partial "tags.html" . }}
   {{ partial "foot.html" . }}

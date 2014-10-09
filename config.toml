@@ -5,6 +5,9 @@ publishdir = "output"
 baseurl    = "http://www.galaktor.net"
 title      = "raph haXx"
 
+[params]
+  progbar  = [ "low", "low", "low", "mid", "mid", "mid", "mid", "mid", "mid", "high", "high", "high", "high", "high", "high", "high", "high", "high", "high", "done" ]
+
 [taxonomies]
   tag      = "tags"
   project  = "projects"

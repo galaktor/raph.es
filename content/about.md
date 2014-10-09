@@ -2,9 +2,10 @@
 date = "2014-09-15T08:09:59+01:00"
 draft = false
 title = "Hi, I'm Raph."
-tags = [ "baz" ]
+tags = [ "lchf", "tough mudder", "blogger", "twitter", "science" ]
+author = "raph"
 +++
-{{% figure src="/img/about_raph_thumb.png" alt="Accomplishments makes me happy." link="/img/about_raph.png" %}}
+{{% pic src="/img/about_raph_thumb.png" alt="Accomplishments makes me happy." link="/img/about_raph.png" %}}
 > "Half the facts you know are probably wrong."
 >
 > "There simply is no substitute for skepticism."

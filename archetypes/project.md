@@ -1,10 +1,9 @@
 ---
-date:      "2014-10-07T13:22:43+01:00"
-title:     "n97 salvage"
 author:    "raph"
-project:   "n97"
+project:   "foo"
 progress:  1
 phase:     "idea"
 ascii:     "ascii/na.txt"
 completed: ""
 ---
+

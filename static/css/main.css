@@ -62,26 +62,31 @@ cite {
     margin-left: 1.5em;
 }
 
+span.metadata {
+    font-style: oblique;
+}
+
 figure {
     background-color: white;
     margin: 0.35em;
     padding: 0.5em;
-    border: 0.07em dashed black;
     float: left;
-
 }
 
 figure img {
     display: block;
     margin: auto;
     padding: 0;
-    -webkit-box-shadow: 1px 1px 5px 1px black;
+    border: 0.1em dashed black;
+/*  -webkit-box-shadow: 1px 1px 4px 1px #303030;
+    box-shadow: 1px 1px 4px 1px #303030; */
 }
 
 figcaption {
     text-align: center;
     font-size: 0.9em;
     font-style: oblique;
+    margin-top: 0.4em;
 }
 
 figcaption p {
@@ -95,7 +100,6 @@ figcaption a {
 #top {
     width: 51em; /* make sure the logo min-width fits into this */
 }
-
 
 #menu ul {
     font-size: 1.75em;
@@ -133,6 +137,47 @@ ul.tags li {
     margin: 0.5em;
 }
 
+div.project-thumb {
+    text-align: center;
+    margin: 1em 0.2em;
+    padding: 0.5em;
+    display: inline;
+    float: left;
+    height: 9em;
+/*    border: 0.1em dashed black; */
+/*    -webkit-box-shadow: 1px 1px 5px 1px black; */
+}
+
+div.project-thumb pre {
+    margin: 0.5em;
+}
+
+div.project-thumb pre.ascii {
+    text-align: center;
+}
+
+pre.bar span.level-low {
+    color: #AAAAAA;
+}
+
+pre.bar span.level-mid {
+    color: #707070;
+}
+
+pre.bar span.level-high {
+    color: #505050;
+}
+
+pre.bar span.level-done {
+    color: black;
+}
+
+div.project-thumb a, div.project-thumb a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
 div.thumbnail {
     float: left;
     border: 0.15em dashed white;
@@ -152,6 +197,7 @@ div.thumbnail a, div.thumbnail a:visited, div.thumbnail a:hover {
 div.thumbnail pre.ascii-thumb {
     padding: 0;
     margin: 0;
+    height: 90%;
 }
 
 div.clearboth {
