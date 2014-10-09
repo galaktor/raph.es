@@ -1,1 +1,2 @@
-<pre class="bar">0 [{{ if gt .Params.progress 0 }}{{ range $k, $v := first .Params.progress .Site.Params.progbar }}<span class="level-{{ $v }}">#</span>{{ end }}{{ $diff := sub 20 .Params.progress }}{{ if gt $diff 0 }}{{ range first $diff .Site.Params.progbar }}.{{ end }}{{ end }}{{ else }}#...................{{ end }}] 100</pre>
+{{ $bars := div (mul 20 .Params.progress) 100 }}
+<pre class="bar">0 [{{ if gt $bars 0 }}{{ range $k, $v := first $bars .Site.Params.progbar }}<span class="level-{{ $v }}">#</span>{{ end }}{{ $diff := sub 20 $bars }}{{ if gt $diff 0 }}{{ range first $diff .Site.Params.progbar }}.{{ end }}{{ end }}{{ else }}<span class="level-low">#</span>...................{{ end }}] 100</pre>
