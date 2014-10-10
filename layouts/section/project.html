@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html>
-{{ partial "head.html" . }}
-<body>
+  {{ partial "head.html" . }}
+  <body>
     {{ partial "top.html" . }}
+    <h1>exec</h1>
     <ul class="thumbs">
-      {{ range .Data.Pages }}
-        <li>{{ .Render "thumb" }}</li>
+      {{ range .Data.Pages.ByDate.Reverse }}
+      {{ if lt .Params.progress 100 }}
+        {{ if gt .Params.progress 5 }}
+          <li>{{ .Render "thumb" }}</li>
+        {{ end }}
+      {{ end }}
       {{ end }}
     </ul>
-  {{ partial "foot.html" . }}
-</body>
+    <h1>ideas</h1>
+    <ul class="thumbs">
+      {{ range .Data.Pages.ByDate.Reverse }}
+      {{ if lt .Params.progress 5 }}
+      <li>{{ .Render "thumb" }}</li>
+      {{ end }}
+      {{ end }}
+    </ul>
+    <h1>done</h1>
+    <ul class="thumbs">
+      {{ range .Data.Pages.ByDate.Reverse }}
+      {{ if eq .Params.progress 100 }}
+      <li>{{ .Render "thumb" }}</li>
+      {{ end }}
+      {{ end }}
+    </ul>
+    {{ partial "foot.html" . }}
+  </body>

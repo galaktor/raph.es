@@ -148,6 +148,10 @@ div.project-thumb {
 /*    -webkit-box-shadow: 1px 1px 5px 1px black; */
 }
 
+div.project-thumb span.title a {
+    font-size: 1.2em;
+}
+
 div.project-thumb pre {
     margin: 0.5em;
 }
@@ -157,15 +161,15 @@ div.project-thumb pre.ascii {
 }
 
 pre.bar span.level-low {
-    color: #AAAAAA;
+    color: #BBBBDD;
 }
 
 pre.bar span.level-mid {
-    color: #707070;
+    color: #9090AA;
 }
 
 pre.bar span.level-high {
-    color: #505050;
+    color: #4040AA;
 }
 
 pre.bar span.level-done {
