@@ -152,27 +152,33 @@ div.project-thumb span.title a {
     font-size: 1.2em;
 }
 
-div.project-thumb pre {
+div.project-thumb pre.ascii {
+    text-align: center;
     margin: 0.5em;
 }
 
-div.project-thumb pre.ascii {
-    text-align: center;
+div.project-thumb div.status {
+    
 }
 
-pre.bar span.level-low {
+div.project-thumb div.bar {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+div.bar span.level-low {
     color: #BBBBDD;
 }
 
-pre.bar span.level-mid {
+div.bar span.level-mid {
     color: #9090AA;
 }
 
-pre.bar span.level-high {
+div.bar span.level-high {
     color: #4040AA;
 }
 
-pre.bar span.level-done {
+div.bar span.level-done {
     color: black;
 }
 
