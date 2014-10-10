@@ -4,7 +4,6 @@ title:     "TKD trainer"
 author:    "raph"
 project:   "tkd"
 progress:  1
-phase:     "idea"
+state:     "idea"
 ascii:     "ascii/na.txt"
-completed: ""
 ---

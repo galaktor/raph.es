@@ -144,8 +144,6 @@ div.project-thumb {
     display: inline;
     float: left;
     height: 9em;
-/*    border: 0.1em dashed black; */
-/*    -webkit-box-shadow: 1px 1px 5px 1px black; */
 }
 
 div.project-thumb span.title a {

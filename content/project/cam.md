@@ -4,7 +4,6 @@ title:     "PiPro HD"
 author:    "raph"
 project:   "pipro"
 progress:  1
-phase:     "research"
+state:     "research"
 ascii:     "ascii/na.txt"
-completed: ""
 ---

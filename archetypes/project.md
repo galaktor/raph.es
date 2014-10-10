@@ -1,9 +1,8 @@
 ---
 author:    "raph"
 project:   "foo"
-progress:  1
-phase:     "idea"
+progress:  0
+state:     "idea"
 ascii:     "ascii/na.txt"
-completed: ""
 ---
 
