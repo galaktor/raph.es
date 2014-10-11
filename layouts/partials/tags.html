@@ -1,6 +1,6 @@
 <div>
   <ul class="tags">
-    <span>This braindump was <a href="/tags">tagged</a> as:</span>
+    <span><a href="/tags">Tags</a>:</span>
   {{ range .Params.tags }}<li><a href="/tags/{{ . | urlize  }}">{{ . }}</a></li>{{ end }}
   </ul>
 </div>

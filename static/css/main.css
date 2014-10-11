@@ -28,6 +28,17 @@
     }
 }
 
+div.disclaimer {
+    font-size: 0.8em;
+    background-color: #FFFFE0;
+    width: 61em;
+    text-align: justify;
+    margin: 0.5em 0;
+    margin-top: 6em;
+    padding: 0.1em 1em;
+    border: 0.1em dashed black;
+}
+
 html {
     font-family: Courier, monospace;
     margin: 0;
@@ -43,6 +54,10 @@ h1 {
 
 h2 {
     font-size: 1.3em;
+    margin-bottom: 0.1em;
+}
+
+h3 {
     margin-bottom: 0.1em;
 }
 
