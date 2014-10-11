@@ -8,7 +8,7 @@ tags = [ "raspberry pi", "power", "lipo", "hardware" ]
 title = "Thoughts on Running a Raspberry Pi off a single cell LiPo battery"
 wasblogger = false
 +++
-I recently go thinking about how I could power a Raspberry Pi off batteries. The project I have in mind is effectively a wearable video camera, so it has to be as compact as possible and have a good few hours of battery life to be of any practical use. 
+I recently got thinking about how I could power a Raspberry Pi off batteries. The [project](/project/mudcam) I have in mind is effectively a wearable video camera, so it has to be as compact as possible and have a good few hours of battery life to be of any practical use. 
 
 ## The 5V requirement
 What's interesting is that the Pi only requires 5V for USB peripherals and HDMI output to some extent. Otherwise, the board itself has no need for 5V at all. It was merely for convenience of interoperability with the USB and HDMI standards.

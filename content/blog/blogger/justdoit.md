@@ -2,8 +2,7 @@
 author = "raph"
 date = "2011-02-14T21:08:00+01:00"
 draft = false
-projects = []
-tags = ["agile"]
+tags = [ "agile" ]
 title = "just do it"
 wasblogger = true
 aliases = [ "/2011/02/just-do-it.html" ]
@@ -12,7 +11,7 @@ Blogs have become really popular several years ago. Now that the hype is over it
 
 Starting a new project is not so different from me creating this new blog. You are full of ideas, have a pretty good picture of what you want the result to be like, but wonder where to set that very first step to get there. It can be very tempting and alot of  fun to research, plan an design for a young and innocent project. It is like a greenfield wonderland where we can dream up anything we would like to do. Go for it. Go nuts. But only a little.  Otherwise you will find yourself trapped inside the infamous [procrastination loop](http://www.joeydevilla.com/2007/11/20/the-procrastination-flowchart/) instead of getting any real work done. Timeboxing your preparations can help.
 
-{{% pic src="/img/procrast_thumb.jpg" link="/img/procrast.jpg" caption="The infamous *procrastination loop*" attr="Joey deVilla" attrlink="http://www.joeydevilla.com/" %}}
+{{% pic class="inline" src="/img/procrast_thumb.jpg" link="/img/procrast.jpg" caption="The infamous *procrastination loop*" attr="Joey deVilla" attrlink="http://www.joeydevilla.com/" %}}
 
 Just do it - this catchy and slightly dingy slogan is something people probably should keep in mind when starting something. To avoid what is known as "startup fatigue" it is important that you stop talking about something and actually start doing it. You will soon find that many things you were dreaming of turn out to be more complicated or even entirely different than you thought they would be. And - assuming that there is a customer somewhere upstream - it gets even worse: all [your beautiful little plans will be shattered](http://www.imdb.com/title/tt0468569/quotes?qt0499831) by changing requirements. It is important to discover these real problems early. You can fix things while you go.
 
