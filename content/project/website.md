@@ -7,3 +7,8 @@ progress:  80
 state:     "import blogger"
 ascii:     "ascii/website.txt"
 ---
+#TODO
+* port blogger
+* taxonomy list pages
+* style code snippets better
+* license page  "/license"

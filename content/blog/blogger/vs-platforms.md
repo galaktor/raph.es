@@ -2,7 +2,7 @@
 author = "raph"
 date = "2011-04-12T19:16:00+01:00"
 draft = false
-tags = [ "dotnet", "visual studio", "software" ]
+tags = [ "dotnet", "visual studio", "software", "builds" ]
 title = "Targeting Platforms in Visual Studio"
 wasblogger = true
 aliases = [ "/2011/04/targeting-platforms-in-visual-studio.html" ]
