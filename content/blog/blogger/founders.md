@@ -3,6 +3,7 @@ author = "raph"
 date = "2011-08-24T11:37:00+01:00"
 draft = false
 tags = [ "books", "rants" ]
+projects = []
 title = "Book review: Founders at Work"
 wasblogger = true
 aliases = [ "/2011/08/book-review-founders-at-work.html" ]

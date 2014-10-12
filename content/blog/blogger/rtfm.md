@@ -4,6 +4,7 @@ date = "2011-03-17T22:20:20+01:00"
 draft = false
 tags = ["books", "rants"]
 title = "RTFM"
+projects = []
 wasblogger = true
 aliases = [ "/2011/03/rtfm.html" ]
 +++

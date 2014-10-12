@@ -3,6 +3,7 @@ author = "raph"
 date = "2011-05-27T08:42:00+01:00"
 draft = false
 tags = [ "dotnet", "software" ]
+projects = []
 title = "Manually caching configuration sections to avoid the .NET 4 bug"
 wasblogger = true
 aliases = [ "/2011/05/workaround-net4-bug-configurationmanage.html" ]

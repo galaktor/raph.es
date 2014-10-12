@@ -3,6 +3,7 @@ author = "raph"
 date = "2011-12-19T06:58:00+01:00"
 draft = false
 tags = [ "teamcity", "windows", "software", "builds", "powershell" ]
+projects = []
 title = "Revisited: Mapping network drives for TeamCity build agents"
 wasblogger = true
 aliases = [ "/2011/12/revisited-mapping-network-drives-for.html" ]

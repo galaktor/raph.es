@@ -3,6 +3,7 @@ author = "raph"
 date = "2011-02-14T21:08:00+01:00"
 draft = false
 tags = [ "agile" ]
+projects = []
 title = "just do it"
 wasblogger = true
 aliases = [ "/2011/02/just-do-it.html" ]

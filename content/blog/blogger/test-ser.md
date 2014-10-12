@@ -3,6 +3,7 @@ author = "raph"
 date = "2011-02-21T21:29:00+01:00"
 draft = false
 tags = [ "software", "dotnet", "testing" ]
+projects = []
 title = "Testing serializability"
 wasblogger = true
 aliases = [ "/2011/02/testing-serializability.html" ]

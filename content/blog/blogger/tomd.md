@@ -3,6 +3,7 @@ author = "raph"
 date = "2011-07-15T13:18:00+01:00"
 draft = false
 tags = [ "teamcity", "tests", "rants" ]
+projects = []
 title = "The Test of Mass Destruction"
 wasblogger = true
 aliases = [ "/2011/07/test-of-mass-destruction.html" ]

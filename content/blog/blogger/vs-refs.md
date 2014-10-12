@@ -3,6 +3,7 @@ author = "raph"
 date = "2011-05-05T08:42:00+01:00"
 draft = false
 tags = [ "dotnet", "visual studio", "software", "builds" ]
+projects = []
 title = "Conditional References in Visual Studio projects"
 wasblogger = true
 aliases = [ "/2011/05/conditional-references-in-visual-studio.html" ]
