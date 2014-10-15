@@ -143,6 +143,11 @@ ul.blogs, ul.thumbs, ul.tags  {
     list-style-type: none;
 }
 
+ul.blogs li, ul.tags li {
+    margin-bottom: 0.3em;
+    white-space: nowrap;
+}
+
 ul.tags {
     border: 1pt solid black;
 }
