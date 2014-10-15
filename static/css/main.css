@@ -30,14 +30,14 @@
 
 div.disclaimer {
     float: left;
-    font-size: 0.8em;
     background-color: #D0D0FF;
-    max-width: 61em;
+    max-width: 49em;
     text-align: justify;
     margin: 0.5em 0;
     margin-top: 3em;
     padding: 0 1em;
     border: 0.1em dashed black;
+    clear: both;
 }
 
 html {
@@ -49,13 +49,18 @@ html {
 h1 {
     font-size: 1.6em;
     border-bottom: 0.05em dashed black;
+    margin-top: 1.2em;
     margin-bottom: 0.5em;
     clear: both;
 }
 
 h2 {
     font-size: 1.3em;
-    margin-bottom: 0.1em;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+    text-decoration: underline;
+    font-weight: bold;
+    clear: both;
 }
 
 h3 {
@@ -88,19 +93,14 @@ figure {
 }
 
 img {
-    margin: 1em 0.5em;
+    margin: 0 0.5em;
     border: 0.1em dashed black;
     float: left;
-}
-
-figure img {
-    margin-top: 0;
 }
 
 figure p {
     margin: 0.1em 0;
     float: left;
-
 }
 
 figcaption p {
@@ -141,6 +141,7 @@ figcaption {
 
 ul.blogs, ul.thumbs, ul.tags  {
     list-style-type: none;
+    padding: 0;
 }
 
 ul.blogs li, ul.tags li {

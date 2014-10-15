@@ -100,9 +100,11 @@ One type of battery I have in abundance are AAA 1.5V batteries. Three in series 
 Result was great. And I could always replace when they run out since I always have some of these guys rolling around. But the weight and bulk of the thing became an issue. The batteries felt heavier than the goggles... disqualified.
 
 ## 2x3V coin cells
-{{% img src="/img/project/headlamp/cell-holder_thumb.png" alt="2 x 3V coin cell holder" link="/img/project/headlamp/cell-holder.png" %}}
+
 
 My final option was a little double coin cell holder I got. I got them cheap to play with some wearable proejcts - and technicallly, this qualifies as wearable, right? Much slimmer and lighter than the AAA solution above. Plus you can get cheap coin cell batteries all over the place. Since they just have to drive a little LED, I expect them to last long enough.
+
+{{% img src="/img/project/headlamp/cell-holder_thumb.png" alt="2 x 3V coin cell holder" link="/img/project/headlamp/cell-holder.png" %}}
 
 My only concern was that 6V is more than the 5V USB would give. There's a slim chance that it could damage the LED. Typically, though, the LED can tolerate more voltage although it might lessen it's life expectancy. I was willing to risk that.
 
@@ -157,7 +159,9 @@ Also, with the tension caused by the cable tie, the top of the soft goggles now 
 {{% /fig %}}
 
 # Done!
-{{% img src="/img/project/headlamp/done_thumb.png" alt="Goggles with mounted batteries and lamp" link="/img/project/headlamp/done.png" %}}
+{{% fig %}}
+{{% img src="/img/project/headlamp/done_thumb.png" alt="Goggles with mounted batteries and lamp" link="/img/project/headlamp/done.png" width="400px" %}}
+{{% /fig %}}
 
 So there you have it. A quick and fun hack that makes my night-time soldering sessions a little more fun. I'll certainly keep a look out for hackable objects at IKEA next time we go for breakfast.
 

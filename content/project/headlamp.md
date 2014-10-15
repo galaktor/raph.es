@@ -7,6 +7,8 @@ progress:  100
 state:     "good lookin'"
 ascii:     "ascii/na.txt"
 ---
+{{% img src="/img/project/headlamp/done_thumb.png" link="/img/project/headlamp/done.png" %}}
+
 I have a cheap set of goggles I wear when I do soldering and other eye-threatening activities. Since most of the time I work in the evenings after the little people went to bed, I though it would be neat if it had a little LED attached to illuminate my view.
 
 This was a quick and dirty hack where I salvaged bright LED with lense from an IKEA USB lamp. Then simply screwed it to my goggles. The whole thing took about an hour. Check out the [blog](/blog/2014/10/headlamp/) for details.
