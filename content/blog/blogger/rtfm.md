@@ -5,6 +5,7 @@ draft = false
 tags = ["books", "rants"]
 title = "RTFM"
 projects = []
+series = []
 wasblogger = true
 aliases = [ "/2011/03/rtfm.html" ]
 +++

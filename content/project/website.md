@@ -10,7 +10,8 @@ ascii:     "ascii/website.txt"
 # TODO
 * port blogger
 * taxonomy list pages
-* multiple pics in one row ("multipic" shortcode; make class "center")
 * highlight latest blog posts, projects
 * style code snippets better
 * license page  "/license"
+* new domain with DNS config
+* cv

@@ -4,6 +4,7 @@ date = "2011-06-12T20:18:00+01:00"
 draft = false
 tags = [ "teamcity", "windows", "software", "builds" ]
 projects = []
+series = []
 title = "Mapping network drives for TeamCity build agents"
 wasblogger = true
 aliases = [ "/2011/06/mapping-network-drives-for-teamcity.html" ]
