@@ -14,7 +14,9 @@ So what I did before was an ugly hack - I used [psexec](http://technet.microsoft
 
 I recently did some reworking of my agents and decided to get rid of the psexec hack. What I did this time is much simpler: I gave up. Yep, I gave up trying to map the drives for the agents. If I want agents to be services, and services cannot map drives, so be it.
 
-{{% pic src="/img/blogger/troll-mappings.png" caption="Windows services don't like drive mappings. Why force them then?" link="/img/blogger/troll-mappings.png" width="400em" %}}
+{{% fig %}}
+{{% img src="/img/blogger/troll-mappings.png" link="/img/blogger/troll-mappings.png" width="400em" %}}
+{{% /fig %}}
 
 # Work with it, not against it
 The alternative is to not need drive mappings in the first place. It crossed my mind that I might want to force all reference paths in the VS projects to be UNC paths. Problem is when you add a new file or reference, VS defaults to the drive letter and not the UNC path. Builds would regularly break because somebody forgot to manually change it into a UNC path...not cool.
@@ -30,8 +32,9 @@ Keep in mind that your build machines will by default have a [PowerShell executi
 
     powershell.exe .\myscript.ps1 <path> -executionPolicy Bypass. 
 
-
-{{% pic src="/img/blogger/tc-unmap-drives-step-highlight.png" caption="Running the powershell script on the build's working directory." link="/img/blogger/tc-unmap-drives-step-highlight.png" width="400em" %}}
+{{% fig %}}
+{{% img src="/img/blogger/tc-unmap-drives-step-highlight.png" link="/img/blogger/tc-unmap-drives-step-highlight.png" width="400em" %}}
+{{% /fig %}}
 
 # Example script (PowerShell)
     # licensed under The MIT license: http://www.opensource.org/licenses/mit-license.php

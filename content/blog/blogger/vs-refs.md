@@ -33,7 +33,9 @@ Using your favorite text editor, you can add a `Condition` attribute to any refe
 
 This works because in MSBuild the reference elements are [`Item` elements](http://msdn.microsoft.com/en-us/library/ms164283%28v=VS.100%29.aspx). Many element types can have condition attributes. If you look at other parts of your project file you will probably see that the project configuration and platform sections also use conditions similar to the above example. There are [other ways to define conditional logic in MSBuild](http://msdn.microsoft.com/en-us/library/ms164307.aspx), but this is probably the quickest and most understandable. If you plan to do more funky stuff, have a look at [`<Choose>` and `<Otherwise>`](http://msdn.microsoft.com/en-us/library/ms164282.aspx).
 
-{{% pic src="/img/blogger/reference-warning.png" caption="Visual Studio will show a warning if a reference's condition evaluates to *False*" link="/img/blogger/reference-warning.png" width="300em" %}}
+{{% fig caption="Condition evaluates to *False*" %}}
+{{% img src="/img/blogger/reference-warning.png" link="/img/blogger/reference-warning.png" width="300em" %}}
+{{% /fig %}}
 
 # The `Platform` variable
 Note that in my example I am querying the `Platform` variable - *not* `Configuration`. I have noticed a practice [on teh webz](http://dev.monogram.sk/websvn/filedetails.php?repname=graphstudio&path=%2Ftrunk%2Fgraphstudio.sln) that suggests you create new configurations named *Debug64* and *Release64*, then switch references based on the `Configuration` variable. While this technically works the same way, it is logically incorrect. `Configuration` and `Platform` settings are two different concerns in Visual Studio and it is unwise to mix them. It's messy, redundant and generates loads of unnecessary lines in your solution and project files.
