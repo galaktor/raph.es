@@ -25,13 +25,17 @@ A good technical book, on the other hand, is a huge project. Authors often spend
 # finding good books
 I am aware that there are also tons of crappy books out there. Ones that are hard to understand, boring to read or simply just sloppy attempts to make money off fancy buzzwords. Some publishers keep bringing out new "editions" of popular books with minor changes only to get people to buy them a second time. But even bad books have gone through some process or another, and people generally do not invest money into a project such as a book without having some confidence that people will buy them so they can (at least) get their money back. That said, how many blogs are there on the internet that are hardly read by anybody? (Tip: you are looking at one right now) It is easy to write crappy blogs, but it costs money to publish crappy books.
 
-{{% pic src="/img/blogger/good-book-vs-bad-book.jpeg" caption="User ratings can help find good books (left) and stay away from 'less good' ones (right)" link="/img/blogger/good-book-vs-bad-book.jpeg" width="300em" %}}
+{{% fig %}} 
+{{% img src="/img/blogger/good-book-vs-bad-book.jpeg"  link="/img/blogger/good-book-vs-bad-book.jpeg" width="300em" alt="User ratings, like on Amazon, say a lot" %}}
+{{% /fig %}}
 
 Fortunately, it is very easy to distinguish good books from bad ones. Most websites that sell books allow for users to submit ratings - read them! People who rate stuff on the web are either really happy about it, or really pissed off. Why else would you actually sit down and spend valuable minutes writing a review or clicking stars if you were not either psyched or mad. So if you find a book. e.g. on Amazon, that has 11 ratings, and 9 of those gave the book a good review, you can be farely sure that it is worth reading.
 
 Aside from those ratings, it is usually even easier and faster to just do the same thing you always do when you need a quick answer: enter "best book *[MyTopic]*" on [Google](http://lmgtfy.com/?q=best+book+scala) or [StackOverflow](http://stackoverflow.com/search?q=best+book+scala) and you can be farely sure to find various recommendations. Check the ratings and reviews for those on your favorite book sale site. I do this all the time and have not been dissapointed yet.
 
-{{% pic src="/img/blogger/book-so.jpeg" caption="Q&A sites are a great source for qualified book recommendations" link="/img/blogger/book-so.jpeg" width="300em" %}}
+{{% fig %}}
+{{% img src="/img/blogger/book-so.jpeg" link="/img/blogger/book-so.jpeg" width="300em" alt="StackOverflow book discussion" %}}
+{{% /fig %}}
 
 # The *real* reason why many engineers do not like to read books
 There is another, much more important reason why many engineers prefer to skim over blogs and do Google searches instead of reading books. *Because they are lazy bastards.* You need to dedicate some of your precious time to read a book. You might have to bite the bullet and read chapters that are not full of witty jokes or comic strips or pictures of cats making funny faces. If you want to finish it in time to actually use whatever you can learn from it, you might have to read in it at home instead of doing other important stuff like watching The Big Bang Theory.
@@ -40,7 +44,9 @@ That's right, reading a book is not always a quick answer. Instead, it is actual
 
 Some of mankind's most important knowledge is in books. They have helped us learn for thousands of years. Blogs and whatnot are good for some things, but there is still no better way to really learn about a topic than reading a good "old" book.
 
-{{% pic src="/img/blogger/lzy-engynrr.jpeg" caption="RTFM. SRSLY." link="/img/blogger/lzy-engynrr.jpeg" width="300em" %}}
+{{% fig %}}
+{{% img src="/img/blogger/lzy-engynrr.jpeg" link="/img/blogger/lzy-engynrr.jpeg" width="300em" %}}
+{{% /fig %}}
 
 # PS
 No, getting the eBook/PDF instead and skimming over it on your PC/smartphone/reader just like you would do with a way-too-long blog post is not going to make it better. And [ripping that eBook from questionable sources](http://osherove.com/blog/2009/9/22/steal-my-book.html) on the web because you are too cheap to spend 40 bucks on improving your skills should really make you wonder why anyone should consider you to be a professional in the first place.
