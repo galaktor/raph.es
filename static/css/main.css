@@ -83,37 +83,30 @@ span.metadata {
 }
 
 figure {
-    background-color: white;
-    margin: 0.35em;
-    padding: 0.5em;
+    float: left;
+    margin: 1.2em 0em;
 }
 
-figure.inline {
+img {
+    margin: 0.1em 0.5em;
+    border: 0.1em dashed black;
     float: left;
 }
 
-figure img {
-    display: block;
-    margin: auto;
-    padding: 0;
-    border: 0.1em dashed black;
-/*  -webkit-box-shadow: 1px 1px 4px 1px #303030;
-    box-shadow: 1px 1px 4px 1px #303030; */
+figure p {
+    margin: 0.1em 0;
+    float: left;
+
+}
+
+figcaption p {
+    float: none;
+
 }
 
 figcaption {
     text-align: center;
-    font-size: 0.9em;
     font-style: oblique;
-    margin-top: 0.4em;
-}
-
-figcaption p {
-    margin: 0;
-}
-
-figcaption a {
-    display: block;
 }
 
 #top {

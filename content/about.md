@@ -5,7 +5,7 @@ title = "Hi! I am Raph."
 tags = [ "lchf", "tough mudder", "blogger", "twitter", "science" ]
 author = "raph"
 +++
-{{% pic class="inline" src="/img/about_raph_thumb.png" alt="Accomplishments makes me happy." link="/img/about_raph.png" %}}
+{{% img class="inline" src="/img/about_raph_thumb.png" alt="Accomplishments makes me happy." link="/img/about_raph.png" %}}
 > "Half the facts you know are probably wrong."
 >
 > "There simply is no substitute for skepticism."
