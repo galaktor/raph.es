@@ -3,15 +3,16 @@
 {{ partial "head.html" . }}
 <body>
     {{ partial "top.html" . }}
-    <h1>$> {{ lower .Title }} -byName</h1>
-    <ul class="tags">
+    <h1>$> {{ lower .Title }}</h1>
+    <ul class="tags-v">
+    <h3>-byName<br/>---------</h3>
       {{ $data := .Data }}
       {{ range $key, $value := $data.Terms }}
         <li><a href="{{ $data.Plural }}/{{ $key | urlize}}">{{ $key }}</a>[{{ len $value }}]</li>
       {{ end }}
     </ul>
-    <h1>$> {{ lower .Title }} -byCount</h1>
-    <ul class="tags">
+    <ul class="tags-v">
+    <h3>-byCount<br/>---------</h3>
       {{ $data := .Data }}
       {{ range $value := $data.Terms.ByCount }}
         <li><a href="{{ $value.Name | urlize}}">{{ $value.Name }}</a>[{{ len $value.Pages }}]</li>

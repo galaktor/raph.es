@@ -139,19 +139,31 @@ figcaption {
     color: #451010;
 }
 
-ul.blogs, ul.thumbs, ul.tags  {
+ul.blogs, ul.thumbs, ul.tags, ul.tags-v  {
+    margin: 0;
     list-style-type: none;
     padding: 0;
 }
 
-ul.blogs li, ul.tags li {
+ul.blogs li, ul.tags li, ul.tags-v li {
+
     margin-bottom: 0.3em;
     white-space: nowrap;
 }
 
-ul.tags {
-    border: 1pt solid black;
+ul.tags, ul.tags-v {
+    border: 0.1em solid black;
     text-align: justify;
+}
+
+ul.tags-v {
+    border: none;
+    float: left;
+}
+
+ul.tags-v li {
+
+    width: 10em;
 }
 
 ul.tags li {

@@ -12,7 +12,7 @@
       {{ end }}
     </ul>
     <h1>$> blog -archive</h1>
-    <p>The below are old posts from when I used Blogger more of less actively a few years ago. I cringe a bit when I read them for various reasons. I'll leave them here as a reminder of how much I have (or have not) grown since. Just be aware that these posts are several years old and as a result might contain broken links.</p>
+    <p>The below are old posts from when I used Blogger more of less actively a few years ago. I cringe a bit when I read them for various reasons. I'll leave them here as a reminder of how much I have grown since. Or not. Be aware that these posts are several years old and as a result might contain broken links.</p>
     <ul class="blogs">
       {{ range .Data.Pages }}
         {{ if .Params.wasblogger }}
@@ -20,6 +20,5 @@
         {{ end }}
       {{ end }}
     </ul>
-  {{ partial "wip-generic.html" . }}
   {{ partial "foot.html" . }}
 </body>
