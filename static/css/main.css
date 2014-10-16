@@ -151,11 +151,13 @@ ul.blogs li, ul.tags li {
 
 ul.tags {
     border: 1pt solid black;
+    text-align: justify;
 }
 
 ul.tags li {
     display: inline;
     margin: 0.5em;
+
 }
 
 div.project-thumb {

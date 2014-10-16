@@ -8,8 +8,6 @@ state:     "import blogger"
 ascii:     "ascii/website.txt"
 ---
 # TODO
-* port blogger
-* taxonomy list pages
 * highlight latest blog posts, projects
 * style code snippets better
 * license page  "/license"
