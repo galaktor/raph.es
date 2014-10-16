@@ -3,7 +3,7 @@
   {{ partial "head.html" . }}
   <body>
     {{ partial "top.html" . }}
-    <h1>$> running</h1>
+    <h1>$> proj -running</h1>
     <ul class="thumbs">
       {{ range .Data.Pages.ByDate.Reverse }}
       {{ if lt .Params.progress 100 }}
@@ -13,7 +13,7 @@
       {{ end }}
       {{ end }}
     </ul>
-    <h1>$> queued</h1>
+    <h1>$> proj -queued</h1>
     <ul class="thumbs">
       {{ range .Data.Pages.ByDate.Reverse }}
       {{ if lt .Params.progress 5 }}
@@ -21,7 +21,7 @@
       {{ end }}
       {{ end }}
     </ul>
-    <h1>$> done</h1>
+    <h1>$> proj -done</h1>
     <ul class="thumbs">
       {{ range .Data.Pages.ByDate.Reverse }}
       {{ if eq .Params.progress 100 }}
