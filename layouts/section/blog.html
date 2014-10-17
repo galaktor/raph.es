@@ -3,7 +3,8 @@
 {{ partial "head.html" . }}
 <body>
     {{ partial "top.html" . }}
-    <h1>$> blog</h1>
+    <h1>$> blog [<a href="/tags">-tags</a>] [<a href="/projects">-projects</a>]</h1>
+    <p></p>
     <ul class="blogs">
       {{ range .Data.Pages }}
         {{ if not .Params.wasblogger }}

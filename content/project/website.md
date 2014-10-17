@@ -9,6 +9,7 @@ ascii:     "ascii/website.txt"
 ---
 # TODO
 * highlight latest blog posts, projects
+* next/prev content by date
 * style code snippets better
 * license page  "/license"
 * new domain with DNS config
