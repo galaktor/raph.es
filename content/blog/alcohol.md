@@ -4,7 +4,7 @@ date = "2014-10-16T17:35:48+01:00"
 projects = []
 series = []
 tags = [ "health", "lchf" ]
-title = "alcohol"
+title = "why I don't drink alcohol"
 wasblogger = false
 aliases = [ "/on/alcohol/" ]
 +++

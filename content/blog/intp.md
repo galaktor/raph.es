@@ -4,7 +4,7 @@ date = "2014-10-16T17:48:58+01:00"
 projects = []
 series = []
 tags = [ "introvert", "health" ]
-title = "intp"
+title = "On being an introvert"
 wasblogger = false
 aliases = [ "/on/introverts/" ]
 +++
