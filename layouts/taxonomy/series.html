@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" . }}
+<body>
+    {{ partial "top.html" . }}
+    <h1>content in series &quot;{{ lower .Title }}&quot; (<a href="/series">all</a>)</h1>
+    <ul class="blogs">
+      {{ range .Data.Pages }}
+        {{ .Render "li" }}
+
+      {{ end }}
+    </ul>
+  {{ partial "foot.html" . }}
+</body>

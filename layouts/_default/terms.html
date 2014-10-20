@@ -8,7 +8,7 @@
     <h3>sort:name<br/>---------</h3>
       {{ $data := .Data }}
       {{ range $key, $value := $data.Terms }}
-        <li><a href="{{ $data.Plural }}/{{ $key | urlize}}">{{ $key }}</a>[{{ len $value }}]</li>
+        <li><a href="{{ $key | urlize}}">{{ $key }}</a>[{{ len $value }}]</li>
       {{ end }}
     </ul>
     <ul class="tags-v">

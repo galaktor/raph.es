@@ -3,11 +3,39 @@ author = "raph"
 date = "2014-10-10T17:25:49+01:00"
 draft = false
 projects = [ "mudcam" ]
-series = []
-tags = [ "raspberry pi", "power", "lipo", "hardware" ]
-title = "Thoughts on Running a Raspberry Pi off a single cell LiPo battery"
+series = [ "raspberry pi 3.7v" ]
+tags = [ "raspberry pi", "power", "hardware" ]
+title = "Initial thoughts on running a Raspberry Pi off a single cell LiPo battery"
 wasblogger = false
 +++
+voltage reg test results:
+
+on board with pi, ncp1117
+in: 3.63v (seem to lose ~1.4v between usb and regulator??) ->FUSE!
+reg out: 2.71v
+diff: ~0.9
+
+
+new mcp1826s
+in: 3.77v
+out: 3.25V
+diff: ~0.52v
+do??
+
+mcp1ts est using arduino 5v output
+in: 5.15V
+out: 3.25V
+do: 
+
+new pi mod a
+at batt: 3.71v
+test points: 3.62v
+reg in: 3.62v
+reg out: 2.68v
+reg diff: 0.96v
+
+new reg much closer to 3.3v on nominal 3.77v from lipo. hope to maximize battery life by replacing reg
+
 I recently got thinking about how I could power a Raspberry Pi off batteries. The [project](/project/mudcam) I have in mind is effectively a wearable video camera, so it has to be as compact as possible and have a good few hours of battery life to be of any practical use. 
 
 ## The 5V requirement

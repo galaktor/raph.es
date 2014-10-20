@@ -1,0 +1,12 @@
+{{ if .Params.series }}
+  {{ $name := index .Params.series 0 }}
+  <h1>More like this</h1>
+  <p>This article is part of the series <strong>{{ title $name }}</strong></p>
+  {{ $name := $name | urlize }}
+  {{ $series := index .Site.Taxonomies.series $name }}
+  <ul class="blog">
+  {{ range $series.Pages.ByDate }}
+    {{ .Render "li" }}
+  {{ end }}
+  </ul>
+{{ end }}

@@ -4,23 +4,12 @@
   {{ partial "top.html" . }}
   <h1>{{ title .Title }}</h1>
   <span class="metadata">{{ .Params.author }} @ {{ .Date.Format "2006-01-02 15:04" }}</span>
+  {{ if .Params.wasblogger }}
+    {{ partial "disclaimer-blogger.html" . }}
+  {{ end }}
   <p>{{ .Content }}</p>
   {{ partial "tags.html" . }}
-  {{ if gt (len .Params.projects) 0 }}
-    <h1>Related projects:</h1>
-    {{ $blog := . }}
-    <ul class="blogs">
-    {{ range where .Site.Recent "Section" "project" }}
-      {{ $proj := . }}
-      {{ range $blog.Params.projects }}
-
-        {{ if eq . $proj.Params.project }}
-          {{ $proj.Render "li" }}
-        {{ end }}
-      {{ end }}
-
-    {{ end }}  
-    </ul>
-  {{ end }}
+  {{ partial "rel-projects.html" . }}
+  {{ partial "rel-series.html" . }}
   {{ partial "foot.html" . }}
 </body>

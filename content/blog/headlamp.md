@@ -8,7 +8,7 @@ tags:
  - "ikea"
  - "led"
  - "quick-n-dirty"
-title: "DIY soldering goggle-light from salvaged IKEA USB lamp"
+title: "goggle-mounted headlamp from salvaged IKEA USB light"
 wasblogger: false
 ---
 ## Safety goggles are important.

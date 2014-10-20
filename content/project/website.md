@@ -9,6 +9,13 @@ ascii:     "ascii/website.txt"
 ---
 # TODO
 * highlight latest blog posts, projects
+* shrinkify pngs for project, way to large
+* add other projects, i.e. software ones
+ * dansguardian
+ * nodewire
+ * gogre3d, llcoi
+ * gorf24
+ * more
 * next/prev content by date
 * style code snippets better
 * license page  "/license"
