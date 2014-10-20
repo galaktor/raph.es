@@ -2,7 +2,7 @@
 author:    "raph"
 project:   "foo"
 tags:
-progress:  0
+progress:  1
 state:     "idea"
 ascii:     "ascii/na.txt"
 ---

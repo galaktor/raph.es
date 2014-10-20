@@ -6,6 +6,7 @@ series = []
 tags = [ "introvert", "health" ]
 title = "intp"
 wasblogger = false
+aliases = [ "/on/introverts/" ]
 +++
 
 my briggs score

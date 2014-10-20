@@ -3,9 +3,10 @@ author = "raph"
 date = "2014-10-16T17:32:23+01:00"
 projects = []
 series = []
-tags = [ "hugo", "golang" ]
+tags = [ "meta", "blogger", "twitter", "writing" ]
 title = "on blogging"
 wasblogger = false
+aliases = [ "/on/blogging/" ]
 +++
 I'm not known to be an early adopter. I was late to the party for blogs with my [first](/blog/2011/02/just-do-it/) attempt ocurrring in 2011.
 
@@ -15,9 +16,7 @@ So worked the wild-west that was the internet in the nineties.
 
 It also featured a "news" section. That's what people called their blogs before they were called blogs. The websites went the way of too many briefly interesting side-projects, and died of neglect.
 
-TODO: snaps from waybackmachine?
-
-Then web-two-point-oh gave us a plethora of free (beer) blog-as-a-service services. Public diaries with fancy client-side WYSIWYG editors.
+Then web-two-point-oh gave us a plethora of free (~beer) blog-as-a-service services. Public diaries with fancy client-side WYSIWYG editors.
 
 I resisted the hype.
 
@@ -38,10 +37,10 @@ See also: "don't read the comments".
 
 See also: [impostor syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome).
 
-Blogging morphed from a tool for self-reflection into a stressful chore. Given that I have lots of stuff going on, it was frustrating to spend the little time I had with something I was enjoying less and less.
+This isn't Blogger's fault - it's in my head. Yet for me, blogging morphed from a tool for self-reflection into a stressful chore. Given that I have lots of stuff going on, it was frustrating to spend the little time I had with something I was enjoying less and less.
 
 # Blogger is not for me.
-Having this virtual spotlight pointed at me (imaginary or not) fed my natural urge to personalize the look and feel of my blog. Once I stepped outside the boundaries which are *themes* I realised that Blogger is not a platform for geeks like I am.
+Having this virtual spotlight pointed at me - imaginary, maybe, but all the same - fed my natural urge to personalize the look and feel of my blog. Once I stepped outside the boundaries which are *themes* I realised that Blogger is not a platform for geeks like I am.
 
 The widgets to insert functionality galleries or Twitter streams looked terrible and didn't behave the way I wanted.
 
@@ -74,45 +73,18 @@ I have been using Twitter more and more ever since. My twitter profile became my
 
 Why try to be a full-blown author on your blog when you can just fire out one-liners on Twitter? One was much more compatible with a first-worlders daily routine than the other - I was no exception.
 
-# Retaking ownership
-In parallel to all that, I was becoming more concerned about who owns my data online and freedom of information in general. Blogger is owned by Google, and Twitter is owned by... well, Twitter. In exchange for their services, I became the product for the eyeballs they draw.
+# Full circle
+Meanwhile, I was becoming more concerned about who owns my data online and freedom of information in general. Blogger is owned by Google, and Twitter is owned by... well, Twitter. In exchange for their services, I became the product for the eyeballs they draw.
 
 Hosting my onine persona - micro or not - on a proprietary platform didn't agree with my philosophy.
 
 Instead, I was coming back full-circle to where I had begun over a decade ago when I created my first site on GeoCities. I just wanted my own little spot on the web where I can be myself. Where I can put up and take down whatever I want. And not give a damn about what anybody thinks about it.
 
-# Square one
-So I was back at square one. But smarter. Having one through the above process, here's what I will be doing differently.
+So I was back at square one. But smarter. Having gone through the above process, I will do things differently. I go into more depth on the goals I set for this website on [project](/project/website/) page. But to not make an already long post any longer, here's what I learned from blogging and tweeting:
 
-## Simple tech
-* static pages
-* no database
-* simple style
+> **"less is more."**
+> -- every smart person ever
 
-## personal
-* my own design from the ground up - incl all quiks
-* reflect all my activity on side-projects
-* minimal use of social media, link to my page to channel output through here
-* playgrund to screw around with web tech - it's my own and i can hack it however i like
-* my own domains
+Shorter, more frequent posts (with the odd long one; like this here). No comments, because - frankly - *who cares*. Minimal HTML and CSS can be edited online or offline, on my phone or in the browser. Storing it all in git means I can move stuff around freely. It also means others can re-use it easily if they so wish.
 
-## Shorter posts
-* half twitter, half blog
-* occasional long post (like this one)
-* incremental value - projects, series aggregate nr of small posts to bigger context
-
-## No comments
-* see also: simple tech
-* no spam, no trolls
-* drop me a mail if you have something to say 
-
-## libre
-* open source (static pages are by definition)
-* hosted on github
-* open source license (DECIDE: gpl  or Creative Commons?)
-
-## Programmer's workflow
-* github
-* command line tools (hugo, git, nano)
-* content in simple text / markdown editing
-* automatic delivery
+It took me some time to realise what I wanted. But now I finally have at a website that reflects me in every way.

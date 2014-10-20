@@ -46,10 +46,10 @@ The word itself is supposed to sound like some powerful yet ridiculously cliche 
 Similarities with [Galactor](https://en.wikipedia.org/wiki/Galactor) from the anime [Science Ninja Team Gatchaman](https://en.wikipedia.org/wiki/Science_Ninja_Team_Gatchaman) are purely coincidental, but couldn't fit better. I mean, I never watched the show, but *that name*!
 
 ## What happened to your old Blogger blog?
-I didn't like Blogger for a number or reasons, and snapped into using [Twitter](https://twitter.com/estraph) almost overnight. I didn't blog for about two years. Now I am taking back ownership over my content. Read more [here](/about/blogging/).
+I didn't like Blogger for a number or reasons, and snapped into using [Twitter](https://twitter.com/estraph) almost overnight. I didn't blog for about two years. Now I am taking back ownership over my content. Read more [here](/on/blogging/).
 
 ## What's your Myers-Briggs score?
-IXXX. I'm a model [introvert](/about/introverts), but don't buy into the rest.
+IXXX. I'm a model [introvert](/on/introverts/), but don't buy into the rest.
 
 ## What's the banner at the top of this page supposed to say?
 It says "make or die". Don't worry if you can't read it. It's not supposed to convey critical information, just sort of look nice. If you care to know more you can check out my [website](/project/website) project.
@@ -58,10 +58,10 @@ It says "make or die". Don't worry if you can't read it. It's not supposed to co
 Gee, thanks! Believe it or not, this page looks just how I want it to. You can read about that in the [project description](/project/website/). I'll take an internet full of weird and wonderful websites with personality over today's flood of look-a-like Wordpress themes and bland Facebook profiles any day.
 
 ## Would you like some cake?
-Sorry, but I avoid dietary [carbohydrate](/about/carbs/) like the plague ~~that it is~~. However, I appreciate the offer!
+Sorry, but I avoid dietary [carbohydrate](/on/carbs/) like the plague ~~that it is~~. However, I appreciate the offer!
 
 ## kk. want a beer?
-Cheers, but I'll pass. I don't drink [alcohol](/about/alcohol/).
+Cheers, but I'll pass. I don't drink [alcohol](/on/alcohol/).
 
 ## Woah, are you some kind of straight-edge fundamentalist?
-No! Maybe! You make that sound like it's a bad thing. Read more [here](/about/scepticism/).
+No! Maybe! You make that sound like it's a bad thing. Read more [here](/on/scepticism/).

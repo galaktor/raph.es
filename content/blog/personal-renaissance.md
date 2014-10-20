@@ -1,11 +1,12 @@
 +++
 author = "raph"
 date = "2014-10-16T17:44:30+01:00"
-projects = ["foo", "bar"]
-series = ["foo"]
+projects = []
+series = []
 tags = [ "science", "lchf" ]
 title = "My personal renaissance"
 wasblogger = false
+aliases = [ "/on/scepticism/" ]
 +++
 
 > "Half the facts you know are probably wrong."

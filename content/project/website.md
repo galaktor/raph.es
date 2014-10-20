@@ -7,7 +7,43 @@ progress:  80
 state:     "import blogger"
 ascii:     "ascii/website.txt"
 ---
+# requirements
+## Simple tech
+* static pages
+* no database
+* simple style
+
+## personal
+* my own design from the ground up - incl all quiks
+* reflect all my activity on side-projects
+* minimal use of social media, link to my page to channel output through here
+* playgrund to screw around with web tech - it's my own and i can hack it however i like
+* my own domains
+
+## Shorter posts
+* half twitter, half blog
+* occasional long post (like this one)
+* incremental value - projects, series aggregate nr of small posts to bigger context
+
+## No comments
+* see also: simple tech
+* no spam, no trolls
+* drop me a mail if you have something to say 
+
+## libre
+* open source (static pages are by definition)
+* hosted on github
+* open source license (DECIDE: gpl  or Creative Commons?)
+
+## Programmer's workflow
+* github
+* command line tools (hugo, git, nano)
+* content in simple text / markdown editing
+* automatic delivery
+
+
 # TODO
+* stale projects where date > x
 * highlight latest blog posts, projects
 * shrinkify pngs for project, way to large
 * add other projects, i.e. software ones

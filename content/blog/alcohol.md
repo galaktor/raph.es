@@ -6,6 +6,7 @@ series = []
 tags = [ "health", "lchf" ]
 title = "alcohol"
 wasblogger = false
+aliases = [ "/on/alcohol/" ]
 +++
 why I don't drink
 * makes me dumb

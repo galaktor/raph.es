@@ -2,7 +2,7 @@ copyright  = "Raphael Estrada 2011-2014"
 contentdir = "content"
 layoutdir  = "layouts"
 publishdir = "output"
-baseurl    = "http://www.galaktor.net"
+baseurl    = "http://raph.es"
 title      = "raph haXx"
 
 [params]
@@ -15,7 +15,7 @@ title      = "raph haXx"
 
 [permalinks]
   blog     = "/blog/:year/:month/:title/"
-  projects = "/project/:year/:month/:title/"
+  projects = "/project/:title/"
 
 [[menu.main]]
   name     = "root"
