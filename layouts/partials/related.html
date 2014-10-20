@@ -1,0 +1,5 @@
+{{ if or .Params.series .Params.projects }}
+  <h1>There's more!</h1>
+  {{ partial "rel-projects.html" . }}
+  {{ partial "rel-series.html" . }}
+{{ end }}
