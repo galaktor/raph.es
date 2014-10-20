@@ -3,15 +3,15 @@ author = "raph"
 date = "2014-10-10T17:25:49+01:00"
 draft = false
 projects = [ "mudcam" ]
-series = [ "raspberry pi 3.7v" ]
+series = [ "battery pi" ]
 tags = [ "raspberry pi", "power", "hardware" ]
-title = "Initial thoughts on running a Raspberry Pi off a single cell LiPo battery"
+title = "Feasability of powering a Raspberry Pi with a 3.7V battery"
 wasblogger = false
 +++
 voltage reg test results:
 
 on board with pi, ncp1117
-in: 3.63v (seem to lose ~1.4v between usb and regulator??) ->FUSE!
+in: 3.63v (seem to lose ~1.4v between usb and regulator??) ->bypass FUSE!
 reg out: 2.71v
 diff: ~0.9
 

@@ -1,7 +1,7 @@
 {{ if .Params.series }}
   {{ $name := index .Params.series 0 }}
-  <h2>Series continued</h2>
-  <p>This article is part of the series <strong>{{ title $name }}</strong></p>
+  <h2>Series</h2>
+  <p>This article is one part of a <a href="/series/">series</a> named <strong>&quot;{{ title $name }}&quot;</strong>. If you found this interesting, have a look at the other ones as well!</p>
   {{ $name := $name | urlize }}
   {{ $series := index .Site.Taxonomies.series $name }}
   <ul class="blogs">
