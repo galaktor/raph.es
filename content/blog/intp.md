@@ -7,6 +7,7 @@ tags = [ "introvert", "health" ]
 title = "On being an introvert"
 wasblogger = false
 aliases = [ "/on/introverts/" ]
+slug = "on-introverts"
 +++
 
 my briggs score

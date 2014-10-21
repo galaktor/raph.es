@@ -7,6 +7,7 @@ tags = [ "science", "lchf" ]
 title = "My personal renaissance"
 wasblogger = false
 aliases = [ "/on/scepticism/" ]
+slug = "personal-renaissance"
 +++
 
 > "Half the facts you know are probably wrong."

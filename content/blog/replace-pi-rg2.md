@@ -5,7 +5,7 @@ projects = [ "mudcam" ]
 series = [ "battery pi" ]
 tags = [ "raspberry pi", "power", "hardware" ]
 title = "replace pi rg2"
-
+slug = "replace-raspberry-pi-voltage-regulator-rg2"
 +++
 maximize usage of battery via lowest possible dropout voltage
 

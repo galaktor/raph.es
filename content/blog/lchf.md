@@ -7,6 +7,7 @@ tags = [ "health", "lchf", "science" ]
 title = "lchf"
 wasblogger = false
 aliases = [ "/on/carbs/" ]
+slug = "on-carbs"
 +++
 
 

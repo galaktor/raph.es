@@ -7,6 +7,7 @@ series = [ "battery pi" ]
 tags = [ "raspberry pi", "power", "hardware" ]
 title = "Feasability of powering a Raspberry Pi with a 3.7V battery"
 wasblogger = false
+slug = "feasible-power-raspberry-pi-3.7V-lipo-battery"
 +++
 voltage reg test results:
 

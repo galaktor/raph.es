@@ -10,6 +10,7 @@ tags:
  - "quick-n-dirty"
 title: "goggle-mounted headlamp from salvaged IKEA USB light"
 wasblogger: false
+slug: "goggles-headlamp-from-ikea-usb-light"
 ---
 ## Safety goggles are important.
 Not least when you want to prevent little hot sharp things from penetrating your eyeballs. I got a set from Woodie's a while back. They're nothing fancy and do the job. But somehow I always felt they were destined for *more*...

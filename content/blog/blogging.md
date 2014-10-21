@@ -7,6 +7,7 @@ tags = [ "meta", "blogger", "twitter", "writing" ]
 title = "on blogging"
 wasblogger = false
 aliases = [ "/on/blogging/" ]
+slug = "on-blogging"
 +++
 I'm not known to be an early adopter. I was late to the party for blogs with my [first](/blog/2011/02/just-do-it/) attempt ocurrring in 2011.
 
@@ -42,9 +43,9 @@ This isn't Blogger's fault - it's in my head. Yet for me, blogging morphed from 
 # Blogger is not for me.
 Having this virtual spotlight pointed at me - imaginary, maybe, but all the same - fed my natural urge to personalize the look and feel of my blog. Once I stepped outside the boundaries which are *themes* I realised that Blogger is not a platform for geeks like I am.
 
-The widgets to insert functionality galleries or Twitter streams looked terrible and didn't behave the way I wanted.
+The widgets to insert functionality - such as galleries or Twitter streams-  looked terrible and didn't behave the way I wanted.
 
-The HTML and CSS I found was a mess. Multiple attempts to hand craft my own theme ended in nerd-tears - it was more tedious than I was willing to tolerate in my sparse *me time*.
+The HTML and CSS I had to deal with was a mess. Multiple attempts to hand craft my own theme ended in nerd-tears. It was more tedious than I was willing to tolerate in my sparse *me time*.
 
 Most canned themes looked nothing like what I wanted *my* page to look like. Dynamic layouts [seemed](/blog/2012/05/The-blog-gets-some-love/) neat for five minutes. Then I noticed that every Blogger blog out there looked just like mine.
 
@@ -53,12 +54,12 @@ So I had a blog that wasn't fun to write for. That didn't look like *me*. That d
 # Then Twitter happened.
 I was late to the Twitter party, too. Just like I had once predicted in my first Blogger [post](/blog/2011/02/just-do-it/).
 
-I reluctantly signed up during the [*Norwegian Developers Conference*](http://www.ndcoslo.com/) in 2012. NDC updates such as changes in schedule were distributed via Twitter. The way people interacted via large screens displaying live tweets hashtagged to the conference intrigued me.
+I reluctantly signed up during the [*Norwegian Developers Conference*](http://www.ndcoslo.com/) in 2012. There, event updates such as changes in schedule were communicated over Twitter. The way people interacted via large screens displaying live tweets hashtagged to the conference intrigued me.
 
 "This is *social* media", I realised.
 
 # Random five minutes
-Tweets became my outlet for what would usually shape up to be once-a-month blog posts.
+Frequent short tweets gave me an outlet for what would otherwise have built up to once-a-month blog posts.
 
 The 140 character limit took away the pressure to spend lots of time on what I publish. Yet, the subtle art of working with this limitation represented a playful challenge. The playing field was level. Nobody could make me feel bad for just throwing out a line or two.
 
@@ -71,6 +72,8 @@ Expressing myself via Twitter felt much more natural than what I had found mysel
 # I stopped blogging overnight.
 I have been using Twitter more and more ever since. My twitter profile became my new online persona of choise. What blogger was supposed to be, just smaller. Unintentionally, I followed the trend from blogs to *microblogs*.
 
+What's interesting is that I didn't like Twitter more because of it's social features. I don't make much use of hashtags or lists or take part in discussions much. It was the simplicity of publishing thoughts that had me hooked.
+
 Why try to be a full-blown author on your blog when you can just fire out one-liners on Twitter? One was much more compatible with a first-worlders daily routine than the other - I was no exception.
 
 # Full circle
@@ -80,11 +83,11 @@ Hosting my onine persona - micro or not - on a proprietary platform didn't agree
 
 Instead, I was coming back full-circle to where I had begun over a decade ago when I created my first site on GeoCities. I just wanted my own little spot on the web where I can be myself. Where I can put up and take down whatever I want. And not give a damn about what anybody thinks about it.
 
-So I was back at square one. But smarter. Having gone through the above process, I will do things differently. I go into more depth on the goals I set for this website on [project](/project/website/) page. But to not make an already long post any longer, here's what I learned from blogging and tweeting:
+But this time, I knew what I would have to change. I go into more depth on the goals I set for this website on [project](/project/website/) page. But to not make an already long post any longer, here's the gisst:
 
 > **"less is more."**
 > -- every smart person ever
 
-Shorter, more frequent posts (with the odd long one; like this here). No comments, because - frankly - *who cares*. Minimal HTML and CSS can be edited online or offline, on my phone or in the browser. Storing it all in git means I can move stuff around freely. It also means others can re-use it easily if they so wish.
+I want to blog, but short and ad-hoc posts are ok. Long posts are fine, too, but only if they aren'ta chore. Tech will be simplie, content the focus. No clutter such social media integration or comments. And if I change my mind on any of this, I can just change it.
 
 It took me some time to realise what I wanted. But now I finally have at a website that reflects me in every way.

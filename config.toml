@@ -14,7 +14,7 @@ title      = "raph haXx"
   series   = "series"
 
 [permalinks]
-  blog     = "/blog/:year/:month/:title/"
+  blog     = "/blog/:year/:month/:slug/"
   projects = "/project/:title/"
 
 [[menu.main]]
