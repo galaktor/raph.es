@@ -3,7 +3,7 @@
 {{ partial "head.html" . }}
 <body>
     {{ partial "top.html" . }}
-    <h1>$> blog [<a href="/tags">-tags</a>] [<a href="/projects">-projects</a>] [<a href="/series">-series</a>]</h1>
+    <h1>&#36;&#062; list [<a href="/tags">-tags</a>] [<a href="/projects">-projects</a>] [<a href="/series">-series</a>]</h1>
     <p></p>
     <ul class="blogs">
       {{ range .Data.Pages }}
@@ -12,7 +12,7 @@
         {{ end }}
       {{ end }}
     </ul>
-    <h1>$> blog -archive</h1>
+    <h1>&#36;&#062; list -archive</h1>
     <p>The below are old posts from when I used Blogger more of less actively a few years ago. I cringe a bit when I read them for various reasons. I'll leave them here as a reminder of how much I have grown since. Or not. Be aware that these posts are several years old and as a result might contain broken links.</p>
     <ul class="blogs">
       {{ range .Data.Pages }}

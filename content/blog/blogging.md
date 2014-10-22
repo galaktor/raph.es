@@ -1,7 +1,7 @@
 +++
 author = "raph"
 date = "2014-10-16T17:32:23+01:00"
-projects = []
+projects = [ "website" ]
 series = []
 tags = [ "meta", "blogger", "twitter", "writing" ]
 title = "on blogging"
@@ -79,15 +79,15 @@ Why try to be a full-blown author on your blog when you can just fire out one-li
 # Full circle
 Meanwhile, I was becoming more concerned about who owns my data online and freedom of information in general. Blogger is owned by Google, and Twitter is owned by... well, Twitter. In exchange for their services, I became the product for the eyeballs they draw.
 
-Hosting my onine persona - micro or not - on a proprietary platform didn't agree with my philosophy.
+Hosting my online persona - micro or not - on a proprietary platform didn't agree with my philosophy.
 
 Instead, I was coming back full-circle to where I had begun over a decade ago when I created my first site on GeoCities. I just wanted my own little spot on the web where I can be myself. Where I can put up and take down whatever I want. And not give a damn about what anybody thinks about it.
 
-But this time, I knew what I would have to change. I go into more depth on the goals I set for this website on [project](/project/website/) page. But to not make an already long post any longer, here's the gisst:
+But this time, I knew what I would have to change. I go into more depth on the goals I set for this website on [project](/project/website/) page. But to not make an already long post any longer, here's the gist:
 
 > **"less is more."**
 > -- every smart person ever
 
-I want to blog, but short and ad-hoc posts are ok. Long posts are fine, too, but only if they aren'ta chore. Tech will be simplie, content the focus. No clutter such social media integration or comments. And if I change my mind on any of this, I can just change it.
+It had to be simple to publish, like Twitter. Give me some room, more like Blogger. Leave me control over my content. Integrate into my worflow, with least possible friction for hosting or editing. Focus on content - no clutter such as social media integration or comments.
 
-It took me some time to realise what I wanted. But now I finally have at a website that reflects me in every way.
+And when I change my mind on any of this, I want it to be easily hackable.

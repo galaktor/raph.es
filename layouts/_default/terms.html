@@ -3,7 +3,7 @@
 {{ partial "head.html" . }}
 <body>
     {{ partial "top.html" . }}
-    <h1>$> blog -{{ lower .Title }}</h1>
+    <h1>&#36;&#062; list -{{ lower .Data.Singular }}</h1>
     <ul class="tags-v">
     <h3>sort:name<br/>---------</h3>
       {{ $data := .Data }}

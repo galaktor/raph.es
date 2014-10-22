@@ -3,11 +3,11 @@
 {{ partial "head.html" . }}
 <body>
     {{ partial "top.html" . }}
-    <h1>content related to project &quot;{{ lower .Title }}&quot; (<a href="/projects">all</a>)</h1>
+    <h1>&#36;&#062; list -project:{{ lower .Title }} [<a href="/projects/">all</a>]</h1>
     <p></p>
     <ul class="blogs">
       {{ range .Data.Pages }}
-        <li>&#36;&#062; <time>&quot;{{ .Date.Format "2006-01-02" }}&quot;</time> &#124; <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ .Render "li" }}
       {{ end }}
     </ul>
   {{ partial "foot.html" . }}

@@ -2,7 +2,7 @@
 {{ partial "head.html" . }}
 <body>
   {{ partial "top.html" . }}
-  <h1>{{ .Title }}</h1>
+  <h1>{{ .Title }} <span class="metadata">&lt;{{ .Params.state }}&gt;</span></h1>
   <p>{{ .Content }}</p>
   <h1>More in the blog:</h1>
   {{ $related := index .Site.Taxonomies.projects .Params.project }}
