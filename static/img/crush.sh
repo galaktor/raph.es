@@ -14,6 +14,9 @@ for img in **/*.* **/**/*.*; do
       ;;
     *)
       echo "todo: convert"
+      ext="_wm.jpeg"
+      target="$base$ext"
+      convert "$img" -quality 95 "$target"
       ;;
   esac
 done
