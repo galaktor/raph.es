@@ -7,10 +7,13 @@ for img in **/*.* **/**/*.*; do
   echo  "$base"
   case "$base" in
     *_thumb)
-      echo "is thumb"
+      echo "is thumb; skipping"
+      ;;
+    *_wm)
+      echo "already watermarked; skipping"
       ;;
     *)
-      echo "not thumb"
+      echo "todo: convert"
       ;;
   esac
 done
