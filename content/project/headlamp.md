@@ -7,7 +7,7 @@ progress:  100
 state:     "good lookin'"
 ascii:     "ascii/na.txt"
 ---
-{{% img src="/img/project/headlamp/done_thumb.png" link="/img/project/headlamp/done.png" %}}
+{{% img src="/img/project/headlamp/done_thumb.jpeg" link="/img/project/headlamp/done.jpeg" %}}
 
 I have a cheap set of goggles I wear when I do soldering and other eye-threatening activities. Since most of the time I work in the evenings after the little people went to bed, I though it would be neat if it had a little LED attached to illuminate my view.
 

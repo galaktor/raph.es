@@ -27,7 +27,7 @@ A good technical book, on the other hand, is a huge project. Authors often spend
 I am aware that there are also tons of crappy books out there. Ones that are hard to understand, boring to read or simply just sloppy attempts to make money off fancy buzzwords. Some publishers keep bringing out new "editions" of popular books with minor changes only to get people to buy them a second time. But even bad books have gone through some process or another, and people generally do not invest money into a project such as a book without having some confidence that people will buy them so they can (at least) get their money back. That said, how many blogs are there on the internet that are hardly read by anybody? (Tip: you are looking at one right now) It is easy to write crappy blogs, but it costs money to publish crappy books.
 
 {{% fig %}} 
-{{% img src="/img/blogger/good-book-vs-bad-book.jpeg"  link="/img/blogger/good-book-vs-bad-book.jpeg" width="300em" alt="User ratings, like on Amazon, say a lot" %}}
+{{% img src="/img/blogger/good-book-vs-bad-book.jpeg"  link="/img/blogger/good-book-vs-bad-book.jpeg" alt="User ratings, like on Amazon, say a lot" width="400em" %}}
 {{% /fig %}}
 
 Fortunately, it is very easy to distinguish good books from bad ones. Most websites that sell books allow for users to submit ratings - read them! People who rate stuff on the web are either really happy about it, or really pissed off. Why else would you actually sit down and spend valuable minutes writing a review or clicking stars if you were not either psyched or mad. So if you find a book. e.g. on Amazon, that has 11 ratings, and 9 of those gave the book a good review, you can be farely sure that it is worth reading.
@@ -35,7 +35,7 @@ Fortunately, it is very easy to distinguish good books from bad ones. Most websi
 Aside from those ratings, it is usually even easier and faster to just do the same thing you always do when you need a quick answer: enter "best book *[MyTopic]*" on [Google](http://lmgtfy.com/?q=best+book+scala) or [StackOverflow](http://stackoverflow.com/search?q=best+book+scala) and you can be farely sure to find various recommendations. Check the ratings and reviews for those on your favorite book sale site. I do this all the time and have not been dissapointed yet.
 
 {{% fig %}}
-{{% img src="/img/blogger/book-so.jpeg" link="/img/blogger/book-so.jpeg" width="300em" alt="StackOverflow book discussion" %}}
+{{% img src="/img/blogger/book-so.jpeg" link="/img/blogger/book-so.jpeg" alt="StackOverflow book discussion" width="450em" %}}
 {{% /fig %}}
 
 # The *real* reason why many engineers do not like to read books
@@ -46,7 +46,7 @@ That's right, reading a book is not always a quick answer. Instead, it is actual
 Some of mankind's most important knowledge is in books. They have helped us learn for thousands of years. Blogs and whatnot are good for some things, but there is still no better way to really learn about a topic than reading a good "old" book.
 
 {{% fig %}}
-{{% img src="/img/blogger/lzy-engynrr.jpeg" link="/img/blogger/lzy-engynrr.jpeg" width="300em" %}}
+{{% img src="/img/blogger/lzy-engynrr.jpeg" link="/img/blogger/lzy-engynrr.jpeg" width="350em" %}}
 {{% /fig %}}
 
 # PS

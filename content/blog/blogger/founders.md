@@ -9,7 +9,7 @@ title = "Book review: Founders at Work"
 wasblogger = true
 aliases = [ "/2011/08/book-review-founders-at-work.html" ]
 +++
-{{% img class="inline" src="/img/blogger/founders_cover.png" alt="Founders At Work by Jessica Livingston" link="/img/blogger/founders_cover.png" width="150em" %}}
+{{% img class="inline" src="/img/blogger/founders_cover.jpeg" alt="Founders At Work by Jessica Livingston" link="/img/blogger/founders_cover.jpeg" width="150em" %}}
 
 A few weeks ago, I finished reading the book [Founders at Work](http://www.foundersatwork.com/) by Jessica Livingston. It's a collection of interviews with founders and early employees of various (successful!) technology companies. Many of them are web start-ups founded in the era of the [dot-com bubble](http://en.wikipedia.org/wiki/Dot-com_bubble). They talk about how they got started, highs and lows, good and bad experiences with venture capitalists and lots of funny things that happened along the way.
 
@@ -22,7 +22,7 @@ Some of my favorites also happen to be with people who are somehow affiliated wi
 Interestingly, Gmail is the closest the book gets to Google. Somehow I instinctively associate the ~~ad~~ ~~search~~ ~~meh~~ giant with the term "startup" (kudos to their [CI](http://en.wikipedia.org/wiki/Corporate_Identity) team, I guess) so I expected them to be featured. Maybe their story is just too popular? But on the other hand, Apple is in it, and their history must be one of the best-known out there considering the legions of fan-boys that are in love with Steve Jobs. That and it's coverage in other [books](http://books.google.com/books?id=mShXzzKtpmEC). Nevertheless, Steve Wozniak (the *other* Steve) gives what I felt was the longest and most self-praising interview in the entire book.
 
 {{% fig caption="Excited about the newest iThing?" %}}
-{{% img src="/img/blogger/fanboi.jpg" link="/img/blogger/fanboi.jpg" width="300em" attr="Image: BBC" %}}
+{{% img src="/img/blogger/fanboi.jpeg" link="/img/blogger/fanboi.jpeg" attr="Image: BBC" width="350em" %}}
 {{% /fig %}}
 
 # Some nice quotes
@@ -39,7 +39,7 @@ I like this because it is so true. Financial trading has a very high concentrati
 This is probably my favorite part of the book. It points out something that I believe is a serious problem in most software development teams. Many engineers massively overestimate their own capabilities, especially so-called "senior" people. They are convinced that what they do is perfect and won't consider that they might be able to improve their skills. "I don't need unit tests because I write working code". Sure... That makes evolving a team unnecessarily difficult (albeit, thank goodness, not impossible!).
 
 {{% fig caption="In aviation, Darwin takes care of Mavericks." attr="img: Wikipedia" %}}
-{{% img src="/img/blogger/maverick.jpg" link="/img/blogger/maverick.jpg" width="400em" attr="Image: Wikipedia" %}}
+{{% img src="/img/blogger/maverick.jpeg" link="/img/blogger/maverick.jpeg" attr="Image: Wikipedia" width="500em" %}}
 {{% /fig %}}
 
 ## Paul Graham, Viaweb
@@ -53,7 +53,7 @@ Not much to add here. It reminds me of Apple's highly user-centric design philos
 I believe Ms. Trott makes a good point here. So the number of women in IT is not as high as some arbitrary percentage people decided would be "fair" - who cares? Maybe it's just something most women don't like to do, and that's that? Back when I was at the University my programme was a mix of computer science and design. The male/female ratio was fairly balanced. Until we had to decide what to specialize on: CS or the design thing. Nearly all the women went for design, leaving mostly guys in the CS classes. It was a natural decision, those ladies simply wanted to do design. While preconceptions based on stereotypes can be harmful and encouraging them is not good, we should not try to force them out of existence, either. For example, most boys like trucks while girls usually prefer dolls. Not wanting girls to play with trucks would be just as harmful as not wanting them to play with dolls, just for the sake of eradicating a stereotype. To get back to the point: maybe most women simply prefer design over software development. Don't try to draw more women into the field just in order to make a point. Having said that, I do think that more female software developers could really benefit the industry.
 
 {{% fig caption="Flags mark the many quotes I enjoyed." %}}
-{{% img src="/img/blogger/founders_bookmarks.jpg" link="/img/blogger/founders_bookmarks.jpg" width="400em" attr="Image: me" %}}
+{{% img src="/img/blogger/founders_bookmarks.jpeg" link="/img/blogger/founders_bookmarks.jpeg" attr="Image: me" width="400em" %}}
 {{% /fig %}}
 
 ## Sabeer Bhatia, [Hotmail](http://de.wikipedia.org/wiki/Hotmail)
@@ -67,7 +67,9 @@ He interchangeably uses the terms "software writers", "architect" and software d
 
 He continues to explain that you should be willing to invest into creating a working environment that people enjoy working in. Losing them to competition is much more expensive in the long run. And it's the long-term things that some people tend to lose out of sight.
 
-{{% img class="inline" src="/img/blogger/all-like-ms.jpg" link="/img/blogger/all-like-ms.jpg" width="180em" %}}
+{{% fig %}}
+{{% img class="inline" src="/img/blogger/all-like-ms.jpeg" link="/img/blogger/all-like-ms.jpeg" width="300em" %}}
+{{% /fig %}}
 
 ## Joel Spolsky, [Fog Creek Software](http://www.fogcreek.com/)
 > If you were an alien and you came here in 1991 and you wanted to learn how to develop software, you would learn ten times as much at Microsoft as anywhere else, I think (...) Now Microsoft has forgotten all these things, and they've hired a lot of morons that don't know these things anymore. I think that now Microsoft is kind of a big tar pit where you can barely move forward because there's so much bueaucracy. But I learned a lot.

@@ -81,7 +81,7 @@ Yes, viewing the logs for that build did in fact crash one of my dev machines. O
 First of all, always know what you are submitting to source control. Always, as in 100%. Diff all files if necessary and understand what's in them - I know from personal experience that many developers do not understand most of what is inside [Visual Studio project and solution files](http://www.galaktor.net/2011/04/targeting-platforms-in-visual-studio.html), for example. Understand it - you are changing it, and you are an engineer, so learn it if you don't know what it is. Many developers think having a build server means not having to run stuff on your local machine anymore. That is wrong. The build server is a last line of defense in that matter, but if you break shared code you are hurting the productivity of other developers. If you make sure it [works on your machine](http://www.codinghorror.com/blog/2007/03/the-works-on-my-machine-certification-program.html) first, then nobody will notice that you screwed up and you are able to fix the problem before you switched to something else. If a build engineer has to call you up an hour later, you will probably need some time to retrace your steps to understand what's wrong. Do it early, save yourself and others the pain.
 
 {{% fig %}}
-{{% img src="/img/blogger/womm-label.png" alt="that's why we also run them on *other* machines -me" link="/img/blogger/womm-label.png" width="200em" %}}
+{{% img src="/img/blogger/womm-label.png" alt="that's why we also run them on *other* machines -me" link="/img/blogger/womm-label.png" width="250em" %}}
 {{% /fig %}}
 
 # Know how to do it properly 

@@ -31,7 +31,7 @@ Some seven eggs and five bacon rashers later I hit the shop floor. IKEA is a gre
 So I stumbled over this little USB lamp, [`Jansö`](http://www.ikea.com/ie/en/catalog/products/70289804/). It's basically an LED behind a lens, hooked up to a male USB A connector for power. It cost merely three Euros, so I figured I'll take it apart and see if I can mount this thing to my goggles.
 
 {{% fig caption="Jansö USB lamp from IKEA" %}}
-{{% img src="/img/project/headlamp/janso_thumb.png" link="/img/project/headlamp/janso.png" %}}
+{{% img src="/img/project/headlamp/janso_thumb.jpeg" link="/img/project/headlamp/janso.jpeg" %}}
 {{% /fig %}}
 
 # The hack
@@ -43,7 +43,7 @@ This was pretty ad-hoc and light wasn't great, so the pics came out a bit grainy
 I didn't know for sure what would be inside the thing or how to open it up. So I just started by cutting through it in the middle. My cutter wasn't the best choice here, but it did the job. The metal can be a bit tough, so I recommend you use strong ones to not damage the edges.
 
 {{% fig caption="Cut right above the USB connector" %}}
-{{% img src="/img/project/headlamp/cut-usb_thumb.png"  link="/img/project/headlamp/cut-usb.png" %}}
+{{% img src="/img/project/headlamp/cut-usb_thumb.jpeg"  link="/img/project/headlamp/cut-usb.jpeg" %}}
 {{% /fig %}}
 
 Sure enough, there's two wires on the inside, and they're even color coded nicely. The red wire is +5V, the black is +0V (GND).
@@ -51,8 +51,8 @@ Sure enough, there's two wires on the inside, and they're even color coded nicel
 My first idea was to unwind the metal wrapped around the wires in order to expose them. There's actually two metal layers around the wires. The outer layer is colored and can be unwound easily. The inner layer is more of a spring coil and is very tough to bend. With a bit of force you can pull the inner coil out of the outer metal.
 
 {{% fig caption="Exposing the wires by unwinding was tricky" %}}
-{{% img src="/img/project/headlamp/coil_thumb.png" link="/img/project/headlamp/coil.png" %}}
-{{% img src="/img/project/headlamp/pull-spring_thumb.png" link="/img/project/headlamp/pull-spring.png" %}}
+{{% img src="/img/project/headlamp/coil_thumb.jpeg" link="/img/project/headlamp/coil.jpeg" %}}
+{{% img src="/img/project/headlamp/pull-spring_thumb.jpeg" link="/img/project/headlamp/pull-spring.jpeg" %}}
 {{% /fig %}}
 
 
@@ -64,7 +64,7 @@ Cutting metal things can result in sharp metal edges and can shoot bits around t
 **Be a safe hacker and wear gloves when handling sharp metal. And wear goggles when flinging around bits of metal.**
 
 {{% fig caption="Call 9-1-1" %}}
-{{% img src="/img/project/headlamp/wound_thumb.png" link="/img/project/headlamp/wound.png" %}}
+{{% img src="/img/project/headlamp/wound_thumb.jpeg" link="/img/project/headlamp/wound.jpeg" %}}
 {{% /fig %}}
 
 # Remove the head
@@ -75,8 +75,8 @@ At this point I had already cut through the wires a few times. If I was to do it
 In my case however, I had to make due with the short little wires I had left. But that was fine.
 
 {{% fig caption="With a little force you can unscrew the head." %}}
-{{% img src="/img/project/headlamp/clamped_thumb.png" link="/img/project/headlamp/clamped.png" %}}
-{{% img src="/img/project/headlamp/unscrewed_thumb.png" link="/img/project/headlamp/unscrewed.png" %}}
+{{% img src="/img/project/headlamp/clamped_thumb.jpeg" link="/img/project/headlamp/clamped.jpeg" %}}
+{{% img src="/img/project/headlamp/unscrewed_thumb.jpeg" link="/img/project/headlamp/unscrewed.jpeg" %}}
 {{% /fig %}}
 
 # Find a power source
@@ -91,8 +91,8 @@ The first thing I tried was a little 3V coin cell. With less power than the typi
 I have a handful of LiPos which I have earmarked for other projects. They are small and light, so fit the bill in that regard. I tried one and sure enough, the light was brighter. Still, LiPos are rare in my house and using one seemed a bit excessive for this project. Plus, the off-chance of a LiPo blowing up near my eyes put me off that idea, too.
 
 {{% fig caption="Testing 3V coin cell (left) and 3.7V LiPo (right)"  %}}
-{{% img src="/img/project/headlamp/cell-test-single_thumb.png" link="/img/project/headlamp/cell-test-single.png" %}}
-{{% img src="/img/project/headlamp/lipo-test_thumb.png" link="/img/project/headlamp/lipo-test.png" %}}
+{{% img src="/img/project/headlamp/cell-test-single_thumb.jpeg" link="/img/project/headlamp/cell-test-single.jpeg" %}}
+{{% img src="/img/project/headlamp/lipo-test_thumb.jpeg" link="/img/project/headlamp/lipo-test.jpeg" %}}
 {{% /fig %}}
 
 ## 3xAAA
@@ -105,7 +105,7 @@ Result was great. And I could always replace when they run out since I always ha
 
 My final option was a little double coin cell holder I got. I got them cheap to play with some wearable proejcts - and technicallly, this qualifies as wearable, right? Much slimmer and lighter than the AAA solution above. Plus you can get cheap coin cell batteries all over the place. Since they just have to drive a little LED, I expect them to last long enough.
 
-{{% img src="/img/project/headlamp/cell-holder_thumb.png" alt="2 x 3V coin cell holder" link="/img/project/headlamp/cell-holder.png" %}}
+{{% img src="/img/project/headlamp/cell-holder_thumb.jpeg" alt="2 x 3V coin cell holder" link="/img/project/headlamp/cell-holder.jpeg" %}}
 
 My only concern was that 6V is more than the 5V USB would give. There's a slim chance that it could damage the LED. Typically, though, the LED can tolerate more voltage although it might lessen it's life expectancy. I was willing to risk that.
 
@@ -126,14 +126,14 @@ Slip a bit of heat shrink onto each wire for later. Strip the battery and lamp w
 Slide the heat shrink over the soldered wire. I used a lighter to shrink them since I don't have a fancy heat gun.
 
 {{% fig %}}
-{{% img src="/img/project/headlamp/solder_thumb.png" alt="solder up battery and led wires" link="/img/project/headlamp/solder.png" %}}
-{{% img src="/img/project/headlamp/shrinks_thumb.png" alt="use heat shrink to protect the joints" link="/img/project/headlamp/shrinks.png" %}}
+{{% img src="/img/project/headlamp/solder_thumb.jpeg" alt="solder up battery and led wires" link="/img/project/headlamp/solder.jpeg" %}}
+{{% img src="/img/project/headlamp/shrinks_thumb.jpeg" alt="use heat shrink to protect the joints" link="/img/project/headlamp/shrinks.jpeg" %}}
 {{% /fig %}}
 
 I experimented with wrapping isolating tape around the whole length. But that limited the wire's flexibility too much to be useful. I ditched the tape - raw wires look cooler anyway.
 
 {{% fig  %}}
-{{% img src="/img/project/headlamp/taped_thumb.png" alt="isolation tape made it too rigid" link="/img/project/headlamp/taped.png" %}}
+{{% img src="/img/project/headlamp/taped_thumb.jpeg" alt="isolation tape made it too rigid" link="/img/project/headlamp/taped.jpeg" %}}
 {{% /fig %}}
 
 # Mount battery to goggles
@@ -142,9 +142,9 @@ The goggles I have already have holes in them - I presume so that they don't fog
 My first attempt to use the screws that hold the lid onto the battery pack failed because they were too short. I used some small screws I had lying around instead. Just screw them through the holes - the material is forgiving.
 
 {{% fig  %}}
-{{% img src="/img/project/headlamp/holes_thumb.png" alt="my goggles already had holes I could use" link="/img/project/headlamp/holes.png" %}}
-{{% img src="/img/project/headlamp/black-screws_thumb.png" alt="I found some screws that fit just fine" link="/img/project/headlamp/black-screws.png" %}}
-{{% img src="/img/project/headlamp/mounted_thumb.png" alt="At first I tried to mount on top" link="/img/project/headlamp/mounted.png" %}}
+{{% img src="/img/project/headlamp/holes_thumb.jpeg" alt="my goggles already had holes I could use" link="/img/project/headlamp/holes.jpeg" %}}
+{{% img src="/img/project/headlamp/black-screws_thumb.jpeg" alt="I found some screws that fit just fine" link="/img/project/headlamp/black-screws.jpeg" %}}
+{{% img src="/img/project/headlamp/mounted_thumb.jpeg" alt="At first I tried to mount on top" link="/img/project/headlamp/mounted.jpeg" %}}
 {{% /fig %}}
 
 # Mount lamp to googles
@@ -155,13 +155,13 @@ Because I hadn't considered the extra length needed when the lamp is turned nine
 Also, with the tension caused by the cable tie, the top of the soft goggles now bends inward a little bit. But when put on, my forehead pushes against it so that the light points right where it should and not at the ceiling.
 
 {{% fig %}}
-{{% img src="/img/project/headlamp/tied_thumb.png" alt="Light mounted by cable tie" link="/img/project/headlamp/tied.png" %}}
-{{% img src="/img/project/headlamp/lightcone_thumb.png" alt="Light cone spreads pretty wide" link="/img/project/headlamp/lightcone.png" %}}
+{{% img src="/img/project/headlamp/tied_thumb.jpeg" alt="Light mounted by cable tie" link="/img/project/headlamp/tied.jpeg" %}}
+{{% img src="/img/project/headlamp/lightcone_thumb.jpeg" alt="Light cone spreads pretty wide" link="/img/project/headlamp/lightcone.jpeg" %}}
 {{% /fig %}}
 
 # Done!
 {{% fig %}}
-{{% img src="/img/project/headlamp/done_thumb.png" alt="Goggles with mounted batteries and lamp" link="/img/project/headlamp/done.png" width="400px" %}}
+{{% img src="/img/project/headlamp/done_thumb.jpeg" alt="Goggles with mounted batteries and lamp" link="/img/project/headlamp/done.jpeg" width="400px" %}}
 {{% /fig %}}
 
 So there you have it. A quick and fun hack that makes my night-time soldering sessions a little more fun. I'll certainly keep a look out for hackable objects at IKEA next time we go for breakfast.

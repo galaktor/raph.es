@@ -14,7 +14,7 @@ None of Visual Studio's features is more essential than compiling text to binary
 # Configuration != Configuration
 
 {{% fig caption="L: Solution configuration; R: Solution platform" %}}
-{{% img src="/img/blogger/configuration_platform_selector.png"  link="/img/blogger/configuration_platform_selector.png" width="300em" %}}
+{{% img src="/img/blogger/configuration_platform_selector.jpeg"  link="/img/blogger/configuration_platform_selector.jpeg" %}}
 {{% /fig %}}
 
 The *solution configuration* and *solution platform* selectors are two of the most used and at the same time most misunderstood UI elements in Visual Studio. You would think that they allowed you to define with which configuration and for which target platform your code will be compiled. What users *expect* is this:
@@ -31,7 +31,7 @@ I will attempt to shed some light on the different parts of this chain and prese
 A project in Visual Studio represents a binary that will be generated after compilation. As you would expect, the *project settings* window allows you to define [various options](http://msdn.microsoft.com/en-us/library/0hkyezwy%28v=VS.100%29.aspx) around that binary - most notably where the file will be copied to, if the compiler will optimize the generated IL (i.e. in Release mode) and what platform architecture you are targeting. Those settings are stored in a *project file*.
 
 {{% fig caption="*Platform* != *Platform target* o_O" %}}
-{{% img src="/img/blogger/project_settings.png"  link="/img/blogger/project_settings.png" width="300em" %}}
+{{% img src="/img/blogger/project_settings.jpeg"  link="/img/blogger/project_settings.jpeg" width="500em" %}}
 {{% /fig %}}
 
 Project files are essentially just [XML(ish) input files](http://msdn.microsoft.com/en-us/library/5dy88c2e.aspx) for a tool called [MSBuild](http://msdn.microsoft.com/en-us/library/wea2sca5%28v=vs.90%29.aspx). It is Microsoft's build tool, logically very similar to [NAnt](http://nant.sourceforge.net/) and [the likes](http://en.wikipedia.org/wiki/Build_automation). As a matter of fact, [Visual Studio uses MSBuild behind the scenes](http://msdn.microsoft.com/en-us/library/ms171468%28v=VS.100%29.aspx) whenever you hit "build" in the IDE. 
@@ -115,7 +115,7 @@ Open the Configuration Manager. By switching `Configuration` and `Platform` you 
 When setting to a more specific platform such as `x86`, you should switch as many projects' configurations as possible to that, too - otherwise to `Any CPU`. In an ideal world you would set all projects to `x86`, and if you can, do so. If you need to leave some `Any CPU` projects in that mode (because you are probably just too lazy to do otherwise), at least make sure they are not your apps "entry points", i.e. executable projects. The reason is if you build as `x86` but your executable is `Any CPU`, running the app on a 64bit machine will make your whole app domain run as x64, which is not always desirable and - much worse - not expected. So try to use the exact same config as in the solution whenever possible. Even if it means (some seconds of) extra work adding configurations to projects.
 
 {{% fig caption="The *Configuration Manager* window" %}}
-{{% img src="/img/blogger/configmanager.png" link="/img/blogger/configmanager.png" width="300em" %}}
+{{% img src="/img/blogger/configmanager.jpeg" link="/img/blogger/configmanager.jpeg" width="400em" %}}
 {{% /fig %}}
 
 This topic is harder to explain than it should be, and much harder to describe than it actually is to do. Even if I am beating a dead horse here, I would like to describe the process using an example walk-through. My example app needs special treatment on 64bit platforms, meaning you have to run it explicitly as 32bit in order to support some third-party libraries that will die horribly if in x64 mode. The goal is to have an `Any CPU` mode for any machine and an `x86` mode in case you need to build an explicit 32bit app for a 64bit environment. Later on you could ditch the `x86` mode if the incompatibility is out of the way. Note that if you don't have issues running on 64bit machines, you can do the following while only keeping `Any CPU` and can delete every other platform - making things much easier.

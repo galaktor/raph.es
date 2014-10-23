@@ -28,7 +28,7 @@ No surprises so far - just a normal day in the life of an engineer having to dea
 We grew up with this idea, that if you really want your boss to get into that alien chick's pants, you need to be a wizard. You get the point. That's why I believe it's Scotty's fault. Don't get me wrong, Scotty rocks (rest in peace, Mr. Doohan). But that inner geek inside us, it's probably a little Scotty.
 
 {{% fig caption="I couldn't find DuctTape or WD40 on GitHub" %}}
-{{% img src="/img/blogger/repairs.jpg" link="/img/blogger/repairs.jpg"  alt="duct tape and wd40 can fix anything" width="300px" %}}
+{{% img src="/img/blogger/repairs.jpeg" link="/img/blogger/repairs.jpeg"  alt="duct tape and wd40 can fix anything" width="400em" %}}
 {{% /fig %}}
 
 # Back to reality

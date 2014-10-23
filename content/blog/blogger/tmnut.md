@@ -36,7 +36,7 @@ There are also rather less obvious mutagens that can have the same effect, for e
 The problem with mutating tests is that you only notice them when they fail. This is worrying as it makes you wonder how many tests are mutating in ways that *prevent* them from failing when the actually should... In the following recent real-life case, two tests were failing even though there were no changes to the code.
 
 {{% fig caption="WTF?" %}}
-{{% img src="/img/blogger/negative-tickcount-teamcitytests.png" link="/img/blogger/negative-tickcount-teamcitytests.png" alt="tests fail even though code did not change" %}}
+{{% img src="/img/blogger/negative-tickcount-teamcitytests.jpeg" link="/img/blogger/negative-tickcount-teamcitytests.jpeg" alt="tests fail even though code did not change" width="300em" %}}
 {{% /fig %}}
 
 When I ran the same tests from the same version of the code locally on my machine, they passed. My spider-senses tingled: mutating tests! After looking at the build times I noticed that they began failing on March 12, and since then consistently failed. That indicates a temporal dependency.
@@ -54,13 +54,13 @@ Typically I will reboot my dev machine every few days, but the build agents ofte
 Enough of the theories, let's have some proof. TeamCity can show you when an agent has registered with the server - which I know will happen automatically every time the agent host boots up.
 
 {{% fig caption="When did my build agent last reboot?" %}}
-{{% img src="/img/blogger/negative-tickcount-teamcityagentinfo.png" link="/img/blogger/negative-tickcount-teamcityagentinfo.png" alt="checking the agent restart time on TeamCity" %}}
+{{% img src="/img/blogger/negative-tickcount-teamcityagentinfo.jpeg" link="/img/blogger/negative-tickcount-teamcityagentinfo.jpeg" alt="checking the agent restart time on TeamCity" width="400em" %}}
 {{% /fig %}}
 
 So it started up on Feb 15. That's just about exactly 25 days before the tests started to fail. The TickCount must have wrapped into the negative. So there's one more thing to do to prove it: using PowerShell you can call that same TickCount property and see what value it has. And sure enough...
 
 {{% fig caption="PowerShell gives you direct access to .NET methods" %}}
-{{% img src="/img/blogger/negative-tickcount-cropped.png" link="/img/blogger/negative-tickcount-cropped.png" alt="Invoking Environment.TickCount using PowerShell" %}}
+{{% img src="/img/blogger/negative-tickcount-cropped.jpeg" link="/img/blogger/negative-tickcount-cropped.jpeg" alt="Invoking Environment.TickCount using PowerShell" %}}
 {{% /fig %}}
 
 All that had to be done now is reboot the build servers, and the tests passed fine again!

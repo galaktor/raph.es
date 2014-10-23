@@ -23,7 +23,7 @@ The interface is much less cluttered with "gadgets" now, they're hidden behind t
 You can select different "dynamic views" over on the left of the main menu bar - most of them don't work well with this type of blog, exceptions being maybe "classic" and "sidebar", the latter which I have set to be the default. Google won't allow me to lock it down to just that view, so I guess that means you can switch them as you see fit - but be warned, they mostly suck.
 
 {{% fig caption="Blogger's dynamic views crop images with awkward results" %}}
-{{% img src="/img/blogger/dynamic_my_ass.png" link="/img/blogger/dynamic_my_ass.png" alt="Assembly gets cropped to *Ass*" width="450px" %}}
+{{% img src="/img/blogger/dynamic_my_ass.jpeg" link="/img/blogger/dynamic_my_ass.jpeg" alt="Assembly gets cropped to *Ass*" width="500em" %}}
 {{% /fig %}}
 
 From an authors point of view, the most notable new feature is that the "preview" now presents an interactive version of the site. I like to test the likes of links and images *before* going live, something that just was not possible with the old template, which resembled more a photo of your site rather than a real website. 
@@ -31,7 +31,7 @@ From an authors point of view, the most notable new feature is that the "preview
 Another nice gimmick is that Blogger finally got a sane "share" menu at the bottom of each post - featuring the actual number of tweets (was not there before) and ditching a bunch of who-gives-a-shit social networks (but obviously still hanging on to g+). Notice how there's even a Facebook "like" button - then again, I really consider that a bug, not a feature.
 
 {{% fig caption="Social networks in order of importance - according to Google" %}}
-{{% img src="/img/blogger/fake_shares.png" link="/img/blogger/fake_shares.png" alt="Google plus gets listed before Twitter and Facebook" %}}
+{{% img src="/img/blogger/fake_shares.jpeg" link="/img/blogger/fake_shares.jpeg" alt="Google plus gets listed before Twitter and Facebook" width="500em" %}}
 {{% /fig %}}
 
 # New "code" section
@@ -44,7 +44,7 @@ Many of my projects were already hosted elsewhere and lived in Mercurial reposit
 Bitbucket makes it [very easy](http://confluence.atlassian.com/display/BITBUCKET/Using+your+Own+bitbucket+Domain+Name) to point a CNAME to your profile, so now [code.galaktor.net](http://code.galaktor.net/) goes straight to the repository list. That's exactly where you end up if you hit the new "code" button in the main menu. Keep in mind that all I did so far was import a few old-ish projects. I intend to give them some TLC and add more in the near future.
 
 {{% fig caption="Blogger's stupid drop-down and the new 'code' menu item" %}}
-{{% img src="/img/blogger/new_menu_bar.png" link="/img/blogger/new_menu_bar.png" %}}
+{{% img src="/img/blogger/new_menu_bar.jpeg" link="/img/blogger/new_menu_bar.jpeg" width="450em" %}}
 {{% /fig %}}
 
 # Free beer

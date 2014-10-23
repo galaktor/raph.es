@@ -35,7 +35,7 @@ Using your favorite text editor, you can add a `Condition` attribute to any refe
 This works because in MSBuild the reference elements are [`Item` elements](http://msdn.microsoft.com/en-us/library/ms164283%28v=VS.100%29.aspx). Many element types can have condition attributes. If you look at other parts of your project file you will probably see that the project configuration and platform sections also use conditions similar to the above example. There are [other ways to define conditional logic in MSBuild](http://msdn.microsoft.com/en-us/library/ms164307.aspx), but this is probably the quickest and most understandable. If you plan to do more funky stuff, have a look at [`<Choose>` and `<Otherwise>`](http://msdn.microsoft.com/en-us/library/ms164282.aspx).
 
 {{% fig caption="Condition evaluates to *False*" %}}
-{{% img src="/img/blogger/reference-warning.png" link="/img/blogger/reference-warning.png" width="300em" %}}
+{{% img src="/img/blogger/reference-warning.jpeg" link="/img/blogger/reference-warning.jpeg" width="200em" %}}
 {{% /fig %}}
 
 # The `Platform` variable

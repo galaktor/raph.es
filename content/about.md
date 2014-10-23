@@ -8,7 +8,7 @@ author = "raph"
 I am Raphael. Most people call me Raph. On this humble website, I dump the things which occupy my brain-cycles on the rare occasion where I find the time to do so.
 
 {{% fig caption="tl;dr" %}}
-{{% img class="inline" src="/img/about_raph_thumb.png" alt="Accomplishments makes me happy." link="/img/about_raph.png" %}}
+{{% img class="inline" src="/img/about_raph_thumb.jpeg" alt="Accomplishments makes me happy." link="/img/about_raph.jpeg" %}}
 {{% clear %}}
 * **father**&nbsp;&nbsp;&nbsp;of children
 * **citizen**&nbsp;&nbsp;of earth

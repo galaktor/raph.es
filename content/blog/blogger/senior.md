@@ -16,7 +16,7 @@ When you get into the software industry, you notice how most companies make a bi
 I respectfully call bullshit. At least with regards to the usage of those terms in The Software Industry. The mere duration of having been in the industry is absolutely not a reliable indicator of "seniority" as most people mean it. Let's move away from that ambiguous term, and say: *experience*.
 
 {{% fig caption="How many people perceive 'seniority' in The Software Industry" %}}
-{{% img src="/img/blogger/senior_graph_bad.png" link="/img/blogger/senior_graph_bad.png" alt="People often assume linear relation between seniority and time" width="500px" %}}
+{{% img src="/img/blogger/senior_graph_bad.jpeg" link="/img/blogger/senior_graph_bad.jpeg" alt="People often assume linear relation between seniority and time" width="500px" %}}
 {{% /fig %}}
 
 # What makes a so-called "senior"?
@@ -46,7 +46,7 @@ Sadly, it's also why many developers with little experience do not appreciate lo
 Joe Programmer's CV saying "10 years writing performance-critical software in C++" looks more interesting to many readers than Jane Hacker's CV which states "4 years developing websites with Python". I've come to learn that both of these statements say equally *little* about the applicant's expertise. In fact, Jane could easily be more experienced (at whatever) because she might have been obsessively hacking away on twelve open-source projects in all her spare-time during those four years.
 
 {{% fig caption="There's more to 'senior' than technical skills" %}}
-{{% img src="/img/blogger/senior_graph_bad2.png" link="/img/blogger/senior_graph_bad2.png" alt="People often assume linear relation between seniority and technical skill" width="500px" %}}
+{{% img src="/img/blogger/senior_graph_bad2.jpeg" link="/img/blogger/senior_graph_bad2.jpeg" alt="People often assume linear relation between seniority and technical skill" width="500px" %}}
 {{% /fig %}}
 
 # Scalable experience
@@ -62,7 +62,7 @@ In a team, problems and solutions need to be explained and discussed. I've met p
 
 
 {{% fig caption="Better definition of 'senior'. Note that there is lots of middle ground" %}}
-{{% img src="/img/blogger/senior_graph_2.png" link="/img/blogger/senior_graph_2.png" alt="Seniority is where tech and communicational skills meet" width="500px" %}}
+{{% img src="/img/blogger/senior_graph_2.jpeg" link="/img/blogger/senior_graph_2.jpeg" alt="Seniority is where tech and communicational skills meet" width="500px" %}}
 {{% /fig %}}
 
 Aside from recruitment, many companies make this mistake in management, too. It seems that people who have joined the company earlier than others somehow get [dibbs](http://www.urbandictionary.com/define.php?term=dibbs) on the next leadership position that becomes available. Again, just because somebody is older or has been with the company longer, that by itself does not make them any more of an expert in...*anything* than somebody else who is younger and just joined six months ago.

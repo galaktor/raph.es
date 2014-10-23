@@ -16,7 +16,7 @@ So what I did before was an ugly hack - I used [psexec](http://technet.microsoft
 I recently did some reworking of my agents and decided to get rid of the psexec hack. What I did this time is much simpler: I gave up. Yep, I gave up trying to map the drives for the agents. If I want agents to be services, and services cannot map drives, so be it.
 
 {{% fig %}}
-{{% img src="/img/blogger/troll-mappings.png" link="/img/blogger/troll-mappings.png" width="400em" %}}
+{{% img src="/img/blogger/troll-mappings.jpeg" link="/img/blogger/troll-mappings.jpeg" width="400em" %}}
 {{% /fig %}}
 
 # Work with it, not against it
@@ -34,7 +34,7 @@ Keep in mind that your build machines will by default have a [PowerShell executi
     powershell.exe .\myscript.ps1 <path> -executionPolicy Bypass. 
 
 {{% fig %}}
-{{% img src="/img/blogger/tc-unmap-drives-step-highlight.png" link="/img/blogger/tc-unmap-drives-step-highlight.png" width="400em" %}}
+{{% img src="/img/blogger/tc-unmap-drives-step-highlight.jpeg" link="/img/blogger/tc-unmap-drives-step-highlight.jpeg" width="350em" %}}
 {{% /fig %}}
 
 # Example script (PowerShell)
