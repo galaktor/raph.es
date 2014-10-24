@@ -13,7 +13,7 @@ I'm not known to be an early adopter. I was late to the party for blogs with my 
 
 Of course I had toyed around with websites several times over the years. The first I recall was on GeoCities and had one of those free subdomains ending in `rocks.com.xy` or whatever. I had no clue about HTML at the time, so it consisted mainly of copyright-infringing snippets I scavenged from other pages and animated fire GIFs.
 
-So worked the wild-west that was the internet in the nineties.
+So worked the wild-west that was the internet back in the nineties.
 
 It also featured a "news" section. That's what people called their blogs before they were called blogs. The websites went the way of too many briefly interesting side-projects, and died of neglect.
 
@@ -83,11 +83,13 @@ Hosting my online persona - micro or not - on a proprietary platform didn't agre
 
 Instead, I was coming back full-circle to where I had begun over a decade ago when I created my first site on GeoCities. I just wanted my own little spot on the web where I can be myself. Where I can put up and take down whatever I want. And not give a damn about what anybody thinks about it.
 
-But this time, I knew what I would have to change. I go into more depth on the goals I set for this website on [project](/project/website/) page. But to not make an already long post any longer, here's the gist:
+But this time, I know what I would have to change. I go into more depth on the goals I set for this website on [project](/project/website/) page. But to not make an already long post any longer, here's the gist:
 
 > **"less is more."**
 > -- every smart person ever
 
-It had to be simple to publish, like Twitter. Give me some room, more like Blogger. Leave me control over my content. Integrate into my worflow, with least possible friction for hosting or editing. Focus on content - no clutter such as social media integration or comments.
+It has to be simple to publish, like Twitter. Give me some room, more like Blogger. Leave me control over my content (like neither). Integrate into my worflow, with least possible friction for hosting or editing. Focus on content - no clutter such as social media integration or comments.
 
 And when I change my mind on any of this, I want it to be easily hackable.
+
+Let's see how it goes this time.

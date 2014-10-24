@@ -9,6 +9,11 @@ title = "Feasability of powering a Raspberry Pi with a 3.7V battery"
 wasblogger = false
 slug = "feasible-power-raspberry-pi-3.7V-lipo-battery"
 +++
+mention: 500mA USB standard, but since OS enumeration fails (data lines not connected to pi, only 2 power lines) can drop down to 100mA max current; results in power problems when attached to usb hub etc and therefore powered hub rec
+
+most serious proj need dedicated power supply, even diy ones
+
+
 voltage reg test results:
 
 on board with pi, ncp1117
