@@ -18,10 +18,10 @@ The resulting four letters combine to form your *Myers-Briggs Type Indicator* (M
 "Enterprise" loves MBTI because of how it puts people into neatly labelled boxes. Consultants love MBTI because enterprise loves MBTI. Which is why I was sitting in said course.
 
 # I got `INTP`.
-* `I` **I**ntroverted
-* `N` I**n**tuitive
-* `T` **T**hinking
-* `P` **P**erceiving
+* `I`: **i**ntroverted
+* `N`: i**n**tuitive
+* `T`: **t**hinking
+* `P`: **p**erceiving
 
 # 25% science.
 The first part can turn out to be either **i**ntrovert of **e**xtrovert. In our group, this scale seemed to yield the clearest results. Given that most attendees were software developers, it should come as no surprise that most of us ended up getting *I*.
@@ -35,12 +35,20 @@ My beef with the other three is not that they don't apply to me. Quite the oppos
 
 The results are ambiguous, scientifically dubious and have no practical relevante in day-to-day life.
 
-Our "trainer" argued that MBTI merelly describes a *preference*, not a general rule. This is already huge red flag. I would tend to agree if people didn't naturally end up using the scores to reduce a person to their scores. Even the "trainer" commenced describing how *I's* do this and *E's* do that.
+Our "trainer" argued that MBTI merelly describes a *preference*, not a general rule (red flag!). I might have agreed if people hadn't instantly fell into a pattern of reducing others to their scores. "*P's* do `x` while *J's* do `y`", the trainer would say.
 
-The group happily followed her example. Some wrote their scores on their name signs, clearly identifying with it.
+Most of us wore their score like a badge. Literally: many wrote their scores in big letters onto the name signs in front of them. Gradually, people with similar scores formed little teams. In what superficially appeared to be innocent fun, teams made fun of the others' MBTI-stereotypes. "Haha, you *X* be so crazy."
+
+See also: [othering](http://therearenoothers.wordpress.com/2011/12/28/othering-101-what-is-othering/).
+
+
+
+
+
 
 # Pseudo-science is pseudo.
-In my opinion, the MBTI profiles of the sixteen MBTI types read very much like zoiac signs in astrology. Meaning they are written in such a way that they could apply to anyone. If you're told you're X, you'll go "Wow, that's *so* like me! I'm such a typical X!".
+Reading through the profiles of the sixteen MBTI types reminded me strongly of [astrology](https://en.wikipedia.org/wiki/Astrology_and_science). The profiles are written in such a way that they could apply to anbody.
+
 
 So while the fine print states MBTI is just a preference, the scores quickly become comfortable boxes. Once you're convinced that you are an *XXXX*, you identify with it so much that you become it. When a situation arises that seems to fit the profile, it's "wow, that's obviously because I'm X!". When the profile is at odds with behaviour, it's ignored.
 
@@ -53,6 +61,14 @@ The bias is strong with MBTI.
 
 See also: astrology.
 
-See also: pseudo-science.
+See also: [pseudo-science](https://en.wikipedia.org/wiki/Pseudoscience).
+
+
+# Why does this work?
+Most people enjoy personality tests and are quick to identify with the results, because they confirm your secret expectations. Just look at how successful pseudo-scientific tests are in magazine's or social media (i.e. Facebook).
+
+The ritual of completing the test first gives a sense of achievement, followed up by your hard-earned score. Littered with big sciency words, it passes most initial bullshit smell tests. Enough to slip through the mental guard most of us have built after years of living in a world full of people trying to take your money.
+
+
 
 I buy into the introvert-extrovert spectrum, but the rest is too dynamic for anyone to have a meaningful score. Companies like Myers-Briggs because it puts people into convenient little boxes.
