@@ -4,18 +4,18 @@ date = "2014-10-16T17:48:58+01:00"
 projects = []
 series = []
 tags = [ "introvert", "health" ]
-title = "On being an introvert"
+title = "MBTI is (mostly) bullshit"
 wasblogger = false
 aliases = [ "/on/introverts/" ]
 slug = "on-introverts"
 +++
-I an an *introvert*.
+I am an *introvert*.
 
-I know this because I took a test. It was part of a three day course for work. We all did a short *Myers-Briggs* test and got four numbers in the end. Each number then tells you where you sit on the four linear scales. Each scale is cut in half and - depending on which half your number falls on - you get one of two letters per scale.
+I know this because I took a test. It was part of a three day course for work. We all did a short *Myers-Briggs* test and got four numbers in the end. Each number then tells you where you sit on four linear scales. Each scale is split through the middle and - depending on which half your number falls on - you get one of two letters per scale.
 
 The resulting four letters combine to form your *Myers-Briggs Type Indicator* (MBTI). By knowing someone's MBTI, you're supposed to be able to better predict and understand another's preferences and behaviour.
 
-Enterprise loves MBTI because of how it puts people into neatly labelled boxes.
+"Enterprise" loves MBTI because of how it puts people into neatly labelled boxes. Consultants love MBTI because enterprise loves MBTI. Which is why I was sitting in said course.
 
 # I got `INTP`.
 * `I` **I**ntroverted

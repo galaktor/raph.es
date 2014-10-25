@@ -43,9 +43,12 @@ ascii:     "ascii/website.txt"
 
 
 # TODO
+* highlight currently selected menu section
+* auto-deploy from tavis to github pages
 * stale projects where date > x
 * highlight latest blog posts, projects
-* shrinkify pngs for project, way to large
+* ~~shrinkify pngs for project, way to large~~
+* ~~watermark images~~
 * add other projects, i.e. software ones
  * dansguardian
  * nodewire
