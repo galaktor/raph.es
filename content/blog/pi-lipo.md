@@ -9,6 +9,8 @@ title = "Feasability of powering a Raspberry Pi with a 3.7V battery"
 wasblogger = false
 slug = "feasible-power-raspberry-pi-3.7V-lipo-battery"
 +++
+test: remove connectors: comp vid out, audio jack (?) and usb connector to take less space
+
 mention: 500mA USB standard, but since OS enumeration fails (data lines not connected to pi, only 2 power lines) can drop down to 100mA max current; results in power problems when attached to usb hub etc and therefore powered hub rec
 
 most serious proj need dedicated power supply, even diy ones
@@ -39,6 +41,20 @@ test points: 3.62v
 reg in: 3.62v
 reg out: 2.68v
 reg diff: 0.96v
+
+test after repl rg, NO SD CARD:
+at batt: 4.02V
+test points: 4.02V
+reg in: 4.02V
+reg out: 3.25V
+
+test after repl rg, WITH SD CARD:
+at batt: 4.02V
+test points: 3.94V
+reg in: 3.94V
+reg out: 3.25V
+
+bypassing fuse doesn't seem to make massive difference...will go with usb for now. pass f3 still an option. must benchmark first
 
 new reg much closer to 3.3v on nominal 3.77v from lipo. hope to maximize battery life by replacing reg
 
