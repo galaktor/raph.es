@@ -15,7 +15,7 @@ Of course I had toyed around with websites several times over the years. The fir
 
 So worked the wild-west that was the internet back in the nineties.
 
-It also featured a "news" section. That's what people called their blogs before they were called blogs. The websites went the way of too many briefly interesting side-projects, and died of neglect.
+It also featured a "news" section. That's what people called their blogs before they were called blogs. The websites went the way of too many briefly interesting side-projects and eventually died of neglect.
 
 Then web-two-point-oh gave us a plethora of free (~beer) blog-as-a-service services. Public diaries with fancy client-side WYSIWYG editors.
 
@@ -43,7 +43,7 @@ This isn't Blogger's fault - it's in my head. Yet for me, blogging morphed from 
 # Blogger is not for me.
 Having this virtual spotlight pointed at me - imaginary, maybe, but all the same - fed my natural urge to personalize the look and feel of my blog. Once I stepped outside the boundaries which are *themes* I realised that Blogger is not a platform for geeks like I am.
 
-The widgets to insert functionality - such as galleries or Twitter streams-  looked terrible and didn't behave the way I wanted.
+The widgets to insert functionality - such as galleries or Twitter streams - looked terrible and didn't behave the way I wanted.
 
 The HTML and CSS I had to deal with was a mess. Multiple attempts to hand craft my own theme ended in nerd-tears. It was more tedious than I was willing to tolerate in my sparse *me time*.
 
@@ -70,9 +70,9 @@ The key moment was when I got an Android phone. It's Twitter app was responsive,
 Expressing myself via Twitter felt much more natural than what I had found myself doing on Blogger.
 
 # I stopped blogging overnight.
-I have been using Twitter more and more ever since. My twitter profile became my new online persona of choise. What blogger was supposed to be, just smaller. Unintentionally, I followed the trend from blogs to *microblogs*.
+I have been using Twitter more and more ever since. My twitter profile became my new online persona of choice. What blogger was supposed to be, just smaller. Unintentionally, I followed the trend from blogs to *microblogs*.
 
-What's interesting is that I didn't like Twitter more because of it's social features. I don't make much use of hashtags or lists or take part in discussions much. It was the simplicity of publishing thoughts that had me hooked.
+What's interesting is that I didn't like Twitter more because of it's social features. I don't make much use of hashtags or lists or take part in discussions. In fact, I don't think Twitter is a great tool for anything but the most superficial kind of conversation. Which are also the kinds of conversations I hate. It was the simplicity of publishing thoughts that had me hooked.
 
 Why try to be a full-blown author on your blog when you can just fire out one-liners on Twitter? One was much more compatible with a first-worlders daily routine than the other - I was no exception.
 

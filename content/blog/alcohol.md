@@ -1,6 +1,6 @@
 +++
 author = "raph"
-date = "2014-10-16T17:35:48+01:00"
+date = "2014-10-24T17:35:48+01:00"
 projects = []
 series = []
 tags = [ "health", "lchf", "rants" ]
@@ -20,7 +20,7 @@ As opposed to the dedicated driver. The hero-for-a-night who takes on the burden
 
 Society respects the recovering alcoholic, who has ventured so far into boozeland. Like they crossed some bizarre finish line. Mission accomplished. It's a way of proving one's ability to hold even more alcohol than the other guy. An impressive achievement, apparently. Just listen to friends and family credit each other for how much they were able to drink at that wedding last weekend. For being so hung over.
 
-To clarify my reasoning, I thought I'd write a little list of pros and cons to help explain my decision.
+To clarify my reasoning, I thought I'd write a little list of pros and cons.
 
 ## Why drinking alcohol sucks
 	- costs a lot of money
@@ -36,7 +36,7 @@ To clarify my reasoning, I thought I'd write a little list of pros and cons to h
 	- decreases my ability to defend myself in case of an attack
 	- increases the chances of being attacked
 
-Now, don't you tell me alcohol doen't taste horrible. It's barely drinkable even when masked by other ingredients (malt in beer; sugar in wine and cocktails). Higher concentrations taste so bad, people frown and gag when they drink it. The only people who enjoy that are pretending (see below) or alcoholics.
+Now, don't you tell me alcohol doen't taste horrible. It's barely drinkable even when masked by other ingredients (malt, barley in beer; sugar in wine and cocktails). Higher concentrations taste so bad, people frown and gag when they drink it. The only people who enjoy it are either pretending in order to appear tough or maybe alcoholics.
 
 Sure, if you drink the stuff long enough, you'll learn to distinguish tastes. Some drinks will taste better than others, relatively seen. But objectively, it tastes bad and for a good reason: it's toxic. Our body doesn't want it, so we haven't evolved to get any reward for drinking it.
 
@@ -45,7 +45,7 @@ Alright, moving on!
 ## What's good about drinking alcohol
     + complies with social norms
 
-There you have it. We grow up around adults drinking, and take it for granted that it's what adults are supposed to do. It's a social habit that we copy and never question. And that many people make fun of when someone refuses (I know because I'm that someone). Some people get so used to it, they real
+There you have it. Most of us grow up around adults who drink. We observe and learn that it's what adults are supposed to do in certan situations. It's a social habit that we copy and never question. And which many people make fun of when someone refuses to play along (I know because I'm that someone).
 
 In case you didn't know, I'm an [introvert](/on/introverts). I don't enjoy pubs and nights out. With the privilege of hindsight I now understand that the onyl reason I spent a significant part of my youth going to pubs and drinking alcohol was because I believed that is what you're supposed to do. And to impress friends - girls even.
 

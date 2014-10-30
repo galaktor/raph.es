@@ -1,76 +1,67 @@
 +++
 author = "raph"
-date = "2014-10-16T17:48:58+01:00"
+date = "2014-10-29T12:51:58+01:00"
 projects = []
 series = []
-tags = [ "introvert", "health" ]
-title = "The bias is strong with MBTI"
+tags = [ "introvert" ]
+title = "On being an introvert"
 wasblogger = false
 aliases = [ "/on/introverts/" ]
-slug = "on-introverts"
+slug = "on-being-an-introvert"
+draft = true
 +++
-I am an *introvert*.
+> "Constantly talking isn't necessarily communicating."
+>
+> -- <cite>[Joel](http://www.imdb.com/title/tt0338013/quotes?item=qt0287775); Eternal Sunshine Of The Spotless Mind</cite>
 
-I know this because I took a test. It was part of a three day course for work. We all did a short *Myers-Briggs* test and got four numbers in the end. Each number then tells you where you sit on four linear scales. Each scale is split through the middle and - depending on which half your number falls on - you get one of two letters per scale.
+I am a model *introvert*.
 
-The resulting four letters combine to form your *Myers-Briggs Type Indicator* (MBTI). By knowing someone's MBTI, you're supposed to be able to better predict and understand another's preferences and behaviour.
+The term is often misunderstood. *I* didn't even understand it until recently when I read [Quiet](http://www.thepowerofintroverts.com/) by *Susan Cain*. I recommend you read it to. Because while I want to describe what being an introvert means for me, this book does a much better job at describing it's meaning in a more general sense.
 
-"Enterprise" loves MBTI because of how it puts people into neatly labelled boxes. Consultants love MBTI because enterprise loves MBTI. Which is why I was sitting in said course.
+So here's a loose bag of things I associate with being an introvert. Some might not be exclusively limited to introversion, but sit under the same umbrella as far as *I'm* concerned. Take it with the usual grain of sceptical salt.
 
-# I got `INTP`.
-* `I`: **i**ntroverted
-* `N`: i**n**tuitive
-* `T`: **t**hinking
-* `P`: **p**erceiving
+## I prefer deep conversations over superficial *blah*.
+Small talk drives me mad. It's a game I hate to play, and the English speaking cultures in particular seem to love playing it.
 
-# 25% science.
-The outcome on the first scale can either be **i**ntrovert or **e**xtrovert. In our group, this scale seemed to yield the clearest results. Given that most attendees were software developers, it should come as no surprise that most of us ended up getting *I*.
+Talk about real things, or don't talk at all. Don't ask me "How are you?" unless you want a real answer. I'm absolutely ok if you don't ask me anything at all. *Mingling* is a nightmarish activity. A superficial, meaningless exchange of words that doesn't give me anything, but costs all my energy.
 
-Why? There's a large body of research and a variety of literature on the introvert-extrovert spectrum. Software development is consistently described as a field that attracts introverts. So I'm going to let this one pass as it's both scientificallly grounded and relevant in day-to-day life.
+Attention: It's nothing personal! You're probably a great person, really. I just don't want to be around people sometimes.
 
-I won't reiterate what is already well-described in aforementioned books. But just to give one example, it's why many of us prefer the asynchronous nature of electronic means of communication (i.e. email, chat) over synchronous face-to-face "talk".
+## Silence is great.
+That awkward silence when people don't know what to say? I'm fine with that. It's only awkward if I think that you think that I think that you should be saying something... It's ok to not talk unless there's something to talk about. There's no need to fill a few minutes in the hallway/elevator/train with chit-chat about weather or some sports event.
 
-# 75% percent bullshit.
-My beef with the other three is not that they don't apply to me. Quite the opposite actually. It's because they are defined in such a way that they apply to *everybody* and are inherently context dependant. Testing for them only captures one's preference *at the time of the test*, under the conditions of the test. But under different circumstances I might as well come out as the polar opposite.
+A few minutes of silence is great. It might be just what I need to recharge a bit. Or to think about that thing I've been thinking about...
 
-At one point we were presented with a hypothetical scenario: you are the coach of a children's football club. You manage to get just two tickets for a big game. How to do you decide who goes, and how do you communicate that to the children?
+## Staying at home is ok.
+People who like to stay at home are usually thought of as anti-social. Well, I prefer being at home doing whatever over going outside to socialize. Even when it's sunny outside, I might feel *zero* obligation to go outside and do whatever it is people do in the park or at the beach.
 
-According to MBTI, a typical ***t**hinker* would rank kids by some level of skill and reward the best with the tickets. A ***f**eeler* would be more worried about the other kids being sad or dissapointed, and try to work out a more social solution with the group.
+## Going to a pub is a chore.
+Some people can spend night after night socializing with countless others in pubs, bars, discos. I'd rather hang out and have dinner with a select few. Or by myself, with a good movie or book or so. Or a soldering iron.
 
-The problem here is, *t* and *f* are polar opposites of the same scale. I was scored to be a strong *t* based on the questions in the test earlier. And yes, the thought of rewarding two kids based on some score did cross my mind. But I was just as concerned about the other kids being dissapointed as anyone else would be.
+## I am *not* shy.
+I am a pretty good team player, and I have absolutely no problem stepping in front of people and presenting things. Quite the opposite, I enjoy it most of the time - and I've been told I'm actually quite good at it. I just need to recharge at some point - by having some space for myself.
 
-As these courses go, this scenario was contrived in order to set the stage for the purposes of MBTI. No wonder it lacked all the information which would have been critical for my decision. Like the number of children, their ages, price of tickets vs the childrens' family incomes, i.e. how likely it was that they'd ever go to such a game. I had suggested alternatives, one being to take all the other kids to another event rather than not rewarding them at all. However, they depended on variables not provided. Because alternatives weren't desired. They don't fit into the rigid boxes that are MBTI types.
+## I hate context switching.
+I am best when I can focus on one thing at a time, properly. Multi-tasking is a myth, and even more so for introverts. Do one thing properly instead of many things badly.
 
-A linear scale is simply not sufficient to accomodate this spectrum of decision making. Flattening it all like MBTI does disposes too much information to have relevance in the real world.
+## Fueled by curiousity.
+When I get curious about a subject I wish to learn more about, I can get obsessed with it. It's all that's on my mind for a period of time. Weeks. Maybe months during which I absorb whatever I can, as fast as I can.
 
-If I was to be generous (which apprarenltly I'm not, because I'm not a *f*) I could admit that MBTI gave a correct prediction that I had *considered* the ranking option, and as a result *could* have decided something similar. Maybe the fact that I'm thinking about all this confirms that I'm a typical *t*. Can one assume someone who scored *f* would *not* think about these things? Certainly not.
+Eventually I move onto something else that catches my interest, and drop that previous thing like a hot potato - just to switch back to the former sometime later. Remember, I don't like multi-tasking. I can be best and most efficient when zooming in on one thing only.
 
-When people end up doing what MBTI predicted, it appears to confirm the correctness of MBTI. When people decide differently, it's either ignored or handwaived away by the general cop-out:*"MBTI only describes a preference"*
+Don't get me wrong, I can do other stuff, too. I pull my own weight on projects which don't happen to fall into my current topic of interest. But on those projects that capture my curiosity, my imagination... those where I feel I can learn new things, explore new territory... at those, I excel.
 
-See also: *confirmation bias*.
+## I might take longer to do something
 
-# Pseudo-science is pseudo.
-I did raise my concerns during the course. The defense was the same every time. Our "trainer" would argue that MBTI merely describes a *preference*, not a general rule (huge red flag). I might have agreed if people hadn't instantly fell into a pattern of reducing others to their scores. "*P's* do `x` while *J's* do `y`", the trainer would say. So even if we gave MBTI the benefit of the doubt, and went with the *preference* hypothesis, in practice it is not used as such. Human minds don't work like that.
+## OCD
 
-Most of us wore their score like a badge. Literally: many wrote their scores in big letters onto the name signs in front of them. Gradually, people with similar scores formed little teams. In what superficially appeared to be innocent fun, teams ganged up and mocked the others' MBTI-stereotypes. "Haha, you *X* be so crazy."
+## Ticks
 
-See also: [othering](http://therearenoothers.wordpress.com/2011/12/28/othering-101-what-is-othering/).
+## 
 
-Reading through the profiles of the sixteen MBTI types reminded me strongly of . The profiles are written in such a way that they could apply to anybody.
+# The bottom line
+In practice it means I avoid big social get-togethers. I probably won't talk to you in the elevator. I pull my own weight on everyday tasks, but *excel* at work that interests me.
 
-So while the fine print states MBTI is just a preference, the scores quickly become comfortable boxes. Once you're convinced that you are an *XXXX*, you identify with it so much that you become it. When a situation arises that seems to fit the profile, it's "wow, that's obviously because I'm X!". When the profile is at odds with behaviour, it's ignored.
+I used to think I'm a weird loner. Maybe a bit down the autistic spectrum. This is because the visible part of society is made up of extroverts, who perpetuate extrovert ideals. Introverts are alll over the place, they're just not typically in the foreground.
 
-See also: [astrology](https://en.wikipedia.org/wiki/Astrology_and_science).
-
-See also: [pseudo-science](https://en.wikipedia.org/wiki/Pseudoscience).
-
-# Why is MBTI so popular then?
-Most people enjoy personality tests and are quick to identify with the results, because they confirm your secret expectations. Just look at how successful pseudo-scientific tests are in magazine's or social media (i.e. Facebook). MBTI tests or derivatives thereof are very popular on the web.
-
-It's easy to do the test. And passing a test gives you a sense of accomplishment. It's fun to label oneself and others. It's fun to make fun people's quirks. It makes sense on the surface and contains just enough science to make it get past our bullshit sensors.
-
-I buy into the introvert-extrovert spectrum, but the rest is too dynamic for anyone to have a meaningful score. MBTI has very little practical relevance. It oversimplifies human psychology and the complexity of decision making. The resulting simplicity is what makes it so tempting to buy into MBTI. I think it's dangerous how it sets wrong expectations when people use it as a predictor. Which they do, despite the disclaimers.
-
-So, looking at all this I suppose I'm a typical *t* after all.
-
-Or am I?
+Reading about introverts really helped me accept what I am.

@@ -5,7 +5,13 @@ title = "Me"
 tags = [ "lchf", "tough mudder", "blogger", "twitter", "science" ]
 author = "raph"
 +++
-I am Raphael. Most people call me Raph. On this humble website, I dump the things which occupy my brain-cycles on the rare occasion where I find the time to do so.
+I am Raphael. Most people call me Raph. The blog contains stuff I think about.
+
+What you'll find on this page are strictly *my own* personal opinions (not my employers'; yadda yadda). Ranty. Biased. Typos. Not always clearly structured. Mostly without statistically significant evidence. Get over it.
+
+With that out of the way, I do try to structure my thoughs so that they are somewhat readable. Maybe one or two bits of useful knowledge are hidden in there, too. Do have a look around.
+
+Constructive feedback is always welcome! Sometimes I might even listen to it. :-)
 
 {{% fig caption="tl;dr" %}}
 {{% img class="inline" src="/img/about_raph_thumb.jpeg" alt="Accomplishments makes me happy." link="/img/about_raph.jpeg" %}}

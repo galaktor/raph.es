@@ -12,6 +12,9 @@ ascii:     "ascii/website.txt"
 * static pages
 * no database
 * simple style
+* no social media spyware
+* no tracking pixels or anything
+* NO JAVASCRIPT AT ALL, all html/css/img
 
 ## personal
 * my own design from the ground up - incl all quiks
