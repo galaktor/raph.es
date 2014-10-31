@@ -46,6 +46,10 @@ ascii:     "ascii/website.txt"
 
 
 # TODO
+* TOC shortcode?
+* GitHub issues for content improvements/changes
+* show revision of source repo as version in subtree html
+* embed history/versions of a given content?
 * highlight currently selected menu section
 * auto-deploy from tavis to github pages
 * stale projects where date > x

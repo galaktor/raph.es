@@ -9,81 +9,133 @@ title = "Feasability of powering a Raspberry Pi with a 3.7V battery"
 wasblogger = false
 slug = "feasible-power-raspberry-pi-3.7V-lipo-battery"
 +++
-mention: 500mA USB standard, but since OS enumeration fails (data lines not connected to pi, only 2 power lines) can drop down to 100mA max current; results in power problems when attached to usb hub etc and therefore powered hub rec
+I recently got thinking about how I might power a Raspberry Pi off batteries. The [project](/project/mudcam) I have in mind is effectively a wearable video camera, so it has to be as compact as possible and have a good few hours of battery life to be of any practical use.
 
-most serious proj need dedicated power supply, even diy ones
+Raspberry Pi boards are not designed for embedded projects. Instead, they are supposed to be small, cheap computers for use with simple USB keyboards and HD TVs. There is much confusion around how to power the Pi, and every revision has brought changes to the power circuits.
 
-----
-I recently got thinking about how I could power a Raspberry Pi off batteries. The [project](/project/mudcam) I have in mind is effectively a wearable video camera, so it has to be as compact as possible and have a good few hours of battery life to be of any practical use. 
+That said, with some modification a Pi can still be very useful in embedded projects such as the one I have in mind. The following is the summary of my research on the subject of powering the Raspberry Pi, particularly with an eye towards lower-than-recommended voltage like from batteries.
 
-## The 5V requirement
-What's interesting is that the Pi only seems to require 5V in order to compliant with the USB and HDMI standards. Otherwise, the board itself has no need for 5V at all.
+# The 5V requirement
+It seems that the Pi only requires 5V in order to comply with the USB and HDMI standards. Otherwise, the board itself has no need for 5V at all.
 
-According to [Dave Akerman](http://www.daveakerman.com/?page_id=1294), the Pi only powers a handful of components via the 5V that come in from the micro USB port:
+According to [Dave Akerman](http://www.daveakerman.com/?page_id=1294), the 5V from USB only powers a handful of components:
 
-* USB peripherals
-* HDMI output
-* VSense pin on the BCM2835 MCU
-* the 3.3V voltage regulator
+1. USB peripherals
+2. HDMI output
+3. VSense pin on the BCM2835 MCU
+4. the 3.3V voltage regulator
 
-### USB power
-The Pi was designed to be a cheap, small, but stationary computer that can interface with standard USB devices. Naturally it was designed around the USB power standards, more specifically USB 2.0 at the time. The micro USB port of the Pi takes in +5V DC via pin 1 and the 0V (ground) on Pin 5. None of the other USB pins are used, as they are for data transfer, and the Pi only uses USB for power.
 
-The voltage officially required in is also precisely what USB specifies: between +4.75V and +5.25V. USB 2.0 devices can draw a maximum of 500mA. Because the pi is not connected to the two USB data lines, it will not be detected by a host that enumerates it's USB slaves. In that case it's possible that a host might limit current to merely 100mA.
+# 1. USB power
+The Pi was designed to be a cheap, small,  stationary computer that can easily interface with most keyboards and screens. Naturally it was built around the USB power standards. Specifically USB 2.0 at the time. The micro USB port of the Pi gets +5V DC via pin 1 and the 0V/GND line on Pin 5. None of the USB data lines are used.
 
-This is also why for most projects it is recommended to use a powered USB hub and/or dedicated power supply. Otherwise all the devices current draw can exceed what is provided through USB alone. Many, *many* newbie problems are a result of insufficient or irregular power supply.
+It makes sense that the Pi requires 5V input in order to provide the same to it's standard keyboard and mouse peripherals.
 
-So in a nutshell, the Pi is designed to get around 5V and 500mA so that it's compatible with the USB standard.
+I don't want to use USB peripherals at all, so I should be able to ignore this requirement.
 
-### HDMI
-Another main feature of the Pi that made the designers opt for a 5V power requirement is the HDMI video output. The HDMI standard [requires](http://www.hdmi.org/learningcenter/kb.aspx?c=13) 5V on one of it's lines.
+## 2. HDMI
+Another main feature of the Pi that made the designers opt for a 5V power requirement is HDMI video output. The HDMI standard [requires](http://www.hdmi.org/learningcenter/kb.aspx?c=13) 5V on one of it's lines.
 
-> The HDMI specification requires all source devices to provide at least 55mA (milliamps) on the 5V line for the purpose of reading the EDID of a display.
+> The HDMI specification requires all source devices to provide at least 55mA (milliamps) **on the 5V line** for the purpose of reading the EDID of a display.
 
-### VSense pin
-This is a special pin on the microcontroller of the Pi. From what I could gather, it has to be kept high so that the MCU knows that there's sufficient voltage for operation. If this has insufficient power, the MCU will deactivate.
+HDMI is basically the USB for displays and it's everywhere. It was good call since HDMI support is  one of the most popular features of the Pi. Just look at how many people use it as a hi-def media center.
 
-However, it [seems](http://www.daveakerman.com/?page_id=1294) that 3.3V is sufficient to keep the pin high and 5V is not really required.
+I don't require HDMI output for my project, so again, I should be able to safely ignore this requirement.
 
-TODO: reference datasheet on VSense pin
+## 3. VSense pin
+This is a special pin on the Broadcom SoC. From what I could gather it has to be kept high so that the MCU knows that there's sufficient voltage for operation. If voltage drops too low, the chip will deactivate and the Pi will not work.
 
-### RG2
-Since most of the components on the Pi PCB work on 3.3V or less, a voltage regulator marked "RG2" has the job of stepping down the USB 5V to be 3.3V. The regulated output from RG2 also flows into two other regulators, "RG1" and "RG3" - those step the voltage down even further for components which tolerate less volts.
+However, it [seems](http://www.daveakerman.com/?page_id=1294) that 3.3V is sufficient to keep the pin high. 5V is not really required here.
 
-This is where things get very interesting, and I'll come back to RG2 in a moment.
+Three down, one to go.
 
-## It's a feature, not a bug.
-This is not a flaw. Raspberry Pi boards are not designed for embedded projects. Instead, they are supposed to be small, cheap computers for use in education. It's compatibility with USB and HDMI are features, not bugs.
+## 4. RG2
+Most of the components on the Pi PCB work off 3.3V or less, so a voltage regulator marked `RG2` on the PCB has the job of stepping down the 5V from USB to more tolerable 3.3V. The regulated output from RG2 also flows into two other regulators, `RG1` and `RG3` - those step the voltage down even further for more sensitive components.
 
-That said, with some modification a Pi can still be very useful in embedded projects such as the one I have in mind.
+`RG2` in most new boards is a linear voltage regulator of type [NCP1117](http://www.onsemi.com/PowerSolutions/product.do?id=NCP1117). It's takes in a more or less wide range of voltage and steps it down to 3.3 volts. The excess is lost as heat.
 
-## How much current does a Pi draw?
-The amount of current a Raspberry Pi will draw depends on a few factors. I have a Model A which can draw as little as 115mA. The model B has additional components - most notably an ethernet controller - and can require three times as much as the model A. The B+ is fairly new and I've heard it's optimized a bit compared to the B even though it has even more connectors.
+This is where things get very interesting, and I'll come back to `RG2` in a moment.
 
-I have a model A so I'll be concerned about that one here.
+# Current draw
+The amount of current a Raspberry Pi will draw depends on a few factors. Here's some detail on the factors I could gather so far.
 
-In addition to the on-board components, the peripherals will typicall increase the Pi's draw significantly, i.e. Wi-Fi dongles
+## Model A FTW
+I have a Raspberry Pi Model A which according to spec can draw up to 500mA. Fortunately for me, this is an upper limit for standard use cases involving HDMI screens and some USB devices connected.
 
-TODO
+Hackers on the interwebs report that a model A can draw as little as 115mA. The model B has additional components - most notably an ethernet controller - and requires up to three times as much as the model A. The B+ is fairly new and I've heard it's optimized a bit compared to the B even though it has even more connectors. Still, it pulls more amps than a model A.
 
-### Disable video output to save power
-You can disable certain components on the Pi to save some power consumption, most notably the PAL and HDMI outputs (I have yet to find out how to do this in Arch, my prefered distro on the Pi)
+I don't need any of the fancy additions in models B or B+. I managed to get my hands on another model A which I'll be using for the project. Model As are hard to come by these days. Grab one when you get the chance. I got one off eBay. *Slightly* overpriced - just a bit. Hope it's worth it...
+
+## Don't use USB peripherals
+In addition to the on-board components, the peripherals will typicall increase the Pi's draw significantly. Unless you use a powered USB hub or some other form of external power for your devices, they will pull power straight through the Pi. This can have all kinds of strange side effects.
+
+Many a newbie problem can be traced back to insufficient or irregular power supply.
+
+The Pis *official* power requirements are derived from the USB spec: between +4.75V and +5.25V. USB 2.0 devices can draw a maximum of 500mA. Because the Pi is not connected to the two USB data lines, it will not be detected by a host that enumerates it's USB slaves. USB devices communicate their power requirements via the data lines to the host. The Pi cannot do that, so it's very possible that a host will limit current to merely 100mA.
+
+Best practice is to use a powered USB hub and/or dedicated power supply. Some people even build their own PSUs. Otherwise the combined current draw of Pi and USB devices can exceed what is provided via the USB port alone. Similar problems arise when using random power supplies, such as phone chargers.
+
+As I mentioned earlier, I have no intention of using USB devices in my project.
+
+## Disable video output to save power
+You can disable certain components on the Pi to save some power consumption, most notably the video outputs. Here's what I found on the web for the default Raspbian distro:
     
 	# on startup of Raspbian
 	# deactivate video output
     /opt/vc/bin/tvservice -off
 
-### Underclock the MCU to save power
-From what I heard, underclocking doesn't seem to make a relevant difference so I'll just accept that for now (and I might even dare to overclock a bit later). This is certainly relative to the other power consumers, most notably the quite inefficient voltage regulator at RG2.
+I believe it's the same in Arch, my preferred distro - not only for the Pi. I've yet to test this.
 
-### RG2 - the bad guy
-RPi rev2 (newer model b's and all model a) have a NCP1117-3V3 primary voltage regulator (rg2, confusingly), which in turn powers two other regulators (rg1 and rg3)
+It is not clear to me how much this will save. The HDMI spec indicated up to 55mA draw. How much this actually is without a TV connected, I cannot say. I suspect that this will have very little effect on power consumption.
 
-the few other 5v parts on pi (usb, hdmi, vsense pin) are powered directly from the +5V V(in) line from micro USB, which is expected to be stable +5V DC.
+## Underclock the MCU to save power
+You can change some boot parameters for the Pi firmware, including clock rates for MCU/GPU and memory sizes. It would seem intuitive to assume that clocking the chips down a notch could save some power.
 
-the fourth part is rg2, which provides 3.3v to the most important components.
+However, from what I heard, underclocking doesn't seem to make a relevant difference compared to other big spenders like USB, the `RG2` regulator and in some cases the `F3` fuse (see below).
 
-how to power pi from battery? since vanilla pi wants +5V (USB standard min +4.75V; rg2 min ~4.5V;), several options exist:
+## Bypass the fuse
+There are a few fuses on board. Some smaller ones protect connected USB devices, so the power leaving the Pi. But a big one is on the input side and is hooked up to the micro USB power input.
+
+The fuse increases resistance as current levels go up. It starts to kick in around 700mA, and blows somewhere over 1A. Notice that this puts a hard limit on how much current your Pi and all of it's USB devices can get, even if the PSU you have connected to the micro USB connector can give more.
+
+Even if you are well under the 700mA draw, the fuse might drop some voltage before the power even hits the rest of the board. How much depends on the fuse, since they have some production-based variance. Also, if you ever blew the fuse it can take days and weeks until the drop goes away.
+
+Having the fuse is a good thing for most use cases. You don't want little Jimmy to burn his Pi just because he hooked up his USB hair dryer to the Pi. But in my case the batteries won't even be able to give enough juice to max out the fuse. Plus, I'm going for as little current draw as possible. So bypassing the fuse altogether is definitely an option.
+
+You can either bridge the fuse connectors with a smaller resistor, so current flows through that rather than the fuse. Or maybe even put a jumper across for zero resistance.
+
+A simpler, less invasive way is to power the Pi via it's GPIO pins. One is connected to the 5V rail after the fuse. This is what most embedded projects do.
+
+Obviously at the risk of frying the board.
+
+Well, **YOLO**.
+
+## RG2 is a problem
+Revistion 2 boards (i.e. newer model Bs and all model As) have a `NCP1117-3V3` primary voltage regulator at `RG2`. It, in turn, powers two other regulators `RG1` and `RG3`. The stuff I care about all takes power from this guy.
+
+The problem with RG2 is, it was chosen to fit the typical conditions for the Pi: regulated +5V DC. The NCP1117 has a drop out voltage of over 1.2V. This means the difference between it's input and output voltage has to be at least 1.2V. If the voltage is lower than the DO, the regulator will stop working. No power downstream means, well, no power for your Pi.
+
+We know the output of RG2 is 3.3V. So the minimum input voltage after the fuse has to be *at least* 4.5V. This is a problem if you're trying to run on batteries. Most affordable batteries have lower voltages than 5V.
+
+
+
+# Ways to make batteries work
+There's a few ways to work around the issue of `RG2`'s minimum voltage, which I'll describe in the next section.
+
+## Use higher voltage batteries
+And let RG2 step it down again.
+Loose the difference as heat.
+Wasteful.
+
+## Step up lower voltage batteries
+Take lower volt batteries, and run them through a step up converter.
+Draws more power from your batteries.
+Is not very efficient, and you're only doing it to step it down again in `RG2`.
+
+## Replace RG2 with lower DO
+THIS
+
+----
 
 use higher voltage batteries, and step them down to 5v: for example, 4 AA batteries in series provide ~6V. >1 lipo cell will also need to be stepped down, say 2S (2 cells in series) = 2x3.7V = 7.4V.
 
@@ -94,7 +146,7 @@ if like me you don't really care about USB and HDMI (headless mode, no wifi or s
 ideally i would be able to supply as close to 3.3V as possible, allowing for sufficient current draw under recording/IO load (VERY rough guess: ~500mA - 1A). a single cell LiPo provides between ~3V(ish) (drained) and ~4.2V (charged). this is assuming lipo has undervoltage protection that cuts off at some point, typically a bit over/under 3V.
 
 so how to use lowe voltage?
-step up lower voltage to 5V. this is accomplished using step up/boosters which again are not known to be very efficient in the first place. you can find many examples on the web where people show off their nice pi running of two AA batteries (3V) but generally their battery life will be terrible. cool hack, but not great if you want to run the thing for a few hours. booster efficiency is (from what i gather reading about them...) roughly 70%. So you loose 30% power just pushing power into the Pi. Then that 5V power gets used for stuff you might not even need (usb, hdmi). The rest gets regulated down again into 3.3V by your rg2, again at (best) approx 70% efficiency, losing another 30%. keep in mind, rg2 efficiency can be as bad as 50%. So there goes lots of precious battery life!
+step up lower voltage to 5V. this is accomplished using step up/boosters which again are not known to be very efficient in the first place. you can find many examples on the web where people show off their nice Pi running of two AA batteries (3V) but generally their battery life will be terrible. cool hack, but not great if you want to run the thing for a few hours. booster efficiency is (from what i gather reading about them...) roughly 70%. So you loose 30% power just pushing power into the Pi. Then that 5V power gets used for stuff you might not even need (usb, hdmi). The rest gets regulated down again into 3.3V by your rg2, again at (best) approx 70% efficiency, losing another 30%. keep in mind, rg2 efficiency can be as bad as 50%. So there goes lots of precious battery life!
 
 so why not just plug in a single cell lipo?
 I could take a male micro-usb connector, and attach a JST plug or similar for battery to go into the USB D+ and D- pins. This would feed battery directly into the pi.
@@ -113,7 +165,7 @@ What we really need is a lower drop out voltage than the original Pi has, since 
 * MCP1826, 1000mA output current, ~0.30V DO, ~5-6EUR on ebay
 * MCP1827, 1500mA output current, ~0.33V DO, ~7EUR on ebay
 
-say we used the MCP1827 with a typical DO of 0.33V. Set to 3.3V output, that's a min of 3.6V input. Remember out typical lipo cell has 3.7 nominal output voltage. it seems hard to get input voltage any closer to the 3.3V we really want to use! you could probably get a bit more life out of your battery when using the 1826 or even 1825, but you'll sacrifice output current as you do. so you really need to understand how much you will be drawing before you can make the best decision here. if in doubt, without HDMI or USB I suspect you can easily go with 1A current, but I'm not fully sure about the 1825 - reports do indicate the pi can run as low as 115mA so it might work, depending on how you utilize the pi. 
+say we used the MCP1827 with a typical DO of 0.33V. Set to 3.3V output, that's a min of 3.6V input. Remember out typical lipo cell has 3.7 nominal output voltage. it seems hard to get input voltage any closer to the 3.3V we really want to use! you could probably get a bit more life out of your battery when using the 1826 or even 1825, but you'll sacrifice output current as you do. so you really need to understand how much you will be drawing before you can make the best decision here. if in doubt, without HDMI or USB I suspect you can easily go with 1A current, but I'm not fully sure about the 1825 - reports do indicate the Pi can run as low as 115mA so it might work, depending on how you utilize the pi. 
 The Pi fuse appears to be at 750mA
 The USB 2.0 standard says max 500mA
 So it's reasonable to assume that a Pi w/o video or USB peripherals will draw not even close to 500mA.
