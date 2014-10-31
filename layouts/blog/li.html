@@ -1,1 +1,1 @@
-<li>[B] <time>{{ .Date.Format "2006-01-02" }}</time> <a href="{{ .RelPermalink }}">{{ title .Title }}</a></li>
+<li>{{ if .Draft }}[D]{{ else }}[B]{{ end }} <time>{{ .Date.Format "2006-01-02" }}</time> <a href="{{ .RelPermalink }}">{{ title .Title }}</a></li>

@@ -14,9 +14,9 @@ draft = true
 >
 > -- <cite>[Joel](http://www.imdb.com/title/tt0338013/quotes?item=qt0287775); Eternal Sunshine Of The Spotless Mind</cite>
 
-I am a model *introvert*.
+I am a classic *introvert*.
 
-The term is often misunderstood. *I* didn't even understand it until recently when I read [Quiet](http://www.thepowerofintroverts.com/) by *Susan Cain*. I recommend you read it to. Because while I want to describe what being an introvert means for me, this book does a much better job at describing it's meaning in a more general sense.
+That term is often misunderstood. *I* didn't even understand it until recently when I read [Quiet](http://www.thepowerofintroverts.com/) by *Susan Cain*. I recommend you read it to. Because while I want to describe what being an introvert means for me, this book does a much better job at describing it's meaning in a more general sense.
 
 So here's a loose bag of things I associate with being an introvert. Some might not be exclusively limited to introversion, but sit under the same umbrella as far as *I'm* concerned. Take it with the usual grain of sceptical salt.
 

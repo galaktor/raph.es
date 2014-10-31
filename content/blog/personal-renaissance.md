@@ -8,6 +8,7 @@ title = "My personal renaissance"
 wasblogger = false
 aliases = [ "/on/scepticism/" ]
 slug = "personal-renaissance"
+draft = true
 +++
 
 > "Half the facts you know are probably wrong."
