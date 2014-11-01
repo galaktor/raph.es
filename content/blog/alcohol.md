@@ -16,13 +16,13 @@ Some years ago - to the surprise of many of my family and friends - I decided to
 # People ask if I'm a recovering alcoholic.
 I answer no, although answering yes would be easier. It seems like being an alcoholic is the only acceptable reason to not drink for good.
 
-As opposed to the dedicated driver. The hero-for-a-night who takes on the burden of seeing how stupid his friends behave when they get intoxicated. But only under the condition that someone else drives the next time. 
+Society respects the *recovering alcoholic*, who has ventured so far into boozeland. Like they crossed some bizarre finish line. Mission accomplished. It's a way of proving one's ability to hold even more alcohol than the other guy. An impressive achievement, apparently. Just listen to friends and family credit each other for how much they were able to drink at that wedding last weekend. For being so hung over.
 
-Society respects the recovering alcoholic, who has ventured so far into boozeland. Like they crossed some bizarre finish line. Mission accomplished. It's a way of proving one's ability to hold even more alcohol than the other guy. An impressive achievement, apparently. Just listen to friends and family credit each other for how much they were able to drink at that wedding last weekend. For being so hung over.
+A subtle difference compared to the *dedicated driver*: the hero-for-a-night who takes on the burden of seeing how stupid his friends behave when they get intoxicated. But only under the condition that someone else drives the next time. 
 
 To clarify my reasoning, I thought I'd write a little list of pros and cons.
 
-## Why drinking alcohol sucks
+## Drinking alcohol CONS
 	- costs a lot of money
 	- tastes horrible
 	- it's literally toxic
@@ -42,14 +42,14 @@ Sure, if you drink the stuff long enough, you'll learn to distinguish tastes. So
 
 Alright, moving on!
 
-## What's good about drinking alcohol
+## Drinking alcohol PROS
     + complies with social norms
 
 There you have it. Most of us grow up around adults who drink. We observe and learn that it's what adults are supposed to do in certan situations. It's a social habit that we copy and never question. And which many people make fun of when someone refuses to play along (I know because I'm that someone).
 
-In case you didn't know, I'm an [introvert](/on/introverts). I don't enjoy pubs and nights out. With the privilege of hindsight I now understand that the onyl reason I spent a significant part of my youth going to pubs and drinking alcohol was because I believed that is what you're supposed to do. And to impress friends - girls even.
+In case you didn't know, I'm an [introvert](/on/introverts). I don't enjoy pubs and nights out. With the privilege of hindsight I now understand that the main reason I spent a significant part of my youth going to pubs and drinking alcohol was because I was under the impression that it's what you're supposed to do. And to impress friends. *Girls* even.
 
-That sounds *incredibly silly*. And it is. Which is why I stopped. I can socialize without drinking alcohol. I will not perpetuate the synthetic importance of an expensive toxin.
+That sounds *incredibly silly*. And it is. Which is why I stopped! I can socialize without drinking alcohol. I will not perpetuate the synthetic importance of an expensive toxin. Especiallly not to my kids. Oh, and I'm beyond the point where I think I have to impress people like that.
 
 My kids will grow up with me as an example for how you can think for yourself and refuse to do stupid stuff other people do. How you don't have to be a recovering alcoholic to stop drinking.
 

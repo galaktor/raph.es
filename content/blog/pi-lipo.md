@@ -57,7 +57,7 @@ Most of the components on the Pi PCB work off 3.3V or less, so a voltage regulat
 This is where things get very interesting, and I'll come back to `RG2` in a moment.
 
 # Current draw
-The amount of current a Raspberry Pi will draw depends on a few factors. Here's some detail on the factors I could gather so far.
+The less current the Pi needs, the smaller my batteries can be and the longer they can last. The amount of current a Raspberry Pi will draw depends on a few factors. Here's some tricks I collected to reduce current draw to a minimum.
 
 ## Model A FTW
 I have a Raspberry Pi Model A which according to spec can draw up to 500mA. Fortunately for me, this is an upper limit for standard use cases involving HDMI screens and some USB devices connected.
@@ -66,16 +66,16 @@ Hackers on the interwebs report that a model A can draw as little as 115mA. The 
 
 I don't need any of the fancy additions in models B or B+. I managed to get my hands on another model A which I'll be using for the project. Model As are hard to come by these days. Grab one when you get the chance. I got one off eBay. *Slightly* overpriced - just a bit. Hope it's worth it...
 
-## Don't use USB peripherals
-In addition to the on-board components, the peripherals will typicall increase the Pi's draw significantly. Unless you use a powered USB hub or some other form of external power for your devices, they will pull power straight through the Pi. This can have all kinds of strange side effects.
+## Don't trust USB.                                          
+In addition to the on-board components, any connected USB peripherals can increase the Pi's draw significantly. Unless you use a powered USB hub or some other form of external power for your devices, they will pull power straight through the Pi. This can have all kinds of strange side effects.
 
 Many a newbie problem can be traced back to insufficient or irregular power supply.
 
-The Pis *official* power requirements are derived from the USB spec: between +4.75V and +5.25V. USB 2.0 devices can draw a maximum of 500mA. Because the Pi is not connected to the two USB data lines, it will not be detected by a host that enumerates it's USB slaves. USB devices communicate their power requirements via the data lines to the host. The Pi cannot do that, so it's very possible that a host will limit current to merely 100mA.
+In *theory*, you can power a Pi from the USB on your computer or hub. USB 2.0 devices are allowed to draw up to 500mA. But because the Pi is not connected to the two USB data lines, it will not be detected by a host that enumerates it's USB slaves. USB devices communicate their power requirements via the data lines to the host. The Pi cannot do that, so it's very possible that a host will limit current to merely 100mA.
 
-Best practice is to use a powered USB hub and/or dedicated power supply. Some people even build their own PSUs. Otherwise the combined current draw of Pi and USB devices can exceed what is provided via the USB port alone. Similar problems arise when using random power supplies, such as phone chargers.
+Best *practice* is to use a powered USB hub and/or dedicated power supply. Some people even build their own PSUs. Otherwise the combined current draw of Pi plus USB devices can exceed what is provided via the USB port alone. Similar problems arise when using random power supplies such as phone chargers.
 
-As I mentioned earlier, I have no intention of using USB devices in my project.
+As I mentioned earlier, I have no intention of using USB devices in my project. Bullet dodged.
 
 ## Disable video output to save power
 You can disable certain components on the Pi to save some power consumption, most notably the video outputs. Here's what I found on the web for the default Raspbian distro:

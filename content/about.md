@@ -7,19 +7,20 @@ author = "raph"
 +++
 I am Raphael. Most people call me Raph. The blog contains stuff I think about.
 
-What you'll find on this page are strictly *my own* personal opinions (not my employers'; yadda yadda). Ranty. Biased. Typos. Not always clearly structured. Mostly without statistically significant evidence. Get over it.
+What you'll find on this page are strictly *my own* personal opinions (*not* my employers' views, yadda yadda). Raw. Ranty. Biased. Partially incomplete. With typos. Not always clearly structured. Mostly without statistically significant evidence. Get over it.
 
-With that out of the way, I do try to structure my thoughs so that they are somewhat readable. Maybe one or two bits of useful knowledge are hidden in there, too. Do have a look around.
+With that out of the way, I do try to structure my thoughts so that they are somewhat readable. Maybe one or two bits of useful knowledge are hidden in there, too. Do have a look around.
 
-Constructive feedback is always welcome! Sometimes I might even listen to it. :-)
+Constructive feedback is always welcome! Sometimes I might even listen. You can find ways to contact me at the bottom of the site. 
 
-{{% fig caption="tl;dr" %}}
+{{% fig caption="tl;dr raph" %}}
 {{% img class="inline" src="/img/about_raph_thumb.jpeg" alt="Accomplishments makes me happy." link="/img/about_raph.jpeg" %}}
 {{% clear %}}
 * **father**&nbsp;&nbsp;&nbsp;of children
 * **citizen**&nbsp;&nbsp;of earth
 * **disciple**&nbsp;of science
 * **eater**&nbsp;&nbsp;&nbsp;&nbsp;of bacon
+* **addict**&nbsp;&nbsp;&nbsp;of coffee
 * **crafter**&nbsp;&nbsp;of software
 * **herder**&nbsp;&nbsp;&nbsp;of cats
 * **router**&nbsp;&nbsp;&nbsp;of electrons
@@ -27,6 +28,7 @@ Constructive feedback is always welcome! Sometimes I might even listen to it. :-
 * **master**&nbsp;&nbsp;&nbsp;of scrum
 * **pusher**&nbsp;&nbsp;&nbsp;of pixels
 * **student**&nbsp;&nbsp;of taekwondo
+* **thrasher** of metal
 * **runner**&nbsp;&nbsp;&nbsp;of mud
 * **enjoyer**&nbsp;&nbsp;of silence
 {{% /fig %}}
