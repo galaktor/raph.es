@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Foss on raph haXx </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://raph.es/tags/foss/index.xml/</link>
+    
+    
+    <copyright>Raphael Estrada 2011-2014</copyright>
+    <updated>Fri, 10 Oct 2014 14:35:37 UTC</updated>
+    
+    <item>
+      <title>license</title>
+      <link>http://raph.es/license/</link>
+      <pubDate>Fri, 10 Oct 2014 14:35:37 UTC</pubDate>
+      
+      <guid>http://raph.es/license/</guid>
+      <description>
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Author &amp;amp; copyright&lt;/h1&gt;
+
+&lt;p&gt;Copyright &amp;copy; Raphael Estrada 2011 - 2014.&lt;/p&gt;
+
+&lt;p&gt;Some rights reserved. You may use the source code and contents of this website under the conditions layed out in the licenses below.&lt;/p&gt;
+
+&lt;p&gt;You must get permission from the author should you wish to use source code or content in a way not compatible with the licenses.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Source code&lt;/h1&gt;
+
+&lt;p&gt;Uness explicitly stated otherwise, all software source code is licensed under the&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;GNU General Public License
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;version 3 &lt;em&gt;or higher&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;This includes (but is not exclusively limited to)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;shell scripts&lt;/li&gt;
+&lt;li&gt;CSS&lt;/li&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
+&lt;li&gt;hugo templates&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Latest version&lt;/h2&gt;
+
+&lt;p&gt;At any given time the most current release of the license applies. For the newest and currently valid license text visit:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.gnu.org/licenses/licenses.html#GPL&#34;&gt;http://www.gnu.org/licenses/licenses.html#GPL&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_3&#34;&gt;Blog text &amp;amp; images&lt;/h1&gt;
+
+&lt;p&gt;Unless explicitly stated otherwise, all blog contents is licensed under the&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Creative Commons Attribution-ShareAlike 4.0 International&amp;quot; (CC BY-SA 4.0) license
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;version 4.0 &lt;em&gt;or higher&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;This includes (but is not exclusively limited to):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;blog and project text&lt;/li&gt;
+&lt;li&gt;blog and project images&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;Latest version&lt;/h2&gt;
+
+&lt;p&gt;At any given time the most current release of the license applies. For the newest and currently valid license text visit:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;http://creativecommons.org/licenses/by-sa/4.0/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>autofHACK - forcing activation of a service and dynamic resolution of it&#39;s dependencies</title>
+      <link>http://raph.es/blog/2012/10/autofHACK---forcing-activation-of-a-service-and-dynamic-resolution-of-its-dependencies/</link>
+      <pubDate>Tue, 02 Oct 2012 16:47:00 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2012/10/autofHACK---forcing-activation-of-a-service-and-dynamic-resolution-of-its-dependencies/</guid>
+      <description>&lt;p&gt;Sorry, I just couldn&amp;rsquo;t resist the &amp;ldquo;autofHack&amp;rdquo; pun.&lt;/p&gt;
+
+&lt;p&gt;In case you don&amp;rsquo;t know &lt;a href=&#34;http://code.google.com/p/autofac/&#34;&gt;Autofac&lt;/a&gt;, this post won&amp;rsquo;t make much sense to you. Go read about it NOW. In the meantime us cool kids will play without you.&lt;/p&gt;
+
+&lt;p&gt;Autofac can find the right constructor on your service and resolve it&amp;rsquo;s dependencies automagically using reflection when you do so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;builder.RegisterType&amp;lt;MyClass&amp;gt;();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And you can give it a precreated instance directly like so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var m = new MyClass();
+builder.RegisterInstance(m);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The first is lazy and will only activate your service if somebody actually depends on it.&lt;/p&gt;
+
+&lt;p&gt;The latter can come in handy if you want to make sure that the service is actually instantiated and running, no matter if others depend on it or not.&lt;/p&gt;
+
+&lt;p&gt;The problem with &lt;code&gt;RegisterInstance()&lt;/code&gt; is that there is no way for you to resolve the constructor dependencies through the IoC container.&lt;/p&gt;
+
+&lt;p&gt;What you can do is implement the &lt;a href=&#34;http://code.google.com/p/autofac/wiki/Startable&#34;&gt;&lt;code&gt;IStartable&lt;/code&gt;&lt;/a&gt; interface, and it&amp;rsquo;s method &lt;code&gt;Start()&lt;/code&gt; will be called by the container once it&amp;rsquo;s configured.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public class MyClass: IStartable
+{
+    public void Start()
+    {
+        // do stuff
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s not nice for two reasons: first, it forces me to use &lt;code&gt;Start()&lt;/code&gt;, which can seem a bit forced in a model that has no need for that. Second, it requires your model to reference the Autofac library in order to use the interface, and I really don&amp;rsquo;t want my whole system to be aware of the IoC framework - it should glue them together without them knowing how it happens, and referencing the library goes against that idea.&lt;/p&gt;
+
+&lt;p&gt;So I wrote up a few extension methods to hide the IStartable interface and integrate it into the Autofac syntax.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;builder.RegisterAndActivate&amp;lt;MyClass&amp;gt;();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will register the type as when using &lt;code&gt;RegisterType&amp;lt;T&amp;gt;&lt;/code&gt;, but also register a bootstrapper service which in it&amp;rsquo;s &lt;code&gt;Start()&lt;/code&gt; method will resolve your service once, hence bringing it to life even if nobody else actively requests it.&lt;/p&gt;
+
+&lt;p&gt;The code is here:
+&lt;a href=&#34;https://github.com/galaktor/autofac-extensions&#34;&gt;https://github.com/galaktor/autofac-extensions&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Keep in mind (as stated on the autofac page about &lt;code&gt;IStartable&lt;/code&gt;) that this only makes sense when you&amp;rsquo;re service has a &lt;em&gt;Singleton&lt;/em&gt; lifetime (because otherwise you&amp;rsquo;ll only have activated one lonely instance that will die shortly after).&lt;/p&gt;
+
+&lt;p&gt;I suggested this be included in the official Autofac code in this issue:
+&lt;a href=&#34;http://code.google.com/p/autofac/issues/detail?id=388&#34;&gt;http://code.google.com/p/autofac/issues/detail?id=388&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Leaving the Comfort Zone</title>
+      <link>http://raph.es/blog/2012/09/Leaving-the-Comfort-Zone/</link>
+      <pubDate>Sun, 16 Sep 2012 19:43:00 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2012/09/Leaving-the-Comfort-Zone/</guid>
+      <description>
+
+&lt;p&gt;Yeah, what a &amp;ldquo;blah&amp;rdquo; title. But I&amp;rsquo;m in a hurry now. As all the internets have undoubtedly noticed, I haven&amp;rsquo;t blogged in a while. I&amp;rsquo;ve been busy with shit, and to break out of it I&amp;rsquo;m dumping out a quick post. In fact, future posts will probably be a bit shorter, just to get anything out.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;What&amp;rsquo;s been happening&lt;/h1&gt;
+
+&lt;p&gt;One of my more recent &lt;a href=&#34;http://www.galaktor.net/2012/02/yet-another-attempt-at-levelling-up-my.html&#34;&gt;posts&lt;/a&gt; (read: months old) mentioned that I was once again attempting to move my computing life into Linux. Well, the good news is, I succeeded. I&amp;rsquo;ve spent about 98% (pretty random gut-feeling number) of my time on Crunchbang in the past months, and there&amp;rsquo;s no looking back so far.&lt;/p&gt;
+
+&lt;p&gt;I wish I could blame my laziness with regards to blogging on a missing driver for The Internet or something. But really I&amp;rsquo;ve seen only a minor driver issue with my built-in webcam&amp;rsquo;s mic, which I have also resolved - so Linux has been working great on my laptop. Yet I&amp;rsquo;ve always been a Windows guy, and switching to Linux had one big challenge in particular: coding.&lt;/p&gt;
+
+&lt;p&gt;I had to make pretty serious changes to my usual workflow to get coding on Linux. I wanted to leave the MS world I am used to behind and go as native as possible, Which was pretty much the definition of what all those &amp;ldquo;leave your comfort zone&amp;rdquo; mantras are about.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Going hardcore&lt;/h1&gt;
+
+&lt;p&gt;Determined to embrace the command-line world which is Linux, I decided to go the whole length and use Emacs as my (sort of) IDE. And the learning curve was a lot easier than I expected - you hear a lot of bullshit about how hard it is and whatever. It wasn&amp;rsquo;t. Yes, you need to learn some shortcuts, big deal. It&amp;rsquo;s just a powerful text editor with a bunch of plugins. From day one I&amp;rsquo;ve been running it in console mode (-nw), and it not only looks like straight out of a cliche hacker movie, it&amp;rsquo;s also really lightweight and fast. Loving it.&lt;/p&gt;
+
+&lt;p&gt;Language was trickier - I&amp;rsquo;m mainly a .NET guy, and I have played with Mono before, but I again wanted to go as &amp;ldquo;non-Windows&amp;rdquo; as possible. And I wanted to use the opportunity to learn new languages. So I played around with clojure for a while - and I might write a bit on it separately, but long story short: I&amp;rsquo;m not impressed. It&amp;rsquo;s essentially yet another abstraction above of where I&amp;rsquo;ve spent the last years (C#, which is Java-ish). But contrary to common opinion, I don&amp;rsquo;t think imperative programming is necessarily evil, and I&amp;rsquo;ve found myself leaning toward the more low-level side of things again.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;Coding in Go&lt;/h1&gt;
+
+&lt;p&gt;To cut to the chase, I discovered Go, which is like C on steroids, and it immediately felt like what I need. I&amp;rsquo;ve gone from zero to productive in a few days, and I&amp;rsquo;m pretty happy so far. Again, I&amp;rsquo;ll be posting on this later. I have a little side-project going which I will write about on this here blog soon.&lt;/p&gt;
+
+&lt;p&gt;To summarize: I barely use Windows at all, just for the occasional game, so very rarely .I feel at home on Linux now, and I&amp;rsquo;m coding happily in Go on Emacs with some help of Go&amp;rsquo;s great command line tools. I&amp;rsquo;d say this attempt at moving to Linux was finally a success, and I&amp;rsquo;ve not only left my comfort zone, I pretty much inverted it - and it&amp;rsquo;s been a great ride so far.&lt;/p&gt;
+
+&lt;p&gt;hugs and kisses xoxox
+lol&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The blog gets some love</title>
+      <link>http://raph.es/blog/2012/05/The-blog-gets-some-love/</link>
+      <pubDate>Wed, 09 May 2012 08:44:00 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2012/05/The-blog-gets-some-love/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Note: this post was hosted on Blogger at the time of writing. Links in this post are old and could be broken.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I took a wee bit of time to upgrade this site a bit. Not exactly a huge project worth bragging about, but I figured I&amp;rsquo;d highlight the changes (if they&amp;rsquo;re not already obvious enough).&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Dynamic Template&lt;/h1&gt;
+
+&lt;p&gt;I switched over to use the shiny &amp;ldquo;new&amp;rdquo; blog templates that Blogger provides. I resisted the urge for a while but I do think it gives the site a more modern feel. Surely far from perfect, but given that it came for free I think value for money is good.&lt;/p&gt;
+
+&lt;p&gt;Going back to black-on-white was not an easy decision because I&amp;rsquo;m a huge fan of light-on-dark themes. Despite the new color scheme being quite uninspired and more mainstream, it is an improvement in terms of usability. Currently it&amp;rsquo;s almost entirely the vanilla Blogger template, I&amp;rsquo;ll experiment with it going forward.&lt;/p&gt;
+
+&lt;p&gt;The interface is much less cluttered with &amp;ldquo;gadgets&amp;rdquo; now, they&amp;rsquo;re hidden behind the sidebar on the right - something which I think is good for readability.&lt;/p&gt;
+
+&lt;p&gt;You can select different &amp;ldquo;dynamic views&amp;rdquo; over on the left of the main menu bar - most of them don&amp;rsquo;t work well with this type of blog, exceptions being maybe &amp;ldquo;classic&amp;rdquo; and &amp;ldquo;sidebar&amp;rdquo;, the latter which I have set to be the default. Google won&amp;rsquo;t allow me to lock it down to just that view, so I guess that means you can switch them as you see fit - but be warned, they mostly suck.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Blogger&amp;#39;s dynamic views crop images with awkward results
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/dynamic_my_ass.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/dynamic_my_ass.jpeg&#34;  alt=&#34;Assembly gets cropped to *Ass*&#34; width=&#34;500em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;From an authors point of view, the most notable new feature is that the &amp;ldquo;preview&amp;rdquo; now presents an interactive version of the site. I like to test the likes of links and images &lt;em&gt;before&lt;/em&gt; going live, something that just was not possible with the old template, which resembled more a photo of your site rather than a real website.&lt;/p&gt;
+
+&lt;p&gt;Another nice gimmick is that Blogger finally got a sane &amp;ldquo;share&amp;rdquo; menu at the bottom of each post - featuring the actual number of tweets (was not there before) and ditching a bunch of who-gives-a-shit social networks (but obviously still hanging on to g+). Notice how there&amp;rsquo;s even a Facebook &amp;ldquo;like&amp;rdquo; button - then again, I really consider that a bug, not a feature.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Social networks in order of importance - according to Google
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/fake_shares.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/fake_shares.jpeg&#34;  alt=&#34;Google plus gets listed before Twitter and Facebook&#34; width=&#34;500em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;New &amp;ldquo;code&amp;rdquo; section&lt;/h1&gt;
+
+&lt;p&gt;I&amp;rsquo;ve always been eyeballing &lt;a href=&#34;https://github.com/&#34;&gt;github&lt;/a&gt; as a place where I can potentially dump some side projects of mine and possibly some of the larger code snippets and scripts from this site. But being the cheapskate that I am, I never liked that fact that github never offered a free plan for hosting code - even if it meant limitations to the number of repositories or something like that.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/&#34;&gt;Bitbucket&lt;/a&gt; on the other hand does have a &lt;a href=&#34;https://bitbucket.org/plans&#34;&gt;free plan&lt;/a&gt;, and the only real limitation is the number of users per private repository. I&amp;rsquo;m making most of my projects public anyway, so that doesn&amp;rsquo;t really matter to me. Otherwise you get unlimited private and public repositories. Bitbucket is arguably not as shiny as github, but it does exactly what I need and that for free, so there you go.&lt;/p&gt;
+
+&lt;p&gt;Many of my projects were already hosted elsewhere and lived in Mercurial repositories, so the fact that Bitbucket now supports both hg &lt;em&gt;and&lt;/em&gt; git means I don&amp;rsquo;t have to migrate my old projects and can move over to git on newer projects. Importing from other hosting sites was perfectly smooth.&lt;/p&gt;
+
+&lt;p&gt;Bitbucket makes it &lt;a href=&#34;http://confluence.atlassian.com/display/BITBUCKET/Using+your+Own+bitbucket+Domain+Name&#34;&gt;very easy&lt;/a&gt; to point a CNAME to your profile, so now &lt;a href=&#34;http://code.galaktor.net/&#34;&gt;code.galaktor.net&lt;/a&gt; goes straight to the repository list. That&amp;rsquo;s exactly where you end up if you hit the new &amp;ldquo;code&amp;rdquo; button in the main menu. Keep in mind that all I did so far was import a few old-ish projects. I intend to give them some TLC and add more in the near future.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Blogger&amp;#39;s stupid drop-down and the new &amp;#39;code&amp;#39; menu item
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/new_menu_bar.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/new_menu_bar.jpeg&#34;   width=&#34;450em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;Free beer&lt;/h1&gt;
+
+&lt;p&gt;So Google is under pressure to make blogs look nicer next to Tumblr, Wordpress and the likes, and as the &lt;del&gt;product&lt;/del&gt; user I get a new (mostly) nice template for free. As the &lt;a href=&#34;http://en.wikipedia.org/wiki/Gratis_versus_libre&#34;&gt;classic open source analogy&lt;/a&gt; goes, we&amp;rsquo;re talking &amp;ldquo;free as in beer&amp;rdquo;, not &amp;ldquo;free as in speech&amp;rdquo; - with the obvious downside that I cannot really change some of the things even if I don&amp;rsquo;t want or like them. The &amp;ldquo;dynamic view&amp;rdquo; selector in the main menu being one example. There may be some trickery that can be done by fiddling with the HTML, but as it is it seems that they&amp;rsquo;re at least trying to force it upon me (and you).&lt;/p&gt;
+
+&lt;p&gt;Same thing for Bitbucket - it&amp;rsquo;s not perfect, and there&amp;rsquo;s not much I can do about that aside from suggesting improvements to Altassian. Still, it costs me nothing, was simple to set up and does what I want, so who am I to complain?&lt;/p&gt;
+
+&lt;p&gt;The geek in me would prefer to host my own blog on my own server with my own geeky engine and templates, but reality is I just don&amp;rsquo;t have much time available to tend this blog. As a matter of fact I&amp;rsquo;m happy if I get time to write or code stuff &lt;em&gt;at all&lt;/em&gt;. So the fact that there are free, if imperfect services that allow me to focus on getting shit done, I&amp;rsquo;m happy. For now.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Yet another attempt to level up my geek-iness</title>
+      <link>http://raph.es/blog/2012/02/Yet-another-attempt-to-level-up-my-geek-iness/</link>
+      <pubDate>Sun, 26 Feb 2012 21:16:00 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/blog/2012/02/Yet-another-attempt-to-level-up-my-geek-iness/</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;ve been rather quiet over the past months and I&amp;rsquo;m sure the &lt;em&gt;entire&lt;/em&gt; blogosphere was shocked and wants to know why. Well, in addition to holidays and the likes, for the probably 4th time in the past 15 years I am attempting to move my computing life from Windows into Linux. And since I rarely have much time for my geeky side projects, I have been dedicating it to that rather than the blog.&lt;/p&gt;
+
+&lt;p&gt;As just mentioned I tried this a few times before, but eventually failed. First time around I failed to even get my CD-ROM drive mounted in SuSe. Later on Ubuntu I lacked a few critical tools for my studies, like OneNote (which is brilliant) or VisualStudio for my thesis project. And Call of Duty.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;What&amp;rsquo;s different now?&lt;/h1&gt;
+
+&lt;p&gt;I learned two things that I hope to get right this time.&lt;/p&gt;
+
+&lt;p&gt;One is that I need to move most, if not &lt;em&gt;all&lt;/em&gt; my computing tasks into just one OS. Anything else will cause too much friction workflow-wise and I&amp;rsquo;ll eventually get stuck on Windows again.&lt;/p&gt;
+
+&lt;p&gt;The other lesson was that Windows is simply best for two things I care somewhat about: .NET development and gaming. And since neither of these play well inside a VM I&amp;rsquo;ll need to dual-boot. The good thing (in this context) is that these two points have become less important to me over the last years. I do .NET in my day job, so I rarely feel the need to continue at home.&lt;/p&gt;
+
+&lt;p&gt;And as much as it hurts to admit: I&amp;rsquo;ve outgrown my &lt;a href=&#34;http://www.techradar.com/news/gaming/consoles/11-signs-you-re-no-longer-a-hard-core-gamer-329291&#34;&gt;hardcore gamer phase&lt;/a&gt;. Gaming is now something I do on a work-less, shave-less, spongebob-boxer-shorts days. But I&amp;rsquo;m determined to finish all those games I bought during the last few X-mas sales on Steam! I suppose that puts me into some form of mid-life crisis? Scary, how gaming was close to the center of my life at a time when I couldn&amp;rsquo;t really afford the games I wanted. Now I have enough &amp;ldquo;allowance&amp;rdquo;, but barely any time left to play games. Oh, the irony.&lt;/p&gt;
+
+&lt;p&gt;Anyhow, at the end of the day, I can now probably live with booting up Windows for these things as they are rather rare events.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Stick with Windows, idiot!&lt;/h1&gt;
+
+&lt;p&gt;Why Linux at all then, you might ask? Well first of all I have been doing professional .NET development for over 7 years now (albeit not exclusively) and feel very comfortable in Windows, VS and the likes. But feeling too comfortable is a bad sign, it means not learning very much. So while .NET will stay a good way to do cool stuff and earn a nice living, I feel the nerdy (read: masochist) urge to leave the comfort zone and learn new things. You know, things that make me feel like a first-grader again. That make me yell curses at the screen. That make me feel like a god after I do get them working.&lt;/p&gt;
+
+&lt;p&gt;Plus, and this is a big one: I think &lt;a href=&#34;http://www.fsf.org/&#34;&gt;Free Software&lt;/a&gt; is important. In a time where most of our daily life depends on computers that sit in virtually everybody&amp;rsquo;s pocket, I believe it&amp;rsquo;s important to have as much control over them as possible. Linux not only gives you very much that control, it&amp;rsquo;s also arguably the best operating system out there. Many distros nowadays work out-of-the-box with WiFi and all the gimmicks. So really I see no reason why I should have to force my life into a proprietary operating system while I can get a better, more flexible and &lt;em&gt;free&lt;/em&gt; one for&amp;hellip;well, free.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;#!&lt;/h1&gt;
+
+&lt;p&gt;So what I did was upgrade my good old &lt;a href=&#34;http://reviews.cnet.com/Dell_XPS_M1530/4505-3121_7-32778979.html&#34;&gt;M1530&lt;/a&gt;&amp;rsquo;s RAM, back up my files&amp;hellip;.and do other things so boring that just writing about them makes me narcoleptic. So pardon me if I skip to the good parts. I stuck roughly to &lt;a href=&#34;http://www.iceflatline.com/2011/05/install-and-configure-crunchbang-linux-on-the-lenovo-t410-laptop/&#34;&gt;this&lt;/a&gt; excellent tutorial, which served me as a guideline although I did deviate a bit.&lt;/p&gt;
+
+&lt;p&gt;I installed Windows 7 as a primary OS using about 50% of the HDD, and then &lt;a href=&#34;http://crunchbanglinux.org/&#34;&gt;Crunchbang&lt;/a&gt; into dedicated partitions using the rest. Crunchbang is a minimalistic yet fully featured distro based on Debian Squeeze. I let the boot loader Grub2 install itself at the beginning of the disk. In CB I had to run the command &lt;code&gt;update-grub&lt;/code&gt; so that the OS-prober could auto-detect Windows, then that was sorted.&lt;/p&gt;
+
+&lt;p&gt;While I&amp;rsquo;m moving into the brave new world of WTF&amp;rsquo;ing on Linux I will post about things I have learned along the way. One is the ability to use several window managers and select them at the login screen. The default on CB is &lt;a href=&#34;http://openbox.org/&#34;&gt;Openbox&lt;/a&gt;, and it&amp;rsquo;s great, but I&amp;rsquo;d like a mouse-less window manager for coding. Thus coming soon are my notes on how to get Openbox and &lt;a href=&#34;http://www.nongnu.org/ratpoison/&#34;&gt;Ratpoison&lt;/a&gt; to co-exist. (This is also a prime example of why proprietary software can lock you down - there&amp;rsquo;s no nice way to change your window management on Windows. On Linux, if it doesn&amp;rsquo;t exist, you can always roll your own.)&lt;/p&gt;
+
+&lt;p&gt;And yes, there will still be Windows/.NET related posts in the future - we&amp;rsquo;ll have to wait and see how &lt;em&gt;this&lt;/em&gt; attempt at Linux will work out for me.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

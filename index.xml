@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Recent Content on raph haXx </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://raph.es/index.xml/</link>
+    
+    
+    <copyright>Raphael Estrada 2011-2014</copyright>
+    <updated>Wed, 29 Oct 2014 12:51:58 &#43;0100</updated>
+    
+    <item>
+      <title>The bias is strong with MBTI</title>
+      <link>http://raph.es/blog/2014/10/bias-is-strong-with-mbti/</link>
+      <pubDate>Wed, 29 Oct 2014 12:51:58 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/blog/2014/10/bias-is-strong-with-mbti/</guid>
+      <description>
+
+&lt;p&gt;Once upon a time, at work, I took a personality test.&lt;/p&gt;
+
+&lt;p&gt;It was a three day course, and the whole team participated. Early on, we took a twenty-minute test and added up the scores to end up with four numbers. Each number tells you where you sit one of four linear scales. Each scale is split through the middle and - depending on which half your number falls on - you get one of two letters per scale.&lt;/p&gt;
+
+&lt;p&gt;The resulting four letters combine to form your &lt;em&gt;Myers-Briggs Type Indicator&lt;/em&gt; (MBTI). By knowing someone&amp;rsquo;s MBTI, you&amp;rsquo;re supposed to be able to better predict and understand another&amp;rsquo;s preferences and behaviour.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Enterprise&amp;rdquo; loves MBTI because of how it puts people into neatly labelled boxes. Consultants love MBTI because enterprise loves MBTI. Which is why I was sitting in said course.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;I got &lt;code&gt;INTP&lt;/code&gt;.&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;I&lt;/code&gt;: &lt;strong&gt;i&lt;/strong&gt;ntroverted&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;N&lt;/code&gt;: i&lt;strong&gt;n&lt;/strong&gt;tuitive&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;T&lt;/code&gt;: &lt;strong&gt;t&lt;/strong&gt;hinking&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;P&lt;/code&gt;: &lt;strong&gt;p&lt;/strong&gt;erceiving&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I&amp;rsquo;ll be honest and admit that when I began writing this, I couldn&amp;rsquo;t even remember what the last three stood for. I had to refresh my memory on Wikipedia.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;25% science.&lt;/h1&gt;
+
+&lt;p&gt;The outcome on the first scale can either be &lt;strong&gt;i&lt;/strong&gt;ntrovert or &lt;strong&gt;e&lt;/strong&gt;xtrovert. In our group, this scale seemed to yield the clearest results. Given that most attendees were software developers, it should come as no surprise that most of us ended up getting &lt;em&gt;I&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Why? There&amp;rsquo;s a large body of research and a variety of literature on the introvert-extrovert spectrum. Software development is consistently described as a field that attracts introverts. So I&amp;rsquo;m going to let this one pass as it&amp;rsquo;s both scientificallly grounded and relevant in day-to-day life.&lt;/p&gt;
+
+&lt;p&gt;I won&amp;rsquo;t reiterate what is already well-described in aforementioned books. But just to give one example, it&amp;rsquo;s why many of us prefer the asynchronous nature of electronic means of communication (i.e. email, chat) over synchronous face-to-face &amp;ldquo;talk&amp;rdquo;.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;75% percent bullshit.&lt;/h1&gt;
+
+&lt;p&gt;My beef with the other three is not that they don&amp;rsquo;t apply to me. Quite the opposite actually. It&amp;rsquo;s because they are defined in such a way that they apply to &lt;em&gt;everybody&lt;/em&gt; and are inherently context dependant. Testing for them only captures one&amp;rsquo;s preference &lt;em&gt;at the time of the test&lt;/em&gt;, under the conditions of the test. But under different circumstances I might as well come out as the polar opposite.&lt;/p&gt;
+
+&lt;p&gt;At one point we were presented with a hypothetical scenario: you are the coach of a children&amp;rsquo;s football club. You manage to get just two tickets for a big game. How to do you decide who goes, and how do you communicate that to the children?&lt;/p&gt;
+
+&lt;p&gt;According to MBTI, a typical &lt;em&gt;&lt;strong&gt;t&lt;/strong&gt;hinker&lt;/em&gt; would rank kids by some level of skill and reward the best with the tickets. A &lt;em&gt;&lt;strong&gt;f&lt;/strong&gt;eeler&lt;/em&gt; would be more worried about the other kids being sad or dissapointed, and try to work out a more social solution with the group.&lt;/p&gt;
+
+&lt;p&gt;The problem here is, &lt;em&gt;t&lt;/em&gt; and &lt;em&gt;f&lt;/em&gt; are polar opposites of the same scale. I was scored to be a strong &lt;em&gt;t&lt;/em&gt; based on the questions in the test earlier. And yes, the thought of ranking the kids by their dedication to the club did cross my mind. But I was just as concerned about the other kids being dissapointed as the next &lt;em&gt;f&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I had suggested alternatives, one being to take all the other kids to another event rather than not rewarding them at all. However, they depended on variables not provided. The scenario - being part of a pre-defined course programme -  was contrived in order to set the stage for the purposes of MBTI. It lacked much information which would have influenced my solution. Like the number of children, their age, the price of tickets vs family income&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;But alternatives weren&amp;rsquo;t part of the programme. The trainer made the point she had come to make. And I learned that there is no room for alternatives in the littlle boxes which are MBTI (stereo)types.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_3&#34;&gt;Life is not linear.&lt;/h1&gt;
+
+&lt;p&gt;A linear scale is simply not sufficient to accomodate this spectrum of decision making. Flattening it all like MBTI does disposes too much information to have relevance in the real world.&lt;/p&gt;
+
+&lt;p&gt;If I was to be generous (which apprarenltly I&amp;rsquo;m not, because I&amp;rsquo;m not a &lt;em&gt;f&lt;/em&gt;) I could admit that MBTI gave a correct prediction that I had &lt;em&gt;considered&lt;/em&gt; the ranking option, and as a result &lt;em&gt;could&lt;/em&gt; have decided something similar. But that&amp;rsquo;s pretty thin, and practically impossible to disprove.&lt;/p&gt;
+
+&lt;p&gt;When people end up doing what MBTI predicted, it appears to confirm the correctness of MBTI. When people decide differently, it&amp;rsquo;s either ignored or handwaived away by the general cop-out:&lt;em&gt;&amp;ldquo;MBTI only describes a preference&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;See also: &lt;em&gt;confirmation bias&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I did raise my concerns during the course. The defense was the same every time. Our &amp;ldquo;trainer&amp;rdquo; would argue that MBTI merely describes a &lt;em&gt;preference&lt;/em&gt;, not a general rule (huge red flag). I might have agreed if people hadn&amp;rsquo;t instantly fell into a pattern of reducing others to their scores. &amp;ldquo;&lt;em&gt;P&amp;rsquo;s&lt;/em&gt; do &lt;code&gt;x&lt;/code&gt; while &lt;em&gt;J&amp;rsquo;s&lt;/em&gt; do &lt;code&gt;y&lt;/code&gt;&amp;rdquo;, the trainer would say. So even if we gave MBTI the benefit of the doubt, and went with the &lt;em&gt;preference&lt;/em&gt; hypothesis, in practice it is not used as such. Human minds don&amp;rsquo;t work like that.&lt;/p&gt;
+
+&lt;p&gt;Most of us wore their score like a badge. Literally: many wrote their scores in big letters onto the name signs in front of them. Gradually, people with similar scores formed little teams. In what superficially appeared to be innocent fun, teams ganged up and mocked the others&amp;rsquo; MBTI-stereotypes. &amp;ldquo;Haha, you &lt;em&gt;X&lt;/em&gt; be so crazy.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;See also: &lt;a href=&#34;http://therearenoothers.wordpress.com/2011/12/28/othering-101-what-is-othering/&#34;&gt;othering&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_4&#34;&gt;Pseudo-science is pseudo.&lt;/h1&gt;
+
+&lt;p&gt;The sixteen MBTI type profiles are strangely reminiscent of zodiac signs. They are written in such a way that they could apply to anybody. After we got the hard-earned score, we had a chance to read all profiles. At this point we had already been told what we &amp;ldquo;are&amp;rdquo;, and our minds were already set to read other profiles as if they didn&amp;rsquo;t match.&lt;/p&gt;
+
+&lt;p&gt;I suspect if we had been given the profiles without any prior labelling, it would have been very difficult to find a single one that matches. People would have identified with different profiles under different circumstances. People are not one-dimensional.&lt;/p&gt;
+
+&lt;p&gt;The fine print states MBTI is just a preference, but the scores quickly become comfortable boxes. Once you&amp;rsquo;re convinced that you are an &lt;em&gt;XXXX&lt;/em&gt;, you identify with it so much that you become it. When a situation arises that seems to fit the profile, it&amp;rsquo;s &amp;ldquo;wow, that&amp;rsquo;s obviously because I&amp;rsquo;m X!&amp;rdquo;. When the profile is at odds with behaviour, it is brushed off as an outlier and ignored.&lt;/p&gt;
+
+&lt;p&gt;See also: &lt;a href=&#34;https://en.wikipedia.org/wiki/Astrology_and_science&#34;&gt;astrology&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;See also: &lt;a href=&#34;https://en.wikipedia.org/wiki/Pseudoscience&#34;&gt;pseudo-science&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_5&#34;&gt;Why is MBTI so popular then?&lt;/h1&gt;
+
+&lt;p&gt;Most people enjoy taking personality tests and sharing the outcome. We are quick to identify with the results, especially when they confirm our expectations. Just look at how successful pseudo-scientific tests are in magazine&amp;rsquo;s or social media (i.e. Facebook). MBTI tests or derivatives thereof are very popular on the web.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s easy to do the test. And passing a test gives you a sense of accomplishment. It&amp;rsquo;s fun to label oneself and others. It&amp;rsquo;s fun to make fun people&amp;rsquo;s quirks. It makes sense on the surface and contains just enough science to make it get past our bullshit sensors.&lt;/p&gt;
+
+&lt;p&gt;I buy into the introvert-extrovert spectrum, but the rest is too dynamic for anyone to have a meaningful score. MBTI has very little practical relevance. It oversimplifies human psychology and the complexity of decision making. The resulting simplicity is what makes it so tempting to buy into MBTI. I think it&amp;rsquo;s dangerous how it sets wrong expectations when people use it as a predictor. Which they do, despite the disclaimers.&lt;/p&gt;
+
+&lt;p&gt;So, looking at all this I suppose I&amp;rsquo;m a typical &lt;em&gt;t&lt;/em&gt; after all.&lt;/p&gt;
+
+&lt;p&gt;(Or am I?)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alcohol sucks</title>
+      <link>http://raph.es/blog/2014/10/why-i-dont-drink-alcohol/</link>
+      <pubDate>Fri, 24 Oct 2014 17:35:48 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2014/10/why-i-dont-drink-alcohol/</guid>
+      <description>
+
+&lt;p&gt;I spent my teen and early adult life in southern Germany. The area is world famous for it&amp;rsquo;s beer. And alcohol is deeply ingrained in German culture.&lt;/p&gt;
+
+&lt;p&gt;Some years ago - to the surprise of many of my family and friends - I decided to stop drinking alcohol for good. You wouldn&amp;rsquo;t believe how much ridicule I was confronted with. It&amp;rsquo;s scary how prevalent alcohol is in everyday life - something that you only really see when you attempt to avoid it.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;People ask if I&amp;rsquo;m a recovering alcoholic.&lt;/h1&gt;
+
+&lt;p&gt;I answer no, although answering yes would be easier. It seems like being an alcoholic is the only acceptable reason to not drink for good.&lt;/p&gt;
+
+&lt;p&gt;Society respects the &lt;em&gt;recovering alcoholic&lt;/em&gt;, who has ventured so far into boozeland. Like they crossed some bizarre finish line. Mission accomplished. It&amp;rsquo;s a way of proving one&amp;rsquo;s ability to hold even more alcohol than the other guy. An impressive achievement, apparently. Just listen to friends and family credit each other for how much they were able to drink at that wedding last weekend. For being so hung over.&lt;/p&gt;
+
+&lt;p&gt;A subtle difference compared to the &lt;em&gt;dedicated driver&lt;/em&gt;: the hero-for-a-night who takes on the burden of seeing how stupid his friends behave when they get intoxicated. But only under the condition that someone else drives the next time.&lt;/p&gt;
+
+&lt;p&gt;To clarify my reasoning, I thought I&amp;rsquo;d write a little list of pros and cons.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Drinking alcohol CONS&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;- costs a lot of money
+- tastes horrible
+- it&#39;s literally toxic
+- is bad for my health
+- makes me fat
+- makes me feel sick
+- gives me a headache the next day
+- lowers my intelligence
+- makes me more likely to do dumb things
+- prevents me from driving
+- decreases my ability to defend myself in case of an attack
+- increases the chances of being attacked
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, don&amp;rsquo;t you tell me alcohol doen&amp;rsquo;t taste horrible. It&amp;rsquo;s barely drinkable even when masked by other ingredients (malt, barley in beer; sugar in wine and cocktails). Higher concentrations taste so bad, people frown and gag when they drink it. The only people who enjoy it are either pretending in order to appear tough or maybe alcoholics.&lt;/p&gt;
+
+&lt;p&gt;Sure, if you drink the stuff long enough, you&amp;rsquo;ll learn to distinguish tastes. Some drinks will taste better than others, relatively seen. But objectively, it tastes bad and for a good reason: it&amp;rsquo;s toxic. Our body doesn&amp;rsquo;t want it, so we haven&amp;rsquo;t evolved to get any reward for drinking it.&lt;/p&gt;
+
+&lt;p&gt;Alright, moving on!&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Drinking alcohol PROS&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;+ complies with social norms
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There you have it. Most of us grow up around adults who drink. We observe and learn that it&amp;rsquo;s what adults are supposed to do in certan situations. It&amp;rsquo;s a social habit that we copy and never question. And which many people make fun of when someone refuses to play along (I know because I&amp;rsquo;m that someone).&lt;/p&gt;
+
+&lt;p&gt;In case you didn&amp;rsquo;t know, I&amp;rsquo;m an &lt;a href=&#34;/on/introverts&#34;&gt;introvert&lt;/a&gt;. I don&amp;rsquo;t enjoy pubs and nights out. With the privilege of hindsight I now understand that the main reason I spent a significant part of my youth going to pubs and drinking alcohol was because I was under the impression that it&amp;rsquo;s what you&amp;rsquo;re supposed to do. And to impress friends. &lt;em&gt;Girls&lt;/em&gt; even.&lt;/p&gt;
+
+&lt;p&gt;That sounds &lt;em&gt;incredibly silly&lt;/em&gt;. And it is. Which is why I stopped! I can socialize without drinking alcohol. I will not perpetuate the synthetic importance of an expensive toxin. Especiallly not to my kids. Oh, and I&amp;rsquo;m beyond the point where I think I have to impress people like that.&lt;/p&gt;
+
+&lt;p&gt;My kids will grow up with me as an example for how you can think for yourself and refuse to do stupid stuff other people do. How you don&amp;rsquo;t have to be a recovering alcoholic to stop drinking.&lt;/p&gt;
+
+&lt;p&gt;Most or all of the above could also be said about smoking. If you don&amp;rsquo;t smoke, you probably shouldn&amp;rsquo;t be drinking for the same reason. Smoking is bad for you? Tastes horrible? Expensive? An excuse to socialize with other smokers? A bad example for kids? Check, check, check, check, check.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m &lt;em&gt;that guy&lt;/em&gt; who orders a pot of tea at the bar. I&amp;rsquo;m not drinking water because I&amp;rsquo;m driving - I&amp;rsquo;m the dedicated driver because I don&amp;rsquo;t drink.&lt;/p&gt;
+
+&lt;p&gt;Get over it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3d business card</title>
+      <link>http://raph.es/project/3d-card/</link>
+      <pubDate>Fri, 24 Oct 2014 08:26:47 IST</pubDate>
+      
+      <guid>http://raph.es/project/3d-card/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>on blogging</title>
+      <link>http://raph.es/blog/2014/10/on-blogging/</link>
+      <pubDate>Thu, 16 Oct 2014 17:32:23 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2014/10/on-blogging/</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;m not known to be an early adopter. I was late to the party for blogs with my &lt;a href=&#34;/blog/2011/02/just-do-it/&#34;&gt;first&lt;/a&gt; attempt ocurrring in 2011.&lt;/p&gt;
+
+&lt;p&gt;Of course I had toyed around with websites several times over the years. The first I recall was on GeoCities and had one of those free subdomains ending in &lt;code&gt;rocks.com.xy&lt;/code&gt; or whatever. I had no clue about HTML at the time, so it consisted mainly of copyright-infringing snippets I scavenged from other pages and animated fire GIFs.&lt;/p&gt;
+
+&lt;p&gt;So worked the wild-west that was the internet back in the nineties.&lt;/p&gt;
+
+&lt;p&gt;It also featured a &amp;ldquo;news&amp;rdquo; section. That&amp;rsquo;s what people called their blogs before they were called blogs. The websites went the way of too many briefly interesting side-projects and eventually died of neglect.&lt;/p&gt;
+
+&lt;p&gt;Then web-two-point-oh gave us a plethora of free (~beer) blog-as-a-service services. Public diaries with fancy client-side WYSIWYG editors.&lt;/p&gt;
+
+&lt;p&gt;I resisted the hype.&lt;/p&gt;
+
+&lt;p&gt;Until that urge to have a personal, public platform came around again. That was when I caved and signed up with Blogger.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Invisible critics&lt;/h1&gt;
+
+&lt;p&gt;At first I just welcomed the new public-ish outlet for rants. Ranting is easy.&lt;/p&gt;
+
+&lt;p&gt;But I also felt the urge to contribute some value to the world by sharing things I know or learn. Not that I expected many people to actually read it. However, writing forced me to structure my thoughts. To have a beginning, a middle and an end. Which turned out to be the best &lt;em&gt;and worst&lt;/em&gt; part of blogging.&lt;/p&gt;
+
+&lt;p&gt;Traffic trickled in well enough by my standards. Some of my old posts still get a good stream of visits. Mostly from web searches about problems I wrote about. A handful even hit the Hacker News front page and brought tens-of-thousands of eyeballs.&lt;/p&gt;
+
+&lt;p&gt;I put an unreasonable amount of pressure on myself to deliver value to my imaginary audience. Not only would a post have to contain a nugget of knowledge, but also live up to standards established by the popular technology blogs we all know and love - witty, to the point, well researched, properly spelled, not offensive but controversial enough to be interesting&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Add to that the apparent need to maintain a &lt;a href=&#34;http://pchiusano.github.io/2014-10-11/defensive-writing&#34;&gt;defensive&lt;/a&gt; stance at all times. Hedge any claims to always have an exit in case some wise guy publicly points out all the flaws in my article.&lt;/p&gt;
+
+&lt;p&gt;See also: &amp;ldquo;don&amp;rsquo;t read the comments&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;See also: &lt;a href=&#34;https://en.wikipedia.org/wiki/Impostor_syndrome&#34;&gt;impostor syndrome&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This isn&amp;rsquo;t Blogger&amp;rsquo;s fault - it&amp;rsquo;s in my head. Yet for me, blogging morphed from a tool for self-reflection into a stressful chore. Given that I have lots of stuff going on, it was frustrating to spend the little time I had with something I was enjoying less and less.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Blogger is not for me.&lt;/h1&gt;
+
+&lt;p&gt;Having this virtual spotlight pointed at me - imaginary, maybe, but all the same - fed my natural urge to personalize the look and feel of my blog. Once I stepped outside the boundaries which are &lt;em&gt;themes&lt;/em&gt; I realised that Blogger is not a platform for geeks like I am.&lt;/p&gt;
+
+&lt;p&gt;The widgets to insert functionality - such as galleries or Twitter streams - looked terrible and didn&amp;rsquo;t behave the way I wanted.&lt;/p&gt;
+
+&lt;p&gt;The HTML and CSS I had to deal with was a mess. Multiple attempts to hand craft my own theme ended in nerd-tears. It was more tedious than I was willing to tolerate in my sparse &lt;em&gt;me time&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Most canned themes looked nothing like what I wanted &lt;em&gt;my&lt;/em&gt; page to look like. Dynamic layouts &lt;a href=&#34;/blog/2012/05/The-blog-gets-some-love/&#34;&gt;seemed&lt;/a&gt; neat for five minutes. Then I noticed that every Blogger blog out there looked just like mine.&lt;/p&gt;
+
+&lt;p&gt;So I had a blog that wasn&amp;rsquo;t fun to write for. That didn&amp;rsquo;t look like &lt;em&gt;me&lt;/em&gt;. That didn&amp;rsquo;t do what I wanted it to do.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;Then Twitter happened.&lt;/h1&gt;
+
+&lt;p&gt;I was late to the Twitter party, too. Just like I had once predicted in my first Blogger &lt;a href=&#34;/blog/2011/02/just-do-it/&#34;&gt;post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I reluctantly signed up during the &lt;a href=&#34;http://www.ndcoslo.com/&#34;&gt;&lt;em&gt;Norwegian Developers Conference&lt;/em&gt;&lt;/a&gt; in 2012. There, event updates such as changes in schedule were communicated over Twitter. The way people interacted via large screens displaying live tweets hashtagged to the conference intrigued me.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;This is &lt;em&gt;social&lt;/em&gt; media&amp;rdquo;, I realised.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_3&#34;&gt;Random five minutes&lt;/h1&gt;
+
+&lt;p&gt;Frequent short tweets gave me an outlet for what would otherwise have built up to once-a-month blog posts.&lt;/p&gt;
+
+&lt;p&gt;The 140 character limit took away the pressure to spend lots of time on what I publish. Yet, the subtle art of working with this limitation represented a playful challenge. The playing field was level. Nobody could make me feel bad for just throwing out a line or two.&lt;/p&gt;
+
+&lt;p&gt;Brevity was not only tolerated, but a fundamental rule of the game.&lt;/p&gt;
+
+&lt;p&gt;The key moment was when I got an Android phone. It&amp;rsquo;s Twitter app was responsive, and - more importantly - convenient. A quick and easy way to rant or share cool stuff. It filled those random, under-utilized five minutes spread out over any given day.&lt;/p&gt;
+
+&lt;p&gt;Expressing myself via Twitter felt much more natural than what I had found myself doing on Blogger.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_4&#34;&gt;I stopped blogging overnight.&lt;/h1&gt;
+
+&lt;p&gt;I have been using Twitter more and more ever since. My twitter profile became my new online persona of choice. What blogger was supposed to be, just smaller. Unintentionally, I followed the trend from blogs to &lt;em&gt;microblogs&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;What&amp;rsquo;s interesting is that I didn&amp;rsquo;t like Twitter more because of it&amp;rsquo;s social features. I don&amp;rsquo;t make much use of hashtags or lists or take part in discussions. In fact, I don&amp;rsquo;t think Twitter is a great tool for anything but the most superficial kind of conversation. Which are also the kinds of conversations I hate. It was the simplicity of publishing thoughts that had me hooked.&lt;/p&gt;
+
+&lt;p&gt;Why try to be a full-blown author on your blog when you can just fire out one-liners on Twitter? One was much more compatible with a first-worlders daily routine than the other - I was no exception.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_5&#34;&gt;Full circle&lt;/h1&gt;
+
+&lt;p&gt;Meanwhile, I was becoming more concerned about who owns my data online and freedom of information in general. Blogger is owned by Google, and Twitter is owned by&amp;hellip; well, Twitter. In exchange for their services, I became the product for the eyeballs they draw.&lt;/p&gt;
+
+&lt;p&gt;Hosting my online persona - micro or not - on a proprietary platform didn&amp;rsquo;t agree with my philosophy.&lt;/p&gt;
+
+&lt;p&gt;Instead, I was coming back full-circle to where I had begun over a decade ago when I created my first site on GeoCities. I just wanted my own little spot on the web where I can be myself. Where I can put up and take down whatever I want. And not give a damn about what anybody thinks about it.&lt;/p&gt;
+
+&lt;p&gt;But this time, I know what I would have to change. I go into more depth on the goals I set for this website on &lt;a href=&#34;/project/website/&#34;&gt;project&lt;/a&gt; page. But to not make an already long post any longer, here&amp;rsquo;s the gist:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;less is more.&amp;rdquo;&lt;/strong&gt;
+&amp;ndash; every smart person ever&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It has to be simple to publish, like Twitter. Give me some room, more like Blogger. Leave me control over my content (like neither). Integrate into my worflow, with least possible friction for hosting or editing. Focus on content - no clutter such as social media integration or comments.&lt;/p&gt;
+
+&lt;p&gt;And when I change my mind on any of this, I want it to be easily hackable.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s see how it goes this time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>goggle-mounted headlamp from salvaged IKEA USB light</title>
+      <link>http://raph.es/blog/2014/10/goggles-headlamp-from-ikea-usb-light/</link>
+      <pubDate>Sun, 12 Oct 2014 19:55:29 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2014/10/goggles-headlamp-from-ikea-usb-light/</guid>
+      <description>
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Safety goggles are important.&lt;/h2&gt;
+
+&lt;p&gt;Not least when you want to prevent little hot sharp things from penetrating your eyeballs. I got a set from Woodie&amp;rsquo;s a while back. They&amp;rsquo;re nothing fancy and do the job. But somehow I always felt they were destined for &lt;em&gt;more&lt;/em&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Photons are neat&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;m sure you agree. They help me see stuff. Especiallly because the hours I get to geek around in my &lt;del&gt;office&lt;/del&gt; command center are usually after dusk, when the little people have gone to bed. So I have a few lamps around my desk. Mostly the kind that comes mounted on a big arm and you can move around as you work. But they can be a bit clumsy at times. The arm gets in the way.&lt;/p&gt;
+
+&lt;p&gt;Wouldn&amp;rsquo;t it be great if I could hurl a few photons at whatever I&amp;rsquo;m looking at, without huge limbs of steel obstructing my airspace?&lt;/p&gt;
+
+&lt;p&gt;Naturally, this is why headlamps exist. But just buying one would be pretty lame, right?  Since I&amp;rsquo;ve mastered the complex science of making LEDs light up, the idea of sticking some onto my goggles has been floating around my brain for a bit now.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;IKEA hacking&lt;/h1&gt;
+
+&lt;p&gt;It&amp;rsquo;s one of those lazy Sundays where we head out early to IKEA. To devour an early, good-value-for-money breakfast then buy lots of things we never really need. I&amp;rsquo;m fully aware that this is exactly the behaviour that the brilliant IKEA store design is supposed to encourage, but sometimes ignorance is bliss.&lt;/p&gt;
+
+&lt;p&gt;Some seven eggs and five bacon rashers later I hit the shop floor. IKEA is a great place to find things that are not only hackable, but cheap enough that you won&amp;rsquo;t worry about voiding warranties or ruining them. So much that there&amp;rsquo;s even a whole website for &lt;a href=&#34;http://ikeahackers.net/&#34;&gt;IKEA hackers&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Jansjö&lt;/h2&gt;
+
+&lt;p&gt;So I stumbled over this little USB lamp, &lt;a href=&#34;http://www.ikea.com/ie/en/catalog/products/70289804/&#34;&gt;&lt;code&gt;Jansö&lt;/code&gt;&lt;/a&gt;. It&amp;rsquo;s basically an LED behind a lens, hooked up to a male USB A connector for power. It cost merely three Euros, so I figured I&amp;rsquo;ll take it apart and see if I can mount this thing to my goggles.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Jansö USB lamp from IKEA
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/janso.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/janso_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_4&#34;&gt;The hack&lt;/h1&gt;
+
+&lt;p&gt;My plan was simple enough. Open up the thing and hopefully find two simple power wires to play with. Replace the USB connector with a battery. Somehow mount the whole thing to my goggles. And it more or less played out just like that.&lt;/p&gt;
+
+&lt;p&gt;This was pretty ad-hoc and light wasn&amp;rsquo;t great, so the pics came out a bit grainy. Meh.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_5&#34;&gt;Get to the wires&lt;/h1&gt;
+
+&lt;p&gt;I didn&amp;rsquo;t know for sure what would be inside the thing or how to open it up. So I just started by cutting through it in the middle. My cutter wasn&amp;rsquo;t the best choice here, but it did the job. The metal can be a bit tough, so I recommend you use strong ones to not damage the edges.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Cut right above the USB connector
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/cut-usb.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/cut-usb_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;Sure enough, there&amp;rsquo;s two wires on the inside, and they&amp;rsquo;re even color coded nicely. The red wire is +5V, the black is +0V (GND).&lt;/p&gt;
+
+&lt;p&gt;My first idea was to unwind the metal wrapped around the wires in order to expose them. There&amp;rsquo;s actually two metal layers around the wires. The outer layer is colored and can be unwound easily. The inner layer is more of a spring coil and is very tough to bend. With a bit of force you can pull the inner coil out of the outer metal.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Exposing the wires by unwinding was tricky
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/coil.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/coil_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/pull-spring.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/pull-spring_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;Turns out that cutting through the metal without hurting the wires was pretty difficult due to the force required. Even if you don&amp;rsquo;t mind the bendy metal staying on, working with the wires like this is a bit tedious. But then I found a better way to get to them.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;A word of caution&lt;/h2&gt;
+
+&lt;p&gt;Cutting metal things can result in sharp metal edges and can shoot bits around the room. Which in turn can cause injury. I&amp;rsquo;m not sure how, but I managed to hurt my finger.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Be a safe hacker and wear gloves when handling sharp metal. And wear goggles when flinging around bits of metal.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Call 9-1-1
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/wound.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/wound_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_7&#34;&gt;Remove the head&lt;/h1&gt;
+
+&lt;p&gt;I decided to try to twist the light off it&amp;rsquo;s neck. My hope was that it would break off. But, to my delight, the head is simply screwed on. And with some force you can unscrew it nicely.&lt;/p&gt;
+
+&lt;p&gt;At this point I had already cut through the wires a few times. If I was to do it again, I&amp;rsquo;d just chop off the USB connector at the lowest point. Then unscrew the top and pull it off, long wires still intact and ready for soldering.&lt;/p&gt;
+
+&lt;p&gt;In my case however, I had to make due with the short little wires I had left. But that was fine.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        With a little force you can unscrew the head.
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/clamped.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/clamped_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/unscrewed.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/unscrewed_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_8&#34;&gt;Find a power source&lt;/h1&gt;
+
+&lt;p&gt;The next step was to decide how to power the light. I was going to use batteries, obviously, but which kind?&lt;/p&gt;
+
+&lt;p&gt;Since the LED was meant to run off USB, I knew it expected +5V DC. I also assumed that it had a current limiting resistor fitted somewhere inside the head to keep the LED from burning. So I tried a variety of battery option I had lying around to see what would work.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_9&#34;&gt;3V coin cell&lt;/h2&gt;
+
+&lt;p&gt;The first thing I tried was a little 3V coin cell. With less power than the typical 5V, the light was a little bit dim. Workable, but not great.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_10&#34;&gt;3.7V LiPo&lt;/h2&gt;
+
+&lt;p&gt;I have a handful of LiPos which I have earmarked for other projects. They are small and light, so fit the bill in that regard. I tried one and sure enough, the light was brighter. Still, LiPos are rare in my house and using one seemed a bit excessive for this project. Plus, the off-chance of a LiPo blowing up near my eyes put me off that idea, too.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Testing 3V coin cell (left) and 3.7V LiPo (right)
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/cell-test-single.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/cell-test-single_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/lipo-test.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/lipo-test_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;toc_11&#34;&gt;3xAAA&lt;/h2&gt;
+
+&lt;p&gt;One type of battery I have in abundance are AAA 1.5V batteries. Three in series would give 4.5V, very close to the +5V that would give good light. I hooked up a little 3xAAA case I have - it even has a handy on/off switch.&lt;/p&gt;
+
+&lt;p&gt;Result was great. And I could always replace when they run out since I always have some of these guys rolling around. But the weight and bulk of the thing became an issue. The batteries felt heavier than the goggles&amp;hellip; disqualified.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_12&#34;&gt;2x3V coin cells&lt;/h2&gt;
+
+&lt;p&gt;My final option was a little double coin cell holder I got. I got them cheap to play with some wearable proejcts - and technicallly, this qualifies as wearable, right? Much slimmer and lighter than the AAA solution above. Plus you can get cheap coin cell batteries all over the place. Since they just have to drive a little LED, I expect them to last long enough.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/cell-holder.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/cell-holder_thumb.jpeg&#34;  alt=&#34;2 x 3V coin cell holder&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My only concern was that 6V is more than the 5V USB would give. There&amp;rsquo;s a slim chance that it could damage the LED. Typically, though, the LED can tolerate more voltage although it might lessen it&amp;rsquo;s life expectancy. I was willing to risk that.&lt;/p&gt;
+
+&lt;p&gt;It worked. The light is also a bit brighter than it would have been off USB thanks to the over-voltage. LED lifetime be damned, let&amp;rsquo;s run with this.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_13&#34;&gt;Figure out where to put what&lt;/h1&gt;
+
+&lt;p&gt;Now that I have all the pieces, it&amp;rsquo;s time to stick it onto the goggles somehow. I initially went for the battery holder on top of the goggles where they&amp;rsquo;re nice and flat. But putting it there in a way that I could still work the switch meant I&amp;rsquo;d have to bend the wires awkwardly.&lt;/p&gt;
+
+&lt;p&gt;I went with batteries on the side instead. The light could then sit on top in the center and shine right onto whatever is in front of me.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_14&#34;&gt;Connect battery and light&lt;/h1&gt;
+
+&lt;p&gt;I had cut off the wires a bit close to the head. But the battery holder had enough wire and then some. Hold the parts to the goggles to roughly measure enough wire and then cut off the JST connector that came with the holder. The JST plug might come in handy in the future.&lt;/p&gt;
+
+&lt;p&gt;Be sure to take into account the extra length you&amp;rsquo;ll need when you turn the light to face forward (I didn&amp;rsquo;t).&lt;/p&gt;
+
+&lt;p&gt;Slip a bit of heat shrink onto each wire for later. Strip the battery and lamp wires and solder them together. They are fairly small, and there aren&amp;rsquo;t many strands to work with. Helping hands come in handy here.&lt;/p&gt;
+
+&lt;p&gt;Slide the heat shrink over the soldered wire. I used a lighter to shrink them since I don&amp;rsquo;t have a fancy heat gun.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/solder.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/solder_thumb.jpeg&#34;  alt=&#34;solder up battery and led wires&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/shrinks.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/shrinks_thumb.jpeg&#34;  alt=&#34;use heat shrink to protect the joints&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;I experimented with wrapping isolating tape around the whole length. But that limited the wire&amp;rsquo;s flexibility too much to be useful. I ditched the tape - raw wires look cooler anyway.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/taped.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/taped_thumb.jpeg&#34;  alt=&#34;isolation tape made it too rigid&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_15&#34;&gt;Mount battery to goggles&lt;/h1&gt;
+
+&lt;p&gt;The goggles I have already have holes in them - I presume so that they don&amp;rsquo;t fog up. The material is soft and bendy so I decided to just screw the battery pack right on.&lt;/p&gt;
+
+&lt;p&gt;My first attempt to use the screws that hold the lid onto the battery pack failed because they were too short. I used some small screws I had lying around instead. Just screw them through the holes - the material is forgiving.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/holes.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/holes_thumb.jpeg&#34;  alt=&#34;my goggles already had holes I could use&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/black-screws.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/black-screws_thumb.jpeg&#34;  alt=&#34;I found some screws that fit just fine&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/mounted.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/mounted_thumb.jpeg&#34;  alt=&#34;At first I tried to mount on top&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_16&#34;&gt;Mount lamp to googles&lt;/h1&gt;
+
+&lt;p&gt;All we need to do now is mount the lamp. Since I want to be able to take this off again without much hassle, I simply used a small cable tie. It was a bit wider than the holes, so I could have widened the holes with a drill or so if necessary. But since the material is so forgiving it squeezed through just fine.&lt;/p&gt;
+
+&lt;p&gt;Because I hadn&amp;rsquo;t considered the extra length needed when the lamp is turned ninety degrees to point forward, I was short a centimeter or so. So I moved the lamp a bit to the side. As a result it doesn&amp;rsquo;t sit right in the center. Luckily the lense spreads the light wide enough so that it won&amp;rsquo;t trigger my OCD whenever I use it.&lt;/p&gt;
+
+&lt;p&gt;Also, with the tension caused by the cable tie, the top of the soft goggles now bends inward a little bit. But when put on, my forehead pushes against it so that the light points right where it should and not at the ceiling.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/tied.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/tied_thumb.jpeg&#34;  alt=&#34;Light mounted by cable tie&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/lightcone.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/lightcone_thumb.jpeg&#34;  alt=&#34;Light cone spreads pretty wide&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_17&#34;&gt;Done!&lt;/h1&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/done.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/done_thumb.jpeg&#34;  alt=&#34;Goggles with mounted batteries and lamp&#34; width=&#34;400px&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;So there you have it. A quick and fun hack that makes my night-time soldering sessions a little more fun. I&amp;rsquo;ll certainly keep a look out for hackable objects at IKEA next time we go for breakfast.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_18&#34;&gt;Lessons learned&lt;/h2&gt;
+
+&lt;p&gt;If I was to do this again, here&amp;rsquo;s what I would do differently.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Snap the USB connector right off and unscrew the top. No messing with coiled up wire, no injuries. Plus I&amp;rsquo;d get to use the whole length of the lamp wire.&lt;/li&gt;
+&lt;li&gt;Leave more wire between battery and lamp so that the lamp can sit right in the center of the goggles.&lt;/li&gt;
+&lt;li&gt;Use longer piece(s) of heatshrink to shrink around the whole length of the wire. For nicer looks maybe. Might still impact flexibility though.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LED goggle lamp</title>
+      <link>http://raph.es/project/headlamp/</link>
+      <pubDate>Sun, 12 Oct 2014 17:48:05 IST</pubDate>
+      
+      <guid>http://raph.es/project/headlamp/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/done.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/done_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I have a cheap set of goggles I wear when I do soldering and other eye-threatening activities. Since most of the time I work in the evenings after the little people went to bed, I though it would be neat if it had a little LED attached to illuminate my view.&lt;/p&gt;
+
+&lt;p&gt;While I decided to stick it to the goggles, you certainly could mount this light to anything else (tools, masks, gloves). I deliberately mounted the light so that I can take it off again without damaging the light or the goggles. Because you never know when you can use a little light!&lt;/p&gt;
+
+&lt;p&gt;This was a quick and dirty hack where I salvaged bright LED with lense from an IKEA USB lamp. Then simply screwed it to my goggles. The whole thing took about an hour.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Feasability of powering a Raspberry Pi with a 3.7V battery</title>
+      <link>http://raph.es/blog/2014/10/feasible-power-raspberry-pi-3.7V-lipo-battery/</link>
+      <pubDate>Fri, 10 Oct 2014 17:25:49 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2014/10/feasible-power-raspberry-pi-3.7V-lipo-battery/</guid>
+      <description>
+
+&lt;p&gt;I recently got thinking about how I might power a Raspberry Pi off batteries. The &lt;a href=&#34;/project/mudcam&#34;&gt;project&lt;/a&gt; I have in mind is effectively a wearable video camera, so it has to be as compact as possible and have a good few hours of battery life to be of any practical use.&lt;/p&gt;
+
+&lt;p&gt;Raspberry Pi boards are not designed for embedded projects. Instead, they are supposed to be small, cheap computers for use with simple USB keyboards and HD TVs. There is much confusion around how to power the Pi, and every revision has brought changes to the power circuits.&lt;/p&gt;
+
+&lt;p&gt;That said, with some modification a Pi can still be very useful in embedded projects such as the one I have in mind. The following is the summary of my research on the subject of powering the Raspberry Pi, particularly with an eye towards lower-than-recommended voltage like from batteries.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;The 5V requirement&lt;/h1&gt;
+
+&lt;p&gt;It seems that the Pi only requires 5V in order to comply with the USB and HDMI standards. Otherwise, the board itself has no need for 5V at all.&lt;/p&gt;
+
+&lt;p&gt;According to &lt;a href=&#34;http://www.daveakerman.com/?page_id=1294&#34;&gt;Dave Akerman&lt;/a&gt;, the 5V from USB only powers a handful of components:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;USB peripherals&lt;/li&gt;
+&lt;li&gt;HDMI output&lt;/li&gt;
+&lt;li&gt;VSense pin on the BCM2835 MCU&lt;/li&gt;
+&lt;li&gt;the 3.3V voltage regulator&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;1. USB power&lt;/h1&gt;
+
+&lt;p&gt;The Pi was designed to be a cheap, small,  stationary computer that can easily interface with most keyboards and screens. Naturally it was built around the USB power standards. Specifically USB 2.0 at the time. The micro USB port of the Pi gets +5V DC via pin 1 and the 0V/GND line on Pin 5. None of the USB data lines are used.&lt;/p&gt;
+
+&lt;p&gt;It makes sense that the Pi requires 5V input in order to provide the same to it&amp;rsquo;s standard keyboard and mouse peripherals.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t want to use USB peripherals at all, so I should be able to ignore this requirement.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;2. HDMI&lt;/h2&gt;
+
+&lt;p&gt;Another main feature of the Pi that made the designers opt for a 5V power requirement is HDMI video output. The HDMI standard &lt;a href=&#34;http://www.hdmi.org/learningcenter/kb.aspx?c=13&#34;&gt;requires&lt;/a&gt; 5V on one of it&amp;rsquo;s lines.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The HDMI specification requires all source devices to provide at least 55mA (milliamps) &lt;strong&gt;on the 5V line&lt;/strong&gt; for the purpose of reading the EDID of a display.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;HDMI is basically the USB for displays and it&amp;rsquo;s everywhere. It was good call since HDMI support is  one of the most popular features of the Pi. Just look at how many people use it as a hi-def media center.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t require HDMI output for my project, so again, I should be able to safely ignore this requirement.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;3. VSense pin&lt;/h2&gt;
+
+&lt;p&gt;This is a special pin on the Broadcom SoC. From what I could gather it has to be kept high so that the MCU knows that there&amp;rsquo;s sufficient voltage for operation. If voltage drops too low, the chip will deactivate and the Pi will not work.&lt;/p&gt;
+
+&lt;p&gt;However, it &lt;a href=&#34;http://www.daveakerman.com/?page_id=1294&#34;&gt;seems&lt;/a&gt; that 3.3V is sufficient to keep the pin high. 5V is not really required here.&lt;/p&gt;
+
+&lt;p&gt;Three down, one to go.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;4. RG2&lt;/h2&gt;
+
+&lt;p&gt;Most of the components on the Pi PCB work off 3.3V or less, so a voltage regulator marked &lt;code&gt;RG2&lt;/code&gt; on the PCB has the job of stepping down the 5V from USB to more tolerable 3.3V. The regulated output from RG2 also flows into two other regulators, &lt;code&gt;RG1&lt;/code&gt; and &lt;code&gt;RG3&lt;/code&gt; - those step the voltage down even further for more sensitive components.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;RG2&lt;/code&gt; in most new boards is a linear voltage regulator of type &lt;a href=&#34;http://www.onsemi.com/PowerSolutions/product.do?id=NCP1117&#34;&gt;NCP1117&lt;/a&gt;. It&amp;rsquo;s takes in a more or less wide range of voltage and steps it down to 3.3 volts. The excess is lost as heat.&lt;/p&gt;
+
+&lt;p&gt;This is where things get very interesting, and I&amp;rsquo;ll come back to &lt;code&gt;RG2&lt;/code&gt; in a moment.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_5&#34;&gt;Current draw&lt;/h1&gt;
+
+&lt;p&gt;The less current the Pi needs, the smaller my batteries can be and the longer they can last. The amount of current a Raspberry Pi will draw depends on a few factors. Here&amp;rsquo;s some tricks I collected to reduce current draw to a minimum.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;Model A FTW&lt;/h2&gt;
+
+&lt;p&gt;I have a Raspberry Pi Model A which according to spec can draw up to 500mA. Fortunately for me, this is an upper limit for standard use cases involving HDMI screens and some USB devices connected.&lt;/p&gt;
+
+&lt;p&gt;Hackers on the interwebs report that a model A can draw as little as 115mA. The model B has additional components - most notably an ethernet controller - and requires up to three times as much as the model A. The B+ is fairly new and I&amp;rsquo;ve heard it&amp;rsquo;s optimized a bit compared to the B even though it has even more connectors. Still, it pulls more amps than a model A.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t need any of the fancy additions in models B or B+. I managed to get my hands on another model A which I&amp;rsquo;ll be using for the project. Model As are hard to come by these days. Grab one when you get the chance. I got one off eBay. &lt;em&gt;Slightly&lt;/em&gt; overpriced - just a bit. Hope it&amp;rsquo;s worth it&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_7&#34;&gt;Don&amp;rsquo;t trust USB.&lt;/h2&gt;
+
+&lt;p&gt;In addition to the on-board components, any connected USB peripherals can increase the Pi&amp;rsquo;s draw significantly. Unless you use a powered USB hub or some other form of external power for your devices, they will pull power straight through the Pi. This can have all kinds of strange side effects.&lt;/p&gt;
+
+&lt;p&gt;Many a newbie problem can be traced back to insufficient or irregular power supply.&lt;/p&gt;
+
+&lt;p&gt;In &lt;em&gt;theory&lt;/em&gt;, you can power a Pi from the USB on your computer or hub. USB 2.0 devices are allowed to draw up to 500mA. But because the Pi is not connected to the two USB data lines, it will not be detected by a host that enumerates it&amp;rsquo;s USB slaves. USB devices communicate their power requirements via the data lines to the host. The Pi cannot do that, so it&amp;rsquo;s very possible that a host will limit current to merely 100mA.&lt;/p&gt;
+
+&lt;p&gt;Best &lt;em&gt;practice&lt;/em&gt; is to use a powered USB hub and/or dedicated power supply. Some people even build their own PSUs. Otherwise the combined current draw of Pi plus USB devices can exceed what is provided via the USB port alone. Similar problems arise when using random power supplies such as phone chargers.&lt;/p&gt;
+
+&lt;p&gt;As I mentioned earlier, I have no intention of using USB devices in my project. Bullet dodged.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_8&#34;&gt;Disable video output to save power&lt;/h2&gt;
+
+&lt;p&gt;You can disable certain components on the Pi to save some power consumption, most notably the video outputs. Here&amp;rsquo;s what I found on the web for the default Raspbian distro:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# on startup of Raspbian
+# deactivate video output
+/opt/vc/bin/tvservice -off
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I believe it&amp;rsquo;s the same in Arch, my preferred distro - not only for the Pi. I&amp;rsquo;ve yet to test this.&lt;/p&gt;
+
+&lt;p&gt;It is not clear to me how much this will save. The HDMI spec indicated up to 55mA draw. How much this actually is without a TV connected, I cannot say. I suspect that this will have very little effect on power consumption.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_9&#34;&gt;Underclock the MCU to save power&lt;/h2&gt;
+
+&lt;p&gt;You can change some boot parameters for the Pi firmware, including clock rates for MCU/GPU and memory sizes. It would seem intuitive to assume that clocking the chips down a notch could save some power.&lt;/p&gt;
+
+&lt;p&gt;However, from what I heard, underclocking doesn&amp;rsquo;t seem to make a relevant difference compared to other big spenders like USB, the &lt;code&gt;RG2&lt;/code&gt; regulator and in some cases the &lt;code&gt;F3&lt;/code&gt; fuse (see below).&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_10&#34;&gt;Bypass the fuse&lt;/h2&gt;
+
+&lt;p&gt;There are a few fuses on board. Some smaller ones protect connected USB devices, so the power leaving the Pi. But a big one is on the input side and is hooked up to the micro USB power input.&lt;/p&gt;
+
+&lt;p&gt;The fuse increases resistance as current levels go up. It starts to kick in around 700mA, and blows somewhere over 1A. Notice that this puts a hard limit on how much current your Pi and all of it&amp;rsquo;s USB devices can get, even if the PSU you have connected to the micro USB connector can give more.&lt;/p&gt;
+
+&lt;p&gt;Even if you are well under the 700mA draw, the fuse might drop some voltage before the power even hits the rest of the board. How much depends on the fuse, since they have some production-based variance. Also, if you ever blew the fuse it can take days and weeks until the drop goes away.&lt;/p&gt;
+
+&lt;p&gt;Having the fuse is a good thing for most use cases. You don&amp;rsquo;t want little Jimmy to burn his Pi just because he hooked up his USB hair dryer to the Pi. But in my case the batteries won&amp;rsquo;t even be able to give enough juice to max out the fuse. Plus, I&amp;rsquo;m going for as little current draw as possible. So bypassing the fuse altogether is definitely an option.&lt;/p&gt;
+
+&lt;p&gt;You can either bridge the fuse connectors with a smaller resistor, so current flows through that rather than the fuse. Or maybe even put a jumper across for zero resistance.&lt;/p&gt;
+
+&lt;p&gt;A simpler, less invasive way is to power the Pi via it&amp;rsquo;s GPIO pins. One is connected to the 5V rail after the fuse. This is what most embedded projects do.&lt;/p&gt;
+
+&lt;p&gt;Obviously at the risk of frying the board.&lt;/p&gt;
+
+&lt;p&gt;Well, &lt;strong&gt;YOLO&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_11&#34;&gt;RG2 is a problem&lt;/h2&gt;
+
+&lt;p&gt;Revistion 2 boards (i.e. newer model Bs and all model As) have a &lt;code&gt;NCP1117-3V3&lt;/code&gt; primary voltage regulator at &lt;code&gt;RG2&lt;/code&gt;. It, in turn, powers two other regulators &lt;code&gt;RG1&lt;/code&gt; and &lt;code&gt;RG3&lt;/code&gt;. The stuff I care about all takes power from this guy.&lt;/p&gt;
+
+&lt;p&gt;The problem with RG2 is, it was chosen to fit the typical conditions for the Pi: regulated +5V DC. The NCP1117 has a drop out voltage of over 1.2V. This means the difference between it&amp;rsquo;s input and output voltage has to be at least 1.2V. If the voltage is lower than the DO, the regulator will stop working. No power downstream means, well, no power for your Pi.&lt;/p&gt;
+
+&lt;p&gt;We know the output of RG2 is 3.3V. So the minimum input voltage after the fuse has to be &lt;em&gt;at least&lt;/em&gt; 4.5V. This is a problem if you&amp;rsquo;re trying to run on batteries. Most affordable batteries have lower voltages than 5V.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_12&#34;&gt;Ways to make batteries work&lt;/h1&gt;
+
+&lt;p&gt;There&amp;rsquo;s a few ways to work around the issue of &lt;code&gt;RG2&lt;/code&gt;&amp;rsquo;s minimum voltage, which I&amp;rsquo;ll describe in the next section.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_13&#34;&gt;Use higher voltage batteries&lt;/h2&gt;
+
+&lt;p&gt;And let RG2 step it down again.
+Loose the difference as heat.
+Wasteful.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_14&#34;&gt;Step up lower voltage batteries&lt;/h2&gt;
+
+&lt;p&gt;Take lower volt batteries, and run them through a step up converter.
+Draws more power from your batteries.
+Is not very efficient, and you&amp;rsquo;re only doing it to step it down again in &lt;code&gt;RG2&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_15&#34;&gt;Replace RG2 with lower DO&lt;/h2&gt;
+
+&lt;p&gt;THIS&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;use higher voltage batteries, and step them down to 5v: for example, 4 AA batteries in series provide ~6V. &amp;gt;1 lipo cell will also need to be stepped down, say 2S (2 cells in series) = 2x3.7V = 7.4V.&lt;/p&gt;
+
+&lt;p&gt;stepping down usually done via voltage regulators, linear or switching. switching more configurable and efficient, but more expensive and take a bunch of space. some elaborate engineering going on in the forums about this :-) linear is much simpler but often much less efficient than switching ones, although the efficiency of linear regulators generally increases the closer your input voltage gets to your output voltage. the efficiency correlation is &amp;hellip; linear!&lt;/p&gt;
+
+&lt;p&gt;if like me you don&amp;rsquo;t really care about USB and HDMI (headless mode, no wifi or similar) you might wonder why do you need 5V at all? or even the higher voltages above? the energy you provide will be wasted largely anyway (rg2 is linear, so efficiency gets worse the higher the input voltage is). very inefficient for me.&lt;/p&gt;
+
+&lt;p&gt;ideally i would be able to supply as close to 3.3V as possible, allowing for sufficient current draw under recording/IO load (VERY rough guess: ~500mA - 1A). a single cell LiPo provides between ~3V(ish) (drained) and ~4.2V (charged). this is assuming lipo has undervoltage protection that cuts off at some point, typically a bit over/under 3V.&lt;/p&gt;
+
+&lt;p&gt;so how to use lowe voltage?
+step up lower voltage to 5V. this is accomplished using step up/boosters which again are not known to be very efficient in the first place. you can find many examples on the web where people show off their nice Pi running of two AA batteries (3V) but generally their battery life will be terrible. cool hack, but not great if you want to run the thing for a few hours. booster efficiency is (from what i gather reading about them&amp;hellip;) roughly 70%. So you loose 30% power just pushing power into the Pi. Then that 5V power gets used for stuff you might not even need (usb, hdmi). The rest gets regulated down again into 3.3V by your rg2, again at (best) approx 70% efficiency, losing another 30%. keep in mind, rg2 efficiency can be as bad as 50%. So there goes lots of precious battery life!&lt;/p&gt;
+
+&lt;p&gt;so why not just plug in a single cell lipo?
+I could take a male micro-usb connector, and attach a JST plug or similar for battery to go into the USB D+ and D- pins. This would feed battery directly into the pi.
+PROBLEM: built in regulator has a drop out voltage of at least 0.9V, with 1A current draw it will be around 1.1V, up to even 1.2V. That means the difference between output (3.3V) and it&amp;rsquo;s input has to be at least 1.1V realistically. that&amp;rsquo;s 3.3V + 1.1V = 4.4V. the specs say min is 4.75V, i suppose to not be to close to the edge given variance in parts and power stability.&lt;/p&gt;
+
+&lt;p&gt;So the regulator will not do anything if voltage is below 4.4V - and a single cell lipo will AT BEST (for a brief period of time) provide about 4.2V. most of the time 3.7V. NOT GOING TO WORK!&lt;/p&gt;
+
+&lt;p&gt;Even though the Model A is often used for embedded projects due to it&amp;rsquo;s lower current draw, the Pi was not designed with embedded projects in mind. It&amp;rsquo;s meant to be a learning computer that powers from USB and connects to various other USB devices, hence the 5V situation. But if you really just want to leverage the onboard MCE and maybe the camera and some GPIO you don&amp;rsquo;t need 5V at all, but the rg2 regulator forces you to.&lt;/p&gt;
+
+&lt;p&gt;IT&amp;rsquo;S WARRANTY VOIDING TIME! We can remove this limitation by replacing the rg2 regulator. Warning, this is an insanely cool hack and you absolutely should try it - if you&amp;rsquo;re willing to sacrific your Pi when things go wrong. FOR SCIENCE!
+For this to work we need to have a clear picture of our power requirements. Given a single cell LiPo, our input voltage is going to be between 3.5V(ish) and 4.2V(ish). The draw of model A and cam is estimated to be around 600ma. The original rg2 can do between 1A and 2.2A. Let&amp;rsquo;s compromise around 1A here.
+To maximise efficiency we could look at using switching regulators, but their efficiency can vary to a point of being not much better than linear ones, plus their more expensive and more involved to install (i.e. mount the big thing somewhere).&lt;/p&gt;
+
+&lt;p&gt;What we really need is a lower drop out voltage than the original Pi has, since that&amp;rsquo;s what&amp;rsquo;s preventing us from using our lipo battery cell in the first place. Thankfully, there are many that have much lower drop out, aka &amp;ldquo;low drop out&amp;rdquo; LDO. for instance the 182x series from Microchip:
+* MCP1825,  500mA output current, ~0.21V DO, ~5 EUR on ebay
+* MCP1826, 1000mA output current, ~0.30V DO, ~5-6EUR on ebay
+* MCP1827, 1500mA output current, ~0.33V DO, ~7EUR on ebay&lt;/p&gt;
+
+&lt;p&gt;say we used the MCP1827 with a typical DO of 0.33V. Set to 3.3V output, that&amp;rsquo;s a min of 3.6V input. Remember out typical lipo cell has 3.7 nominal output voltage. it seems hard to get input voltage any closer to the 3.3V we really want to use! you could probably get a bit more life out of your battery when using the 1826 or even 1825, but you&amp;rsquo;ll sacrifice output current as you do. so you really need to understand how much you will be drawing before you can make the best decision here. if in doubt, without HDMI or USB I suspect you can easily go with 1A current, but I&amp;rsquo;m not fully sure about the 1825 - reports do indicate the Pi can run as low as 115mA so it might work, depending on how you utilize the pi.
+The Pi fuse appears to be at 750mA
+The USB 2.0 standard says max 500mA
+So it&amp;rsquo;s reasonable to assume that a Pi w/o video or USB peripherals will draw not even close to 500mA.&lt;/p&gt;
+
+&lt;p&gt;How long can we expect the battery to last? This of course depends on the lipo capacity. I have a spare 1200mAh 3.7V single cell lipo at home, let&amp;rsquo;s do a Gedankenexperiment here. I&amp;rsquo;m going to assume I run some tests and determine that my requirements are under 500mA and I can run with the 1825. that has very low drop out and can run longer on lower voltage from my batteries as they drain.&lt;/p&gt;
+
+&lt;p&gt;3.7V nominal battery voltage, let&amp;rsquo;s be pessimistic and say it&amp;rsquo;s at the lowest allowed
+3.7V - 0.21 DO = 3.49V (around here the undervoltage protection could kick out, but let&amp;rsquo;s ignore for now)&lt;/p&gt;
+
+&lt;p&gt;available power in watt = V * Ah
+3.49V * 1.2Ah = 4.188 Wh
+(guestimated worst case; capacity could vary as well, but let&amp;rsquo;s leave some optimism in there!)&lt;/p&gt;
+
+&lt;p&gt;required power in watt
+3.3V * 0.5Ah (mcp1825 max out) = 1.65 Wh
+(guesstimated worst case, exact power requirements will go up and down, and have yet to be measured with picam and IO)&lt;/p&gt;
+
+&lt;p&gt;so theoretically, given the above assumptions of course, I could run
+4.188 Wh / 1.65 Wh = 2.53 h
+off just that tiny single cell lipo!&lt;/p&gt;
+
+&lt;p&gt;keep in mind, if I do need more than 500mA and opt for 1826 or even 1827 I&amp;rsquo;ll have to expect a drop out earlier than that, but that&amp;rsquo;s cutting it pretty close to the nominal 3.7V of the battery. and limits will also vary based on temperature etc so it&amp;rsquo;s hard to say. it will most certainly be less than the above.&lt;/p&gt;
+
+&lt;p&gt;NOW let&amp;rsquo;s go further and say I bough a bigger lipo. let&amp;rsquo;s say one of those tablet replacement lipos you can get on ebay for about 10 EUR, and can have over 3Ah of power.&lt;/p&gt;
+
+&lt;p&gt;3.49V * 3Ah = 10.47 Wh available
+10.47 Wh / 1.65 Wh = ~6.3 hours!&lt;/p&gt;
+
+&lt;p&gt;And that still with a fairly low profile, slim battery.&lt;/p&gt;
+
+&lt;p&gt;So that&amp;rsquo;s the theory, I&amp;rsquo;ll need to measure actual current requirements in experiment next. Then decide which regulator to get (hope I can get away with the 1825&amp;hellip;). Then order a nice lipo that can fit into my space requirements.&lt;/p&gt;
+
+&lt;p&gt;links&lt;/p&gt;
+
+&lt;p&gt;Pi power
+&lt;a href=&#34;http://www.petervis.com/Raspberry_PI/Raspberry_PI_Power_Supply/Raspberry_PI_Micro_USB_B_Specification.html&#34;&gt;http://www.petervis.com/Raspberry_PI/Raspberry_PI_Power_Supply/Raspberry_PI_Micro_USB_B_Specification.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;rg2
+ &lt;a href=&#34;http://www.onsemi.com/PowerSolutions/product.do?id=NCP1117&#34;&gt;http://www.onsemi.com/PowerSolutions/product.do?id=NCP1117&lt;/a&gt;
+ &lt;a href=&#34;http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF&#34;&gt;http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;mcp182X
+ &lt;a href=&#34;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1825&#34;&gt;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1825&lt;/a&gt;
+ &lt;a href=&#34;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1826&#34;&gt;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1826&lt;/a&gt;
+ &lt;a href=&#34;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1827&#34;&gt;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1827&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;lipos sparkfun:
+ &lt;a href=&#34;https://learn.sparkfun.com/tutorials/battery-technologies/lithium-polymer&#34;&gt;https://learn.sparkfun.com/tutorials/battery-technologies/lithium-polymer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;lipos rc dude:
+ &lt;a href=&#34;http://www.rogershobbycenter.com/lipoguide/&#34;&gt;http://www.rogershobbycenter.com/lipoguide/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;on rg2
+ &lt;a href=&#34;http://www.petervis.com/Raspberry_PI/dead-raspberry-pi/dead-raspberry-pi.html&#34;&gt;http://www.petervis.com/Raspberry_PI/dead-raspberry-pi/dead-raspberry-pi.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;on battery life and voltage regulators
+ &lt;a href=&#34;http://www.daveakerman.com/?page_id=1294&#34;&gt;http://www.daveakerman.com/?page_id=1294&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;regulator?
+ &lt;a href=&#34;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1826&#34;&gt;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1826&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>license</title>
+      <link>http://raph.es/license/</link>
+      <pubDate>Fri, 10 Oct 2014 14:35:37 UTC</pubDate>
+      
+      <guid>http://raph.es/license/</guid>
+      <description>
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Author &amp;amp; copyright&lt;/h1&gt;
+
+&lt;p&gt;Copyright &amp;copy; Raphael Estrada 2011 - 2014.&lt;/p&gt;
+
+&lt;p&gt;Some rights reserved. You may use the source code and contents of this website under the conditions layed out in the licenses below.&lt;/p&gt;
+
+&lt;p&gt;You must get permission from the author should you wish to use source code or content in a way not compatible with the licenses.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Source code&lt;/h1&gt;
+
+&lt;p&gt;Uness explicitly stated otherwise, all software source code is licensed under the&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;GNU General Public License
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;version 3 &lt;em&gt;or higher&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;This includes (but is not exclusively limited to)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;shell scripts&lt;/li&gt;
+&lt;li&gt;CSS&lt;/li&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
+&lt;li&gt;hugo templates&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Latest version&lt;/h2&gt;
+
+&lt;p&gt;At any given time the most current release of the license applies. For the newest and currently valid license text visit:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.gnu.org/licenses/licenses.html#GPL&#34;&gt;http://www.gnu.org/licenses/licenses.html#GPL&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_3&#34;&gt;Blog text &amp;amp; images&lt;/h1&gt;
+
+&lt;p&gt;Unless explicitly stated otherwise, all blog contents is licensed under the&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Creative Commons Attribution-ShareAlike 4.0 International&amp;quot; (CC BY-SA 4.0) license
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;version 4.0 &lt;em&gt;or higher&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;This includes (but is not exclusively limited to):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;blog and project text&lt;/li&gt;
+&lt;li&gt;blog and project images&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;Latest version&lt;/h2&gt;
+
+&lt;p&gt;At any given time the most current release of the license applies. For the newest and currently valid license text visit:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;http://creativecommons.org/licenses/by-sa/4.0/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>n97 salvage</title>
+      <link>http://raph.es/project/n97/</link>
+      <pubDate>Tue, 07 Oct 2014 13:22:43 IST</pubDate>
+      
+      <guid>http://raph.es/project/n97/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MudCam HD</title>
+      <link>http://raph.es/project/mudcam/</link>
+      <pubDate>Mon, 06 Oct 2014 08:21:11 IST</pubDate>
+      
+      <guid>http://raph.es/project/mudcam/</guid>
+      <description>
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Materials&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Raspberry Pi Model A + Camera module&lt;/li&gt;
+&lt;li&gt;MCP 1826S 3.3V voltage regulator&lt;/li&gt;
+&lt;li&gt;IP-66 waterproof junction box&lt;/li&gt;
+&lt;li&gt;Waterproof cable glands&lt;/li&gt;
+&lt;li&gt;Airsoft replica MICH helmet with rails&lt;/li&gt;
+&lt;li&gt;~30cm HDMI cable&lt;/li&gt;
+&lt;li&gt;2 CSI breakout connectors to hook up HDMI cables to Pi&lt;/li&gt;
+&lt;li&gt;Waterproof momentary switch with LED ring&lt;/li&gt;
+&lt;li&gt;2000mAh - 3000m+Ah single-cell 3.7C LiPo battery (e.g. for tablets)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TKD trainer</title>
+      <link>http://raph.es/project/tkdtrainer/</link>
+      <pubDate>Mon, 06 Oct 2014 08:21:06 IST</pubDate>
+      
+      <guid>http://raph.es/project/tkdtrainer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Schoolbag bling</title>
+      <link>http://raph.es/project/bagsbling/</link>
+      <pubDate>Mon, 06 Oct 2014 08:20:17 IST</pubDate>
+      
+      <guid>http://raph.es/project/bagsbling/</guid>
+      <description>&lt;p&gt;#These
+are bags&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>This website</title>
+      <link>http://raph.es/project/website/</link>
+      <pubDate>Thu, 02 Oct 2014 21:00:59 IST</pubDate>
+      
+      <guid>http://raph.es/project/website/</guid>
+      <description>
+
+&lt;h1 id=&#34;toc_0&#34;&gt;requirements&lt;/h1&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Simple tech&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;static pages&lt;/li&gt;
+&lt;li&gt;no database&lt;/li&gt;
+&lt;li&gt;simple style&lt;/li&gt;
+&lt;li&gt;no social media spyware&lt;/li&gt;
+&lt;li&gt;no tracking pixels or anything&lt;/li&gt;
+&lt;li&gt;NO JAVASCRIPT AT ALL, all html/css/img&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;personal&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;my own design from the ground up - incl all quiks&lt;/li&gt;
+&lt;li&gt;reflect all my activity on side-projects&lt;/li&gt;
+&lt;li&gt;minimal use of social media, link to my page to channel output through here&lt;/li&gt;
+&lt;li&gt;playgrund to screw around with web tech - it&amp;rsquo;s my own and i can hack it however i like&lt;/li&gt;
+&lt;li&gt;my own domains&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Shorter posts&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;half twitter, half blog&lt;/li&gt;
+&lt;li&gt;occasional long post (like this one)&lt;/li&gt;
+&lt;li&gt;incremental value - projects, series aggregate nr of small posts to bigger context&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;No comments&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;see also: simple tech&lt;/li&gt;
+&lt;li&gt;no spam, no trolls&lt;/li&gt;
+&lt;li&gt;drop me a mail if you have something to say&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_5&#34;&gt;libre&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;open source (static pages are by definition)&lt;/li&gt;
+&lt;li&gt;hosted on github&lt;/li&gt;
+&lt;li&gt;open source license (DECIDE: gpl  or Creative Commons?)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;Programmer&amp;rsquo;s workflow&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;github&lt;/li&gt;
+&lt;li&gt;command line tools (hugo, git, nano)&lt;/li&gt;
+&lt;li&gt;content in simple text / markdown editing&lt;/li&gt;
+&lt;li&gt;automatic delivery&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;toc_7&#34;&gt;TODO&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TOC shortcode?&lt;/li&gt;
+&lt;li&gt;GitHub issues for content improvements/changes&lt;/li&gt;
+&lt;li&gt;show revision of source repo as version in subtree html&lt;/li&gt;
+&lt;li&gt;embed history/versions of a given content?&lt;/li&gt;
+&lt;li&gt;highlight currently selected menu section&lt;/li&gt;
+&lt;li&gt;auto-deploy from tavis to github pages&lt;/li&gt;
+&lt;li&gt;stale projects where date &amp;gt; x&lt;/li&gt;
+&lt;li&gt;highlight latest blog posts, projects&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;shrinkify pngs for project, way to large&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;watermark images&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;add other projects, i.e. software ones
+
+&lt;ul&gt;
+&lt;li&gt;dansguardian&lt;/li&gt;
+&lt;li&gt;nodewire&lt;/li&gt;
+&lt;li&gt;gogre3d, llcoi&lt;/li&gt;
+&lt;li&gt;gorf24&lt;/li&gt;
+&lt;li&gt;more&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;next/prev content by date&lt;/li&gt;
+&lt;li&gt;style code snippets better&lt;/li&gt;
+&lt;li&gt;license page  &amp;ldquo;/license&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;new domain with DNS config&lt;/li&gt;
+&lt;li&gt;cv&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wireless Gamepad</title>
+      <link>http://raph.es/project/gamepad/</link>
+      <pubDate>Thu, 02 Oct 2014 20:46:17 IST</pubDate>
+      
+      <guid>http://raph.es/project/gamepad/</guid>
+      <description>
+
+&lt;h1 id=&#34;toc_0&#34;&gt;hello&lt;/h1&gt;
+
+&lt;p&gt;this is a gamepad&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Me</title>
+      <link>http://raph.es/about/</link>
+      <pubDate>Mon, 15 Sep 2014 08:09:59 IST</pubDate>
+      
+      <guid>http://raph.es/about/</guid>
+      <description>
+
+&lt;p&gt;I am Raphael. Most people call me Raph. The blog contains stuff I think about.&lt;/p&gt;
+
+&lt;p&gt;What you&amp;rsquo;ll find on this page are strictly &lt;em&gt;my own&lt;/em&gt; personal opinions (&lt;em&gt;not&lt;/em&gt; my employers&amp;rsquo; views, yadda yadda). Raw. Ranty. Biased. Partially incomplete. With typos. Not always clearly structured. Mostly without statistically significant evidence. Get over it.&lt;/p&gt;
+
+&lt;p&gt;With that out of the way, I do try to structure my thoughts so that they are somewhat readable. Maybe one or two bits of useful knowledge are hidden in there, too. Do have a look around.&lt;/p&gt;
+
+&lt;p&gt;Constructive feedback is always welcome! Sometimes I might even listen. You can find ways to contact me at the bottom of the site.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        tl;dr raph
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/about_raph.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/about_raph_thumb.jpeg&#34;  alt=&#34;Accomplishments makes me happy.&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;father&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;of children&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;citizen&lt;/strong&gt;&amp;nbsp;&amp;nbsp;of earth&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;disciple&lt;/strong&gt;&amp;nbsp;of science&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;eater&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;of bacon&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;addict&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;of coffee&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;crafter&lt;/strong&gt;&amp;nbsp;&amp;nbsp;of software&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;herder&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;of cats&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;router&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;of electrons&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;maker&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;of stuff&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;master&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;of scrum&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pusher&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;of pixels&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;student&lt;/strong&gt;&amp;nbsp;&amp;nbsp;of taekwondo&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;thrasher&lt;/strong&gt; of metal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;runner&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;of mud&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;enjoyer&lt;/strong&gt;&amp;nbsp;&amp;nbsp;of silence&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Frequently asked questions&lt;/h1&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;How&amp;rsquo;s it going?&lt;/h2&gt;
+
+&lt;p&gt;Great.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Did you see that ludicrous display last night?&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=gWJIQm9qH-w&#34;&gt;Nope&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Any plans for the weekend?&lt;/h2&gt;
+
+&lt;p&gt;Nope.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_4&#34;&gt;&lt;em&gt;Rarely&lt;/em&gt; asked questions&lt;/h1&gt;
+
+&lt;p&gt;Because - let&amp;rsquo;s face it - most people are &lt;em&gt;frequently&lt;/em&gt; too polite to ask the interesting questions.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_5&#34;&gt;What&amp;rsquo;s a &amp;ldquo;galaktor&amp;rdquo;?&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;galaktor&lt;/em&gt; is a silly screen name I started using years ago, and it stuck. It&amp;rsquo;s in code I wrote, websites I made and accounts I registered.&lt;/p&gt;
+
+&lt;p&gt;The word itself is supposed to sound like some powerful yet ridiculously cliche bad guy from space. Think sci-fi b-movies. &lt;a href=&#34;https://en.wikipedia.org/wiki/Galactus&#34;&gt;Galactus&lt;/a&gt; may have been a subconcious inspiration.&lt;/p&gt;
+
+&lt;p&gt;Similarities with &lt;a href=&#34;https://en.wikipedia.org/wiki/Galactor&#34;&gt;Galactor&lt;/a&gt; from the anime &lt;a href=&#34;https://en.wikipedia.org/wiki/Science_Ninja_Team_Gatchaman&#34;&gt;Science Ninja Team Gatchaman&lt;/a&gt; are purely coincidental, but couldn&amp;rsquo;t fit better. I mean, I never watched the show, but &lt;em&gt;that name&lt;/em&gt;!&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;What happened to your old Blogger blog?&lt;/h2&gt;
+
+&lt;p&gt;I didn&amp;rsquo;t like Blogger for a number or reasons, and snapped into using &lt;a href=&#34;https://twitter.com/estraph&#34;&gt;Twitter&lt;/a&gt; almost overnight. I didn&amp;rsquo;t blog for about two years. Now I am taking back ownership over my content. Read more &lt;a href=&#34;/on/blogging/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_7&#34;&gt;What&amp;rsquo;s your Myers-Briggs score?&lt;/h2&gt;
+
+&lt;p&gt;IXXX. I&amp;rsquo;m a model &lt;a href=&#34;/on/introverts/&#34;&gt;introvert&lt;/a&gt;, but don&amp;rsquo;t buy into the rest.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_8&#34;&gt;What&amp;rsquo;s the banner at the top of this page supposed to say?&lt;/h2&gt;
+
+&lt;p&gt;It says &amp;ldquo;make or die&amp;rdquo;. Don&amp;rsquo;t worry if you can&amp;rsquo;t read it. It&amp;rsquo;s not supposed to convey critical information, just sort of look nice. If you care to know more you can check out my &lt;a href=&#34;/project/website&#34;&gt;website&lt;/a&gt; project.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_9&#34;&gt;Why does your website look so weird?&lt;/h2&gt;
+
+&lt;p&gt;Gee, thanks! Believe it or not, this page looks just how I want it to. You can read about that in the &lt;a href=&#34;/project/website/&#34;&gt;project description&lt;/a&gt;. I&amp;rsquo;ll take an internet full of weird and wonderful websites with personality over today&amp;rsquo;s flood of look-a-like Wordpress themes and bland Facebook profiles any day.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_10&#34;&gt;Would you like some cake?&lt;/h2&gt;
+
+&lt;p&gt;Sorry, but I avoid dietary &lt;a href=&#34;/on/carbs/&#34;&gt;carbohydrate&lt;/a&gt; like the plague &lt;del&gt;that it is&lt;/del&gt;. However, I appreciate the offer!&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_11&#34;&gt;kk. want a beer?&lt;/h2&gt;
+
+&lt;p&gt;Cheers, but I&amp;rsquo;ll pass. I don&amp;rsquo;t drink &lt;a href=&#34;/on/alcohol/&#34;&gt;alcohol&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_12&#34;&gt;Woah, are you some kind of straight-edge fundamentalist?&lt;/h2&gt;
+
+&lt;p&gt;No! Maybe! You make that sound like it&amp;rsquo;s a bad thing. Read more &lt;a href=&#34;/on/scepticism/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<head>
   <title>raph haXx</title>
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/logo.css">
 </head>
 
-  <body>
-    <div id="top">
+<body>
+  <div id="top">
 <div id="logo">
   <div class="line">
     <div class="pixel">&#164;</div>
@@ -163,7 +162,71 @@
 
 </div>
 
-  </body>
+  <h1>AutofHACK - Forcing Activation Of A Service And Dynamic Resolution Of It&#39;S Dependencies</h1>
+  <span class="metadata">raph @ 2012-10-02 16:47</span>
+  
+    <p class="disclaimer">This post was migrated from my old blog which used to be hosted on Blogger. As a result, some links might be broken.</p>
+
+  
+  <p><p>Sorry, I just couldn&rsquo;t resist the &ldquo;autofHack&rdquo; pun.</p>
+
+<p>In case you don&rsquo;t know <a href="http://code.google.com/p/autofac/">Autofac</a>, this post won&rsquo;t make much sense to you. Go read about it NOW. In the meantime us cool kids will play without you.</p>
+
+<p>Autofac can find the right constructor on your service and resolve it&rsquo;s dependencies automagically using reflection when you do so:</p>
+
+<pre><code>builder.RegisterType&lt;MyClass&gt;();
+</code></pre>
+
+<p>And you can give it a precreated instance directly like so:</p>
+
+<pre><code>var m = new MyClass();
+builder.RegisterInstance(m);
+</code></pre>
+
+<p>The first is lazy and will only activate your service if somebody actually depends on it.</p>
+
+<p>The latter can come in handy if you want to make sure that the service is actually instantiated and running, no matter if others depend on it or not.</p>
+
+<p>The problem with <code>RegisterInstance()</code> is that there is no way for you to resolve the constructor dependencies through the IoC container.</p>
+
+<p>What you can do is implement the <a href="http://code.google.com/p/autofac/wiki/Startable"><code>IStartable</code></a> interface, and it&rsquo;s method <code>Start()</code> will be called by the container once it&rsquo;s configured.</p>
+
+<pre><code>public class MyClass: IStartable
+{
+    public void Start()
+    {
+        // do stuff
+    }
+}
+</code></pre>
+
+<p>That&rsquo;s not nice for two reasons: first, it forces me to use <code>Start()</code>, which can seem a bit forced in a model that has no need for that. Second, it requires your model to reference the Autofac library in order to use the interface, and I really don&rsquo;t want my whole system to be aware of the IoC framework - it should glue them together without them knowing how it happens, and referencing the library goes against that idea.</p>
+
+<p>So I wrote up a few extension methods to hide the IStartable interface and integrate it into the Autofac syntax.</p>
+
+<pre><code>builder.RegisterAndActivate&lt;MyClass&gt;();
+</code></pre>
+
+<p>This will register the type as when using <code>RegisterType&lt;T&gt;</code>, but also register a bootstrapper service which in it&rsquo;s <code>Start()</code> method will resolve your service once, hence bringing it to life even if nobody else actively requests it.</p>
+
+<p>The code is here:
+<a href="https://github.com/galaktor/autofac-extensions">https://github.com/galaktor/autofac-extensions</a></p>
+
+<p>Keep in mind (as stated on the autofac page about <code>IStartable</code>) that this only makes sense when you&rsquo;re service has a <em>Singleton</em> lifetime (because otherwise you&rsquo;ll only have activated one lonely instance that will die shortly after).</p>
+
+<p>I suggested this be included in the official Autofac code in this issue:
+<a href="http://code.google.com/p/autofac/issues/detail?id=388">http://code.google.com/p/autofac/issues/detail?id=388</a></p>
+</p>
+  <div class="clearboth"></div>
+<div>
+  <ul class="tags">
+    <span><a href="/tags">Tags</a>:</span>
+  <li><a href="/tags/foss">foss</a></li><li><a href="/tags/dotnet">dotnet</a></li><li><a href="/tags/software">software</a></li>
+  </ul>
+</div>
+
+  
+
   <div class="clearboth"></div>
 <div id="footspace"></div>
 <footer>
@@ -182,4 +245,4 @@
   <div class="cursor"></div> 
 </footer>
 
-</html>
+</body>

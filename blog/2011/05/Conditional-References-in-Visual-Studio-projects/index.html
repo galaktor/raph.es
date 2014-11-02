@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<head>
   <title>raph haXx</title>
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/logo.css">
 </head>
 
-  <body>
-    <div id="top">
+<body>
+  <div id="top">
 <div id="logo">
   <div class="line">
     <div class="pixel">&#164;</div>
@@ -163,7 +162,77 @@
 
 </div>
 
-  </body>
+  <h1>Conditional References In Visual Studio Projects</h1>
+  <span class="metadata">raph @ 2011-05-05 08:42</span>
+  
+    <p class="disclaimer">This post was migrated from my old blog which used to be hosted on Blogger. As a result, some links might be broken.</p>
+
+  
+  <p>
+
+<p>Visual Studio does a good job in hiding the MSBuild configurations from it&rsquo;s users. MSBuild is quite flexible and powerful - but the VS user interface only gives you control over a tiny piece of it. One handy feature I believe deserves more attention in the IDE is <em>conditional references</em>. When you add a reference to one of your projects, by default it will be static. No matter how you <a href="/2011/04/targeting-platforms-in-visual-studio.html">modify your solution configuration or platform settings</a>.</p>
+
+<p>But some libraries are platform dependent. If you build your solution as 64bit, you will not want to use a version of a library that is restricted to 32bit platforms. Visual Studio does not give you a way to put conditions on your references. Fortunately, MSBuild does. When referencing an assembly in VS, a <code>Reference</code> (or <code>ProjectReference</code>) element is added to your project file&rsquo;s XML containing details of the assembly and a <code>HintPath</code> to it&rsquo;s (supposed) location.</p>
+
+<pre><code>&lt;Reference Include=&quot;MyAssembly, processorArchitecture=MSIL&quot;&gt;
+    &lt;SpecificVersion&gt;False&lt;/SpecificVersion&gt;
+    &lt;HintPath&gt;path\to\MyAssembly.dll&lt;/HintPath&gt;
+&lt;/Reference&gt;
+</code></pre>
+
+<h1 id="toc_0">Setting the conditions</h1>
+
+<p>Using your favorite text editor, you can add a <code>Condition</code> attribute to any reference in your project file, telling MSBuild when to use it (or not). This allows you to reference assemblies of different architecture and make sure they are used according to which platform you are targeting. In this case, a reference could look like the following in your project file:</p>
+
+<pre><code>&lt;Reference Include=&quot;MyAssembly, processorArchitecture=MSIL&quot;
+           Condition=&quot;'$(Platform)' == 'x86'&quot;&gt;
+    &lt;SpecificVersion&gt;False&lt;/SpecificVersion&gt;
+    &lt;HintPath&gt;path\to\32bit\MyAssembly.dll&lt;/HintPath&gt;
+&lt;/Reference&gt;
+&lt;Reference Include=&quot;MyAssembly, processorArchitecture=MSIL&quot; 
+           Condition=&quot;'$(Platform)' == 'x64'&quot;&gt;
+    &lt;SpecificVersion&gt;False&lt;/SpecificVersion&gt;
+    &lt;HintPath&gt;path\to\64bit\MyAssembly.dll&lt;/HintPath&gt;
+&lt;/Reference&gt;
+</code></pre>
+
+<p>This works because in MSBuild the reference elements are <a href="http://msdn.microsoft.com/en-us/library/ms164283%28v=VS.100%29.aspx"><code>Item</code> elements</a>. Many element types can have condition attributes. If you look at other parts of your project file you will probably see that the project configuration and platform sections also use conditions similar to the above example. There are <a href="http://msdn.microsoft.com/en-us/library/ms164307.aspx">other ways to define conditional logic in MSBuild</a>, but this is probably the quickest and most understandable. If you plan to do more funky stuff, have a look at <a href="http://msdn.microsoft.com/en-us/library/ms164282.aspx"><code>&lt;Choose&gt;</code> and <code>&lt;Otherwise&gt;</code></a>.</p>
+
+<figure >
+    
+    <figcaption>
+        <p>
+        Condition evaluates to *False*
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+    <p><a href="/img/blogger/reference-warning.jpeg">
+  <img src="/img/blogger/reference-warning.jpeg"   width="200em"  />
+  </a></p>
+
+</figure>
+
+<div class="clearboth"></div>
+
+<h1 id="toc_1">The <code>Platform</code> variable</h1>
+
+<p>Note that in my example I am querying the <code>Platform</code> variable - <em>not</em> <code>Configuration</code>. I have noticed a practice <a href="http://dev.monogram.sk/websvn/filedetails.php?repname=graphstudio&amp;path=%2Ftrunk%2Fgraphstudio.sln">on teh webz</a> that suggests you create new configurations named <em>Debug64</em> and <em>Release64</em>, then switch references based on the <code>Configuration</code> variable. While this technically works the same way, it is logically incorrect. <code>Configuration</code> and <code>Platform</code> settings are two different concerns in Visual Studio and it is unwise to mix them. It&rsquo;s messy, redundant and generates loads of unnecessary lines in your solution and project files.</p>
+
+<p>Assuming that your project has nicely <a href="http://en.wikipedia.org/wiki/Separation_of_concerns">separated concerns</a> you should not have to make this change in more than one or <a href="http://en.wikipedia.org/wiki/Rule_of_three_%28programming%29">three</a> places. If you <em>are</em> facing a large number of projects that need this additional logic, this XML operation can easily be automated via a script or macro.</p>
+</p>
+  <div class="clearboth"></div>
+<div>
+  <ul class="tags">
+    <span><a href="/tags">Tags</a>:</span>
+  <li><a href="/tags/dotnet">dotnet</a></li><li><a href="/tags/visual-studio">visual studio</a></li><li><a href="/tags/software">software</a></li><li><a href="/tags/builds">builds</a></li>
+  </ul>
+</div>
+
+  
+
   <div class="clearboth"></div>
 <div id="footspace"></div>
 <footer>
@@ -182,4 +251,4 @@
   <div class="cursor"></div> 
 </footer>
 
-</html>
+</body>
