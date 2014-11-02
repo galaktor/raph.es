@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>License on raph haXx </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://raph.es/tags/license/index.xml/</link>
+    
+    
+    <copyright>Raphael Estrada 2011-2014</copyright>
+    <updated>Fri, 10 Oct 2014 14:35:37 UTC</updated>
+    
+    <item>
+      <title>license</title>
+      <link>http://raph.es/license/</link>
+      <pubDate>Fri, 10 Oct 2014 14:35:37 UTC</pubDate>
+      
+      <guid>http://raph.es/license/</guid>
+      <description>
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Author &amp;amp; copyright&lt;/h1&gt;
+
+&lt;p&gt;Copyright &amp;copy; Raphael Estrada 2011 - 2014.&lt;/p&gt;
+
+&lt;p&gt;Some rights reserved. You may use the source code and contents of this website under the conditions layed out in the licenses below.&lt;/p&gt;
+
+&lt;p&gt;You must get permission from the author should you wish to use source code or content in a way not compatible with the licenses.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Source code&lt;/h1&gt;
+
+&lt;p&gt;Uness explicitly stated otherwise, all software source code is licensed under the&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;GNU General Public License
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;version 3 &lt;em&gt;or higher&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;This includes (but is not exclusively limited to)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;shell scripts&lt;/li&gt;
+&lt;li&gt;CSS&lt;/li&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
+&lt;li&gt;hugo templates&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Latest version&lt;/h2&gt;
+
+&lt;p&gt;At any given time the most current release of the license applies. For the newest and currently valid license text visit:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.gnu.org/licenses/licenses.html#GPL&#34;&gt;http://www.gnu.org/licenses/licenses.html#GPL&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_3&#34;&gt;Blog text &amp;amp; images&lt;/h1&gt;
+
+&lt;p&gt;Unless explicitly stated otherwise, all blog contents is licensed under the&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Creative Commons Attribution-ShareAlike 4.0 International&amp;quot; (CC BY-SA 4.0) license
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;version 4.0 &lt;em&gt;or higher&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;This includes (but is not exclusively limited to):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;blog and project text&lt;/li&gt;
+&lt;li&gt;blog and project images&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;Latest version&lt;/h2&gt;
+
+&lt;p&gt;At any given time the most current release of the license applies. For the newest and currently valid license text visit:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;http://creativecommons.org/licenses/by-sa/4.0/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

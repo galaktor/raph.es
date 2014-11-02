@@ -1,0 +1,1722 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Blogs on raph haXx </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://raph.es/blog/index.xml/</link>
+    
+    
+    <copyright>Raphael Estrada 2011-2014</copyright>
+    <updated>Wed, 29 Oct 2014 12:51:58 &#43;0100</updated>
+    
+    <item>
+      <title>The bias is strong with MBTI</title>
+      <link>http://raph.es/blog/2014/10/bias-is-strong-with-mbti/</link>
+      <pubDate>Wed, 29 Oct 2014 12:51:58 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/blog/2014/10/bias-is-strong-with-mbti/</guid>
+      <description>
+
+&lt;p&gt;Once upon a time, at work, I took a personality test.&lt;/p&gt;
+
+&lt;p&gt;It was a three day course, and the whole team participated. Early on, we took a twenty-minute test and added up the scores to end up with four numbers. Each number tells you where you sit one of four linear scales. Each scale is split through the middle and - depending on which half your number falls on - you get one of two letters per scale.&lt;/p&gt;
+
+&lt;p&gt;The resulting four letters combine to form your &lt;em&gt;Myers-Briggs Type Indicator&lt;/em&gt; (MBTI). By knowing someone&amp;rsquo;s MBTI, you&amp;rsquo;re supposed to be able to better predict and understand another&amp;rsquo;s preferences and behaviour.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Enterprise&amp;rdquo; loves MBTI because of how it puts people into neatly labelled boxes. Consultants love MBTI because enterprise loves MBTI. Which is why I was sitting in said course.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;I got &lt;code&gt;INTP&lt;/code&gt;.&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;I&lt;/code&gt;: &lt;strong&gt;i&lt;/strong&gt;ntroverted&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;N&lt;/code&gt;: i&lt;strong&gt;n&lt;/strong&gt;tuitive&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;T&lt;/code&gt;: &lt;strong&gt;t&lt;/strong&gt;hinking&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;P&lt;/code&gt;: &lt;strong&gt;p&lt;/strong&gt;erceiving&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I&amp;rsquo;ll be honest and admit that when I began writing this, I couldn&amp;rsquo;t even remember what the last three stood for. I had to refresh my memory on Wikipedia.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;25% science.&lt;/h1&gt;
+
+&lt;p&gt;The outcome on the first scale can either be &lt;strong&gt;i&lt;/strong&gt;ntrovert or &lt;strong&gt;e&lt;/strong&gt;xtrovert. In our group, this scale seemed to yield the clearest results. Given that most attendees were software developers, it should come as no surprise that most of us ended up getting &lt;em&gt;I&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Why? There&amp;rsquo;s a large body of research and a variety of literature on the introvert-extrovert spectrum. Software development is consistently described as a field that attracts introverts. So I&amp;rsquo;m going to let this one pass as it&amp;rsquo;s both scientificallly grounded and relevant in day-to-day life.&lt;/p&gt;
+
+&lt;p&gt;I won&amp;rsquo;t reiterate what is already well-described in aforementioned books. But just to give one example, it&amp;rsquo;s why many of us prefer the asynchronous nature of electronic means of communication (i.e. email, chat) over synchronous face-to-face &amp;ldquo;talk&amp;rdquo;.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;75% percent bullshit.&lt;/h1&gt;
+
+&lt;p&gt;My beef with the other three is not that they don&amp;rsquo;t apply to me. Quite the opposite actually. It&amp;rsquo;s because they are defined in such a way that they apply to &lt;em&gt;everybody&lt;/em&gt; and are inherently context dependant. Testing for them only captures one&amp;rsquo;s preference &lt;em&gt;at the time of the test&lt;/em&gt;, under the conditions of the test. But under different circumstances I might as well come out as the polar opposite.&lt;/p&gt;
+
+&lt;p&gt;At one point we were presented with a hypothetical scenario: you are the coach of a children&amp;rsquo;s football club. You manage to get just two tickets for a big game. How to do you decide who goes, and how do you communicate that to the children?&lt;/p&gt;
+
+&lt;p&gt;According to MBTI, a typical &lt;em&gt;&lt;strong&gt;t&lt;/strong&gt;hinker&lt;/em&gt; would rank kids by some level of skill and reward the best with the tickets. A &lt;em&gt;&lt;strong&gt;f&lt;/strong&gt;eeler&lt;/em&gt; would be more worried about the other kids being sad or dissapointed, and try to work out a more social solution with the group.&lt;/p&gt;
+
+&lt;p&gt;The problem here is, &lt;em&gt;t&lt;/em&gt; and &lt;em&gt;f&lt;/em&gt; are polar opposites of the same scale. I was scored to be a strong &lt;em&gt;t&lt;/em&gt; based on the questions in the test earlier. And yes, the thought of ranking the kids by their dedication to the club did cross my mind. But I was just as concerned about the other kids being dissapointed as the next &lt;em&gt;f&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I had suggested alternatives, one being to take all the other kids to another event rather than not rewarding them at all. However, they depended on variables not provided. The scenario - being part of a pre-defined course programme -  was contrived in order to set the stage for the purposes of MBTI. It lacked much information which would have influenced my solution. Like the number of children, their age, the price of tickets vs family income&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;But alternatives weren&amp;rsquo;t part of the programme. The trainer made the point she had come to make. And I learned that there is no room for alternatives in the littlle boxes which are MBTI (stereo)types.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_3&#34;&gt;Life is not linear.&lt;/h1&gt;
+
+&lt;p&gt;A linear scale is simply not sufficient to accomodate this spectrum of decision making. Flattening it all like MBTI does disposes too much information to have relevance in the real world.&lt;/p&gt;
+
+&lt;p&gt;If I was to be generous (which apprarenltly I&amp;rsquo;m not, because I&amp;rsquo;m not a &lt;em&gt;f&lt;/em&gt;) I could admit that MBTI gave a correct prediction that I had &lt;em&gt;considered&lt;/em&gt; the ranking option, and as a result &lt;em&gt;could&lt;/em&gt; have decided something similar. But that&amp;rsquo;s pretty thin, and practically impossible to disprove.&lt;/p&gt;
+
+&lt;p&gt;When people end up doing what MBTI predicted, it appears to confirm the correctness of MBTI. When people decide differently, it&amp;rsquo;s either ignored or handwaived away by the general cop-out:&lt;em&gt;&amp;ldquo;MBTI only describes a preference&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;See also: &lt;em&gt;confirmation bias&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I did raise my concerns during the course. The defense was the same every time. Our &amp;ldquo;trainer&amp;rdquo; would argue that MBTI merely describes a &lt;em&gt;preference&lt;/em&gt;, not a general rule (huge red flag). I might have agreed if people hadn&amp;rsquo;t instantly fell into a pattern of reducing others to their scores. &amp;ldquo;&lt;em&gt;P&amp;rsquo;s&lt;/em&gt; do &lt;code&gt;x&lt;/code&gt; while &lt;em&gt;J&amp;rsquo;s&lt;/em&gt; do &lt;code&gt;y&lt;/code&gt;&amp;rdquo;, the trainer would say. So even if we gave MBTI the benefit of the doubt, and went with the &lt;em&gt;preference&lt;/em&gt; hypothesis, in practice it is not used as such. Human minds don&amp;rsquo;t work like that.&lt;/p&gt;
+
+&lt;p&gt;Most of us wore their score like a badge. Literally: many wrote their scores in big letters onto the name signs in front of them. Gradually, people with similar scores formed little teams. In what superficially appeared to be innocent fun, teams ganged up and mocked the others&amp;rsquo; MBTI-stereotypes. &amp;ldquo;Haha, you &lt;em&gt;X&lt;/em&gt; be so crazy.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;See also: &lt;a href=&#34;http://therearenoothers.wordpress.com/2011/12/28/othering-101-what-is-othering/&#34;&gt;othering&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_4&#34;&gt;Pseudo-science is pseudo.&lt;/h1&gt;
+
+&lt;p&gt;The sixteen MBTI type profiles are strangely reminiscent of zodiac signs. They are written in such a way that they could apply to anybody. After we got the hard-earned score, we had a chance to read all profiles. At this point we had already been told what we &amp;ldquo;are&amp;rdquo;, and our minds were already set to read other profiles as if they didn&amp;rsquo;t match.&lt;/p&gt;
+
+&lt;p&gt;I suspect if we had been given the profiles without any prior labelling, it would have been very difficult to find a single one that matches. People would have identified with different profiles under different circumstances. People are not one-dimensional.&lt;/p&gt;
+
+&lt;p&gt;The fine print states MBTI is just a preference, but the scores quickly become comfortable boxes. Once you&amp;rsquo;re convinced that you are an &lt;em&gt;XXXX&lt;/em&gt;, you identify with it so much that you become it. When a situation arises that seems to fit the profile, it&amp;rsquo;s &amp;ldquo;wow, that&amp;rsquo;s obviously because I&amp;rsquo;m X!&amp;rdquo;. When the profile is at odds with behaviour, it is brushed off as an outlier and ignored.&lt;/p&gt;
+
+&lt;p&gt;See also: &lt;a href=&#34;https://en.wikipedia.org/wiki/Astrology_and_science&#34;&gt;astrology&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;See also: &lt;a href=&#34;https://en.wikipedia.org/wiki/Pseudoscience&#34;&gt;pseudo-science&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_5&#34;&gt;Why is MBTI so popular then?&lt;/h1&gt;
+
+&lt;p&gt;Most people enjoy taking personality tests and sharing the outcome. We are quick to identify with the results, especially when they confirm our expectations. Just look at how successful pseudo-scientific tests are in magazine&amp;rsquo;s or social media (i.e. Facebook). MBTI tests or derivatives thereof are very popular on the web.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s easy to do the test. And passing a test gives you a sense of accomplishment. It&amp;rsquo;s fun to label oneself and others. It&amp;rsquo;s fun to make fun people&amp;rsquo;s quirks. It makes sense on the surface and contains just enough science to make it get past our bullshit sensors.&lt;/p&gt;
+
+&lt;p&gt;I buy into the introvert-extrovert spectrum, but the rest is too dynamic for anyone to have a meaningful score. MBTI has very little practical relevance. It oversimplifies human psychology and the complexity of decision making. The resulting simplicity is what makes it so tempting to buy into MBTI. I think it&amp;rsquo;s dangerous how it sets wrong expectations when people use it as a predictor. Which they do, despite the disclaimers.&lt;/p&gt;
+
+&lt;p&gt;So, looking at all this I suppose I&amp;rsquo;m a typical &lt;em&gt;t&lt;/em&gt; after all.&lt;/p&gt;
+
+&lt;p&gt;(Or am I?)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alcohol sucks</title>
+      <link>http://raph.es/blog/2014/10/why-i-dont-drink-alcohol/</link>
+      <pubDate>Fri, 24 Oct 2014 17:35:48 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2014/10/why-i-dont-drink-alcohol/</guid>
+      <description>
+
+&lt;p&gt;I spent my teen and early adult life in southern Germany. The area is world famous for it&amp;rsquo;s beer. And alcohol is deeply ingrained in German culture.&lt;/p&gt;
+
+&lt;p&gt;Some years ago - to the surprise of many of my family and friends - I decided to stop drinking alcohol for good. You wouldn&amp;rsquo;t believe how much ridicule I was confronted with. It&amp;rsquo;s scary how prevalent alcohol is in everyday life - something that you only really see when you attempt to avoid it.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;People ask if I&amp;rsquo;m a recovering alcoholic.&lt;/h1&gt;
+
+&lt;p&gt;I answer no, although answering yes would be easier. It seems like being an alcoholic is the only acceptable reason to not drink for good.&lt;/p&gt;
+
+&lt;p&gt;Society respects the &lt;em&gt;recovering alcoholic&lt;/em&gt;, who has ventured so far into boozeland. Like they crossed some bizarre finish line. Mission accomplished. It&amp;rsquo;s a way of proving one&amp;rsquo;s ability to hold even more alcohol than the other guy. An impressive achievement, apparently. Just listen to friends and family credit each other for how much they were able to drink at that wedding last weekend. For being so hung over.&lt;/p&gt;
+
+&lt;p&gt;A subtle difference compared to the &lt;em&gt;dedicated driver&lt;/em&gt;: the hero-for-a-night who takes on the burden of seeing how stupid his friends behave when they get intoxicated. But only under the condition that someone else drives the next time.&lt;/p&gt;
+
+&lt;p&gt;To clarify my reasoning, I thought I&amp;rsquo;d write a little list of pros and cons.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Drinking alcohol CONS&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;- costs a lot of money
+- tastes horrible
+- it&#39;s literally toxic
+- is bad for my health
+- makes me fat
+- makes me feel sick
+- gives me a headache the next day
+- lowers my intelligence
+- makes me more likely to do dumb things
+- prevents me from driving
+- decreases my ability to defend myself in case of an attack
+- increases the chances of being attacked
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, don&amp;rsquo;t you tell me alcohol doen&amp;rsquo;t taste horrible. It&amp;rsquo;s barely drinkable even when masked by other ingredients (malt, barley in beer; sugar in wine and cocktails). Higher concentrations taste so bad, people frown and gag when they drink it. The only people who enjoy it are either pretending in order to appear tough or maybe alcoholics.&lt;/p&gt;
+
+&lt;p&gt;Sure, if you drink the stuff long enough, you&amp;rsquo;ll learn to distinguish tastes. Some drinks will taste better than others, relatively seen. But objectively, it tastes bad and for a good reason: it&amp;rsquo;s toxic. Our body doesn&amp;rsquo;t want it, so we haven&amp;rsquo;t evolved to get any reward for drinking it.&lt;/p&gt;
+
+&lt;p&gt;Alright, moving on!&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Drinking alcohol PROS&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;+ complies with social norms
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There you have it. Most of us grow up around adults who drink. We observe and learn that it&amp;rsquo;s what adults are supposed to do in certan situations. It&amp;rsquo;s a social habit that we copy and never question. And which many people make fun of when someone refuses to play along (I know because I&amp;rsquo;m that someone).&lt;/p&gt;
+
+&lt;p&gt;In case you didn&amp;rsquo;t know, I&amp;rsquo;m an &lt;a href=&#34;/on/introverts&#34;&gt;introvert&lt;/a&gt;. I don&amp;rsquo;t enjoy pubs and nights out. With the privilege of hindsight I now understand that the main reason I spent a significant part of my youth going to pubs and drinking alcohol was because I was under the impression that it&amp;rsquo;s what you&amp;rsquo;re supposed to do. And to impress friends. &lt;em&gt;Girls&lt;/em&gt; even.&lt;/p&gt;
+
+&lt;p&gt;That sounds &lt;em&gt;incredibly silly&lt;/em&gt;. And it is. Which is why I stopped! I can socialize without drinking alcohol. I will not perpetuate the synthetic importance of an expensive toxin. Especiallly not to my kids. Oh, and I&amp;rsquo;m beyond the point where I think I have to impress people like that.&lt;/p&gt;
+
+&lt;p&gt;My kids will grow up with me as an example for how you can think for yourself and refuse to do stupid stuff other people do. How you don&amp;rsquo;t have to be a recovering alcoholic to stop drinking.&lt;/p&gt;
+
+&lt;p&gt;Most or all of the above could also be said about smoking. If you don&amp;rsquo;t smoke, you probably shouldn&amp;rsquo;t be drinking for the same reason. Smoking is bad for you? Tastes horrible? Expensive? An excuse to socialize with other smokers? A bad example for kids? Check, check, check, check, check.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m &lt;em&gt;that guy&lt;/em&gt; who orders a pot of tea at the bar. I&amp;rsquo;m not drinking water because I&amp;rsquo;m driving - I&amp;rsquo;m the dedicated driver because I don&amp;rsquo;t drink.&lt;/p&gt;
+
+&lt;p&gt;Get over it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>on blogging</title>
+      <link>http://raph.es/blog/2014/10/on-blogging/</link>
+      <pubDate>Thu, 16 Oct 2014 17:32:23 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2014/10/on-blogging/</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;m not known to be an early adopter. I was late to the party for blogs with my &lt;a href=&#34;/blog/2011/02/just-do-it/&#34;&gt;first&lt;/a&gt; attempt ocurrring in 2011.&lt;/p&gt;
+
+&lt;p&gt;Of course I had toyed around with websites several times over the years. The first I recall was on GeoCities and had one of those free subdomains ending in &lt;code&gt;rocks.com.xy&lt;/code&gt; or whatever. I had no clue about HTML at the time, so it consisted mainly of copyright-infringing snippets I scavenged from other pages and animated fire GIFs.&lt;/p&gt;
+
+&lt;p&gt;So worked the wild-west that was the internet back in the nineties.&lt;/p&gt;
+
+&lt;p&gt;It also featured a &amp;ldquo;news&amp;rdquo; section. That&amp;rsquo;s what people called their blogs before they were called blogs. The websites went the way of too many briefly interesting side-projects and eventually died of neglect.&lt;/p&gt;
+
+&lt;p&gt;Then web-two-point-oh gave us a plethora of free (~beer) blog-as-a-service services. Public diaries with fancy client-side WYSIWYG editors.&lt;/p&gt;
+
+&lt;p&gt;I resisted the hype.&lt;/p&gt;
+
+&lt;p&gt;Until that urge to have a personal, public platform came around again. That was when I caved and signed up with Blogger.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Invisible critics&lt;/h1&gt;
+
+&lt;p&gt;At first I just welcomed the new public-ish outlet for rants. Ranting is easy.&lt;/p&gt;
+
+&lt;p&gt;But I also felt the urge to contribute some value to the world by sharing things I know or learn. Not that I expected many people to actually read it. However, writing forced me to structure my thoughts. To have a beginning, a middle and an end. Which turned out to be the best &lt;em&gt;and worst&lt;/em&gt; part of blogging.&lt;/p&gt;
+
+&lt;p&gt;Traffic trickled in well enough by my standards. Some of my old posts still get a good stream of visits. Mostly from web searches about problems I wrote about. A handful even hit the Hacker News front page and brought tens-of-thousands of eyeballs.&lt;/p&gt;
+
+&lt;p&gt;I put an unreasonable amount of pressure on myself to deliver value to my imaginary audience. Not only would a post have to contain a nugget of knowledge, but also live up to standards established by the popular technology blogs we all know and love - witty, to the point, well researched, properly spelled, not offensive but controversial enough to be interesting&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Add to that the apparent need to maintain a &lt;a href=&#34;http://pchiusano.github.io/2014-10-11/defensive-writing&#34;&gt;defensive&lt;/a&gt; stance at all times. Hedge any claims to always have an exit in case some wise guy publicly points out all the flaws in my article.&lt;/p&gt;
+
+&lt;p&gt;See also: &amp;ldquo;don&amp;rsquo;t read the comments&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;See also: &lt;a href=&#34;https://en.wikipedia.org/wiki/Impostor_syndrome&#34;&gt;impostor syndrome&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This isn&amp;rsquo;t Blogger&amp;rsquo;s fault - it&amp;rsquo;s in my head. Yet for me, blogging morphed from a tool for self-reflection into a stressful chore. Given that I have lots of stuff going on, it was frustrating to spend the little time I had with something I was enjoying less and less.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Blogger is not for me.&lt;/h1&gt;
+
+&lt;p&gt;Having this virtual spotlight pointed at me - imaginary, maybe, but all the same - fed my natural urge to personalize the look and feel of my blog. Once I stepped outside the boundaries which are &lt;em&gt;themes&lt;/em&gt; I realised that Blogger is not a platform for geeks like I am.&lt;/p&gt;
+
+&lt;p&gt;The widgets to insert functionality - such as galleries or Twitter streams - looked terrible and didn&amp;rsquo;t behave the way I wanted.&lt;/p&gt;
+
+&lt;p&gt;The HTML and CSS I had to deal with was a mess. Multiple attempts to hand craft my own theme ended in nerd-tears. It was more tedious than I was willing to tolerate in my sparse &lt;em&gt;me time&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Most canned themes looked nothing like what I wanted &lt;em&gt;my&lt;/em&gt; page to look like. Dynamic layouts &lt;a href=&#34;/blog/2012/05/The-blog-gets-some-love/&#34;&gt;seemed&lt;/a&gt; neat for five minutes. Then I noticed that every Blogger blog out there looked just like mine.&lt;/p&gt;
+
+&lt;p&gt;So I had a blog that wasn&amp;rsquo;t fun to write for. That didn&amp;rsquo;t look like &lt;em&gt;me&lt;/em&gt;. That didn&amp;rsquo;t do what I wanted it to do.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;Then Twitter happened.&lt;/h1&gt;
+
+&lt;p&gt;I was late to the Twitter party, too. Just like I had once predicted in my first Blogger &lt;a href=&#34;/blog/2011/02/just-do-it/&#34;&gt;post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I reluctantly signed up during the &lt;a href=&#34;http://www.ndcoslo.com/&#34;&gt;&lt;em&gt;Norwegian Developers Conference&lt;/em&gt;&lt;/a&gt; in 2012. There, event updates such as changes in schedule were communicated over Twitter. The way people interacted via large screens displaying live tweets hashtagged to the conference intrigued me.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;This is &lt;em&gt;social&lt;/em&gt; media&amp;rdquo;, I realised.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_3&#34;&gt;Random five minutes&lt;/h1&gt;
+
+&lt;p&gt;Frequent short tweets gave me an outlet for what would otherwise have built up to once-a-month blog posts.&lt;/p&gt;
+
+&lt;p&gt;The 140 character limit took away the pressure to spend lots of time on what I publish. Yet, the subtle art of working with this limitation represented a playful challenge. The playing field was level. Nobody could make me feel bad for just throwing out a line or two.&lt;/p&gt;
+
+&lt;p&gt;Brevity was not only tolerated, but a fundamental rule of the game.&lt;/p&gt;
+
+&lt;p&gt;The key moment was when I got an Android phone. It&amp;rsquo;s Twitter app was responsive, and - more importantly - convenient. A quick and easy way to rant or share cool stuff. It filled those random, under-utilized five minutes spread out over any given day.&lt;/p&gt;
+
+&lt;p&gt;Expressing myself via Twitter felt much more natural than what I had found myself doing on Blogger.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_4&#34;&gt;I stopped blogging overnight.&lt;/h1&gt;
+
+&lt;p&gt;I have been using Twitter more and more ever since. My twitter profile became my new online persona of choice. What blogger was supposed to be, just smaller. Unintentionally, I followed the trend from blogs to &lt;em&gt;microblogs&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;What&amp;rsquo;s interesting is that I didn&amp;rsquo;t like Twitter more because of it&amp;rsquo;s social features. I don&amp;rsquo;t make much use of hashtags or lists or take part in discussions. In fact, I don&amp;rsquo;t think Twitter is a great tool for anything but the most superficial kind of conversation. Which are also the kinds of conversations I hate. It was the simplicity of publishing thoughts that had me hooked.&lt;/p&gt;
+
+&lt;p&gt;Why try to be a full-blown author on your blog when you can just fire out one-liners on Twitter? One was much more compatible with a first-worlders daily routine than the other - I was no exception.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_5&#34;&gt;Full circle&lt;/h1&gt;
+
+&lt;p&gt;Meanwhile, I was becoming more concerned about who owns my data online and freedom of information in general. Blogger is owned by Google, and Twitter is owned by&amp;hellip; well, Twitter. In exchange for their services, I became the product for the eyeballs they draw.&lt;/p&gt;
+
+&lt;p&gt;Hosting my online persona - micro or not - on a proprietary platform didn&amp;rsquo;t agree with my philosophy.&lt;/p&gt;
+
+&lt;p&gt;Instead, I was coming back full-circle to where I had begun over a decade ago when I created my first site on GeoCities. I just wanted my own little spot on the web where I can be myself. Where I can put up and take down whatever I want. And not give a damn about what anybody thinks about it.&lt;/p&gt;
+
+&lt;p&gt;But this time, I know what I would have to change. I go into more depth on the goals I set for this website on &lt;a href=&#34;/project/website/&#34;&gt;project&lt;/a&gt; page. But to not make an already long post any longer, here&amp;rsquo;s the gist:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;less is more.&amp;rdquo;&lt;/strong&gt;
+&amp;ndash; every smart person ever&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It has to be simple to publish, like Twitter. Give me some room, more like Blogger. Leave me control over my content (like neither). Integrate into my worflow, with least possible friction for hosting or editing. Focus on content - no clutter such as social media integration or comments.&lt;/p&gt;
+
+&lt;p&gt;And when I change my mind on any of this, I want it to be easily hackable.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s see how it goes this time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>goggle-mounted headlamp from salvaged IKEA USB light</title>
+      <link>http://raph.es/blog/2014/10/goggles-headlamp-from-ikea-usb-light/</link>
+      <pubDate>Sun, 12 Oct 2014 19:55:29 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2014/10/goggles-headlamp-from-ikea-usb-light/</guid>
+      <description>
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Safety goggles are important.&lt;/h2&gt;
+
+&lt;p&gt;Not least when you want to prevent little hot sharp things from penetrating your eyeballs. I got a set from Woodie&amp;rsquo;s a while back. They&amp;rsquo;re nothing fancy and do the job. But somehow I always felt they were destined for &lt;em&gt;more&lt;/em&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Photons are neat&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;m sure you agree. They help me see stuff. Especiallly because the hours I get to geek around in my &lt;del&gt;office&lt;/del&gt; command center are usually after dusk, when the little people have gone to bed. So I have a few lamps around my desk. Mostly the kind that comes mounted on a big arm and you can move around as you work. But they can be a bit clumsy at times. The arm gets in the way.&lt;/p&gt;
+
+&lt;p&gt;Wouldn&amp;rsquo;t it be great if I could hurl a few photons at whatever I&amp;rsquo;m looking at, without huge limbs of steel obstructing my airspace?&lt;/p&gt;
+
+&lt;p&gt;Naturally, this is why headlamps exist. But just buying one would be pretty lame, right?  Since I&amp;rsquo;ve mastered the complex science of making LEDs light up, the idea of sticking some onto my goggles has been floating around my brain for a bit now.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;IKEA hacking&lt;/h1&gt;
+
+&lt;p&gt;It&amp;rsquo;s one of those lazy Sundays where we head out early to IKEA. To devour an early, good-value-for-money breakfast then buy lots of things we never really need. I&amp;rsquo;m fully aware that this is exactly the behaviour that the brilliant IKEA store design is supposed to encourage, but sometimes ignorance is bliss.&lt;/p&gt;
+
+&lt;p&gt;Some seven eggs and five bacon rashers later I hit the shop floor. IKEA is a great place to find things that are not only hackable, but cheap enough that you won&amp;rsquo;t worry about voiding warranties or ruining them. So much that there&amp;rsquo;s even a whole website for &lt;a href=&#34;http://ikeahackers.net/&#34;&gt;IKEA hackers&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Jansjö&lt;/h2&gt;
+
+&lt;p&gt;So I stumbled over this little USB lamp, &lt;a href=&#34;http://www.ikea.com/ie/en/catalog/products/70289804/&#34;&gt;&lt;code&gt;Jansö&lt;/code&gt;&lt;/a&gt;. It&amp;rsquo;s basically an LED behind a lens, hooked up to a male USB A connector for power. It cost merely three Euros, so I figured I&amp;rsquo;ll take it apart and see if I can mount this thing to my goggles.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Jansö USB lamp from IKEA
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/janso.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/janso_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_4&#34;&gt;The hack&lt;/h1&gt;
+
+&lt;p&gt;My plan was simple enough. Open up the thing and hopefully find two simple power wires to play with. Replace the USB connector with a battery. Somehow mount the whole thing to my goggles. And it more or less played out just like that.&lt;/p&gt;
+
+&lt;p&gt;This was pretty ad-hoc and light wasn&amp;rsquo;t great, so the pics came out a bit grainy. Meh.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_5&#34;&gt;Get to the wires&lt;/h1&gt;
+
+&lt;p&gt;I didn&amp;rsquo;t know for sure what would be inside the thing or how to open it up. So I just started by cutting through it in the middle. My cutter wasn&amp;rsquo;t the best choice here, but it did the job. The metal can be a bit tough, so I recommend you use strong ones to not damage the edges.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Cut right above the USB connector
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/cut-usb.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/cut-usb_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;Sure enough, there&amp;rsquo;s two wires on the inside, and they&amp;rsquo;re even color coded nicely. The red wire is +5V, the black is +0V (GND).&lt;/p&gt;
+
+&lt;p&gt;My first idea was to unwind the metal wrapped around the wires in order to expose them. There&amp;rsquo;s actually two metal layers around the wires. The outer layer is colored and can be unwound easily. The inner layer is more of a spring coil and is very tough to bend. With a bit of force you can pull the inner coil out of the outer metal.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Exposing the wires by unwinding was tricky
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/coil.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/coil_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/pull-spring.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/pull-spring_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;Turns out that cutting through the metal without hurting the wires was pretty difficult due to the force required. Even if you don&amp;rsquo;t mind the bendy metal staying on, working with the wires like this is a bit tedious. But then I found a better way to get to them.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;A word of caution&lt;/h2&gt;
+
+&lt;p&gt;Cutting metal things can result in sharp metal edges and can shoot bits around the room. Which in turn can cause injury. I&amp;rsquo;m not sure how, but I managed to hurt my finger.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Be a safe hacker and wear gloves when handling sharp metal. And wear goggles when flinging around bits of metal.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Call 9-1-1
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/wound.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/wound_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_7&#34;&gt;Remove the head&lt;/h1&gt;
+
+&lt;p&gt;I decided to try to twist the light off it&amp;rsquo;s neck. My hope was that it would break off. But, to my delight, the head is simply screwed on. And with some force you can unscrew it nicely.&lt;/p&gt;
+
+&lt;p&gt;At this point I had already cut through the wires a few times. If I was to do it again, I&amp;rsquo;d just chop off the USB connector at the lowest point. Then unscrew the top and pull it off, long wires still intact and ready for soldering.&lt;/p&gt;
+
+&lt;p&gt;In my case however, I had to make due with the short little wires I had left. But that was fine.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        With a little force you can unscrew the head.
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/clamped.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/clamped_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/unscrewed.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/unscrewed_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_8&#34;&gt;Find a power source&lt;/h1&gt;
+
+&lt;p&gt;The next step was to decide how to power the light. I was going to use batteries, obviously, but which kind?&lt;/p&gt;
+
+&lt;p&gt;Since the LED was meant to run off USB, I knew it expected +5V DC. I also assumed that it had a current limiting resistor fitted somewhere inside the head to keep the LED from burning. So I tried a variety of battery option I had lying around to see what would work.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_9&#34;&gt;3V coin cell&lt;/h2&gt;
+
+&lt;p&gt;The first thing I tried was a little 3V coin cell. With less power than the typical 5V, the light was a little bit dim. Workable, but not great.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_10&#34;&gt;3.7V LiPo&lt;/h2&gt;
+
+&lt;p&gt;I have a handful of LiPos which I have earmarked for other projects. They are small and light, so fit the bill in that regard. I tried one and sure enough, the light was brighter. Still, LiPos are rare in my house and using one seemed a bit excessive for this project. Plus, the off-chance of a LiPo blowing up near my eyes put me off that idea, too.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Testing 3V coin cell (left) and 3.7V LiPo (right)
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/cell-test-single.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/cell-test-single_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/lipo-test.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/lipo-test_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;toc_11&#34;&gt;3xAAA&lt;/h2&gt;
+
+&lt;p&gt;One type of battery I have in abundance are AAA 1.5V batteries. Three in series would give 4.5V, very close to the +5V that would give good light. I hooked up a little 3xAAA case I have - it even has a handy on/off switch.&lt;/p&gt;
+
+&lt;p&gt;Result was great. And I could always replace when they run out since I always have some of these guys rolling around. But the weight and bulk of the thing became an issue. The batteries felt heavier than the goggles&amp;hellip; disqualified.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_12&#34;&gt;2x3V coin cells&lt;/h2&gt;
+
+&lt;p&gt;My final option was a little double coin cell holder I got. I got them cheap to play with some wearable proejcts - and technicallly, this qualifies as wearable, right? Much slimmer and lighter than the AAA solution above. Plus you can get cheap coin cell batteries all over the place. Since they just have to drive a little LED, I expect them to last long enough.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/cell-holder.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/cell-holder_thumb.jpeg&#34;  alt=&#34;2 x 3V coin cell holder&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My only concern was that 6V is more than the 5V USB would give. There&amp;rsquo;s a slim chance that it could damage the LED. Typically, though, the LED can tolerate more voltage although it might lessen it&amp;rsquo;s life expectancy. I was willing to risk that.&lt;/p&gt;
+
+&lt;p&gt;It worked. The light is also a bit brighter than it would have been off USB thanks to the over-voltage. LED lifetime be damned, let&amp;rsquo;s run with this.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_13&#34;&gt;Figure out where to put what&lt;/h1&gt;
+
+&lt;p&gt;Now that I have all the pieces, it&amp;rsquo;s time to stick it onto the goggles somehow. I initially went for the battery holder on top of the goggles where they&amp;rsquo;re nice and flat. But putting it there in a way that I could still work the switch meant I&amp;rsquo;d have to bend the wires awkwardly.&lt;/p&gt;
+
+&lt;p&gt;I went with batteries on the side instead. The light could then sit on top in the center and shine right onto whatever is in front of me.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_14&#34;&gt;Connect battery and light&lt;/h1&gt;
+
+&lt;p&gt;I had cut off the wires a bit close to the head. But the battery holder had enough wire and then some. Hold the parts to the goggles to roughly measure enough wire and then cut off the JST connector that came with the holder. The JST plug might come in handy in the future.&lt;/p&gt;
+
+&lt;p&gt;Be sure to take into account the extra length you&amp;rsquo;ll need when you turn the light to face forward (I didn&amp;rsquo;t).&lt;/p&gt;
+
+&lt;p&gt;Slip a bit of heat shrink onto each wire for later. Strip the battery and lamp wires and solder them together. They are fairly small, and there aren&amp;rsquo;t many strands to work with. Helping hands come in handy here.&lt;/p&gt;
+
+&lt;p&gt;Slide the heat shrink over the soldered wire. I used a lighter to shrink them since I don&amp;rsquo;t have a fancy heat gun.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/solder.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/solder_thumb.jpeg&#34;  alt=&#34;solder up battery and led wires&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/shrinks.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/shrinks_thumb.jpeg&#34;  alt=&#34;use heat shrink to protect the joints&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;I experimented with wrapping isolating tape around the whole length. But that limited the wire&amp;rsquo;s flexibility too much to be useful. I ditched the tape - raw wires look cooler anyway.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/taped.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/taped_thumb.jpeg&#34;  alt=&#34;isolation tape made it too rigid&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_15&#34;&gt;Mount battery to goggles&lt;/h1&gt;
+
+&lt;p&gt;The goggles I have already have holes in them - I presume so that they don&amp;rsquo;t fog up. The material is soft and bendy so I decided to just screw the battery pack right on.&lt;/p&gt;
+
+&lt;p&gt;My first attempt to use the screws that hold the lid onto the battery pack failed because they were too short. I used some small screws I had lying around instead. Just screw them through the holes - the material is forgiving.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/holes.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/holes_thumb.jpeg&#34;  alt=&#34;my goggles already had holes I could use&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/black-screws.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/black-screws_thumb.jpeg&#34;  alt=&#34;I found some screws that fit just fine&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/mounted.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/mounted_thumb.jpeg&#34;  alt=&#34;At first I tried to mount on top&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_16&#34;&gt;Mount lamp to googles&lt;/h1&gt;
+
+&lt;p&gt;All we need to do now is mount the lamp. Since I want to be able to take this off again without much hassle, I simply used a small cable tie. It was a bit wider than the holes, so I could have widened the holes with a drill or so if necessary. But since the material is so forgiving it squeezed through just fine.&lt;/p&gt;
+
+&lt;p&gt;Because I hadn&amp;rsquo;t considered the extra length needed when the lamp is turned ninety degrees to point forward, I was short a centimeter or so. So I moved the lamp a bit to the side. As a result it doesn&amp;rsquo;t sit right in the center. Luckily the lense spreads the light wide enough so that it won&amp;rsquo;t trigger my OCD whenever I use it.&lt;/p&gt;
+
+&lt;p&gt;Also, with the tension caused by the cable tie, the top of the soft goggles now bends inward a little bit. But when put on, my forehead pushes against it so that the light points right where it should and not at the ceiling.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/tied.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/tied_thumb.jpeg&#34;  alt=&#34;Light mounted by cable tie&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/lightcone.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/lightcone_thumb.jpeg&#34;  alt=&#34;Light cone spreads pretty wide&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_17&#34;&gt;Done!&lt;/h1&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/done.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/done_thumb.jpeg&#34;  alt=&#34;Goggles with mounted batteries and lamp&#34; width=&#34;400px&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;So there you have it. A quick and fun hack that makes my night-time soldering sessions a little more fun. I&amp;rsquo;ll certainly keep a look out for hackable objects at IKEA next time we go for breakfast.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_18&#34;&gt;Lessons learned&lt;/h2&gt;
+
+&lt;p&gt;If I was to do this again, here&amp;rsquo;s what I would do differently.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Snap the USB connector right off and unscrew the top. No messing with coiled up wire, no injuries. Plus I&amp;rsquo;d get to use the whole length of the lamp wire.&lt;/li&gt;
+&lt;li&gt;Leave more wire between battery and lamp so that the lamp can sit right in the center of the goggles.&lt;/li&gt;
+&lt;li&gt;Use longer piece(s) of heatshrink to shrink around the whole length of the wire. For nicer looks maybe. Might still impact flexibility though.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Feasability of powering a Raspberry Pi with a 3.7V battery</title>
+      <link>http://raph.es/blog/2014/10/feasible-power-raspberry-pi-3.7V-lipo-battery/</link>
+      <pubDate>Fri, 10 Oct 2014 17:25:49 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2014/10/feasible-power-raspberry-pi-3.7V-lipo-battery/</guid>
+      <description>
+
+&lt;p&gt;I recently got thinking about how I might power a Raspberry Pi off batteries. The &lt;a href=&#34;/project/mudcam&#34;&gt;project&lt;/a&gt; I have in mind is effectively a wearable video camera, so it has to be as compact as possible and have a good few hours of battery life to be of any practical use.&lt;/p&gt;
+
+&lt;p&gt;Raspberry Pi boards are not designed for embedded projects. Instead, they are supposed to be small, cheap computers for use with simple USB keyboards and HD TVs. There is much confusion around how to power the Pi, and every revision has brought changes to the power circuits.&lt;/p&gt;
+
+&lt;p&gt;That said, with some modification a Pi can still be very useful in embedded projects such as the one I have in mind. The following is the summary of my research on the subject of powering the Raspberry Pi, particularly with an eye towards lower-than-recommended voltage like from batteries.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;The 5V requirement&lt;/h1&gt;
+
+&lt;p&gt;It seems that the Pi only requires 5V in order to comply with the USB and HDMI standards. Otherwise, the board itself has no need for 5V at all.&lt;/p&gt;
+
+&lt;p&gt;According to &lt;a href=&#34;http://www.daveakerman.com/?page_id=1294&#34;&gt;Dave Akerman&lt;/a&gt;, the 5V from USB only powers a handful of components:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;USB peripherals&lt;/li&gt;
+&lt;li&gt;HDMI output&lt;/li&gt;
+&lt;li&gt;VSense pin on the BCM2835 MCU&lt;/li&gt;
+&lt;li&gt;the 3.3V voltage regulator&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;1. USB power&lt;/h1&gt;
+
+&lt;p&gt;The Pi was designed to be a cheap, small,  stationary computer that can easily interface with most keyboards and screens. Naturally it was built around the USB power standards. Specifically USB 2.0 at the time. The micro USB port of the Pi gets +5V DC via pin 1 and the 0V/GND line on Pin 5. None of the USB data lines are used.&lt;/p&gt;
+
+&lt;p&gt;It makes sense that the Pi requires 5V input in order to provide the same to it&amp;rsquo;s standard keyboard and mouse peripherals.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t want to use USB peripherals at all, so I should be able to ignore this requirement.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;2. HDMI&lt;/h2&gt;
+
+&lt;p&gt;Another main feature of the Pi that made the designers opt for a 5V power requirement is HDMI video output. The HDMI standard &lt;a href=&#34;http://www.hdmi.org/learningcenter/kb.aspx?c=13&#34;&gt;requires&lt;/a&gt; 5V on one of it&amp;rsquo;s lines.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The HDMI specification requires all source devices to provide at least 55mA (milliamps) &lt;strong&gt;on the 5V line&lt;/strong&gt; for the purpose of reading the EDID of a display.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;HDMI is basically the USB for displays and it&amp;rsquo;s everywhere. It was good call since HDMI support is  one of the most popular features of the Pi. Just look at how many people use it as a hi-def media center.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t require HDMI output for my project, so again, I should be able to safely ignore this requirement.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;3. VSense pin&lt;/h2&gt;
+
+&lt;p&gt;This is a special pin on the Broadcom SoC. From what I could gather it has to be kept high so that the MCU knows that there&amp;rsquo;s sufficient voltage for operation. If voltage drops too low, the chip will deactivate and the Pi will not work.&lt;/p&gt;
+
+&lt;p&gt;However, it &lt;a href=&#34;http://www.daveakerman.com/?page_id=1294&#34;&gt;seems&lt;/a&gt; that 3.3V is sufficient to keep the pin high. 5V is not really required here.&lt;/p&gt;
+
+&lt;p&gt;Three down, one to go.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;4. RG2&lt;/h2&gt;
+
+&lt;p&gt;Most of the components on the Pi PCB work off 3.3V or less, so a voltage regulator marked &lt;code&gt;RG2&lt;/code&gt; on the PCB has the job of stepping down the 5V from USB to more tolerable 3.3V. The regulated output from RG2 also flows into two other regulators, &lt;code&gt;RG1&lt;/code&gt; and &lt;code&gt;RG3&lt;/code&gt; - those step the voltage down even further for more sensitive components.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;RG2&lt;/code&gt; in most new boards is a linear voltage regulator of type &lt;a href=&#34;http://www.onsemi.com/PowerSolutions/product.do?id=NCP1117&#34;&gt;NCP1117&lt;/a&gt;. It&amp;rsquo;s takes in a more or less wide range of voltage and steps it down to 3.3 volts. The excess is lost as heat.&lt;/p&gt;
+
+&lt;p&gt;This is where things get very interesting, and I&amp;rsquo;ll come back to &lt;code&gt;RG2&lt;/code&gt; in a moment.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_5&#34;&gt;Current draw&lt;/h1&gt;
+
+&lt;p&gt;The less current the Pi needs, the smaller my batteries can be and the longer they can last. The amount of current a Raspberry Pi will draw depends on a few factors. Here&amp;rsquo;s some tricks I collected to reduce current draw to a minimum.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;Model A FTW&lt;/h2&gt;
+
+&lt;p&gt;I have a Raspberry Pi Model A which according to spec can draw up to 500mA. Fortunately for me, this is an upper limit for standard use cases involving HDMI screens and some USB devices connected.&lt;/p&gt;
+
+&lt;p&gt;Hackers on the interwebs report that a model A can draw as little as 115mA. The model B has additional components - most notably an ethernet controller - and requires up to three times as much as the model A. The B+ is fairly new and I&amp;rsquo;ve heard it&amp;rsquo;s optimized a bit compared to the B even though it has even more connectors. Still, it pulls more amps than a model A.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t need any of the fancy additions in models B or B+. I managed to get my hands on another model A which I&amp;rsquo;ll be using for the project. Model As are hard to come by these days. Grab one when you get the chance. I got one off eBay. &lt;em&gt;Slightly&lt;/em&gt; overpriced - just a bit. Hope it&amp;rsquo;s worth it&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_7&#34;&gt;Don&amp;rsquo;t trust USB.&lt;/h2&gt;
+
+&lt;p&gt;In addition to the on-board components, any connected USB peripherals can increase the Pi&amp;rsquo;s draw significantly. Unless you use a powered USB hub or some other form of external power for your devices, they will pull power straight through the Pi. This can have all kinds of strange side effects.&lt;/p&gt;
+
+&lt;p&gt;Many a newbie problem can be traced back to insufficient or irregular power supply.&lt;/p&gt;
+
+&lt;p&gt;In &lt;em&gt;theory&lt;/em&gt;, you can power a Pi from the USB on your computer or hub. USB 2.0 devices are allowed to draw up to 500mA. But because the Pi is not connected to the two USB data lines, it will not be detected by a host that enumerates it&amp;rsquo;s USB slaves. USB devices communicate their power requirements via the data lines to the host. The Pi cannot do that, so it&amp;rsquo;s very possible that a host will limit current to merely 100mA.&lt;/p&gt;
+
+&lt;p&gt;Best &lt;em&gt;practice&lt;/em&gt; is to use a powered USB hub and/or dedicated power supply. Some people even build their own PSUs. Otherwise the combined current draw of Pi plus USB devices can exceed what is provided via the USB port alone. Similar problems arise when using random power supplies such as phone chargers.&lt;/p&gt;
+
+&lt;p&gt;As I mentioned earlier, I have no intention of using USB devices in my project. Bullet dodged.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_8&#34;&gt;Disable video output to save power&lt;/h2&gt;
+
+&lt;p&gt;You can disable certain components on the Pi to save some power consumption, most notably the video outputs. Here&amp;rsquo;s what I found on the web for the default Raspbian distro:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# on startup of Raspbian
+# deactivate video output
+/opt/vc/bin/tvservice -off
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I believe it&amp;rsquo;s the same in Arch, my preferred distro - not only for the Pi. I&amp;rsquo;ve yet to test this.&lt;/p&gt;
+
+&lt;p&gt;It is not clear to me how much this will save. The HDMI spec indicated up to 55mA draw. How much this actually is without a TV connected, I cannot say. I suspect that this will have very little effect on power consumption.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_9&#34;&gt;Underclock the MCU to save power&lt;/h2&gt;
+
+&lt;p&gt;You can change some boot parameters for the Pi firmware, including clock rates for MCU/GPU and memory sizes. It would seem intuitive to assume that clocking the chips down a notch could save some power.&lt;/p&gt;
+
+&lt;p&gt;However, from what I heard, underclocking doesn&amp;rsquo;t seem to make a relevant difference compared to other big spenders like USB, the &lt;code&gt;RG2&lt;/code&gt; regulator and in some cases the &lt;code&gt;F3&lt;/code&gt; fuse (see below).&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_10&#34;&gt;Bypass the fuse&lt;/h2&gt;
+
+&lt;p&gt;There are a few fuses on board. Some smaller ones protect connected USB devices, so the power leaving the Pi. But a big one is on the input side and is hooked up to the micro USB power input.&lt;/p&gt;
+
+&lt;p&gt;The fuse increases resistance as current levels go up. It starts to kick in around 700mA, and blows somewhere over 1A. Notice that this puts a hard limit on how much current your Pi and all of it&amp;rsquo;s USB devices can get, even if the PSU you have connected to the micro USB connector can give more.&lt;/p&gt;
+
+&lt;p&gt;Even if you are well under the 700mA draw, the fuse might drop some voltage before the power even hits the rest of the board. How much depends on the fuse, since they have some production-based variance. Also, if you ever blew the fuse it can take days and weeks until the drop goes away.&lt;/p&gt;
+
+&lt;p&gt;Having the fuse is a good thing for most use cases. You don&amp;rsquo;t want little Jimmy to burn his Pi just because he hooked up his USB hair dryer to the Pi. But in my case the batteries won&amp;rsquo;t even be able to give enough juice to max out the fuse. Plus, I&amp;rsquo;m going for as little current draw as possible. So bypassing the fuse altogether is definitely an option.&lt;/p&gt;
+
+&lt;p&gt;You can either bridge the fuse connectors with a smaller resistor, so current flows through that rather than the fuse. Or maybe even put a jumper across for zero resistance.&lt;/p&gt;
+
+&lt;p&gt;A simpler, less invasive way is to power the Pi via it&amp;rsquo;s GPIO pins. One is connected to the 5V rail after the fuse. This is what most embedded projects do.&lt;/p&gt;
+
+&lt;p&gt;Obviously at the risk of frying the board.&lt;/p&gt;
+
+&lt;p&gt;Well, &lt;strong&gt;YOLO&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_11&#34;&gt;RG2 is a problem&lt;/h2&gt;
+
+&lt;p&gt;Revistion 2 boards (i.e. newer model Bs and all model As) have a &lt;code&gt;NCP1117-3V3&lt;/code&gt; primary voltage regulator at &lt;code&gt;RG2&lt;/code&gt;. It, in turn, powers two other regulators &lt;code&gt;RG1&lt;/code&gt; and &lt;code&gt;RG3&lt;/code&gt;. The stuff I care about all takes power from this guy.&lt;/p&gt;
+
+&lt;p&gt;The problem with RG2 is, it was chosen to fit the typical conditions for the Pi: regulated +5V DC. The NCP1117 has a drop out voltage of over 1.2V. This means the difference between it&amp;rsquo;s input and output voltage has to be at least 1.2V. If the voltage is lower than the DO, the regulator will stop working. No power downstream means, well, no power for your Pi.&lt;/p&gt;
+
+&lt;p&gt;We know the output of RG2 is 3.3V. So the minimum input voltage after the fuse has to be &lt;em&gt;at least&lt;/em&gt; 4.5V. This is a problem if you&amp;rsquo;re trying to run on batteries. Most affordable batteries have lower voltages than 5V.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_12&#34;&gt;Ways to make batteries work&lt;/h1&gt;
+
+&lt;p&gt;There&amp;rsquo;s a few ways to work around the issue of &lt;code&gt;RG2&lt;/code&gt;&amp;rsquo;s minimum voltage, which I&amp;rsquo;ll describe in the next section.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_13&#34;&gt;Use higher voltage batteries&lt;/h2&gt;
+
+&lt;p&gt;And let RG2 step it down again.
+Loose the difference as heat.
+Wasteful.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_14&#34;&gt;Step up lower voltage batteries&lt;/h2&gt;
+
+&lt;p&gt;Take lower volt batteries, and run them through a step up converter.
+Draws more power from your batteries.
+Is not very efficient, and you&amp;rsquo;re only doing it to step it down again in &lt;code&gt;RG2&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_15&#34;&gt;Replace RG2 with lower DO&lt;/h2&gt;
+
+&lt;p&gt;THIS&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;use higher voltage batteries, and step them down to 5v: for example, 4 AA batteries in series provide ~6V. &amp;gt;1 lipo cell will also need to be stepped down, say 2S (2 cells in series) = 2x3.7V = 7.4V.&lt;/p&gt;
+
+&lt;p&gt;stepping down usually done via voltage regulators, linear or switching. switching more configurable and efficient, but more expensive and take a bunch of space. some elaborate engineering going on in the forums about this :-) linear is much simpler but often much less efficient than switching ones, although the efficiency of linear regulators generally increases the closer your input voltage gets to your output voltage. the efficiency correlation is &amp;hellip; linear!&lt;/p&gt;
+
+&lt;p&gt;if like me you don&amp;rsquo;t really care about USB and HDMI (headless mode, no wifi or similar) you might wonder why do you need 5V at all? or even the higher voltages above? the energy you provide will be wasted largely anyway (rg2 is linear, so efficiency gets worse the higher the input voltage is). very inefficient for me.&lt;/p&gt;
+
+&lt;p&gt;ideally i would be able to supply as close to 3.3V as possible, allowing for sufficient current draw under recording/IO load (VERY rough guess: ~500mA - 1A). a single cell LiPo provides between ~3V(ish) (drained) and ~4.2V (charged). this is assuming lipo has undervoltage protection that cuts off at some point, typically a bit over/under 3V.&lt;/p&gt;
+
+&lt;p&gt;so how to use lowe voltage?
+step up lower voltage to 5V. this is accomplished using step up/boosters which again are not known to be very efficient in the first place. you can find many examples on the web where people show off their nice Pi running of two AA batteries (3V) but generally their battery life will be terrible. cool hack, but not great if you want to run the thing for a few hours. booster efficiency is (from what i gather reading about them&amp;hellip;) roughly 70%. So you loose 30% power just pushing power into the Pi. Then that 5V power gets used for stuff you might not even need (usb, hdmi). The rest gets regulated down again into 3.3V by your rg2, again at (best) approx 70% efficiency, losing another 30%. keep in mind, rg2 efficiency can be as bad as 50%. So there goes lots of precious battery life!&lt;/p&gt;
+
+&lt;p&gt;so why not just plug in a single cell lipo?
+I could take a male micro-usb connector, and attach a JST plug or similar for battery to go into the USB D+ and D- pins. This would feed battery directly into the pi.
+PROBLEM: built in regulator has a drop out voltage of at least 0.9V, with 1A current draw it will be around 1.1V, up to even 1.2V. That means the difference between output (3.3V) and it&amp;rsquo;s input has to be at least 1.1V realistically. that&amp;rsquo;s 3.3V + 1.1V = 4.4V. the specs say min is 4.75V, i suppose to not be to close to the edge given variance in parts and power stability.&lt;/p&gt;
+
+&lt;p&gt;So the regulator will not do anything if voltage is below 4.4V - and a single cell lipo will AT BEST (for a brief period of time) provide about 4.2V. most of the time 3.7V. NOT GOING TO WORK!&lt;/p&gt;
+
+&lt;p&gt;Even though the Model A is often used for embedded projects due to it&amp;rsquo;s lower current draw, the Pi was not designed with embedded projects in mind. It&amp;rsquo;s meant to be a learning computer that powers from USB and connects to various other USB devices, hence the 5V situation. But if you really just want to leverage the onboard MCE and maybe the camera and some GPIO you don&amp;rsquo;t need 5V at all, but the rg2 regulator forces you to.&lt;/p&gt;
+
+&lt;p&gt;IT&amp;rsquo;S WARRANTY VOIDING TIME! We can remove this limitation by replacing the rg2 regulator. Warning, this is an insanely cool hack and you absolutely should try it - if you&amp;rsquo;re willing to sacrific your Pi when things go wrong. FOR SCIENCE!
+For this to work we need to have a clear picture of our power requirements. Given a single cell LiPo, our input voltage is going to be between 3.5V(ish) and 4.2V(ish). The draw of model A and cam is estimated to be around 600ma. The original rg2 can do between 1A and 2.2A. Let&amp;rsquo;s compromise around 1A here.
+To maximise efficiency we could look at using switching regulators, but their efficiency can vary to a point of being not much better than linear ones, plus their more expensive and more involved to install (i.e. mount the big thing somewhere).&lt;/p&gt;
+
+&lt;p&gt;What we really need is a lower drop out voltage than the original Pi has, since that&amp;rsquo;s what&amp;rsquo;s preventing us from using our lipo battery cell in the first place. Thankfully, there are many that have much lower drop out, aka &amp;ldquo;low drop out&amp;rdquo; LDO. for instance the 182x series from Microchip:
+* MCP1825,  500mA output current, ~0.21V DO, ~5 EUR on ebay
+* MCP1826, 1000mA output current, ~0.30V DO, ~5-6EUR on ebay
+* MCP1827, 1500mA output current, ~0.33V DO, ~7EUR on ebay&lt;/p&gt;
+
+&lt;p&gt;say we used the MCP1827 with a typical DO of 0.33V. Set to 3.3V output, that&amp;rsquo;s a min of 3.6V input. Remember out typical lipo cell has 3.7 nominal output voltage. it seems hard to get input voltage any closer to the 3.3V we really want to use! you could probably get a bit more life out of your battery when using the 1826 or even 1825, but you&amp;rsquo;ll sacrifice output current as you do. so you really need to understand how much you will be drawing before you can make the best decision here. if in doubt, without HDMI or USB I suspect you can easily go with 1A current, but I&amp;rsquo;m not fully sure about the 1825 - reports do indicate the Pi can run as low as 115mA so it might work, depending on how you utilize the pi.
+The Pi fuse appears to be at 750mA
+The USB 2.0 standard says max 500mA
+So it&amp;rsquo;s reasonable to assume that a Pi w/o video or USB peripherals will draw not even close to 500mA.&lt;/p&gt;
+
+&lt;p&gt;How long can we expect the battery to last? This of course depends on the lipo capacity. I have a spare 1200mAh 3.7V single cell lipo at home, let&amp;rsquo;s do a Gedankenexperiment here. I&amp;rsquo;m going to assume I run some tests and determine that my requirements are under 500mA and I can run with the 1825. that has very low drop out and can run longer on lower voltage from my batteries as they drain.&lt;/p&gt;
+
+&lt;p&gt;3.7V nominal battery voltage, let&amp;rsquo;s be pessimistic and say it&amp;rsquo;s at the lowest allowed
+3.7V - 0.21 DO = 3.49V (around here the undervoltage protection could kick out, but let&amp;rsquo;s ignore for now)&lt;/p&gt;
+
+&lt;p&gt;available power in watt = V * Ah
+3.49V * 1.2Ah = 4.188 Wh
+(guestimated worst case; capacity could vary as well, but let&amp;rsquo;s leave some optimism in there!)&lt;/p&gt;
+
+&lt;p&gt;required power in watt
+3.3V * 0.5Ah (mcp1825 max out) = 1.65 Wh
+(guesstimated worst case, exact power requirements will go up and down, and have yet to be measured with picam and IO)&lt;/p&gt;
+
+&lt;p&gt;so theoretically, given the above assumptions of course, I could run
+4.188 Wh / 1.65 Wh = 2.53 h
+off just that tiny single cell lipo!&lt;/p&gt;
+
+&lt;p&gt;keep in mind, if I do need more than 500mA and opt for 1826 or even 1827 I&amp;rsquo;ll have to expect a drop out earlier than that, but that&amp;rsquo;s cutting it pretty close to the nominal 3.7V of the battery. and limits will also vary based on temperature etc so it&amp;rsquo;s hard to say. it will most certainly be less than the above.&lt;/p&gt;
+
+&lt;p&gt;NOW let&amp;rsquo;s go further and say I bough a bigger lipo. let&amp;rsquo;s say one of those tablet replacement lipos you can get on ebay for about 10 EUR, and can have over 3Ah of power.&lt;/p&gt;
+
+&lt;p&gt;3.49V * 3Ah = 10.47 Wh available
+10.47 Wh / 1.65 Wh = ~6.3 hours!&lt;/p&gt;
+
+&lt;p&gt;And that still with a fairly low profile, slim battery.&lt;/p&gt;
+
+&lt;p&gt;So that&amp;rsquo;s the theory, I&amp;rsquo;ll need to measure actual current requirements in experiment next. Then decide which regulator to get (hope I can get away with the 1825&amp;hellip;). Then order a nice lipo that can fit into my space requirements.&lt;/p&gt;
+
+&lt;p&gt;links&lt;/p&gt;
+
+&lt;p&gt;Pi power
+&lt;a href=&#34;http://www.petervis.com/Raspberry_PI/Raspberry_PI_Power_Supply/Raspberry_PI_Micro_USB_B_Specification.html&#34;&gt;http://www.petervis.com/Raspberry_PI/Raspberry_PI_Power_Supply/Raspberry_PI_Micro_USB_B_Specification.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;rg2
+ &lt;a href=&#34;http://www.onsemi.com/PowerSolutions/product.do?id=NCP1117&#34;&gt;http://www.onsemi.com/PowerSolutions/product.do?id=NCP1117&lt;/a&gt;
+ &lt;a href=&#34;http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF&#34;&gt;http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;mcp182X
+ &lt;a href=&#34;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1825&#34;&gt;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1825&lt;/a&gt;
+ &lt;a href=&#34;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1826&#34;&gt;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1826&lt;/a&gt;
+ &lt;a href=&#34;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1827&#34;&gt;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1827&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;lipos sparkfun:
+ &lt;a href=&#34;https://learn.sparkfun.com/tutorials/battery-technologies/lithium-polymer&#34;&gt;https://learn.sparkfun.com/tutorials/battery-technologies/lithium-polymer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;lipos rc dude:
+ &lt;a href=&#34;http://www.rogershobbycenter.com/lipoguide/&#34;&gt;http://www.rogershobbycenter.com/lipoguide/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;on rg2
+ &lt;a href=&#34;http://www.petervis.com/Raspberry_PI/dead-raspberry-pi/dead-raspberry-pi.html&#34;&gt;http://www.petervis.com/Raspberry_PI/dead-raspberry-pi/dead-raspberry-pi.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;on battery life and voltage regulators
+ &lt;a href=&#34;http://www.daveakerman.com/?page_id=1294&#34;&gt;http://www.daveakerman.com/?page_id=1294&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;regulator?
+ &lt;a href=&#34;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1826&#34;&gt;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1826&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>autofHACK - forcing activation of a service and dynamic resolution of it&#39;s dependencies</title>
+      <link>http://raph.es/blog/2012/10/autofHACK---forcing-activation-of-a-service-and-dynamic-resolution-of-its-dependencies/</link>
+      <pubDate>Tue, 02 Oct 2012 16:47:00 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2012/10/autofHACK---forcing-activation-of-a-service-and-dynamic-resolution-of-its-dependencies/</guid>
+      <description>&lt;p&gt;Sorry, I just couldn&amp;rsquo;t resist the &amp;ldquo;autofHack&amp;rdquo; pun.&lt;/p&gt;
+
+&lt;p&gt;In case you don&amp;rsquo;t know &lt;a href=&#34;http://code.google.com/p/autofac/&#34;&gt;Autofac&lt;/a&gt;, this post won&amp;rsquo;t make much sense to you. Go read about it NOW. In the meantime us cool kids will play without you.&lt;/p&gt;
+
+&lt;p&gt;Autofac can find the right constructor on your service and resolve it&amp;rsquo;s dependencies automagically using reflection when you do so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;builder.RegisterType&amp;lt;MyClass&amp;gt;();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And you can give it a precreated instance directly like so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var m = new MyClass();
+builder.RegisterInstance(m);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The first is lazy and will only activate your service if somebody actually depends on it.&lt;/p&gt;
+
+&lt;p&gt;The latter can come in handy if you want to make sure that the service is actually instantiated and running, no matter if others depend on it or not.&lt;/p&gt;
+
+&lt;p&gt;The problem with &lt;code&gt;RegisterInstance()&lt;/code&gt; is that there is no way for you to resolve the constructor dependencies through the IoC container.&lt;/p&gt;
+
+&lt;p&gt;What you can do is implement the &lt;a href=&#34;http://code.google.com/p/autofac/wiki/Startable&#34;&gt;&lt;code&gt;IStartable&lt;/code&gt;&lt;/a&gt; interface, and it&amp;rsquo;s method &lt;code&gt;Start()&lt;/code&gt; will be called by the container once it&amp;rsquo;s configured.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public class MyClass: IStartable
+{
+    public void Start()
+    {
+        // do stuff
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s not nice for two reasons: first, it forces me to use &lt;code&gt;Start()&lt;/code&gt;, which can seem a bit forced in a model that has no need for that. Second, it requires your model to reference the Autofac library in order to use the interface, and I really don&amp;rsquo;t want my whole system to be aware of the IoC framework - it should glue them together without them knowing how it happens, and referencing the library goes against that idea.&lt;/p&gt;
+
+&lt;p&gt;So I wrote up a few extension methods to hide the IStartable interface and integrate it into the Autofac syntax.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;builder.RegisterAndActivate&amp;lt;MyClass&amp;gt;();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will register the type as when using &lt;code&gt;RegisterType&amp;lt;T&amp;gt;&lt;/code&gt;, but also register a bootstrapper service which in it&amp;rsquo;s &lt;code&gt;Start()&lt;/code&gt; method will resolve your service once, hence bringing it to life even if nobody else actively requests it.&lt;/p&gt;
+
+&lt;p&gt;The code is here:
+&lt;a href=&#34;https://github.com/galaktor/autofac-extensions&#34;&gt;https://github.com/galaktor/autofac-extensions&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Keep in mind (as stated on the autofac page about &lt;code&gt;IStartable&lt;/code&gt;) that this only makes sense when you&amp;rsquo;re service has a &lt;em&gt;Singleton&lt;/em&gt; lifetime (because otherwise you&amp;rsquo;ll only have activated one lonely instance that will die shortly after).&lt;/p&gt;
+
+&lt;p&gt;I suggested this be included in the official Autofac code in this issue:
+&lt;a href=&#34;http://code.google.com/p/autofac/issues/detail?id=388&#34;&gt;http://code.google.com/p/autofac/issues/detail?id=388&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Leaving the Comfort Zone</title>
+      <link>http://raph.es/blog/2012/09/Leaving-the-Comfort-Zone/</link>
+      <pubDate>Sun, 16 Sep 2012 19:43:00 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2012/09/Leaving-the-Comfort-Zone/</guid>
+      <description>
+
+&lt;p&gt;Yeah, what a &amp;ldquo;blah&amp;rdquo; title. But I&amp;rsquo;m in a hurry now. As all the internets have undoubtedly noticed, I haven&amp;rsquo;t blogged in a while. I&amp;rsquo;ve been busy with shit, and to break out of it I&amp;rsquo;m dumping out a quick post. In fact, future posts will probably be a bit shorter, just to get anything out.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;What&amp;rsquo;s been happening&lt;/h1&gt;
+
+&lt;p&gt;One of my more recent &lt;a href=&#34;http://www.galaktor.net/2012/02/yet-another-attempt-at-levelling-up-my.html&#34;&gt;posts&lt;/a&gt; (read: months old) mentioned that I was once again attempting to move my computing life into Linux. Well, the good news is, I succeeded. I&amp;rsquo;ve spent about 98% (pretty random gut-feeling number) of my time on Crunchbang in the past months, and there&amp;rsquo;s no looking back so far.&lt;/p&gt;
+
+&lt;p&gt;I wish I could blame my laziness with regards to blogging on a missing driver for The Internet or something. But really I&amp;rsquo;ve seen only a minor driver issue with my built-in webcam&amp;rsquo;s mic, which I have also resolved - so Linux has been working great on my laptop. Yet I&amp;rsquo;ve always been a Windows guy, and switching to Linux had one big challenge in particular: coding.&lt;/p&gt;
+
+&lt;p&gt;I had to make pretty serious changes to my usual workflow to get coding on Linux. I wanted to leave the MS world I am used to behind and go as native as possible, Which was pretty much the definition of what all those &amp;ldquo;leave your comfort zone&amp;rdquo; mantras are about.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Going hardcore&lt;/h1&gt;
+
+&lt;p&gt;Determined to embrace the command-line world which is Linux, I decided to go the whole length and use Emacs as my (sort of) IDE. And the learning curve was a lot easier than I expected - you hear a lot of bullshit about how hard it is and whatever. It wasn&amp;rsquo;t. Yes, you need to learn some shortcuts, big deal. It&amp;rsquo;s just a powerful text editor with a bunch of plugins. From day one I&amp;rsquo;ve been running it in console mode (-nw), and it not only looks like straight out of a cliche hacker movie, it&amp;rsquo;s also really lightweight and fast. Loving it.&lt;/p&gt;
+
+&lt;p&gt;Language was trickier - I&amp;rsquo;m mainly a .NET guy, and I have played with Mono before, but I again wanted to go as &amp;ldquo;non-Windows&amp;rdquo; as possible. And I wanted to use the opportunity to learn new languages. So I played around with clojure for a while - and I might write a bit on it separately, but long story short: I&amp;rsquo;m not impressed. It&amp;rsquo;s essentially yet another abstraction above of where I&amp;rsquo;ve spent the last years (C#, which is Java-ish). But contrary to common opinion, I don&amp;rsquo;t think imperative programming is necessarily evil, and I&amp;rsquo;ve found myself leaning toward the more low-level side of things again.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;Coding in Go&lt;/h1&gt;
+
+&lt;p&gt;To cut to the chase, I discovered Go, which is like C on steroids, and it immediately felt like what I need. I&amp;rsquo;ve gone from zero to productive in a few days, and I&amp;rsquo;m pretty happy so far. Again, I&amp;rsquo;ll be posting on this later. I have a little side-project going which I will write about on this here blog soon.&lt;/p&gt;
+
+&lt;p&gt;To summarize: I barely use Windows at all, just for the occasional game, so very rarely .I feel at home on Linux now, and I&amp;rsquo;m coding happily in Go on Emacs with some help of Go&amp;rsquo;s great command line tools. I&amp;rsquo;d say this attempt at moving to Linux was finally a success, and I&amp;rsquo;ve not only left my comfort zone, I pretty much inverted it - and it&amp;rsquo;s been a great ride so far.&lt;/p&gt;
+
+&lt;p&gt;hugs and kisses xoxox
+lol&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The blog gets some love</title>
+      <link>http://raph.es/blog/2012/05/The-blog-gets-some-love/</link>
+      <pubDate>Wed, 09 May 2012 08:44:00 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2012/05/The-blog-gets-some-love/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Note: this post was hosted on Blogger at the time of writing. Links in this post are old and could be broken.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I took a wee bit of time to upgrade this site a bit. Not exactly a huge project worth bragging about, but I figured I&amp;rsquo;d highlight the changes (if they&amp;rsquo;re not already obvious enough).&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Dynamic Template&lt;/h1&gt;
+
+&lt;p&gt;I switched over to use the shiny &amp;ldquo;new&amp;rdquo; blog templates that Blogger provides. I resisted the urge for a while but I do think it gives the site a more modern feel. Surely far from perfect, but given that it came for free I think value for money is good.&lt;/p&gt;
+
+&lt;p&gt;Going back to black-on-white was not an easy decision because I&amp;rsquo;m a huge fan of light-on-dark themes. Despite the new color scheme being quite uninspired and more mainstream, it is an improvement in terms of usability. Currently it&amp;rsquo;s almost entirely the vanilla Blogger template, I&amp;rsquo;ll experiment with it going forward.&lt;/p&gt;
+
+&lt;p&gt;The interface is much less cluttered with &amp;ldquo;gadgets&amp;rdquo; now, they&amp;rsquo;re hidden behind the sidebar on the right - something which I think is good for readability.&lt;/p&gt;
+
+&lt;p&gt;You can select different &amp;ldquo;dynamic views&amp;rdquo; over on the left of the main menu bar - most of them don&amp;rsquo;t work well with this type of blog, exceptions being maybe &amp;ldquo;classic&amp;rdquo; and &amp;ldquo;sidebar&amp;rdquo;, the latter which I have set to be the default. Google won&amp;rsquo;t allow me to lock it down to just that view, so I guess that means you can switch them as you see fit - but be warned, they mostly suck.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Blogger&amp;#39;s dynamic views crop images with awkward results
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/dynamic_my_ass.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/dynamic_my_ass.jpeg&#34;  alt=&#34;Assembly gets cropped to *Ass*&#34; width=&#34;500em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;From an authors point of view, the most notable new feature is that the &amp;ldquo;preview&amp;rdquo; now presents an interactive version of the site. I like to test the likes of links and images &lt;em&gt;before&lt;/em&gt; going live, something that just was not possible with the old template, which resembled more a photo of your site rather than a real website.&lt;/p&gt;
+
+&lt;p&gt;Another nice gimmick is that Blogger finally got a sane &amp;ldquo;share&amp;rdquo; menu at the bottom of each post - featuring the actual number of tweets (was not there before) and ditching a bunch of who-gives-a-shit social networks (but obviously still hanging on to g+). Notice how there&amp;rsquo;s even a Facebook &amp;ldquo;like&amp;rdquo; button - then again, I really consider that a bug, not a feature.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Social networks in order of importance - according to Google
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/fake_shares.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/fake_shares.jpeg&#34;  alt=&#34;Google plus gets listed before Twitter and Facebook&#34; width=&#34;500em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;New &amp;ldquo;code&amp;rdquo; section&lt;/h1&gt;
+
+&lt;p&gt;I&amp;rsquo;ve always been eyeballing &lt;a href=&#34;https://github.com/&#34;&gt;github&lt;/a&gt; as a place where I can potentially dump some side projects of mine and possibly some of the larger code snippets and scripts from this site. But being the cheapskate that I am, I never liked that fact that github never offered a free plan for hosting code - even if it meant limitations to the number of repositories or something like that.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/&#34;&gt;Bitbucket&lt;/a&gt; on the other hand does have a &lt;a href=&#34;https://bitbucket.org/plans&#34;&gt;free plan&lt;/a&gt;, and the only real limitation is the number of users per private repository. I&amp;rsquo;m making most of my projects public anyway, so that doesn&amp;rsquo;t really matter to me. Otherwise you get unlimited private and public repositories. Bitbucket is arguably not as shiny as github, but it does exactly what I need and that for free, so there you go.&lt;/p&gt;
+
+&lt;p&gt;Many of my projects were already hosted elsewhere and lived in Mercurial repositories, so the fact that Bitbucket now supports both hg &lt;em&gt;and&lt;/em&gt; git means I don&amp;rsquo;t have to migrate my old projects and can move over to git on newer projects. Importing from other hosting sites was perfectly smooth.&lt;/p&gt;
+
+&lt;p&gt;Bitbucket makes it &lt;a href=&#34;http://confluence.atlassian.com/display/BITBUCKET/Using+your+Own+bitbucket+Domain+Name&#34;&gt;very easy&lt;/a&gt; to point a CNAME to your profile, so now &lt;a href=&#34;http://code.galaktor.net/&#34;&gt;code.galaktor.net&lt;/a&gt; goes straight to the repository list. That&amp;rsquo;s exactly where you end up if you hit the new &amp;ldquo;code&amp;rdquo; button in the main menu. Keep in mind that all I did so far was import a few old-ish projects. I intend to give them some TLC and add more in the near future.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Blogger&amp;#39;s stupid drop-down and the new &amp;#39;code&amp;#39; menu item
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/new_menu_bar.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/new_menu_bar.jpeg&#34;   width=&#34;450em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;Free beer&lt;/h1&gt;
+
+&lt;p&gt;So Google is under pressure to make blogs look nicer next to Tumblr, Wordpress and the likes, and as the &lt;del&gt;product&lt;/del&gt; user I get a new (mostly) nice template for free. As the &lt;a href=&#34;http://en.wikipedia.org/wiki/Gratis_versus_libre&#34;&gt;classic open source analogy&lt;/a&gt; goes, we&amp;rsquo;re talking &amp;ldquo;free as in beer&amp;rdquo;, not &amp;ldquo;free as in speech&amp;rdquo; - with the obvious downside that I cannot really change some of the things even if I don&amp;rsquo;t want or like them. The &amp;ldquo;dynamic view&amp;rdquo; selector in the main menu being one example. There may be some trickery that can be done by fiddling with the HTML, but as it is it seems that they&amp;rsquo;re at least trying to force it upon me (and you).&lt;/p&gt;
+
+&lt;p&gt;Same thing for Bitbucket - it&amp;rsquo;s not perfect, and there&amp;rsquo;s not much I can do about that aside from suggesting improvements to Altassian. Still, it costs me nothing, was simple to set up and does what I want, so who am I to complain?&lt;/p&gt;
+
+&lt;p&gt;The geek in me would prefer to host my own blog on my own server with my own geeky engine and templates, but reality is I just don&amp;rsquo;t have much time available to tend this blog. As a matter of fact I&amp;rsquo;m happy if I get time to write or code stuff &lt;em&gt;at all&lt;/em&gt;. So the fact that there are free, if imperfect services that allow me to focus on getting shit done, I&amp;rsquo;m happy. For now.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On being &#34;Senior&#34;</title>
+      <link>http://raph.es/blog/2012/04/On-being-Senior/</link>
+      <pubDate>Tue, 24 Apr 2012 08:30:00 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2012/04/On-being-Senior/</guid>
+      <description>
+
+&lt;p&gt;When you get into the software industry, you notice how most companies make a big deal of whether you are &amp;ldquo;senior&amp;rdquo; or not. &amp;ldquo;Seniors&amp;rdquo; get to make more decisions, are more respected and get paid more. So everybody wants to be &amp;ldquo;senior&amp;rdquo;. But what does that mean?&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Junior&amp;rdquo; and &amp;ldquo;senior&amp;rdquo; are traditionally used to distinguish between &lt;a href=&#34;http://en.wikipedia.org/wiki/Suffix_%28name%29#Generational_titles&#34;&gt;generations&lt;/a&gt;. &amp;ldquo;Seniors&amp;rdquo; are older than &amp;ldquo;juniors&amp;rdquo;. That has been adapted to &lt;a href=&#34;http://en.wikipedia.org/wiki/Suffix_%28name%29#Academic&#34;&gt;academia&lt;/a&gt;, where again, the &amp;ldquo;seniors&amp;rdquo; have basically been studying a bit longer than &amp;ldquo;juniors&amp;rdquo;. It appears that just having been in one place a bit longer than somebody else buys you the privilege of being more &amp;ldquo;senior&amp;rdquo; than that person.&lt;/p&gt;
+
+&lt;p&gt;I respectfully call bullshit. At least with regards to the usage of those terms in The Software Industry. The mere duration of having been in the industry is absolutely not a reliable indicator of &amp;ldquo;seniority&amp;rdquo; as most people mean it. Let&amp;rsquo;s move away from that ambiguous term, and say: &lt;em&gt;experience&lt;/em&gt;.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        How many people perceive &amp;#39;seniority&amp;#39; in The Software Industry
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/senior_graph_bad.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/senior_graph_bad.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and time&#34; width=&#34;500px&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;What makes a so-called &amp;ldquo;senior&amp;rdquo;?&lt;/h1&gt;
+
+&lt;p&gt;There has &lt;a href=&#34;http://www.diaryofaninja.com/blog/2012/03/27/irsquom-a-junior-developer-ndash-you-probably-are-too&#34;&gt;been&lt;/a&gt; &lt;a href=&#34;http://justinkan.com/what-good-is-experience&#34;&gt;some&lt;/a&gt; &lt;a href=&#34;http://ninjasandrobots.com/you-need-some-experience&#34;&gt;discussion&lt;/a&gt; about the value of experience in the blogosphere lately. They, too, seem to be thinking of experience as the time spent on something.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve done some interviews in my life now and I can wholeheartedly say that time itself does not tell you anything about somebody&amp;rsquo;s actual experience. There is a quote that I think fits nicely:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;An &lt;strong&gt;expert&lt;/strong&gt; is a person who has found out by his own &lt;strong&gt;painful&lt;/strong&gt; experience all the &lt;strong&gt;mistakes&lt;/strong&gt; that one can make in a very narrow field.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; Niels Bohr&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Note how this quote is about &lt;em&gt;experts&lt;/em&gt;. The word is clearly related to &amp;ldquo;experience&amp;rdquo;, but to complete the picture:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;A person with &lt;strong&gt;considerable experience&lt;/strong&gt; in a specific field can gain a reputation as an expert.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; &lt;a href=&#34;http://en.wikipedia.org/wiki/Experience&#34;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There you go. You gain experience by making mistakes, and making as many of them as possible. That makes you an expert. Expert is what most people should be saying when they talk about &amp;ldquo;seniors&amp;rdquo;. Because &amp;ldquo;senior&amp;rdquo; implies some form of age, whereas expert is what actually refers to somebody&amp;rsquo;s &lt;em&gt;&lt;code&gt;expert&lt;/code&gt;ise&lt;/em&gt; (there&amp;rsquo;s that word again!).&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;No pain, no gain&lt;/h1&gt;
+
+&lt;p&gt;Yes, it usually takes time to make all those mistakes you need to become an expert. But more than time, it takes &lt;em&gt;pain&lt;/em&gt;. An expert will have spent a significant amount of time cursing and being frustrated about problems and tools, trying to make stuff work (and, hopefully, successfully doing so in the end). So while you &lt;em&gt;can&lt;/em&gt; safely assume that an expert will have spent time in the field, you unfortunately can&lt;em&gt;not&lt;/em&gt; do the reverse. Just spending time doing something will not necessarily make you an expert.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s also why it&amp;rsquo;s much harder and more valuable to give useful critical feedback on something than it is to compliment it. Anybody can point out obvious good things. Those who have made (less obvious) mistakes before will remember, and warn you about pitfalls they have encountered when they&amp;rsquo;ve been there, done that.&lt;/p&gt;
+
+&lt;p&gt;Sadly, it&amp;rsquo;s also why many developers with little experience do not appreciate lots of advice that comes from so-called &amp;ldquo;seniors&amp;rdquo;. Because you cannot appreciate some things until you&amp;rsquo;ve been burnt yourself. I find that very evident when it comes to topics such as agile methodologies, test-driven development or even design patterns. If you haven&amp;rsquo;t felt the pain that these things can save you, you&amp;rsquo;ll probably not value them (yet).&lt;/p&gt;
+
+&lt;p&gt;Joe Programmer&amp;rsquo;s CV saying &amp;ldquo;10 years writing performance-critical software in C++&amp;rdquo; looks more interesting to many readers than Jane Hacker&amp;rsquo;s CV which states &amp;ldquo;4 years developing websites with Python&amp;rdquo;. I&amp;rsquo;ve come to learn that both of these statements say equally &lt;em&gt;little&lt;/em&gt; about the applicant&amp;rsquo;s expertise. In fact, Jane could easily be more experienced (at whatever) because she might have been obsessively hacking away on twelve open-source projects in all her spare-time during those four years.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        There&amp;#39;s more to &amp;#39;senior&amp;#39; than technical skills
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/senior_graph_bad2.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/senior_graph_bad2.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and technical skill&#34; width=&#34;500px&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;Scalable experience&lt;/h1&gt;
+
+&lt;p&gt;I was once hired as a &amp;ldquo;Senior Software Developer&amp;rdquo; at a company, and the Head of IT let me know what he expected from a &amp;ldquo;senior&amp;rdquo;. It was not just technical expertise, but just as much the ability to scale. To spread that expertise throughout the team. In fact, the word &amp;ldquo;senior&amp;rdquo; was yet again misleading here, &lt;em&gt;mentor&lt;/em&gt; would have been more appropriate.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Mentorship refers to a personal developmental relationship in which a &lt;strong&gt;more experienced&lt;/strong&gt; or more knowledgeable person &lt;strong&gt;helps to guide a less experienced&lt;/strong&gt; or less knowledgeable person.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; &lt;a href=&#34;http://en.wikipedia.org/wiki/Mentorship&#34;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When hiring an expert, the value is marginal if that person will sit in a corner with headphones on, going &amp;ldquo;Bring on the problems, I&amp;rsquo;ll hack them up!&amp;rdquo;. It can be useful to have that sort of maverick when you need a &lt;a href=&#34;http://www.galaktor.net/2011/10/scotty-effect.html&#34;&gt;miracle&lt;/a&gt; asap, but it&amp;rsquo;s rather useless most of the time.&lt;/p&gt;
+
+&lt;p&gt;In a team, problems and solutions need to be explained and discussed. I&amp;rsquo;ve met people at that company who were great coders, but had big problems communicating. They&amp;rsquo;ve been on the project longer than me. They knew the codebase and tools better, too. Yet their official title did not say &amp;ldquo;senior&amp;rdquo;, and that was unlikely to change anytime soon. And rightfully so - their expertise was locked up inside their heads and did not scale.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Better definition of &amp;#39;senior&amp;#39;. Note that there is lots of middle ground
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/senior_graph_2.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/senior_graph_2.jpeg&#34;  alt=&#34;Seniority is where tech and communicational skills meet&#34; width=&#34;500px&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;Aside from recruitment, many companies make this mistake in management, too. It seems that people who have joined the company earlier than others somehow get &lt;a href=&#34;http://www.urbandictionary.com/define.php?term=dibbs&#34;&gt;dibbs&lt;/a&gt; on the next leadership position that becomes available. Again, just because somebody is older or has been with the company longer, that by itself does not make them any more of an expert in&amp;hellip;&lt;em&gt;anything&lt;/em&gt; than somebody else who is younger and just joined six months ago.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, just because somebody can code well, it does not mean that they will make a good mentor or leader. Leadership involves much more than maintaining spreadsheets and going to meetings. I have seen many &amp;ldquo;team leaders&amp;rdquo; that, despite being decent programmers, lacked the most significant of attributes a &lt;em&gt;leader&lt;/em&gt; should have, i.e. a general sense of direction, ability to make decisions even (especially!) without having access to &lt;em&gt;all&lt;/em&gt; the information, and the ability to move a group of people into that direction. Preferably at the same time&amp;hellip;and without requiring a whip.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Programming and leadership abilities are two entirely orthogonal concerns.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_3&#34;&gt;tl;dr&lt;/h1&gt;
+
+&lt;p&gt;Think about what it is you mean when you say &amp;ldquo;senior&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Stop using the word &amp;ldquo;senior&amp;rdquo; when you actually mean &amp;ldquo;expert&amp;rdquo;. It takes the misleading implication of time out of the equation.&lt;/p&gt;
+
+&lt;p&gt;Expert == lots of Experience
+Experience != Age
+Experience != Time on the project&lt;/p&gt;
+
+&lt;p&gt;Experience == Mistakes over Time&lt;/p&gt;
+
+&lt;p&gt;Anybody can tell you about the &amp;ldquo;good things&amp;rdquo; (they&amp;rsquo;re what&amp;rsquo;s printed on the box after all). An expert can tell you about the bad things that lurk beneath the surface - because she&amp;rsquo;s been there.&lt;/p&gt;
+
+&lt;p&gt;Age or time on a project say nothing about expertise. Don&amp;rsquo;t hire or promote people primarily (or even partially) based on those criteria when what you actually want are &amp;ldquo;experts&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Expertise does not necessarily scale well.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Senior&amp;rdquo; developers/engineers/whatever have made tons of mistakes &lt;strong&gt;and&lt;/strong&gt; are able to help others learn from those mistakes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Edit&lt;/strong&gt;: Added green triangular &amp;ldquo;senior zone&amp;rdquo; to last graph.
+&lt;strong&gt;Edit&lt;/strong&gt;: Added second graph highlighting seniority vs. technical skills.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Update: This post has received some attention and comments over at &lt;a href=&#34;http://news.ycombinator.com/item?id=3883494&#34;&gt;Hacker News&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teenage Mutant Ninja Unit-Tests</title>
+      <link>http://raph.es/blog/2012/03/Teenage-Mutant-Ninja-Unit-Tests/</link>
+      <pubDate>Thu, 15 Mar 2012 21:37:00 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/blog/2012/03/Teenage-Mutant-Ninja-Unit-Tests/</guid>
+      <description>
+
+&lt;p&gt;When you are testing something - anything - you have some expectations as to what the result should be. The result either matches your expectations, or it does not. For example, you might want to find out what the person next to you will do if you shoot her in the face with a &lt;a href=&#34;http://www.youtube.com/watch?v=IZRQ1WkWFoU&#34;&gt;humble Nerf gun&lt;/a&gt;. Will she laugh? Shoot back? Kick your ass?&lt;/p&gt;
+
+&lt;p&gt;Many factors can affect the outcome of this test. Her current mood. Her &lt;a href=&#34;http://www.youtube.com/watch?v=HUD6sBrPB30#t=0m50s&#34;&gt;attitude toward being shot in the face&lt;/a&gt;. The exact position where you hit her (cheek vs. eye). The frequency at which you repeat the test. What she was busy doing before the fact and how much you surprise her. Who&amp;rsquo;s watching can affect how embarrassed she will be. Bottom line: each time you perform the test, the &lt;em&gt;variables&lt;/em&gt; will &lt;em&gt;vary&lt;/em&gt; (get it? get it?). And the results can be different given the changing conditions.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Isolate your tests&lt;/h1&gt;
+
+&lt;p&gt;You want a test to provide a reliable result each time. Because the alternative would mean you cannot trust single results, and may have to resort to averaging the results of many individual test runs. That&amp;rsquo;s unnecessary extra work and should be avoided.&lt;/p&gt;
+
+&lt;p&gt;You cannot guarantee reliable results if you do not control all the variables and moving parts of your test. Especially when they require human involvement, there&amp;rsquo;s always the chance that somebody does things in a slightly different order or timing. The slightest deviation from the other runs can affect the outcome and should make you distrust the results. This is one of the main reasons why software testing should be automated as far as possible, if not entirely.&lt;/p&gt;
+
+&lt;p&gt;So with that in mind, you&amp;rsquo;ve written some tests. They use a testing framework that has &amp;ldquo;unit&amp;rdquo; in it&amp;rsquo;s name, which means that they are unit tests. Right? Try again. Unit tests are supposed to focus on the behavior of a particular unit, nothing more and nothing less. Definitions of &amp;ldquo;unit&amp;rdquo; may vary, but it&amp;rsquo;s often a class. If unit tests are not properly &lt;em&gt;isolated&lt;/em&gt;, they will have more dependencies than are necessary for what you are trying to test. More moving parts. More things you need to control, but often can&amp;rsquo;t. More things that are going to void your test results.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Teenage Mutant Ninja Unit-Tests&lt;/h1&gt;
+
+&lt;p&gt;Tests that execute differently each time they run are called &lt;a href=&#34;http://www.typemock.com/rule-avoid-time-mutating-tests&#34;&gt;&lt;em&gt;mutating tests&lt;/em&gt;&lt;/a&gt;. Dependencies that can skew your results are often inputs that they do not entirely &amp;ldquo;own&amp;rdquo;, e.g. values from a database or shared files on a network. If those values change, your test changes.&lt;/p&gt;
+
+&lt;p&gt;There are also rather less obvious mutagens that can have the same effect, for example:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;threading: dependency on CPU performance and the operating system&amp;rsquo;s thread scheduling&lt;/li&gt;
+&lt;li&gt;environment variables: can be different on other machines, for other users&lt;/li&gt;
+&lt;li&gt;run-time dynamic linking: another machine could have a different version of some DLL in the GAC&lt;/li&gt;
+&lt;li&gt;time: e.g. &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.datetime.now.aspx&#34;&gt;&lt;code&gt;DateTime.Now&lt;/code&gt;&lt;/a&gt; will be different every time your test runs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Mutation_testing&#34;&gt;Mutation testing&lt;/a&gt; can in fact be a way to test your tests. Modify the logic-under-test and you should see some of your tests fail. This practice appears to be rather academic as I still have to come across somebody who actually &lt;em&gt;uses&lt;/em&gt; mutation testing in the real world.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;A recent example&lt;/h1&gt;
+
+&lt;p&gt;The problem with mutating tests is that you only notice them when they fail. This is worrying as it makes you wonder how many tests are mutating in ways that &lt;em&gt;prevent&lt;/em&gt; them from failing when the actually should&amp;hellip; In the following recent real-life case, two tests were failing even though there were no changes to the code.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        WTF?
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/negative-tickcount-teamcitytests.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/negative-tickcount-teamcitytests.jpeg&#34;  alt=&#34;tests fail even though code did not change&#34; width=&#34;300em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;When I ran the same tests from the same version of the code locally on my machine, they passed. My spider-senses tingled: mutating tests! After looking at the build times I noticed that they began failing on March 12, and since then consistently failed. That indicates a temporal dependency.&lt;/p&gt;
+
+&lt;p&gt;After some investigation I discovered that the code-under-test used the .NET property &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.environment.tickcount%28v=vs.100%29.aspx&#34;&gt;&lt;code&gt;Environment.TickCount&lt;/code&gt;&lt;/a&gt; to capture points in time and compare them. TickCount is an Integer and counts the milliseconds since the host machine was started. It starts at 0, counts up to 2147483647 (= &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.int32.maxvalue.aspx&#34;&gt;&lt;code&gt;Int.MaxValue&lt;/code&gt;&lt;/a&gt;), then wraps around to -2147483648 (= &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.int32.minvalue.aspx&#34;&gt;&lt;code&gt;Int.MinValue&lt;/code&gt;&lt;/a&gt;) and goes up towards 0 again.&lt;/p&gt;
+
+&lt;p&gt;The code-under-test compared the TickCount value against a fake count of 1. The difference determined the outcome of the test. It was positive until the TickCount went beyond Int.MaxValue and wrapped into the negative - where it suddenly turns into a very negative one.&lt;/p&gt;
+
+&lt;p&gt;I did some very complicated math to find out how long a machine would have to run until the TickCount reaches Int.MaxValue:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;2147483647ms / 1000ms  / 60s / 60min / 24hr =  ~24.86 days
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Typically I will reboot my dev machine every few days, but the build agents often run for weeks without a reboot. That would explain why the tests pass on my machine, but not on the build server.&lt;/p&gt;
+
+&lt;p&gt;Enough of the theories, let&amp;rsquo;s have some proof. TeamCity can show you when an agent has registered with the server - which I know will happen automatically every time the agent host boots up.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        When did my build agent last reboot?
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/negative-tickcount-teamcityagentinfo.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/negative-tickcount-teamcityagentinfo.jpeg&#34;  alt=&#34;checking the agent restart time on TeamCity&#34; width=&#34;400em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;So it started up on Feb 15. That&amp;rsquo;s just about exactly 25 days before the tests started to fail. The TickCount must have wrapped into the negative. So there&amp;rsquo;s one more thing to do to prove it: using PowerShell you can call that same TickCount property and see what value it has. And sure enough&amp;hellip;&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        PowerShell gives you direct access to .NET methods
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/negative-tickcount-cropped.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/negative-tickcount-cropped.jpeg&#34;  alt=&#34;Invoking Environment.TickCount using PowerShell&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;All that had to be done now is reboot the build servers, and the tests passed fine again!&lt;/p&gt;
+
+&lt;p&gt;Not.&lt;/p&gt;
+
+&lt;p&gt;We stubbed out the call to &lt;code&gt;Environment.TickCount&lt;/code&gt; so we can control it in the tests, better isolating them from the environment.&lt;/p&gt;
+
+&lt;p&gt;And now the world is a little bit safer.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Yet another attempt to level up my geek-iness</title>
+      <link>http://raph.es/blog/2012/02/Yet-another-attempt-to-level-up-my-geek-iness/</link>
+      <pubDate>Sun, 26 Feb 2012 21:16:00 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/blog/2012/02/Yet-another-attempt-to-level-up-my-geek-iness/</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;ve been rather quiet over the past months and I&amp;rsquo;m sure the &lt;em&gt;entire&lt;/em&gt; blogosphere was shocked and wants to know why. Well, in addition to holidays and the likes, for the probably 4th time in the past 15 years I am attempting to move my computing life from Windows into Linux. And since I rarely have much time for my geeky side projects, I have been dedicating it to that rather than the blog.&lt;/p&gt;
+
+&lt;p&gt;As just mentioned I tried this a few times before, but eventually failed. First time around I failed to even get my CD-ROM drive mounted in SuSe. Later on Ubuntu I lacked a few critical tools for my studies, like OneNote (which is brilliant) or VisualStudio for my thesis project. And Call of Duty.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;What&amp;rsquo;s different now?&lt;/h1&gt;
+
+&lt;p&gt;I learned two things that I hope to get right this time.&lt;/p&gt;
+
+&lt;p&gt;One is that I need to move most, if not &lt;em&gt;all&lt;/em&gt; my computing tasks into just one OS. Anything else will cause too much friction workflow-wise and I&amp;rsquo;ll eventually get stuck on Windows again.&lt;/p&gt;
+
+&lt;p&gt;The other lesson was that Windows is simply best for two things I care somewhat about: .NET development and gaming. And since neither of these play well inside a VM I&amp;rsquo;ll need to dual-boot. The good thing (in this context) is that these two points have become less important to me over the last years. I do .NET in my day job, so I rarely feel the need to continue at home.&lt;/p&gt;
+
+&lt;p&gt;And as much as it hurts to admit: I&amp;rsquo;ve outgrown my &lt;a href=&#34;http://www.techradar.com/news/gaming/consoles/11-signs-you-re-no-longer-a-hard-core-gamer-329291&#34;&gt;hardcore gamer phase&lt;/a&gt;. Gaming is now something I do on a work-less, shave-less, spongebob-boxer-shorts days. But I&amp;rsquo;m determined to finish all those games I bought during the last few X-mas sales on Steam! I suppose that puts me into some form of mid-life crisis? Scary, how gaming was close to the center of my life at a time when I couldn&amp;rsquo;t really afford the games I wanted. Now I have enough &amp;ldquo;allowance&amp;rdquo;, but barely any time left to play games. Oh, the irony.&lt;/p&gt;
+
+&lt;p&gt;Anyhow, at the end of the day, I can now probably live with booting up Windows for these things as they are rather rare events.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Stick with Windows, idiot!&lt;/h1&gt;
+
+&lt;p&gt;Why Linux at all then, you might ask? Well first of all I have been doing professional .NET development for over 7 years now (albeit not exclusively) and feel very comfortable in Windows, VS and the likes. But feeling too comfortable is a bad sign, it means not learning very much. So while .NET will stay a good way to do cool stuff and earn a nice living, I feel the nerdy (read: masochist) urge to leave the comfort zone and learn new things. You know, things that make me feel like a first-grader again. That make me yell curses at the screen. That make me feel like a god after I do get them working.&lt;/p&gt;
+
+&lt;p&gt;Plus, and this is a big one: I think &lt;a href=&#34;http://www.fsf.org/&#34;&gt;Free Software&lt;/a&gt; is important. In a time where most of our daily life depends on computers that sit in virtually everybody&amp;rsquo;s pocket, I believe it&amp;rsquo;s important to have as much control over them as possible. Linux not only gives you very much that control, it&amp;rsquo;s also arguably the best operating system out there. Many distros nowadays work out-of-the-box with WiFi and all the gimmicks. So really I see no reason why I should have to force my life into a proprietary operating system while I can get a better, more flexible and &lt;em&gt;free&lt;/em&gt; one for&amp;hellip;well, free.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;#!&lt;/h1&gt;
+
+&lt;p&gt;So what I did was upgrade my good old &lt;a href=&#34;http://reviews.cnet.com/Dell_XPS_M1530/4505-3121_7-32778979.html&#34;&gt;M1530&lt;/a&gt;&amp;rsquo;s RAM, back up my files&amp;hellip;.and do other things so boring that just writing about them makes me narcoleptic. So pardon me if I skip to the good parts. I stuck roughly to &lt;a href=&#34;http://www.iceflatline.com/2011/05/install-and-configure-crunchbang-linux-on-the-lenovo-t410-laptop/&#34;&gt;this&lt;/a&gt; excellent tutorial, which served me as a guideline although I did deviate a bit.&lt;/p&gt;
+
+&lt;p&gt;I installed Windows 7 as a primary OS using about 50% of the HDD, and then &lt;a href=&#34;http://crunchbanglinux.org/&#34;&gt;Crunchbang&lt;/a&gt; into dedicated partitions using the rest. Crunchbang is a minimalistic yet fully featured distro based on Debian Squeeze. I let the boot loader Grub2 install itself at the beginning of the disk. In CB I had to run the command &lt;code&gt;update-grub&lt;/code&gt; so that the OS-prober could auto-detect Windows, then that was sorted.&lt;/p&gt;
+
+&lt;p&gt;While I&amp;rsquo;m moving into the brave new world of WTF&amp;rsquo;ing on Linux I will post about things I have learned along the way. One is the ability to use several window managers and select them at the login screen. The default on CB is &lt;a href=&#34;http://openbox.org/&#34;&gt;Openbox&lt;/a&gt;, and it&amp;rsquo;s great, but I&amp;rsquo;d like a mouse-less window manager for coding. Thus coming soon are my notes on how to get Openbox and &lt;a href=&#34;http://www.nongnu.org/ratpoison/&#34;&gt;Ratpoison&lt;/a&gt; to co-exist. (This is also a prime example of why proprietary software can lock you down - there&amp;rsquo;s no nice way to change your window management on Windows. On Linux, if it doesn&amp;rsquo;t exist, you can always roll your own.)&lt;/p&gt;
+
+&lt;p&gt;And yes, there will still be Windows/.NET related posts in the future - we&amp;rsquo;ll have to wait and see how &lt;em&gt;this&lt;/em&gt; attempt at Linux will work out for me.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Power to the nerds</title>
+      <link>http://raph.es/blog/2012/01/Power-to-the-nerds/</link>
+      <pubDate>Wed, 18 Jan 2012 11:31:00 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/blog/2012/01/Power-to-the-nerds/</guid>
+      <description>&lt;figure &gt;
+    
+    &lt;div class=&#34;video&#34;&gt;
+ &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/1p-TV4jaCMk&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
+ &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Tools given to governments which might seem (somewhat) justified or harmless now
+will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash;me&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Revisited: Mapping network drives for TeamCity build agents</title>
+      <link>http://raph.es/blog/2011/12/Revisited-Mapping-network-drives-for-TeamCity-build-agents/</link>
+      <pubDate>Mon, 19 Dec 2011 06:58:00 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/blog/2011/12/Revisited-Mapping-network-drives-for-TeamCity-build-agents/</guid>
+      <description>
+
+&lt;p&gt;In an older &lt;a href=&#34;/2011/06/mapping-network-drives-for-teamcity.html&#34;&gt;post&lt;/a&gt; I mentioned how hard it is to have TeamCity agents have access to mapped drives. Unfortunately, Windows only maps network drives during a user&amp;rsquo;s login process. But you do not want to log in for every build agent - ideally they will run as daemons and, for instance, start automatically when the system boots without a user having to get involved.&lt;/p&gt;
+
+&lt;p&gt;So what I did before was an ugly hack - I used &lt;a href=&#34;http://technet.microsoft.com/en-us/sysinternals/bb897553&#34;&gt;psexec&lt;/a&gt; to map the drives I want agents to see to the root user (&amp;ldquo;SYSTEM&amp;rdquo;). I never really understood why it worked, but I never liked the solution. Plus, it still did not give you a real Windows service, only a scheduled task that sort of behaved the same way.&lt;/p&gt;
+
+&lt;p&gt;I recently did some reworking of my agents and decided to get rid of the psexec hack. What I did this time is much simpler: I gave up. Yep, I gave up trying to map the drives for the agents. If I want agents to be services, and services cannot map drives, so be it.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/troll-mappings.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/troll-mappings.jpeg&#34;   width=&#34;400em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Work with it, not against it&lt;/h1&gt;
+
+&lt;p&gt;The alternative is to not need drive mappings in the first place. It crossed my mind that I might want to force all reference paths in the VS projects to be UNC paths. Problem is when you add a new file or reference, VS defaults to the drive letter and not the UNC path. Builds would regularly break because somebody forgot to manually change it into a UNC path&amp;hellip;not cool.&lt;/p&gt;
+
+&lt;p&gt;The simple way around this is have a build step run before each VS compile that &amp;ldquo;unmaps&amp;rdquo; the project files automagically. Devs can still use drive mappings which work for them and don&amp;rsquo;t have to worry about these build server specifics.&lt;/p&gt;
+
+&lt;p&gt;At the end of this post is a simple Powershell script that does the job. It&amp;rsquo;s quite simple in that it does a find/replace using regular expressions. Turns out this works quite nicely and performs well, too - just a few seconds to process several hundreds of project files. Adding in target file types or drive mappings should be straight-forward. Feel free to use, but &lt;em&gt;please read and respect the &lt;a href=&#34;/license&#34;&gt;license&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Running it as a pre-build step&lt;/h1&gt;
+
+&lt;p&gt;On TeamCity 6+ you can configure an arbitrary chain of build steps. Just have TeamCity run this script on before your projects are compiled. Simplest is to just pass in the builds working directory as a paramter (&lt;code&gt;%system.teamcity.build.workingDir%&lt;/code&gt;). That way you can replace the drive mappings in all files that were checked out of source control for the running build. You can, of course, use more specific paths instead of this shotgun approach. If that&amp;rsquo;s how you roll.&lt;/p&gt;
+
+&lt;p&gt;Keep in mind that your build machines will by default have a &lt;a href=&#34;http://technet.microsoft.com/en-us/library/dd347628.aspx&#34;&gt;PowerShell execution policy&lt;/a&gt; of &lt;code&gt;Restricted&lt;/code&gt;. You&amp;rsquo;ll have to change it to run the scripts. &lt;code&gt;Set-ExecutionPolicy RemoteSigned&lt;/code&gt; will do. If you TC process runs with administrator privileges you can also pass in a parameter to powershell.exe that will bypass the execution policy (use at your own risk):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;powershell.exe .\myscript.ps1 &amp;lt;path&amp;gt; -executionPolicy Bypass. 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;   width=&#34;350em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;Example script (PowerShell)&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;# licensed under The MIT license: http://www.opensource.org/licenses/mit-license.php
+# Copyright (c) Raphael Estrada
+# Author URL: http://www.galaktor.net
+PARAM([parameter(Mandatory = $true)]
+      [string]$root=$(throw &amp;quot;Must give a root path.&amp;quot;))
+
+$exitCode = 0
+
+try
+{
+  $stopWatch = New-Object &amp;quot;System.Diagnostics.Stopwatch&amp;quot;
+  $stopWatch.Start()
+  # works on C# an VC++ project files
+  $targetFiles = Get-ChildItem $root -recurse -include @(&amp;quot;*.csproj&amp;quot;,&amp;quot;*.vcxproj&amp;quot;)
+  $stopWatch.Stop()
+
+  Write-Host &amp;quot;Finding&amp;quot; $targetFiles.Length &amp;quot;files took&amp;quot; $stopWatch.ElapsedMilliseconds &amp;quot;ms&amp;quot;
+
+  $mappings = @(
+          (&#39;X&#39;, &#39;\\path\to\x&#39;),
+          (&#39;Y&#39;, &#39;\\path\to\y&#39;),
+          (&#39;Z&#39;, &#39;\\path\to\z&#39;)
+        )
+
+  $stopWatch.Reset()
+  $stopWatch.Start()
+  $modifiedCounter = 0
+  foreach($file in $targetFiles)
+  {
+    # project file XML is usually UTF8
+    $content = (Get-Content $file -Encoding UTF8)
+
+    foreach($mapping in $mappings)
+    {
+      $pathRegex = [System.String]::Format(&amp;quot;{0}:\\&amp;quot;, $mapping[0])
+      $replacement = $mapping[1]
+      if(!$replacement.EndsWith(&amp;quot;\&amp;quot;))
+      {
+        $replacement += &amp;quot;\&amp;quot;
+      }
+      if($content -match $pathRegex)
+      {
+        Write-Host &amp;quot;Found references to&amp;quot; $mapping[0] &amp;quot;drive in&amp;quot; $file.FullName &amp;quot;- Replacing with&amp;quot; $mapping[1]
+        $content = $content -replace $pathRegex, $replacement
+        $modifiedCounter++
+      }
+    }
+
+    # write result back to file; again UTF8
+    Set-Content -Encoding UTF8 $file $content -Force
+  }
+  $stopWatch.Stop()
+
+  Write-Host &amp;quot;Processing&amp;quot; $targetFiles.Length &amp;quot;files took&amp;quot; $stopWatch.ElapsedMilliseconds &amp;quot;ms&amp;quot;
+  Write-Host &amp;quot;Files modified:&amp;quot; $modifiedCounter
+}
+catch [System.Exception]
+{
+  Write-Host &amp;quot;ERROR!&amp;quot; $_ -ForegroundColor Red
+  $exitCode = 1
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stop using the wrong tools</title>
+      <link>http://raph.es/blog/2011/11/Stop-using-the-wrong-tools/</link>
+      <pubDate>Thu, 10 Nov 2011 06:29:00 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/blog/2011/11/Stop-using-the-wrong-tools/</guid>
+      <description>
+
+&lt;p&gt;When Apple gave us pure touchscreen interfaces, it was as if yet &lt;a href=&#34;http://screenrant.com/tech-terminator-iron-man-is-here-brusimm-7985/all/1/&#34;&gt;another&lt;/a&gt; science fiction dream came true. Apparently whenever we get a little bit closer to our sci-fi fantasies, we imagine the future will just take the same idea a bit further. &amp;ldquo;Look ma, no &lt;a href=&#34;http://www.ted.com/talks/john_underkoffler_drive_3d_data_with_a_gesture.html&#34;&gt;hands&lt;/a&gt;!&amp;rdquo; Awesome, no doubt. But the danger of small increments is that it feels like progress, even though you could be heading in the wrong direction.&lt;/p&gt;
+
+&lt;p&gt;Having robot monkey butlers go skynet on mankind makes great fiction. But could our pursuit of Asimov&amp;rsquo;s smart robots really be distracting us from other, entirely different solutions to our monkey butler needs? Like genetically enhanced apes? Sci-fi inspires authors inspire engineers inspire sci-fi. That chain of inspiration has undoubtedly led to some impressive technological &lt;a href=&#34;http://www.youtube.com/watch?v=Bmglbk_Op64&#34;&gt;innovation&lt;/a&gt;. At which point, though, could recycling century-old inspiration from fiction become a bad thing? When should we dismiss them as bad ideas to instead focus our efforts on alternatives?&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m drifting a bit here. The other day I read Bret Victor&amp;rsquo;s &lt;a href=&#34;http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/&#34;&gt;opinion&lt;/a&gt; on a very common vision of how we might interact with technology in the future. He argues that when envisioning the designs of the future, people make small increments to present technology and while doing so, tend to forget about what really makes a tool great.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;That is, a tool converts what we can &lt;em&gt;do&lt;/em&gt; into what we &lt;em&gt;want to do&lt;/em&gt;. A great tool is designed to fit &lt;strong&gt;both&lt;/strong&gt; sides.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The touchscreens in modern devices might be closer to what we expect from futuristic high-tech devices. But just because they let us use a mobile web browser more efficiently, does that mean the future will be all chrome and touchscreens?&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Everything is chrome in the future!
+        &lt;br/&gt;src:&lt;a href=&#34;http://www.unitedspongebob.com/&#34;&gt; 
+            Nickelodeon
+        &lt;/a&gt; 
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/chrome.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/chrome.jpeg&#34;  alt=&#34;Squidward dreams of a future where everything is literally chrome&#34; width=&#34;300em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Usability is hard&lt;/h1&gt;
+
+&lt;p&gt;I don&amp;rsquo;t know what the future will bring. What I do know is that people are generally not very good at picking the right tools. And I see no reason why that could not also apply in the future. Revisiting the above definition, there are two things that can go wrong: 1) a tool fails to do &amp;ldquo;what we want to do&amp;rdquo;, or 2) that &amp;ldquo;what we can[not] do&amp;rdquo; prevents us from using the tool properly (or use it at all).&lt;/p&gt;
+
+&lt;p&gt;The first one seems obvious. I need to drive a nail into a wall, so I use a hammer, not a wrench. But it&amp;rsquo;s not always that obvious, and we often end up using tools for things they were never intended to do. That&amp;rsquo;s cool if you&amp;rsquo;re aware of the problem and know what you are doing - MacGyver! - but just as foolish otherwise.&lt;/p&gt;
+
+&lt;p&gt;The other type of tool abuse is more subtle: failing to bridge the tool&amp;rsquo;s abilities with those of it&amp;rsquo;s user. Buzz word: &lt;em&gt;usability&lt;/em&gt;. Creating a tool that can do something is the easy part - making it so that people can, will, and repeatedly use it is much harder. Simply put: the most effective tool is not really a tool if nobody uses it.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Examples I&amp;rsquo;d like to rant about&lt;/h1&gt;
+
+&lt;p&gt;As a software engineer, I happen to see wrong-tool-syndrom a lot in - wait for it - software development. There are a few examples in particular that I have noticed recently and I would like to put them here for two reasons. To make my point (duh) and to rant.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Email chain discussions&lt;/h2&gt;
+
+&lt;p&gt;The 80&amp;rsquo;s called, they want their mailing lists back! I totally and absolutely &lt;em&gt;despise&lt;/em&gt; mailing lists. Whenever I need to go to one for help with a tool, I do my best to ditch the tool. They used to have their purpose, nowadays they&amp;rsquo;re just obsolete usability nightmares.&lt;/p&gt;
+
+&lt;p&gt;Email is simply the wrong tool for multi-user, text-based conversations. It gets worse with corporate email. It&amp;rsquo;s a nightmare to keep people on/off the receipient list; people get spammed. It&amp;rsquo;s insanely redundant - having to resend the entire past correspondence at the bottom of each message. And once someone hits &amp;ldquo;Reply&amp;rdquo; instead of &amp;ldquo;Reply All&amp;rdquo;, then the discussion gets fragmented and redundancy even increases.&lt;/p&gt;
+
+&lt;p&gt;There are &lt;a href=&#34;http://xmpp.org/extensions/xep-0045.html&#34;&gt;much&lt;/a&gt; &lt;a href=&#34;http://trac-hacks.org/wiki/DiscussionPlugin&#34;&gt;better&lt;/a&gt; &lt;a href=&#34;http://www.coordino.com/&#34;&gt;tools&lt;/a&gt; available for online discussions. They were designed to allow for sane reading, backtracking, quoting and searching. And above all, they&amp;rsquo;re much less redundant than when using email.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Mailing lists are sooo 80&amp;#39;s. And, unlike this here boombox, they *suck*.
+        &lt;br/&gt;src:&lt;a href=&#34;http://www.wikipedia.org&#34;&gt; 
+            Wikipedia
+        &lt;/a&gt; 
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/boombox.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/boombox.jpeg&#34;  alt=&#34;A classic, cool cassette player from the eighties&#34; width=&#34;400em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Avoiding OOP features in OOP languages&lt;/h2&gt;
+
+&lt;p&gt;Modern programming languages have some comfortable features, like just-in-time compilation, sandboxing or garbage collection. Take the .NET runtime. With C# as it&amp;rsquo;s &amp;ldquo;native&amp;rdquo; language, it supports polymorphism, i.e. virtual methods.&lt;/p&gt;
+
+&lt;p&gt;I have seen people spend significant amounts of time &amp;ldquo;optimizing&amp;rdquo; their code to prevent the runtime from having to look for the right method to call in the inheritance chain. They end up with lots of &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/88c54tsw%28v=VS.100%29.aspx&#34;&gt;sealed&lt;/a&gt; classes which tell the compiler that no other classes may be derived from them. Consequently, the runtime will not need to check for overrides at execution time, thus making the code a few friggaseconds faster. Neat, huh?&lt;/p&gt;
+
+&lt;p&gt;Not. My problem with this is not &lt;em&gt;that&lt;/em&gt; the classes are sealed (even though unit testing them can be a bitch). It is &lt;em&gt;why&lt;/em&gt; they are sealed. It&amp;rsquo;s not the result of some object-oriented design decision. It&amp;rsquo;s done with the sole purpose to prevent the CLR from doing something it was &lt;em&gt;designed&lt;/em&gt; to do. C# is object-oriented, so there are virtual methods - deal with it. If you are afraid of the cost, then C# is the wrong tool for your problem - maybe have a look at C/C++ instead.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;Static methods in OOP languages&lt;/h2&gt;
+
+&lt;p&gt;Within the last 10 years, many programmers have migrated from C++ to C#. I can recognize their (early) code right away: static methods everywhere. That is not object oriented. It&amp;rsquo;s method oriented - &lt;em&gt;procedural&lt;/em&gt;. There are only very few cases that justify the use of static methods in OOP. You are either using C# for the wrong reasons or you don&amp;rsquo;t understand OOP. Either way, you will not be able to use the tool the way it was designed to be used.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_5&#34;&gt;Videos in (tech) blogs&lt;/h2&gt;
+
+&lt;p&gt;When I go to your blog, I want to read it - not watch a stupid video. Chances are my mobile browser does not know your codec, and if it does, it still looks like crap. And do you really expect me to turn down my music in order to listen to you say stuff you were too lazy to write down? There&amp;rsquo;s so many things that make videos bad for this: I can&amp;rsquo;t skim over the content like I usually do - instead I end up jumping around in the timeline, buffering, cursing. Fuck your &lt;a href=&#34;http://de.wikipedia.org/wiki/Vlog&#34;&gt;vlog&lt;/a&gt; or whatever you call it, do a podcast if that&amp;rsquo;s your thing. If you have a blog, I want to &lt;em&gt;read&lt;/em&gt; it. Period.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;Perforce for version control&lt;/h2&gt;
+
+&lt;p&gt;&amp;ldquo;Perforce&amp;rdquo; and &amp;ldquo;control&amp;rdquo; is an contradiction. There you go. I just had to put this one in.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Me when I see your vlog
+        &lt;br/&gt;src:&lt;a href=&#34;http://www.thestupiditburns.com&#34;&gt; 
+            thestupiditburns.com
+        &lt;/a&gt; 
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/thestupiditburns.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/thestupiditburns.jpeg&#34;  alt=&#34;when something is so stupid that makes your head hurt&#34; width=&#34;450em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_7&#34;&gt;The thin line between a pragmatist and a moron&lt;/h1&gt;
+
+&lt;p&gt;Now, you cannot always switch tools. Switching language on a gazillion LOC project is not going to happen overnight. Then, at least try to use the tools you have the way the were designed to be used. Make the most of what you have, and don&amp;rsquo;t try to bastardize it just because you are too lazy to use it the right way.&lt;/p&gt;
+
+&lt;p&gt;What I really hate is that engineers that abuse a tool beyond recognition are often admired. Yes, it&amp;rsquo;s great to be able to improvise when required - but it&amp;rsquo;s far more important to be able to &lt;a href=&#34;http://www.engineyard.com/blog/2011/the-number-one-trait-of-a-great-developer/&#34;&gt;decide&lt;/a&gt; what the right tool for the job/situation/user is. A construction worker that uses a screwdriver to punch holes into walls instead of using a drill will not be considered creative, but a moron. Why do the opposite in software?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Scotty Effect</title>
+      <link>http://raph.es/blog/2011/10/The-Scotty-Effect/</link>
+      <pubDate>Thu, 27 Oct 2011 10:33:00 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2011/10/The-Scotty-Effect/</guid>
+      <description>
+
+&lt;p&gt;There&amp;rsquo;s a common problem among software engineers. Whenever someone asks us for an estimation on how long task X is going to take, it happens. &amp;ldquo;Ah, not a big deal, half a day, max.&amp;rdquo; Is what we initially want to say. It happens to most people I know, and it happens to me.&lt;/p&gt;
+
+&lt;p&gt;It seems like there&amp;rsquo;s a little geek inside us that wants to impress our customers by making it look like we&amp;rsquo;re wizards. Somebody is asking you to do something, and obviously it&amp;rsquo;s a problem complex enough that an engineer has to do it, now.&lt;/p&gt;
+
+&lt;p&gt;And it&amp;rsquo;s all because of &lt;a href=&#34;http://www.startrek.com/database_article/scott&#34;&gt;Montgomery Scott&lt;/a&gt;, aka &amp;ldquo;Scotty&amp;rdquo; from the Original Star Trek ensemble. Whenever Kirk asks Scotty to fix something, it goes somewhere along these lines:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Kirk&lt;/strong&gt;: &amp;ldquo;Scotty, can you get the warp drive online in 2 hours?&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scotty&lt;/strong&gt;: &amp;ldquo;Lol captain, that&amp;rsquo;s impossible. Do you have any idea how complex and fragile a matter/anti-matter propulsion engine is?? We&amp;rsquo;ll have to&amp;hellip;&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kirk&lt;/strong&gt;: &amp;ldquo;Scotty, it&amp;rsquo;s crucial that we prevent the universe from imploding so I can get into this alien chick&amp;rsquo;s pants.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scotty&lt;/strong&gt;: &amp;ldquo;Meh, I&amp;rsquo;ll see what I can do&amp;hellip;&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;No surprises so far - just a normal day in the life of an engineer having to deal with unrealistic expectations, right? Wrong! In the end, Scotty pulls it off! He not only fixes it, but apparently the warp engine hasn&amp;rsquo;t went supernova in the next episode, either. So he probably did a good job, too!&lt;/p&gt;
+
+&lt;p&gt;We grew up with this idea, that if you really want your boss to get into that alien chick&amp;rsquo;s pants, you need to be a wizard. You get the point. That&amp;rsquo;s why I believe it&amp;rsquo;s Scotty&amp;rsquo;s fault. Don&amp;rsquo;t get me wrong, Scotty rocks (rest in peace, Mr. Doohan). But that inner geek inside us, it&amp;rsquo;s probably a little Scotty.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        I couldn&amp;#39;t find DuctTape or WD40 on GitHub
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/repairs.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/repairs.jpeg&#34;  alt=&#34;duct tape and wd40 can fix anything&#34; width=&#34;400em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Back to reality&lt;/h1&gt;
+
+&lt;p&gt;Spoiler alert! Star Trek is just a TV show. In the real world, it&amp;rsquo;s not going to happen. And this is why.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;It&amp;rsquo;s not the same thing&lt;/h2&gt;
+
+&lt;p&gt;If you do a 10 day job in just 1 day, then you&amp;rsquo;re not doing the 10 day job. Claiming otherwise is lying to yourself and your customer. You&amp;rsquo;re really doing the ugly 1 day version, involving lots of duct tape and WD-40. We like to call ourselves &amp;ldquo;hackers&amp;rdquo; - just like the good, old-school hacker. But people forget that a &amp;ldquo;hack&amp;rdquo; back in the good old days was nothing bad or malicious. It was something neat, elegant. It was &amp;ldquo;the right thing to do&amp;rdquo;. Read Steven Levy&amp;rsquo;s &lt;a href=&#34;http://books.google.com/books?id=mShXzzKtpmEC&amp;amp;lpg=PA67&amp;amp;vq=right%20thing%20to%20do&amp;amp;pg=PA58#v=onepage&amp;amp;q&amp;amp;f=false&#34;&gt;Hackers&lt;/a&gt;. If you&amp;rsquo;re hotshot enough to pull off the 10 day job in 1 day, fair enough. It&amp;rsquo;s most likely though, even though you might be awesome, that you are &lt;a href=&#34;http://www.livingwithsourcecode.com/2011/03/ill-just.html&#34;&gt;just&lt;/a&gt; taking shortcuts.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Sooner or later, it will come back to bite you&lt;/h2&gt;
+
+&lt;p&gt;This can work in emergency scenarios, and over short periods of time. But by doing so, you&amp;rsquo;ll build up more and more &lt;a href=&#34;http://en.wikipedia.org/wiki/Technical_debt&#34;&gt;technical debt&lt;/a&gt;. We all know what happens if you run a never-ending tab without bothering to repay your debt. One day, your warp engine will not work in the next episode. You might eventually have to eject it.&lt;/p&gt;
+
+&lt;p&gt;Also, be aware that making it look like you can make the impossible happen will raise your customers&amp;rsquo; expectations - putting you under pressure to uphold the illusion.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Life&amp;rsquo;s not a TV show&lt;/h2&gt;
+
+&lt;p&gt;Scotty is usually pessimistic at first, but then finds some magical way to do it within the impossible time frame. In reality, things are the other way around. They seem simple, but when you take a closer look, they turn out to be more complicated. Knowing this makes the difference between guessing and estimating.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_4&#34;&gt;What to do about it&lt;/h1&gt;
+
+&lt;p&gt;You&amp;rsquo;re better off to resist that initial urge to fix the warp drive/deflector shield/&lt;insert bug here&gt; in &amp;ldquo;2 days&amp;rdquo; (or whatever ambitious answer your gut gives you). Take one of the many great pieces of advice from &lt;a href=&#34;http://books.google.com/books?id=5wBQEp6ruIAC&amp;amp;lpg=PP1&amp;amp;dq=the%20pragmatic%20programmer&amp;amp;pg=PT87#v=onepage&amp;amp;q&amp;amp;f=false&#34;&gt;The Pragmatic Programmer&lt;/a&gt;, and just say &amp;ldquo;I&amp;rsquo;ll get back to you&amp;rdquo;. Do some realistic estimating (not guessing!), and then tell them how long it will take.&lt;/p&gt;
+
+&lt;p&gt;And guess what, you&amp;rsquo;ll get better with your estimations. You&amp;rsquo;ll end up doing things the right way, and within realistic time.&lt;/p&gt;
+
+&lt;p&gt;And every once in a while, they&amp;rsquo;ll still think what you do is magic.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_5&#34;&gt;UPDATE:&lt;/h1&gt;
+
+&lt;p&gt;My fellow trekkers have not dissapointed and spotted what can appear to be a contradiction to my descriptions of Scotty (which are based on the &amp;ldquo;old&amp;rdquo; series): in the great espisode 130 of &amp;ldquo;Star Trek: The Next Generation&amp;rdquo;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Relics_%28Star_Trek:_The_Next_Generation%29&#34;&gt;&amp;ldquo;Relics&amp;rdquo;&lt;/a&gt;, Scotty returns to the latest USS Enterprise D. He then hints at his successor, Chief Engineer Geordi LaForge, that Geordi should always exaggerate his estimations to make himself look like a miracle worker (&lt;a href=&#34;http://www.imdb.com/title/tt0708764/quotes?qt=qt0349432&#34;&gt;quote&lt;/a&gt;). Since I&amp;rsquo;m claiming that Scotty always managed to do miracles in an impossible time frame, it looks like Scotty did not only deceive Kirk, but me as well. Or did he? While thinking about a response to this, I find that I am torn. I have two separate responses, each from a different perspective. Yet none of them affect the point of this post.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;I, Hacker&lt;/h2&gt;
+
+&lt;p&gt;Senior engineers often tweak their previous achievements to look good in front of the n00bs by giving advice that they not necessarily have never adhered to themselves. But who&amp;rsquo;s going to prove the opposite? In this episode, being in the 24th century with all the shiny strange technology, Scott feels outdated and useless. This could just be a senior engineer trying to say something smart to impress his younger, more advanced successor.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_7&#34;&gt;I, Trekker&lt;/h2&gt;
+
+&lt;p&gt;This espisode was produced 23 years after The Original Series, approx. 1 year after Gene Rodenberry&amp;rsquo;s passing. Star Trek is full of inconsistencies. It&amp;rsquo;s hard to keep continuity perfect over so many episodes and movies, and it&amp;rsquo;s Sci-Fi after all. I seriously believe this was something the authors wanted Scotty to say in order to be funny, nothing more and nothing less. It is funny because it&amp;rsquo;s a direct contradiction to what we all know from previous events. This was a great espisode, and this scene in particular was a memorable one - but I refuse to acknowledge this as evidence that Scotty wasn&amp;rsquo;t simply an extraordinary engineer - a wizard.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;This post received some attention over at Hacker News - check out the &lt;a href=&#34;http://news.ycombinator.com/item?id=3162415&#34;&gt;discussions&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

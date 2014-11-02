@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Ux on raph haXx </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://raph.es/tags/ux/index.xml/</link>
+    
+    
+    <copyright>Raphael Estrada 2011-2014</copyright>
+    <updated>Wed, 09 May 2012 08:44:00 IST</updated>
+    
+    <item>
+      <title>The blog gets some love</title>
+      <link>http://raph.es/blog/2012/05/The-blog-gets-some-love/</link>
+      <pubDate>Wed, 09 May 2012 08:44:00 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2012/05/The-blog-gets-some-love/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Note: this post was hosted on Blogger at the time of writing. Links in this post are old and could be broken.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I took a wee bit of time to upgrade this site a bit. Not exactly a huge project worth bragging about, but I figured I&amp;rsquo;d highlight the changes (if they&amp;rsquo;re not already obvious enough).&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Dynamic Template&lt;/h1&gt;
+
+&lt;p&gt;I switched over to use the shiny &amp;ldquo;new&amp;rdquo; blog templates that Blogger provides. I resisted the urge for a while but I do think it gives the site a more modern feel. Surely far from perfect, but given that it came for free I think value for money is good.&lt;/p&gt;
+
+&lt;p&gt;Going back to black-on-white was not an easy decision because I&amp;rsquo;m a huge fan of light-on-dark themes. Despite the new color scheme being quite uninspired and more mainstream, it is an improvement in terms of usability. Currently it&amp;rsquo;s almost entirely the vanilla Blogger template, I&amp;rsquo;ll experiment with it going forward.&lt;/p&gt;
+
+&lt;p&gt;The interface is much less cluttered with &amp;ldquo;gadgets&amp;rdquo; now, they&amp;rsquo;re hidden behind the sidebar on the right - something which I think is good for readability.&lt;/p&gt;
+
+&lt;p&gt;You can select different &amp;ldquo;dynamic views&amp;rdquo; over on the left of the main menu bar - most of them don&amp;rsquo;t work well with this type of blog, exceptions being maybe &amp;ldquo;classic&amp;rdquo; and &amp;ldquo;sidebar&amp;rdquo;, the latter which I have set to be the default. Google won&amp;rsquo;t allow me to lock it down to just that view, so I guess that means you can switch them as you see fit - but be warned, they mostly suck.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Blogger&amp;#39;s dynamic views crop images with awkward results
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/dynamic_my_ass.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/dynamic_my_ass.jpeg&#34;  alt=&#34;Assembly gets cropped to *Ass*&#34; width=&#34;500em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;From an authors point of view, the most notable new feature is that the &amp;ldquo;preview&amp;rdquo; now presents an interactive version of the site. I like to test the likes of links and images &lt;em&gt;before&lt;/em&gt; going live, something that just was not possible with the old template, which resembled more a photo of your site rather than a real website.&lt;/p&gt;
+
+&lt;p&gt;Another nice gimmick is that Blogger finally got a sane &amp;ldquo;share&amp;rdquo; menu at the bottom of each post - featuring the actual number of tweets (was not there before) and ditching a bunch of who-gives-a-shit social networks (but obviously still hanging on to g+). Notice how there&amp;rsquo;s even a Facebook &amp;ldquo;like&amp;rdquo; button - then again, I really consider that a bug, not a feature.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Social networks in order of importance - according to Google
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/fake_shares.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/fake_shares.jpeg&#34;  alt=&#34;Google plus gets listed before Twitter and Facebook&#34; width=&#34;500em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;New &amp;ldquo;code&amp;rdquo; section&lt;/h1&gt;
+
+&lt;p&gt;I&amp;rsquo;ve always been eyeballing &lt;a href=&#34;https://github.com/&#34;&gt;github&lt;/a&gt; as a place where I can potentially dump some side projects of mine and possibly some of the larger code snippets and scripts from this site. But being the cheapskate that I am, I never liked that fact that github never offered a free plan for hosting code - even if it meant limitations to the number of repositories or something like that.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/&#34;&gt;Bitbucket&lt;/a&gt; on the other hand does have a &lt;a href=&#34;https://bitbucket.org/plans&#34;&gt;free plan&lt;/a&gt;, and the only real limitation is the number of users per private repository. I&amp;rsquo;m making most of my projects public anyway, so that doesn&amp;rsquo;t really matter to me. Otherwise you get unlimited private and public repositories. Bitbucket is arguably not as shiny as github, but it does exactly what I need and that for free, so there you go.&lt;/p&gt;
+
+&lt;p&gt;Many of my projects were already hosted elsewhere and lived in Mercurial repositories, so the fact that Bitbucket now supports both hg &lt;em&gt;and&lt;/em&gt; git means I don&amp;rsquo;t have to migrate my old projects and can move over to git on newer projects. Importing from other hosting sites was perfectly smooth.&lt;/p&gt;
+
+&lt;p&gt;Bitbucket makes it &lt;a href=&#34;http://confluence.atlassian.com/display/BITBUCKET/Using+your+Own+bitbucket+Domain+Name&#34;&gt;very easy&lt;/a&gt; to point a CNAME to your profile, so now &lt;a href=&#34;http://code.galaktor.net/&#34;&gt;code.galaktor.net&lt;/a&gt; goes straight to the repository list. That&amp;rsquo;s exactly where you end up if you hit the new &amp;ldquo;code&amp;rdquo; button in the main menu. Keep in mind that all I did so far was import a few old-ish projects. I intend to give them some TLC and add more in the near future.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Blogger&amp;#39;s stupid drop-down and the new &amp;#39;code&amp;#39; menu item
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/new_menu_bar.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/new_menu_bar.jpeg&#34;   width=&#34;450em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;Free beer&lt;/h1&gt;
+
+&lt;p&gt;So Google is under pressure to make blogs look nicer next to Tumblr, Wordpress and the likes, and as the &lt;del&gt;product&lt;/del&gt; user I get a new (mostly) nice template for free. As the &lt;a href=&#34;http://en.wikipedia.org/wiki/Gratis_versus_libre&#34;&gt;classic open source analogy&lt;/a&gt; goes, we&amp;rsquo;re talking &amp;ldquo;free as in beer&amp;rdquo;, not &amp;ldquo;free as in speech&amp;rdquo; - with the obvious downside that I cannot really change some of the things even if I don&amp;rsquo;t want or like them. The &amp;ldquo;dynamic view&amp;rdquo; selector in the main menu being one example. There may be some trickery that can be done by fiddling with the HTML, but as it is it seems that they&amp;rsquo;re at least trying to force it upon me (and you).&lt;/p&gt;
+
+&lt;p&gt;Same thing for Bitbucket - it&amp;rsquo;s not perfect, and there&amp;rsquo;s not much I can do about that aside from suggesting improvements to Altassian. Still, it costs me nothing, was simple to set up and does what I want, so who am I to complain?&lt;/p&gt;
+
+&lt;p&gt;The geek in me would prefer to host my own blog on my own server with my own geeky engine and templates, but reality is I just don&amp;rsquo;t have much time available to tend this blog. As a matter of fact I&amp;rsquo;m happy if I get time to write or code stuff &lt;em&gt;at all&lt;/em&gt;. So the fact that there are free, if imperfect services that allow me to focus on getting shit done, I&amp;rsquo;m happy. For now.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stop using the wrong tools</title>
+      <link>http://raph.es/blog/2011/11/Stop-using-the-wrong-tools/</link>
+      <pubDate>Thu, 10 Nov 2011 06:29:00 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/blog/2011/11/Stop-using-the-wrong-tools/</guid>
+      <description>
+
+&lt;p&gt;When Apple gave us pure touchscreen interfaces, it was as if yet &lt;a href=&#34;http://screenrant.com/tech-terminator-iron-man-is-here-brusimm-7985/all/1/&#34;&gt;another&lt;/a&gt; science fiction dream came true. Apparently whenever we get a little bit closer to our sci-fi fantasies, we imagine the future will just take the same idea a bit further. &amp;ldquo;Look ma, no &lt;a href=&#34;http://www.ted.com/talks/john_underkoffler_drive_3d_data_with_a_gesture.html&#34;&gt;hands&lt;/a&gt;!&amp;rdquo; Awesome, no doubt. But the danger of small increments is that it feels like progress, even though you could be heading in the wrong direction.&lt;/p&gt;
+
+&lt;p&gt;Having robot monkey butlers go skynet on mankind makes great fiction. But could our pursuit of Asimov&amp;rsquo;s smart robots really be distracting us from other, entirely different solutions to our monkey butler needs? Like genetically enhanced apes? Sci-fi inspires authors inspire engineers inspire sci-fi. That chain of inspiration has undoubtedly led to some impressive technological &lt;a href=&#34;http://www.youtube.com/watch?v=Bmglbk_Op64&#34;&gt;innovation&lt;/a&gt;. At which point, though, could recycling century-old inspiration from fiction become a bad thing? When should we dismiss them as bad ideas to instead focus our efforts on alternatives?&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m drifting a bit here. The other day I read Bret Victor&amp;rsquo;s &lt;a href=&#34;http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/&#34;&gt;opinion&lt;/a&gt; on a very common vision of how we might interact with technology in the future. He argues that when envisioning the designs of the future, people make small increments to present technology and while doing so, tend to forget about what really makes a tool great.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;That is, a tool converts what we can &lt;em&gt;do&lt;/em&gt; into what we &lt;em&gt;want to do&lt;/em&gt;. A great tool is designed to fit &lt;strong&gt;both&lt;/strong&gt; sides.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The touchscreens in modern devices might be closer to what we expect from futuristic high-tech devices. But just because they let us use a mobile web browser more efficiently, does that mean the future will be all chrome and touchscreens?&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Everything is chrome in the future!
+        &lt;br/&gt;src:&lt;a href=&#34;http://www.unitedspongebob.com/&#34;&gt; 
+            Nickelodeon
+        &lt;/a&gt; 
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/chrome.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/chrome.jpeg&#34;  alt=&#34;Squidward dreams of a future where everything is literally chrome&#34; width=&#34;300em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Usability is hard&lt;/h1&gt;
+
+&lt;p&gt;I don&amp;rsquo;t know what the future will bring. What I do know is that people are generally not very good at picking the right tools. And I see no reason why that could not also apply in the future. Revisiting the above definition, there are two things that can go wrong: 1) a tool fails to do &amp;ldquo;what we want to do&amp;rdquo;, or 2) that &amp;ldquo;what we can[not] do&amp;rdquo; prevents us from using the tool properly (or use it at all).&lt;/p&gt;
+
+&lt;p&gt;The first one seems obvious. I need to drive a nail into a wall, so I use a hammer, not a wrench. But it&amp;rsquo;s not always that obvious, and we often end up using tools for things they were never intended to do. That&amp;rsquo;s cool if you&amp;rsquo;re aware of the problem and know what you are doing - MacGyver! - but just as foolish otherwise.&lt;/p&gt;
+
+&lt;p&gt;The other type of tool abuse is more subtle: failing to bridge the tool&amp;rsquo;s abilities with those of it&amp;rsquo;s user. Buzz word: &lt;em&gt;usability&lt;/em&gt;. Creating a tool that can do something is the easy part - making it so that people can, will, and repeatedly use it is much harder. Simply put: the most effective tool is not really a tool if nobody uses it.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Examples I&amp;rsquo;d like to rant about&lt;/h1&gt;
+
+&lt;p&gt;As a software engineer, I happen to see wrong-tool-syndrom a lot in - wait for it - software development. There are a few examples in particular that I have noticed recently and I would like to put them here for two reasons. To make my point (duh) and to rant.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Email chain discussions&lt;/h2&gt;
+
+&lt;p&gt;The 80&amp;rsquo;s called, they want their mailing lists back! I totally and absolutely &lt;em&gt;despise&lt;/em&gt; mailing lists. Whenever I need to go to one for help with a tool, I do my best to ditch the tool. They used to have their purpose, nowadays they&amp;rsquo;re just obsolete usability nightmares.&lt;/p&gt;
+
+&lt;p&gt;Email is simply the wrong tool for multi-user, text-based conversations. It gets worse with corporate email. It&amp;rsquo;s a nightmare to keep people on/off the receipient list; people get spammed. It&amp;rsquo;s insanely redundant - having to resend the entire past correspondence at the bottom of each message. And once someone hits &amp;ldquo;Reply&amp;rdquo; instead of &amp;ldquo;Reply All&amp;rdquo;, then the discussion gets fragmented and redundancy even increases.&lt;/p&gt;
+
+&lt;p&gt;There are &lt;a href=&#34;http://xmpp.org/extensions/xep-0045.html&#34;&gt;much&lt;/a&gt; &lt;a href=&#34;http://trac-hacks.org/wiki/DiscussionPlugin&#34;&gt;better&lt;/a&gt; &lt;a href=&#34;http://www.coordino.com/&#34;&gt;tools&lt;/a&gt; available for online discussions. They were designed to allow for sane reading, backtracking, quoting and searching. And above all, they&amp;rsquo;re much less redundant than when using email.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Mailing lists are sooo 80&amp;#39;s. And, unlike this here boombox, they *suck*.
+        &lt;br/&gt;src:&lt;a href=&#34;http://www.wikipedia.org&#34;&gt; 
+            Wikipedia
+        &lt;/a&gt; 
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/boombox.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/boombox.jpeg&#34;  alt=&#34;A classic, cool cassette player from the eighties&#34; width=&#34;400em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Avoiding OOP features in OOP languages&lt;/h2&gt;
+
+&lt;p&gt;Modern programming languages have some comfortable features, like just-in-time compilation, sandboxing or garbage collection. Take the .NET runtime. With C# as it&amp;rsquo;s &amp;ldquo;native&amp;rdquo; language, it supports polymorphism, i.e. virtual methods.&lt;/p&gt;
+
+&lt;p&gt;I have seen people spend significant amounts of time &amp;ldquo;optimizing&amp;rdquo; their code to prevent the runtime from having to look for the right method to call in the inheritance chain. They end up with lots of &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/88c54tsw%28v=VS.100%29.aspx&#34;&gt;sealed&lt;/a&gt; classes which tell the compiler that no other classes may be derived from them. Consequently, the runtime will not need to check for overrides at execution time, thus making the code a few friggaseconds faster. Neat, huh?&lt;/p&gt;
+
+&lt;p&gt;Not. My problem with this is not &lt;em&gt;that&lt;/em&gt; the classes are sealed (even though unit testing them can be a bitch). It is &lt;em&gt;why&lt;/em&gt; they are sealed. It&amp;rsquo;s not the result of some object-oriented design decision. It&amp;rsquo;s done with the sole purpose to prevent the CLR from doing something it was &lt;em&gt;designed&lt;/em&gt; to do. C# is object-oriented, so there are virtual methods - deal with it. If you are afraid of the cost, then C# is the wrong tool for your problem - maybe have a look at C/C++ instead.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;Static methods in OOP languages&lt;/h2&gt;
+
+&lt;p&gt;Within the last 10 years, many programmers have migrated from C++ to C#. I can recognize their (early) code right away: static methods everywhere. That is not object oriented. It&amp;rsquo;s method oriented - &lt;em&gt;procedural&lt;/em&gt;. There are only very few cases that justify the use of static methods in OOP. You are either using C# for the wrong reasons or you don&amp;rsquo;t understand OOP. Either way, you will not be able to use the tool the way it was designed to be used.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_5&#34;&gt;Videos in (tech) blogs&lt;/h2&gt;
+
+&lt;p&gt;When I go to your blog, I want to read it - not watch a stupid video. Chances are my mobile browser does not know your codec, and if it does, it still looks like crap. And do you really expect me to turn down my music in order to listen to you say stuff you were too lazy to write down? There&amp;rsquo;s so many things that make videos bad for this: I can&amp;rsquo;t skim over the content like I usually do - instead I end up jumping around in the timeline, buffering, cursing. Fuck your &lt;a href=&#34;http://de.wikipedia.org/wiki/Vlog&#34;&gt;vlog&lt;/a&gt; or whatever you call it, do a podcast if that&amp;rsquo;s your thing. If you have a blog, I want to &lt;em&gt;read&lt;/em&gt; it. Period.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;Perforce for version control&lt;/h2&gt;
+
+&lt;p&gt;&amp;ldquo;Perforce&amp;rdquo; and &amp;ldquo;control&amp;rdquo; is an contradiction. There you go. I just had to put this one in.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Me when I see your vlog
+        &lt;br/&gt;src:&lt;a href=&#34;http://www.thestupiditburns.com&#34;&gt; 
+            thestupiditburns.com
+        &lt;/a&gt; 
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/thestupiditburns.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/thestupiditburns.jpeg&#34;  alt=&#34;when something is so stupid that makes your head hurt&#34; width=&#34;450em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_7&#34;&gt;The thin line between a pragmatist and a moron&lt;/h1&gt;
+
+&lt;p&gt;Now, you cannot always switch tools. Switching language on a gazillion LOC project is not going to happen overnight. Then, at least try to use the tools you have the way the were designed to be used. Make the most of what you have, and don&amp;rsquo;t try to bastardize it just because you are too lazy to use it the right way.&lt;/p&gt;
+
+&lt;p&gt;What I really hate is that engineers that abuse a tool beyond recognition are often admired. Yes, it&amp;rsquo;s great to be able to improvise when required - but it&amp;rsquo;s far more important to be able to &lt;a href=&#34;http://www.engineyard.com/blog/2011/the-number-one-trait-of-a-great-developer/&#34;&gt;decide&lt;/a&gt; what the right tool for the job/situation/user is. A construction worker that uses a screwdriver to punch holes into walls instead of using a drill will not be considered creative, but a moron. Why do the opposite in software?&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

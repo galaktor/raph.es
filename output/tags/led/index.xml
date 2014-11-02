@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Led on raph haXx </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://raph.es/tags/led/index.xml/</link>
+    
+    
+    <copyright>Raphael Estrada 2011-2014</copyright>
+    <updated>Sun, 12 Oct 2014 19:55:29 IST</updated>
+    
+    <item>
+      <title>goggle-mounted headlamp from salvaged IKEA USB light</title>
+      <link>http://raph.es/blog/2014/10/goggles-headlamp-from-ikea-usb-light/</link>
+      <pubDate>Sun, 12 Oct 2014 19:55:29 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2014/10/goggles-headlamp-from-ikea-usb-light/</guid>
+      <description>
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Safety goggles are important.&lt;/h2&gt;
+
+&lt;p&gt;Not least when you want to prevent little hot sharp things from penetrating your eyeballs. I got a set from Woodie&amp;rsquo;s a while back. They&amp;rsquo;re nothing fancy and do the job. But somehow I always felt they were destined for &lt;em&gt;more&lt;/em&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Photons are neat&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;m sure you agree. They help me see stuff. Especiallly because the hours I get to geek around in my &lt;del&gt;office&lt;/del&gt; command center are usually after dusk, when the little people have gone to bed. So I have a few lamps around my desk. Mostly the kind that comes mounted on a big arm and you can move around as you work. But they can be a bit clumsy at times. The arm gets in the way.&lt;/p&gt;
+
+&lt;p&gt;Wouldn&amp;rsquo;t it be great if I could hurl a few photons at whatever I&amp;rsquo;m looking at, without huge limbs of steel obstructing my airspace?&lt;/p&gt;
+
+&lt;p&gt;Naturally, this is why headlamps exist. But just buying one would be pretty lame, right?  Since I&amp;rsquo;ve mastered the complex science of making LEDs light up, the idea of sticking some onto my goggles has been floating around my brain for a bit now.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;IKEA hacking&lt;/h1&gt;
+
+&lt;p&gt;It&amp;rsquo;s one of those lazy Sundays where we head out early to IKEA. To devour an early, good-value-for-money breakfast then buy lots of things we never really need. I&amp;rsquo;m fully aware that this is exactly the behaviour that the brilliant IKEA store design is supposed to encourage, but sometimes ignorance is bliss.&lt;/p&gt;
+
+&lt;p&gt;Some seven eggs and five bacon rashers later I hit the shop floor. IKEA is a great place to find things that are not only hackable, but cheap enough that you won&amp;rsquo;t worry about voiding warranties or ruining them. So much that there&amp;rsquo;s even a whole website for &lt;a href=&#34;http://ikeahackers.net/&#34;&gt;IKEA hackers&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Jansjö&lt;/h2&gt;
+
+&lt;p&gt;So I stumbled over this little USB lamp, &lt;a href=&#34;http://www.ikea.com/ie/en/catalog/products/70289804/&#34;&gt;&lt;code&gt;Jansö&lt;/code&gt;&lt;/a&gt;. It&amp;rsquo;s basically an LED behind a lens, hooked up to a male USB A connector for power. It cost merely three Euros, so I figured I&amp;rsquo;ll take it apart and see if I can mount this thing to my goggles.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Jansö USB lamp from IKEA
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/janso.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/janso_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_4&#34;&gt;The hack&lt;/h1&gt;
+
+&lt;p&gt;My plan was simple enough. Open up the thing and hopefully find two simple power wires to play with. Replace the USB connector with a battery. Somehow mount the whole thing to my goggles. And it more or less played out just like that.&lt;/p&gt;
+
+&lt;p&gt;This was pretty ad-hoc and light wasn&amp;rsquo;t great, so the pics came out a bit grainy. Meh.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_5&#34;&gt;Get to the wires&lt;/h1&gt;
+
+&lt;p&gt;I didn&amp;rsquo;t know for sure what would be inside the thing or how to open it up. So I just started by cutting through it in the middle. My cutter wasn&amp;rsquo;t the best choice here, but it did the job. The metal can be a bit tough, so I recommend you use strong ones to not damage the edges.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Cut right above the USB connector
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/cut-usb.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/cut-usb_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;Sure enough, there&amp;rsquo;s two wires on the inside, and they&amp;rsquo;re even color coded nicely. The red wire is +5V, the black is +0V (GND).&lt;/p&gt;
+
+&lt;p&gt;My first idea was to unwind the metal wrapped around the wires in order to expose them. There&amp;rsquo;s actually two metal layers around the wires. The outer layer is colored and can be unwound easily. The inner layer is more of a spring coil and is very tough to bend. With a bit of force you can pull the inner coil out of the outer metal.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Exposing the wires by unwinding was tricky
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/coil.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/coil_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/pull-spring.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/pull-spring_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;Turns out that cutting through the metal without hurting the wires was pretty difficult due to the force required. Even if you don&amp;rsquo;t mind the bendy metal staying on, working with the wires like this is a bit tedious. But then I found a better way to get to them.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;A word of caution&lt;/h2&gt;
+
+&lt;p&gt;Cutting metal things can result in sharp metal edges and can shoot bits around the room. Which in turn can cause injury. I&amp;rsquo;m not sure how, but I managed to hurt my finger.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Be a safe hacker and wear gloves when handling sharp metal. And wear goggles when flinging around bits of metal.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Call 9-1-1
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/wound.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/wound_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_7&#34;&gt;Remove the head&lt;/h1&gt;
+
+&lt;p&gt;I decided to try to twist the light off it&amp;rsquo;s neck. My hope was that it would break off. But, to my delight, the head is simply screwed on. And with some force you can unscrew it nicely.&lt;/p&gt;
+
+&lt;p&gt;At this point I had already cut through the wires a few times. If I was to do it again, I&amp;rsquo;d just chop off the USB connector at the lowest point. Then unscrew the top and pull it off, long wires still intact and ready for soldering.&lt;/p&gt;
+
+&lt;p&gt;In my case however, I had to make due with the short little wires I had left. But that was fine.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        With a little force you can unscrew the head.
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/clamped.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/clamped_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/unscrewed.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/unscrewed_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_8&#34;&gt;Find a power source&lt;/h1&gt;
+
+&lt;p&gt;The next step was to decide how to power the light. I was going to use batteries, obviously, but which kind?&lt;/p&gt;
+
+&lt;p&gt;Since the LED was meant to run off USB, I knew it expected +5V DC. I also assumed that it had a current limiting resistor fitted somewhere inside the head to keep the LED from burning. So I tried a variety of battery option I had lying around to see what would work.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_9&#34;&gt;3V coin cell&lt;/h2&gt;
+
+&lt;p&gt;The first thing I tried was a little 3V coin cell. With less power than the typical 5V, the light was a little bit dim. Workable, but not great.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_10&#34;&gt;3.7V LiPo&lt;/h2&gt;
+
+&lt;p&gt;I have a handful of LiPos which I have earmarked for other projects. They are small and light, so fit the bill in that regard. I tried one and sure enough, the light was brighter. Still, LiPos are rare in my house and using one seemed a bit excessive for this project. Plus, the off-chance of a LiPo blowing up near my eyes put me off that idea, too.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Testing 3V coin cell (left) and 3.7V LiPo (right)
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/cell-test-single.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/cell-test-single_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/lipo-test.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/lipo-test_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;toc_11&#34;&gt;3xAAA&lt;/h2&gt;
+
+&lt;p&gt;One type of battery I have in abundance are AAA 1.5V batteries. Three in series would give 4.5V, very close to the +5V that would give good light. I hooked up a little 3xAAA case I have - it even has a handy on/off switch.&lt;/p&gt;
+
+&lt;p&gt;Result was great. And I could always replace when they run out since I always have some of these guys rolling around. But the weight and bulk of the thing became an issue. The batteries felt heavier than the goggles&amp;hellip; disqualified.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_12&#34;&gt;2x3V coin cells&lt;/h2&gt;
+
+&lt;p&gt;My final option was a little double coin cell holder I got. I got them cheap to play with some wearable proejcts - and technicallly, this qualifies as wearable, right? Much slimmer and lighter than the AAA solution above. Plus you can get cheap coin cell batteries all over the place. Since they just have to drive a little LED, I expect them to last long enough.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/cell-holder.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/cell-holder_thumb.jpeg&#34;  alt=&#34;2 x 3V coin cell holder&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My only concern was that 6V is more than the 5V USB would give. There&amp;rsquo;s a slim chance that it could damage the LED. Typically, though, the LED can tolerate more voltage although it might lessen it&amp;rsquo;s life expectancy. I was willing to risk that.&lt;/p&gt;
+
+&lt;p&gt;It worked. The light is also a bit brighter than it would have been off USB thanks to the over-voltage. LED lifetime be damned, let&amp;rsquo;s run with this.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_13&#34;&gt;Figure out where to put what&lt;/h1&gt;
+
+&lt;p&gt;Now that I have all the pieces, it&amp;rsquo;s time to stick it onto the goggles somehow. I initially went for the battery holder on top of the goggles where they&amp;rsquo;re nice and flat. But putting it there in a way that I could still work the switch meant I&amp;rsquo;d have to bend the wires awkwardly.&lt;/p&gt;
+
+&lt;p&gt;I went with batteries on the side instead. The light could then sit on top in the center and shine right onto whatever is in front of me.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_14&#34;&gt;Connect battery and light&lt;/h1&gt;
+
+&lt;p&gt;I had cut off the wires a bit close to the head. But the battery holder had enough wire and then some. Hold the parts to the goggles to roughly measure enough wire and then cut off the JST connector that came with the holder. The JST plug might come in handy in the future.&lt;/p&gt;
+
+&lt;p&gt;Be sure to take into account the extra length you&amp;rsquo;ll need when you turn the light to face forward (I didn&amp;rsquo;t).&lt;/p&gt;
+
+&lt;p&gt;Slip a bit of heat shrink onto each wire for later. Strip the battery and lamp wires and solder them together. They are fairly small, and there aren&amp;rsquo;t many strands to work with. Helping hands come in handy here.&lt;/p&gt;
+
+&lt;p&gt;Slide the heat shrink over the soldered wire. I used a lighter to shrink them since I don&amp;rsquo;t have a fancy heat gun.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/solder.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/solder_thumb.jpeg&#34;  alt=&#34;solder up battery and led wires&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/shrinks.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/shrinks_thumb.jpeg&#34;  alt=&#34;use heat shrink to protect the joints&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;I experimented with wrapping isolating tape around the whole length. But that limited the wire&amp;rsquo;s flexibility too much to be useful. I ditched the tape - raw wires look cooler anyway.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/taped.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/taped_thumb.jpeg&#34;  alt=&#34;isolation tape made it too rigid&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_15&#34;&gt;Mount battery to goggles&lt;/h1&gt;
+
+&lt;p&gt;The goggles I have already have holes in them - I presume so that they don&amp;rsquo;t fog up. The material is soft and bendy so I decided to just screw the battery pack right on.&lt;/p&gt;
+
+&lt;p&gt;My first attempt to use the screws that hold the lid onto the battery pack failed because they were too short. I used some small screws I had lying around instead. Just screw them through the holes - the material is forgiving.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/holes.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/holes_thumb.jpeg&#34;  alt=&#34;my goggles already had holes I could use&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/black-screws.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/black-screws_thumb.jpeg&#34;  alt=&#34;I found some screws that fit just fine&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/mounted.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/mounted_thumb.jpeg&#34;  alt=&#34;At first I tried to mount on top&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_16&#34;&gt;Mount lamp to googles&lt;/h1&gt;
+
+&lt;p&gt;All we need to do now is mount the lamp. Since I want to be able to take this off again without much hassle, I simply used a small cable tie. It was a bit wider than the holes, so I could have widened the holes with a drill or so if necessary. But since the material is so forgiving it squeezed through just fine.&lt;/p&gt;
+
+&lt;p&gt;Because I hadn&amp;rsquo;t considered the extra length needed when the lamp is turned ninety degrees to point forward, I was short a centimeter or so. So I moved the lamp a bit to the side. As a result it doesn&amp;rsquo;t sit right in the center. Luckily the lense spreads the light wide enough so that it won&amp;rsquo;t trigger my OCD whenever I use it.&lt;/p&gt;
+
+&lt;p&gt;Also, with the tension caused by the cable tie, the top of the soft goggles now bends inward a little bit. But when put on, my forehead pushes against it so that the light points right where it should and not at the ceiling.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/tied.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/tied_thumb.jpeg&#34;  alt=&#34;Light mounted by cable tie&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/lightcone.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/lightcone_thumb.jpeg&#34;  alt=&#34;Light cone spreads pretty wide&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_17&#34;&gt;Done!&lt;/h1&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/done.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/done_thumb.jpeg&#34;  alt=&#34;Goggles with mounted batteries and lamp&#34; width=&#34;400px&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;So there you have it. A quick and fun hack that makes my night-time soldering sessions a little more fun. I&amp;rsquo;ll certainly keep a look out for hackable objects at IKEA next time we go for breakfast.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_18&#34;&gt;Lessons learned&lt;/h2&gt;
+
+&lt;p&gt;If I was to do this again, here&amp;rsquo;s what I would do differently.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Snap the USB connector right off and unscrew the top. No messing with coiled up wire, no injuries. Plus I&amp;rsquo;d get to use the whole length of the lamp wire.&lt;/li&gt;
+&lt;li&gt;Leave more wire between battery and lamp so that the lamp can sit right in the center of the goggles.&lt;/li&gt;
+&lt;li&gt;Use longer piece(s) of heatshrink to shrink around the whole length of the wire. For nicer looks maybe. Might still impact flexibility though.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

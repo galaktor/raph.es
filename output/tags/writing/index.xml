@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Writing on raph haXx </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://raph.es/tags/writing/index.xml/</link>
+    
+    
+    <copyright>Raphael Estrada 2011-2014</copyright>
+    <updated>Thu, 16 Oct 2014 17:32:23 IST</updated>
+    
+    <item>
+      <title>on blogging</title>
+      <link>http://raph.es/blog/2014/10/on-blogging/</link>
+      <pubDate>Thu, 16 Oct 2014 17:32:23 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2014/10/on-blogging/</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;m not known to be an early adopter. I was late to the party for blogs with my &lt;a href=&#34;/blog/2011/02/just-do-it/&#34;&gt;first&lt;/a&gt; attempt ocurrring in 2011.&lt;/p&gt;
+
+&lt;p&gt;Of course I had toyed around with websites several times over the years. The first I recall was on GeoCities and had one of those free subdomains ending in &lt;code&gt;rocks.com.xy&lt;/code&gt; or whatever. I had no clue about HTML at the time, so it consisted mainly of copyright-infringing snippets I scavenged from other pages and animated fire GIFs.&lt;/p&gt;
+
+&lt;p&gt;So worked the wild-west that was the internet back in the nineties.&lt;/p&gt;
+
+&lt;p&gt;It also featured a &amp;ldquo;news&amp;rdquo; section. That&amp;rsquo;s what people called their blogs before they were called blogs. The websites went the way of too many briefly interesting side-projects and eventually died of neglect.&lt;/p&gt;
+
+&lt;p&gt;Then web-two-point-oh gave us a plethora of free (~beer) blog-as-a-service services. Public diaries with fancy client-side WYSIWYG editors.&lt;/p&gt;
+
+&lt;p&gt;I resisted the hype.&lt;/p&gt;
+
+&lt;p&gt;Until that urge to have a personal, public platform came around again. That was when I caved and signed up with Blogger.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Invisible critics&lt;/h1&gt;
+
+&lt;p&gt;At first I just welcomed the new public-ish outlet for rants. Ranting is easy.&lt;/p&gt;
+
+&lt;p&gt;But I also felt the urge to contribute some value to the world by sharing things I know or learn. Not that I expected many people to actually read it. However, writing forced me to structure my thoughts. To have a beginning, a middle and an end. Which turned out to be the best &lt;em&gt;and worst&lt;/em&gt; part of blogging.&lt;/p&gt;
+
+&lt;p&gt;Traffic trickled in well enough by my standards. Some of my old posts still get a good stream of visits. Mostly from web searches about problems I wrote about. A handful even hit the Hacker News front page and brought tens-of-thousands of eyeballs.&lt;/p&gt;
+
+&lt;p&gt;I put an unreasonable amount of pressure on myself to deliver value to my imaginary audience. Not only would a post have to contain a nugget of knowledge, but also live up to standards established by the popular technology blogs we all know and love - witty, to the point, well researched, properly spelled, not offensive but controversial enough to be interesting&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Add to that the apparent need to maintain a &lt;a href=&#34;http://pchiusano.github.io/2014-10-11/defensive-writing&#34;&gt;defensive&lt;/a&gt; stance at all times. Hedge any claims to always have an exit in case some wise guy publicly points out all the flaws in my article.&lt;/p&gt;
+
+&lt;p&gt;See also: &amp;ldquo;don&amp;rsquo;t read the comments&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;See also: &lt;a href=&#34;https://en.wikipedia.org/wiki/Impostor_syndrome&#34;&gt;impostor syndrome&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This isn&amp;rsquo;t Blogger&amp;rsquo;s fault - it&amp;rsquo;s in my head. Yet for me, blogging morphed from a tool for self-reflection into a stressful chore. Given that I have lots of stuff going on, it was frustrating to spend the little time I had with something I was enjoying less and less.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Blogger is not for me.&lt;/h1&gt;
+
+&lt;p&gt;Having this virtual spotlight pointed at me - imaginary, maybe, but all the same - fed my natural urge to personalize the look and feel of my blog. Once I stepped outside the boundaries which are &lt;em&gt;themes&lt;/em&gt; I realised that Blogger is not a platform for geeks like I am.&lt;/p&gt;
+
+&lt;p&gt;The widgets to insert functionality - such as galleries or Twitter streams - looked terrible and didn&amp;rsquo;t behave the way I wanted.&lt;/p&gt;
+
+&lt;p&gt;The HTML and CSS I had to deal with was a mess. Multiple attempts to hand craft my own theme ended in nerd-tears. It was more tedious than I was willing to tolerate in my sparse &lt;em&gt;me time&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Most canned themes looked nothing like what I wanted &lt;em&gt;my&lt;/em&gt; page to look like. Dynamic layouts &lt;a href=&#34;/blog/2012/05/The-blog-gets-some-love/&#34;&gt;seemed&lt;/a&gt; neat for five minutes. Then I noticed that every Blogger blog out there looked just like mine.&lt;/p&gt;
+
+&lt;p&gt;So I had a blog that wasn&amp;rsquo;t fun to write for. That didn&amp;rsquo;t look like &lt;em&gt;me&lt;/em&gt;. That didn&amp;rsquo;t do what I wanted it to do.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;Then Twitter happened.&lt;/h1&gt;
+
+&lt;p&gt;I was late to the Twitter party, too. Just like I had once predicted in my first Blogger &lt;a href=&#34;/blog/2011/02/just-do-it/&#34;&gt;post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I reluctantly signed up during the &lt;a href=&#34;http://www.ndcoslo.com/&#34;&gt;&lt;em&gt;Norwegian Developers Conference&lt;/em&gt;&lt;/a&gt; in 2012. There, event updates such as changes in schedule were communicated over Twitter. The way people interacted via large screens displaying live tweets hashtagged to the conference intrigued me.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;This is &lt;em&gt;social&lt;/em&gt; media&amp;rdquo;, I realised.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_3&#34;&gt;Random five minutes&lt;/h1&gt;
+
+&lt;p&gt;Frequent short tweets gave me an outlet for what would otherwise have built up to once-a-month blog posts.&lt;/p&gt;
+
+&lt;p&gt;The 140 character limit took away the pressure to spend lots of time on what I publish. Yet, the subtle art of working with this limitation represented a playful challenge. The playing field was level. Nobody could make me feel bad for just throwing out a line or two.&lt;/p&gt;
+
+&lt;p&gt;Brevity was not only tolerated, but a fundamental rule of the game.&lt;/p&gt;
+
+&lt;p&gt;The key moment was when I got an Android phone. It&amp;rsquo;s Twitter app was responsive, and - more importantly - convenient. A quick and easy way to rant or share cool stuff. It filled those random, under-utilized five minutes spread out over any given day.&lt;/p&gt;
+
+&lt;p&gt;Expressing myself via Twitter felt much more natural than what I had found myself doing on Blogger.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_4&#34;&gt;I stopped blogging overnight.&lt;/h1&gt;
+
+&lt;p&gt;I have been using Twitter more and more ever since. My twitter profile became my new online persona of choice. What blogger was supposed to be, just smaller. Unintentionally, I followed the trend from blogs to &lt;em&gt;microblogs&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;What&amp;rsquo;s interesting is that I didn&amp;rsquo;t like Twitter more because of it&amp;rsquo;s social features. I don&amp;rsquo;t make much use of hashtags or lists or take part in discussions. In fact, I don&amp;rsquo;t think Twitter is a great tool for anything but the most superficial kind of conversation. Which are also the kinds of conversations I hate. It was the simplicity of publishing thoughts that had me hooked.&lt;/p&gt;
+
+&lt;p&gt;Why try to be a full-blown author on your blog when you can just fire out one-liners on Twitter? One was much more compatible with a first-worlders daily routine than the other - I was no exception.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_5&#34;&gt;Full circle&lt;/h1&gt;
+
+&lt;p&gt;Meanwhile, I was becoming more concerned about who owns my data online and freedom of information in general. Blogger is owned by Google, and Twitter is owned by&amp;hellip; well, Twitter. In exchange for their services, I became the product for the eyeballs they draw.&lt;/p&gt;
+
+&lt;p&gt;Hosting my online persona - micro or not - on a proprietary platform didn&amp;rsquo;t agree with my philosophy.&lt;/p&gt;
+
+&lt;p&gt;Instead, I was coming back full-circle to where I had begun over a decade ago when I created my first site on GeoCities. I just wanted my own little spot on the web where I can be myself. Where I can put up and take down whatever I want. And not give a damn about what anybody thinks about it.&lt;/p&gt;
+
+&lt;p&gt;But this time, I know what I would have to change. I go into more depth on the goals I set for this website on &lt;a href=&#34;/project/website/&#34;&gt;project&lt;/a&gt; page. But to not make an already long post any longer, here&amp;rsquo;s the gist:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;less is more.&amp;rdquo;&lt;/strong&gt;
+&amp;ndash; every smart person ever&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It has to be simple to publish, like Twitter. Give me some room, more like Blogger. Leave me control over my content (like neither). Integrate into my worflow, with least possible friction for hosting or editing. Focus on content - no clutter such as social media integration or comments.&lt;/p&gt;
+
+&lt;p&gt;And when I change my mind on any of this, I want it to be easily hackable.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s see how it goes this time.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

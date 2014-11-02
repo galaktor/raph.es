@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Tests on raph haXx </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://raph.es/tags/tests/index.xml/</link>
+    
+    
+    <copyright>Raphael Estrada 2011-2014</copyright>
+    <updated>Thu, 15 Mar 2012 21:37:00 &#43;0100</updated>
+    
+    <item>
+      <title>Teenage Mutant Ninja Unit-Tests</title>
+      <link>http://raph.es/blog/2012/03/Teenage-Mutant-Ninja-Unit-Tests/</link>
+      <pubDate>Thu, 15 Mar 2012 21:37:00 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/blog/2012/03/Teenage-Mutant-Ninja-Unit-Tests/</guid>
+      <description>
+
+&lt;p&gt;When you are testing something - anything - you have some expectations as to what the result should be. The result either matches your expectations, or it does not. For example, you might want to find out what the person next to you will do if you shoot her in the face with a &lt;a href=&#34;http://www.youtube.com/watch?v=IZRQ1WkWFoU&#34;&gt;humble Nerf gun&lt;/a&gt;. Will she laugh? Shoot back? Kick your ass?&lt;/p&gt;
+
+&lt;p&gt;Many factors can affect the outcome of this test. Her current mood. Her &lt;a href=&#34;http://www.youtube.com/watch?v=HUD6sBrPB30#t=0m50s&#34;&gt;attitude toward being shot in the face&lt;/a&gt;. The exact position where you hit her (cheek vs. eye). The frequency at which you repeat the test. What she was busy doing before the fact and how much you surprise her. Who&amp;rsquo;s watching can affect how embarrassed she will be. Bottom line: each time you perform the test, the &lt;em&gt;variables&lt;/em&gt; will &lt;em&gt;vary&lt;/em&gt; (get it? get it?). And the results can be different given the changing conditions.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Isolate your tests&lt;/h1&gt;
+
+&lt;p&gt;You want a test to provide a reliable result each time. Because the alternative would mean you cannot trust single results, and may have to resort to averaging the results of many individual test runs. That&amp;rsquo;s unnecessary extra work and should be avoided.&lt;/p&gt;
+
+&lt;p&gt;You cannot guarantee reliable results if you do not control all the variables and moving parts of your test. Especially when they require human involvement, there&amp;rsquo;s always the chance that somebody does things in a slightly different order or timing. The slightest deviation from the other runs can affect the outcome and should make you distrust the results. This is one of the main reasons why software testing should be automated as far as possible, if not entirely.&lt;/p&gt;
+
+&lt;p&gt;So with that in mind, you&amp;rsquo;ve written some tests. They use a testing framework that has &amp;ldquo;unit&amp;rdquo; in it&amp;rsquo;s name, which means that they are unit tests. Right? Try again. Unit tests are supposed to focus on the behavior of a particular unit, nothing more and nothing less. Definitions of &amp;ldquo;unit&amp;rdquo; may vary, but it&amp;rsquo;s often a class. If unit tests are not properly &lt;em&gt;isolated&lt;/em&gt;, they will have more dependencies than are necessary for what you are trying to test. More moving parts. More things you need to control, but often can&amp;rsquo;t. More things that are going to void your test results.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Teenage Mutant Ninja Unit-Tests&lt;/h1&gt;
+
+&lt;p&gt;Tests that execute differently each time they run are called &lt;a href=&#34;http://www.typemock.com/rule-avoid-time-mutating-tests&#34;&gt;&lt;em&gt;mutating tests&lt;/em&gt;&lt;/a&gt;. Dependencies that can skew your results are often inputs that they do not entirely &amp;ldquo;own&amp;rdquo;, e.g. values from a database or shared files on a network. If those values change, your test changes.&lt;/p&gt;
+
+&lt;p&gt;There are also rather less obvious mutagens that can have the same effect, for example:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;threading: dependency on CPU performance and the operating system&amp;rsquo;s thread scheduling&lt;/li&gt;
+&lt;li&gt;environment variables: can be different on other machines, for other users&lt;/li&gt;
+&lt;li&gt;run-time dynamic linking: another machine could have a different version of some DLL in the GAC&lt;/li&gt;
+&lt;li&gt;time: e.g. &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.datetime.now.aspx&#34;&gt;&lt;code&gt;DateTime.Now&lt;/code&gt;&lt;/a&gt; will be different every time your test runs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Mutation_testing&#34;&gt;Mutation testing&lt;/a&gt; can in fact be a way to test your tests. Modify the logic-under-test and you should see some of your tests fail. This practice appears to be rather academic as I still have to come across somebody who actually &lt;em&gt;uses&lt;/em&gt; mutation testing in the real world.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;A recent example&lt;/h1&gt;
+
+&lt;p&gt;The problem with mutating tests is that you only notice them when they fail. This is worrying as it makes you wonder how many tests are mutating in ways that &lt;em&gt;prevent&lt;/em&gt; them from failing when the actually should&amp;hellip; In the following recent real-life case, two tests were failing even though there were no changes to the code.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        WTF?
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/negative-tickcount-teamcitytests.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/negative-tickcount-teamcitytests.jpeg&#34;  alt=&#34;tests fail even though code did not change&#34; width=&#34;300em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;When I ran the same tests from the same version of the code locally on my machine, they passed. My spider-senses tingled: mutating tests! After looking at the build times I noticed that they began failing on March 12, and since then consistently failed. That indicates a temporal dependency.&lt;/p&gt;
+
+&lt;p&gt;After some investigation I discovered that the code-under-test used the .NET property &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.environment.tickcount%28v=vs.100%29.aspx&#34;&gt;&lt;code&gt;Environment.TickCount&lt;/code&gt;&lt;/a&gt; to capture points in time and compare them. TickCount is an Integer and counts the milliseconds since the host machine was started. It starts at 0, counts up to 2147483647 (= &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.int32.maxvalue.aspx&#34;&gt;&lt;code&gt;Int.MaxValue&lt;/code&gt;&lt;/a&gt;), then wraps around to -2147483648 (= &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.int32.minvalue.aspx&#34;&gt;&lt;code&gt;Int.MinValue&lt;/code&gt;&lt;/a&gt;) and goes up towards 0 again.&lt;/p&gt;
+
+&lt;p&gt;The code-under-test compared the TickCount value against a fake count of 1. The difference determined the outcome of the test. It was positive until the TickCount went beyond Int.MaxValue and wrapped into the negative - where it suddenly turns into a very negative one.&lt;/p&gt;
+
+&lt;p&gt;I did some very complicated math to find out how long a machine would have to run until the TickCount reaches Int.MaxValue:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;2147483647ms / 1000ms  / 60s / 60min / 24hr =  ~24.86 days
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Typically I will reboot my dev machine every few days, but the build agents often run for weeks without a reboot. That would explain why the tests pass on my machine, but not on the build server.&lt;/p&gt;
+
+&lt;p&gt;Enough of the theories, let&amp;rsquo;s have some proof. TeamCity can show you when an agent has registered with the server - which I know will happen automatically every time the agent host boots up.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        When did my build agent last reboot?
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/negative-tickcount-teamcityagentinfo.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/negative-tickcount-teamcityagentinfo.jpeg&#34;  alt=&#34;checking the agent restart time on TeamCity&#34; width=&#34;400em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;So it started up on Feb 15. That&amp;rsquo;s just about exactly 25 days before the tests started to fail. The TickCount must have wrapped into the negative. So there&amp;rsquo;s one more thing to do to prove it: using PowerShell you can call that same TickCount property and see what value it has. And sure enough&amp;hellip;&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        PowerShell gives you direct access to .NET methods
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/negative-tickcount-cropped.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/negative-tickcount-cropped.jpeg&#34;  alt=&#34;Invoking Environment.TickCount using PowerShell&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;All that had to be done now is reboot the build servers, and the tests passed fine again!&lt;/p&gt;
+
+&lt;p&gt;Not.&lt;/p&gt;
+
+&lt;p&gt;We stubbed out the call to &lt;code&gt;Environment.TickCount&lt;/code&gt; so we can control it in the tests, better isolating them from the environment.&lt;/p&gt;
+
+&lt;p&gt;And now the world is a little bit safer.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Understanding and testing enum flags</title>
+      <link>http://raph.es/blog/2011/09/Understanding-and-testing-enum-flags/</link>
+      <pubDate>Wed, 14 Sep 2011 05:53:00 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2011/09/Understanding-and-testing-enum-flags/</guid>
+      <description>
+
+&lt;p&gt;For those who know all about flags and &lt;a href=&#34;http://en.wikipedia.org/wiki/Binary_numeral_system&#34;&gt;binary arithmetics&lt;/a&gt; and want to insult me by responding to my careful writing with ignorance, then feel free to skip over the following section.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Some basics on flags&lt;/h1&gt;
+
+&lt;p&gt;Flag enums are a convenient way to store multiple &lt;code&gt;boolean&lt;/code&gt; flags in one value. Typically an &lt;code&gt;Integer&lt;/code&gt; is ideal for this sort of thing, but other udnerlying types are allowed. In .NET, no matter if in 32-bit or 64-bit mode, an Integer has 4 bytes, equal 32bits. So we have something like this (btw, all the examples here are little endian):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;00000000 00000000 00000000 00000001  // number &amp;quot;1&amp;quot; as a 32bit binary number
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When using flags, every position in a row of zeroes and ones can be considered an independent &lt;code&gt;boolean&lt;/code&gt; value. The trick is how to flip and read those particular values. Since in binary, each position is a power of two, you can map enums to distinct positions as such:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[Flags]
+public enum MyFlags
+{
+    Nothing = 0, 
+    StateOne = 1,
+    StateTwo = 2,
+    StateThree = 4
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;ldquo;Huh, why is &lt;code&gt;StateThree&lt;/code&gt; mapped to the value 4?&amp;rdquo; Because we mapped our third state to the third &lt;em&gt;bit&lt;/em&gt;. If I assign that enum value to a number, like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;int myFlag = MyFlags.StateThree;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;then &lt;code&gt;myFlag&lt;/code&gt; is equal to the numerical value &amp;ldquo;4&amp;rdquo;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;00000000 00000000 00000000 00000100  // number &amp;quot;4&amp;quot; as a 32bit binary number
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Notice that our third bit is flipped, thus &lt;code&gt;StateThree&lt;/code&gt;. The whole point here is that you can have several of our defined states in a single number, since each state&amp;rsquo;s value is a power of two and thverefor has a distinct position in the &amp;ldquo;row&amp;rdquo;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;int myFlag = 0; // initialize
+myFlag |= MyFlags.StateOne;
+myFlag |= MyFlags.StateThree;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We just used the arithmetical OR operator to combine our states.This is what happens internally:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   00000000 00000000 00000000 00000000  // initial value of &amp;quot;myFlag&amp;quot;
+OR 00000000 00000000 00000000 00000001  // &amp;quot;MyFlags.StateOne&amp;quot;
+OR 00000000 00000000 00000000 00000100  // &amp;quot;MyFlags.StateThree&amp;quot;
+----------------------------------------------------------------------------
+   00000000 00000000 00000000 00000101  // result; number &amp;quot;5&amp;quot; in 32bit binary
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now the flags for both states can co-exist within a single &lt;code&gt;Integer&lt;/code&gt; value. Note how, in order to store the decimal number 5 in binary form, you require 2 &amp;ldquo;1&amp;rdquo; bits. That&amp;rsquo;s because 5 is not a power of two. Typically you will want all of your flag values to be a power of two in order to set one single bit at a time. There are, however, cases in which you might really want to use numbers that are not powers of two.&lt;/p&gt;
+
+&lt;p&gt;I will not go into those examples too deep, but one common case is color representation. In a nutshell, your three basic colors red, green and blue could be powers of two, and each resulting combined color would be a combination of those flags. The below is a very simplified example of how that could look like. It&amp;rsquo;s not necessarily correct in terms of mixing colors, but hey, I&amp;rsquo;m color blind and frankly don&amp;rsquo;t really give a shit.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;000 // 0: black
+001 // 1: red
+010 // 2: green
+011 // 3: yellow
+100 // 4: blue
+101 // 5: purple
+110 // 6: blue-green (woah!)
+111 // 7: white
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can retrieve a flag &amp;ldquo;manually&amp;rdquo;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// given the above example, will return &amp;quot;true&amp;quot;
+bool hasStateThree = (myFlag &amp;amp; MyFlags.StateThree) == MyFlags.StateThree
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;using the arithemtical AND operator, which does the opposite of what we did before with OR. This technique is often referred to as masking.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    00000000 00000000 00000000 00000101  // &amp;quot;myFlag&amp;quot;
+AND 00000000 00000000 00000000 00000100  // &amp;quot;MyFlags.StateThree&amp;quot;; the mask
+------------------------------------------------------------------------------
+    00000000 00000000 00000000 00000100  // result; equal to MyFlags.StateThree!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There&amp;rsquo;s a prettier way to do this exact same thing in .NET. The static method &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.enum.hasflag.aspx&#34;&gt;&lt;code&gt;Enum.HasFlag&lt;/code&gt;&lt;/a&gt; does the same as above, hiding the ugly distracting binary operators:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bool hasStateThree = myFlag.HasFlag(MyFlags.StateThree); //masks using AND behind the scenes
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;OK, let&amp;rsquo;s stop our little excursion into binary arithmetics right here. Back to topic.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Enforcing the contract&lt;/h1&gt;
+
+&lt;p&gt;There is a problem hidden herein. We saw that in most cases it makes sense to use only underlying enum values that are powers of two. So you code up something beautiful and do exactly that. Now, what if someone (especially you) changes that code later on, adds a new value to the enum and does not know (or forgets) that the separate state flags have to be powers of two? The compiler will not prevent you from using values in that enum that are not a power of two. For example, to the compiler (and unaware readers of your code, although the comment might give it away) this looks like a valid thing to do:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[Flags]
+public enum MyFlags
+{
+    Nothing = 0,
+    StateOne = 1,
+    StateTwo = 2,
+    StateThree = 4,
+    StateFour = 8,
+    StateFive = 5  // d&#39;oh! not a power of two! 
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Technically this is fine and might even be something you want to do (i.e. if &lt;code&gt;StateFive&lt;/code&gt; is actually supposed to include both &lt;code&gt;StateOne&lt;/code&gt; and &lt;code&gt;StateThree&lt;/code&gt; at the same time). If you want to keep the values all powers of two, you will have to hope that your current and future colleagues will all thoroughly read the documentation you wrote up so carefully. lol.&lt;/p&gt;
+
+&lt;p&gt;Automated tests to the rescue! You can write a test that checks each value of the enum and fails if it&amp;rsquo;s not a power of two. That way, even if someone accidentally adds an &amp;ldquo;invalid&amp;rdquo; number, the test will fail and point out the problem. This is a perfect case for unit(ish) tests, which are supposed to uphold your code&amp;rsquo;s contracts. In this case, the constraint put upon the code is that all the enum values have to be a power of two, so let&amp;rsquo;s enforce that.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;using nunit.framework;
+[TestFixture]
+public class MyFlagsTest
+{
+    /// &amp;lt;summary&amp;gt;
+    /// Checks if all enum values are valid, i.e. powers of two.
+    /// Source of the checking algorithm:
+    /// http://stackoverflow.com/questions/600293/how-to-check-if-a-number-is-a-power-of-2
+    /// &amp;lt;/summary&amp;gt;
+    [Test]
+    public void MyFlags_Always_ValuesArePowerOfTwo([ValueSource(&amp;quot;AllEnumValues&amp;quot;)]MyFlags enumValue)
+    {
+        int value = (int) enumValue;
+        // must exclude zero to avoid overflow
+        bool isPowerOfTwo = (value != 0) &amp;amp;&amp;amp; ((value &amp;amp; (value - 1)) == 0);
+        // don&#39;t forget that zero is a valid value as well
+        bool isValidEnumValue = value == 0 || isPowerOfTwo;
+
+        Assert.That(isValidEnumValue, Is.True, 
+            &amp;quot;Value &amp;quot; + value + &amp;quot; of flag &amp;quot; + enumValue + &amp;quot; is not a power of two.&amp;quot;);
+     }
+
+    // will be called by NUnit to resolve test parameters
+    // when referenced using ValueSourceAttribute
+    private Array AllEnumValues()
+    {
+        return Enum.GetValues(typeof(MyFlags));
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The test uses a quick and quite efficient way to determine if a number is a power of two. It performs an AND operation on the number and that same value minus one. For powers of two, the result will be 0. For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;     100  // 4, power of two
+AND  011  // 4 - 1 =3
+---------------------------------
+     000  // zero! yay!
+
+     101  // 5, not power of two
+AND  100  // 5 - 1 = 4
+---------------------------------
+     100  // not zero! yay!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note the error message that clearly points out the problem. The (visual) complexity of the test alone will look scary to whoever breaks it if he or she does not have some prose explaining what&amp;rsquo;s going on. Don&amp;rsquo;t expect people to get this sort of test right away. I know I wouldn&amp;rsquo;t. If they&amp;rsquo;re scared of the test, chances are they might get rid of it just to fix the build, and your initial design and good intentions disappear together with it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Test of Mass Destruction</title>
+      <link>http://raph.es/blog/2011/07/The-Test-of-Mass-Destruction/</link>
+      <pubDate>Fri, 15 Jul 2011 13:18:00 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2011/07/The-Test-of-Mass-Destruction/</guid>
+      <description>
+
+&lt;p&gt;The below is the log of a chat I had a while back with a colleague (you know who you are). I had just set up a fresh TeamCity build for his new project. This was a bit exciting for me since I am constantly encouraging developers to write tests for their code, &lt;em&gt;new code&lt;/em&gt; in particular. After I had kicked off a first build, a very&amp;hellip;&amp;ldquo;special&amp;rdquo; test appeared to be &amp;ldquo;hanging&amp;rdquo;&amp;hellip;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[me], 10:02:36:
+looks like some tests are taking ages to finish
+
+[me], 10:02:48:
+i might have to annoy you about that
+
+[you know who you are], 10:04:55:
+there are very few tests in there and they run instantly on mine...
+
+[me], 10:05:26:
+that&#39;s why we also run them on other machines :-)
+i&#39;ll wait till they&#39;re through then we can find out whats going on
+
+[you know who you are], 10:06:19:
+ah i can see whats wrong now
+
+[me], 10:06:45:
+missing dependency or something?
+
+[you know who you are], 10:11:09:
+an old broken test, deleted from visual studio but not removed from perforce
+
+[you know who you are], 10:12:36:
+you can kill it if you want
+
+[me], 10:16:32:
+i would - but viewing the logs of that build killed my machine :-D
+
+[me], 10:16:40:
+i shit you not
+
+[you know who you are], 10:16:52:
+it killed my chrome too
+
+[me], 10:17:05:
+that&#39;s one cool test
+
+[you know who you are], 10:17:22:
+it was a test i was running on my machine to get some idea of msmq inserts over time
+
+[you know who you are], 10:17:40:
+its trying to do 10 million msmq inserts to see how fast it runs
+
+[me], 10:17:47:
+OMFG
+
+[me], 10:17:50:
+are you nuts :-D
+
+[you know who you are], 10:17:51:
+so its probably going to generate 10 million exceptions
+
+[you know who you are], 10:17:54:
+lol
+
+[me], 10:17:59:
+that&#39;s going to take down the build server
+
+[me], 10:18:03:
+stop that build asap pls
+
+[you know who you are], 10:18:12:
+you started it, how do i stop it?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Yes, viewing the logs for that build did in fact crash one of my dev machines. Or it rather destroyed Firefox, which in turn killed my machine. A true &lt;em&gt;Test of Mass Destruction&amp;trade;&lt;/em&gt;. We eventually got the test to stop and removed it. But what do we learn from this?&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Know what you&amp;rsquo;re doing&lt;/h1&gt;
+
+&lt;p&gt;First of all, always know what you are submitting to source control. Always, as in 100%. Diff all files if necessary and understand what&amp;rsquo;s in them - I know from personal experience that many developers do not understand most of what is inside &lt;a href=&#34;http://www.galaktor.net/2011/04/targeting-platforms-in-visual-studio.html&#34;&gt;Visual Studio project and solution files&lt;/a&gt;, for example. Understand it - you are changing it, and you are an engineer, so learn it if you don&amp;rsquo;t know what it is. Many developers think having a build server means not having to run stuff on your local machine anymore. That is wrong. The build server is a last line of defense in that matter, but if you break shared code you are hurting the productivity of other developers. If you make sure it &lt;a href=&#34;http://www.codinghorror.com/blog/2007/03/the-works-on-my-machine-certification-program.html&#34;&gt;works on your machine&lt;/a&gt; first, then nobody will notice that you screwed up and you are able to fix the problem before you switched to something else. If a build engineer has to call you up an hour later, you will probably need some time to retrace your steps to understand what&amp;rsquo;s wrong. Do it early, save yourself and others the pain.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/womm-label.png&#34;&gt;
+  &lt;img src=&#34;/img/blogger/womm-label.png&#34;  alt=&#34;that&amp;#39;s why we also run them on *other* machines -me&#34; width=&#34;250em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Know how to do it properly&lt;/h1&gt;
+
+&lt;p&gt;Second, master your tools. In this particular case it was a problem most of us have because we are &lt;em&gt;forced&lt;/em&gt; to use per&lt;em&gt;force&lt;/em&gt; (bad pun fully &lt;a href=&#34;http://lmgtfy.com/?q=i+hate+perforce&#34;&gt;intended&lt;/a&gt;). Perforce might have a few good features on the server and support side, but the client tools for Windows developers are way below standard. Because Perforce clients do not actively monitor your changes on the client side, the server relies on the client to tell it about any add/edit/delete/whatever explicitly. This means if you delete a file from your working directory, it does not automatically mean the client will detect that and submit a &amp;ldquo;delete&amp;rdquo; to the server. Instead, it stays there. Just like this test. &lt;em&gt;But&lt;/em&gt;: Just having crappy tools is not an excuse for breaking stuff. There are &lt;a href=&#34;http://www.jetbrains.com/teamcity/features/delayed_commit.html&#34;&gt;ways&lt;/a&gt; to contain the damage you can cause. So either stop using the tool or learn how to deal with it.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;Do it as simple as possible&lt;/h1&gt;
+
+&lt;p&gt;Finally, this test was designed to be dangerous. Why did it have to do something 10 &lt;em&gt;million&lt;/em&gt; times? Why not 100,000? Or 100? This was supposed to measure performance, so quite a large batch of iterations is a valid thing to do. But more often than not I find developers doing this when it is not necessary. &amp;ldquo;Just to be safe&amp;rdquo; or &amp;ldquo;thorough&amp;rdquo; or &amp;ldquo;because we can&amp;rdquo; (it&amp;rsquo;s automated, isn&amp;rsquo;t it?). Most of the time tests are fine with just one (=1) single test case. That&amp;rsquo;s why in &lt;a href=&#34;http://en.wikipedia.org/wiki/Test-driven_development&#34;&gt;TDD&lt;/a&gt; a test needs to break first, otherwise it&amp;rsquo;s not worth executing it, yet alone implementing the new feature. If you are just tacking on several variants of the same test, testing the same logic/feature over and over, you are wasting screen space, your time and everyone else&amp;rsquo;s time when they have to run and, most of all, &lt;em&gt;maintain&lt;/em&gt; your tests.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

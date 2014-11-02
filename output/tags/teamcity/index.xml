@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Teamcity on raph haXx </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://raph.es/tags/teamcity/index.xml/</link>
+    
+    
+    <copyright>Raphael Estrada 2011-2014</copyright>
+    <updated>Mon, 19 Dec 2011 06:58:00 &#43;0100</updated>
+    
+    <item>
+      <title>Revisited: Mapping network drives for TeamCity build agents</title>
+      <link>http://raph.es/blog/2011/12/Revisited-Mapping-network-drives-for-TeamCity-build-agents/</link>
+      <pubDate>Mon, 19 Dec 2011 06:58:00 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/blog/2011/12/Revisited-Mapping-network-drives-for-TeamCity-build-agents/</guid>
+      <description>
+
+&lt;p&gt;In an older &lt;a href=&#34;/2011/06/mapping-network-drives-for-teamcity.html&#34;&gt;post&lt;/a&gt; I mentioned how hard it is to have TeamCity agents have access to mapped drives. Unfortunately, Windows only maps network drives during a user&amp;rsquo;s login process. But you do not want to log in for every build agent - ideally they will run as daemons and, for instance, start automatically when the system boots without a user having to get involved.&lt;/p&gt;
+
+&lt;p&gt;So what I did before was an ugly hack - I used &lt;a href=&#34;http://technet.microsoft.com/en-us/sysinternals/bb897553&#34;&gt;psexec&lt;/a&gt; to map the drives I want agents to see to the root user (&amp;ldquo;SYSTEM&amp;rdquo;). I never really understood why it worked, but I never liked the solution. Plus, it still did not give you a real Windows service, only a scheduled task that sort of behaved the same way.&lt;/p&gt;
+
+&lt;p&gt;I recently did some reworking of my agents and decided to get rid of the psexec hack. What I did this time is much simpler: I gave up. Yep, I gave up trying to map the drives for the agents. If I want agents to be services, and services cannot map drives, so be it.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/troll-mappings.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/troll-mappings.jpeg&#34;   width=&#34;400em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Work with it, not against it&lt;/h1&gt;
+
+&lt;p&gt;The alternative is to not need drive mappings in the first place. It crossed my mind that I might want to force all reference paths in the VS projects to be UNC paths. Problem is when you add a new file or reference, VS defaults to the drive letter and not the UNC path. Builds would regularly break because somebody forgot to manually change it into a UNC path&amp;hellip;not cool.&lt;/p&gt;
+
+&lt;p&gt;The simple way around this is have a build step run before each VS compile that &amp;ldquo;unmaps&amp;rdquo; the project files automagically. Devs can still use drive mappings which work for them and don&amp;rsquo;t have to worry about these build server specifics.&lt;/p&gt;
+
+&lt;p&gt;At the end of this post is a simple Powershell script that does the job. It&amp;rsquo;s quite simple in that it does a find/replace using regular expressions. Turns out this works quite nicely and performs well, too - just a few seconds to process several hundreds of project files. Adding in target file types or drive mappings should be straight-forward. Feel free to use, but &lt;em&gt;please read and respect the &lt;a href=&#34;/license&#34;&gt;license&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Running it as a pre-build step&lt;/h1&gt;
+
+&lt;p&gt;On TeamCity 6+ you can configure an arbitrary chain of build steps. Just have TeamCity run this script on before your projects are compiled. Simplest is to just pass in the builds working directory as a paramter (&lt;code&gt;%system.teamcity.build.workingDir%&lt;/code&gt;). That way you can replace the drive mappings in all files that were checked out of source control for the running build. You can, of course, use more specific paths instead of this shotgun approach. If that&amp;rsquo;s how you roll.&lt;/p&gt;
+
+&lt;p&gt;Keep in mind that your build machines will by default have a &lt;a href=&#34;http://technet.microsoft.com/en-us/library/dd347628.aspx&#34;&gt;PowerShell execution policy&lt;/a&gt; of &lt;code&gt;Restricted&lt;/code&gt;. You&amp;rsquo;ll have to change it to run the scripts. &lt;code&gt;Set-ExecutionPolicy RemoteSigned&lt;/code&gt; will do. If you TC process runs with administrator privileges you can also pass in a parameter to powershell.exe that will bypass the execution policy (use at your own risk):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;powershell.exe .\myscript.ps1 &amp;lt;path&amp;gt; -executionPolicy Bypass. 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;   width=&#34;350em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;Example script (PowerShell)&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;# licensed under The MIT license: http://www.opensource.org/licenses/mit-license.php
+# Copyright (c) Raphael Estrada
+# Author URL: http://www.galaktor.net
+PARAM([parameter(Mandatory = $true)]
+      [string]$root=$(throw &amp;quot;Must give a root path.&amp;quot;))
+
+$exitCode = 0
+
+try
+{
+  $stopWatch = New-Object &amp;quot;System.Diagnostics.Stopwatch&amp;quot;
+  $stopWatch.Start()
+  # works on C# an VC++ project files
+  $targetFiles = Get-ChildItem $root -recurse -include @(&amp;quot;*.csproj&amp;quot;,&amp;quot;*.vcxproj&amp;quot;)
+  $stopWatch.Stop()
+
+  Write-Host &amp;quot;Finding&amp;quot; $targetFiles.Length &amp;quot;files took&amp;quot; $stopWatch.ElapsedMilliseconds &amp;quot;ms&amp;quot;
+
+  $mappings = @(
+          (&#39;X&#39;, &#39;\\path\to\x&#39;),
+          (&#39;Y&#39;, &#39;\\path\to\y&#39;),
+          (&#39;Z&#39;, &#39;\\path\to\z&#39;)
+        )
+
+  $stopWatch.Reset()
+  $stopWatch.Start()
+  $modifiedCounter = 0
+  foreach($file in $targetFiles)
+  {
+    # project file XML is usually UTF8
+    $content = (Get-Content $file -Encoding UTF8)
+
+    foreach($mapping in $mappings)
+    {
+      $pathRegex = [System.String]::Format(&amp;quot;{0}:\\&amp;quot;, $mapping[0])
+      $replacement = $mapping[1]
+      if(!$replacement.EndsWith(&amp;quot;\&amp;quot;))
+      {
+        $replacement += &amp;quot;\&amp;quot;
+      }
+      if($content -match $pathRegex)
+      {
+        Write-Host &amp;quot;Found references to&amp;quot; $mapping[0] &amp;quot;drive in&amp;quot; $file.FullName &amp;quot;- Replacing with&amp;quot; $mapping[1]
+        $content = $content -replace $pathRegex, $replacement
+        $modifiedCounter++
+      }
+    }
+
+    # write result back to file; again UTF8
+    Set-Content -Encoding UTF8 $file $content -Force
+  }
+  $stopWatch.Stop()
+
+  Write-Host &amp;quot;Processing&amp;quot; $targetFiles.Length &amp;quot;files took&amp;quot; $stopWatch.ElapsedMilliseconds &amp;quot;ms&amp;quot;
+  Write-Host &amp;quot;Files modified:&amp;quot; $modifiedCounter
+}
+catch [System.Exception]
+{
+  Write-Host &amp;quot;ERROR!&amp;quot; $_ -ForegroundColor Red
+  $exitCode = 1
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Test of Mass Destruction</title>
+      <link>http://raph.es/blog/2011/07/The-Test-of-Mass-Destruction/</link>
+      <pubDate>Fri, 15 Jul 2011 13:18:00 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2011/07/The-Test-of-Mass-Destruction/</guid>
+      <description>
+
+&lt;p&gt;The below is the log of a chat I had a while back with a colleague (you know who you are). I had just set up a fresh TeamCity build for his new project. This was a bit exciting for me since I am constantly encouraging developers to write tests for their code, &lt;em&gt;new code&lt;/em&gt; in particular. After I had kicked off a first build, a very&amp;hellip;&amp;ldquo;special&amp;rdquo; test appeared to be &amp;ldquo;hanging&amp;rdquo;&amp;hellip;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[me], 10:02:36:
+looks like some tests are taking ages to finish
+
+[me], 10:02:48:
+i might have to annoy you about that
+
+[you know who you are], 10:04:55:
+there are very few tests in there and they run instantly on mine...
+
+[me], 10:05:26:
+that&#39;s why we also run them on other machines :-)
+i&#39;ll wait till they&#39;re through then we can find out whats going on
+
+[you know who you are], 10:06:19:
+ah i can see whats wrong now
+
+[me], 10:06:45:
+missing dependency or something?
+
+[you know who you are], 10:11:09:
+an old broken test, deleted from visual studio but not removed from perforce
+
+[you know who you are], 10:12:36:
+you can kill it if you want
+
+[me], 10:16:32:
+i would - but viewing the logs of that build killed my machine :-D
+
+[me], 10:16:40:
+i shit you not
+
+[you know who you are], 10:16:52:
+it killed my chrome too
+
+[me], 10:17:05:
+that&#39;s one cool test
+
+[you know who you are], 10:17:22:
+it was a test i was running on my machine to get some idea of msmq inserts over time
+
+[you know who you are], 10:17:40:
+its trying to do 10 million msmq inserts to see how fast it runs
+
+[me], 10:17:47:
+OMFG
+
+[me], 10:17:50:
+are you nuts :-D
+
+[you know who you are], 10:17:51:
+so its probably going to generate 10 million exceptions
+
+[you know who you are], 10:17:54:
+lol
+
+[me], 10:17:59:
+that&#39;s going to take down the build server
+
+[me], 10:18:03:
+stop that build asap pls
+
+[you know who you are], 10:18:12:
+you started it, how do i stop it?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Yes, viewing the logs for that build did in fact crash one of my dev machines. Or it rather destroyed Firefox, which in turn killed my machine. A true &lt;em&gt;Test of Mass Destruction&amp;trade;&lt;/em&gt;. We eventually got the test to stop and removed it. But what do we learn from this?&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Know what you&amp;rsquo;re doing&lt;/h1&gt;
+
+&lt;p&gt;First of all, always know what you are submitting to source control. Always, as in 100%. Diff all files if necessary and understand what&amp;rsquo;s in them - I know from personal experience that many developers do not understand most of what is inside &lt;a href=&#34;http://www.galaktor.net/2011/04/targeting-platforms-in-visual-studio.html&#34;&gt;Visual Studio project and solution files&lt;/a&gt;, for example. Understand it - you are changing it, and you are an engineer, so learn it if you don&amp;rsquo;t know what it is. Many developers think having a build server means not having to run stuff on your local machine anymore. That is wrong. The build server is a last line of defense in that matter, but if you break shared code you are hurting the productivity of other developers. If you make sure it &lt;a href=&#34;http://www.codinghorror.com/blog/2007/03/the-works-on-my-machine-certification-program.html&#34;&gt;works on your machine&lt;/a&gt; first, then nobody will notice that you screwed up and you are able to fix the problem before you switched to something else. If a build engineer has to call you up an hour later, you will probably need some time to retrace your steps to understand what&amp;rsquo;s wrong. Do it early, save yourself and others the pain.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/blogger/womm-label.png&#34;&gt;
+  &lt;img src=&#34;/img/blogger/womm-label.png&#34;  alt=&#34;that&amp;#39;s why we also run them on *other* machines -me&#34; width=&#34;250em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Know how to do it properly&lt;/h1&gt;
+
+&lt;p&gt;Second, master your tools. In this particular case it was a problem most of us have because we are &lt;em&gt;forced&lt;/em&gt; to use per&lt;em&gt;force&lt;/em&gt; (bad pun fully &lt;a href=&#34;http://lmgtfy.com/?q=i+hate+perforce&#34;&gt;intended&lt;/a&gt;). Perforce might have a few good features on the server and support side, but the client tools for Windows developers are way below standard. Because Perforce clients do not actively monitor your changes on the client side, the server relies on the client to tell it about any add/edit/delete/whatever explicitly. This means if you delete a file from your working directory, it does not automatically mean the client will detect that and submit a &amp;ldquo;delete&amp;rdquo; to the server. Instead, it stays there. Just like this test. &lt;em&gt;But&lt;/em&gt;: Just having crappy tools is not an excuse for breaking stuff. There are &lt;a href=&#34;http://www.jetbrains.com/teamcity/features/delayed_commit.html&#34;&gt;ways&lt;/a&gt; to contain the damage you can cause. So either stop using the tool or learn how to deal with it.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;Do it as simple as possible&lt;/h1&gt;
+
+&lt;p&gt;Finally, this test was designed to be dangerous. Why did it have to do something 10 &lt;em&gt;million&lt;/em&gt; times? Why not 100,000? Or 100? This was supposed to measure performance, so quite a large batch of iterations is a valid thing to do. But more often than not I find developers doing this when it is not necessary. &amp;ldquo;Just to be safe&amp;rdquo; or &amp;ldquo;thorough&amp;rdquo; or &amp;ldquo;because we can&amp;rdquo; (it&amp;rsquo;s automated, isn&amp;rsquo;t it?). Most of the time tests are fine with just one (=1) single test case. That&amp;rsquo;s why in &lt;a href=&#34;http://en.wikipedia.org/wiki/Test-driven_development&#34;&gt;TDD&lt;/a&gt; a test needs to break first, otherwise it&amp;rsquo;s not worth executing it, yet alone implementing the new feature. If you are just tacking on several variants of the same test, testing the same logic/feature over and over, you are wasting screen space, your time and everyone else&amp;rsquo;s time when they have to run and, most of all, &lt;em&gt;maintain&lt;/em&gt; your tests.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mapping network drives for TeamCity build agents</title>
+      <link>http://raph.es/blog/2011/06/Mapping-network-drives-for-TeamCity-build-agents/</link>
+      <pubDate>Sun, 12 Jun 2011 20:18:00 IST</pubDate>
+      
+      <guid>http://raph.es/blog/2011/06/Mapping-network-drives-for-TeamCity-build-agents/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt;: I recently changed my solution to the below problem. Go &lt;a href=&#34;/2011/12/revisited-mapping-network-drives-for.html&#34;&gt;check out&lt;/a&gt; my new, revolutionary approach to drive mappings on TeamCity agents!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jetbrains.com/teamcity/ is a sophisticated and, above all, easy-to-use [CI server](http://en.wikipedia.org/wiki/Continuous_integration&#34;&gt;TeamCity&lt;/a&gt;. It works equally well on different platforms, and despite it being implemented in Java, has surprisingly good support for Windows and .NET development.&lt;/p&gt;
+
+&lt;p&gt;When you install TeamCity, aside from the central (web) server, you will be running at least one build agent. On Windows, it is very convenient to install agents as &lt;a href=&#34;http://en.wikipedia.org/wiki/Windows_service&#34;&gt;NT services&lt;/a&gt;. That way they can run &lt;a href=&#34;http://en.wikipedia.org/wiki/Daemon_%28computer_software%29&#34;&gt;daemon-like&lt;/a&gt; in the background, unattended, and without having to log on as an actual user of the build machine. Especially when your machines can be restarted frequently (e.g. for updates), it comes in handy that the service will simply start up again after the reboot.&lt;/p&gt;
+
+&lt;p&gt;There is one annoying fact about Windows services, though: they will not see &lt;a href=&#34;http://en.wikipedia.org/wiki/Network_share&#34;&gt;network drive mappings&lt;/a&gt;. If your code base happens to have references to shared libraries on the network, and you use mapped drive letters to point your code to those (as opposed to, say, UNC paths), your builds will fail when running the build agent as a service. It will not see mapped drives, and therefor not find your dependencies.&lt;/p&gt;
+
+&lt;p&gt;I am no hardcore Windows administrator, but it appears that the network drive mapping is bound to a user and to his security context. That allows windows to decide, for example, if the mapped drive can be accessed by whatever user is currently logged on. No user, no security context, no mapped drives. What is particularly weird is that this still happens when you tell Windows to run the service as a particular user (instead of the default SYSTEM user).&lt;/p&gt;
+
+&lt;p&gt;Anyhoo, feel free to google the hell out of this topic and please leave a comment if you find a way to legally tell a service to map some drives. Until then, I have come up with a similar approach that will give you the benefits of a service without actually using it. It is hacky, I admit that much, and I do not understand every geeky detail of why it works while the service can&amp;rsquo;t see the network drives&amp;hellip;but I feel I should dump my hack here in case anyone finds himself in a similar situation and just wants it to &lt;em&gt;work&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Mapping drives to the root&lt;/h1&gt;
+
+&lt;p&gt;I have done the following on Windows Server 2008 R2 machines - it goes without saying (but I&amp;rsquo;ll still say it) that these steps might differ or not work at all on other versions of Windows. Again, if you know a better way, I&amp;rsquo;m all ears.&lt;/p&gt;
+
+&lt;p&gt;First of all, we need a script that contains the commands to map the drives you need during your builds. As an example, I will assume you want a drive X: to point to a location on your network, \someserver\some\directory:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;REM content of &amp;quot;map_network_drives.cmd&amp;quot;
+
+REM delete existing mapping first
+net use x: /delete
+
+REM map drive; &amp;quot;persistent&amp;quot; just in case
+net use x: \\someserver\some\directory /persistent:yes
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, using the almighty &lt;a href=&#34;http://technet.microsoft.com/en-us/sysinternals/bb897553&#34;&gt;PsExec&lt;/a&gt;, part of the &lt;a href=&#34;http://technet.microsoft.com/en-us/sysinternals/bb842062&#34;&gt;Sysinternals Suite&lt;/a&gt;, we create another script that will call our previous network map script with as the &amp;ldquo;root&amp;rdquo; user of your windows machine, the SYSTEM account. Note that screwing around with the root account can be a dangerous thing to do - don&amp;rsquo;t say I did not warn you.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;REM content of &amp;quot;system_map_network_drives.cmd&amp;quot;
+
+REM configure locations to dependencies 
+set psexecPath=C:\tools\PsTools\PsExec.exe
+set mapNetworkDrives=C:\tools\map_network_drives.cmd 
+
+REM map network drives to SYSTEM user 
+%psexecPath% -s %mapNetworkDrives%
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Next, in order to imitate a service&amp;rsquo;s behavior, we need a scheduled task that will execute our &lt;code&gt;system_map_network_drives.cmd&lt;/code&gt; script on &lt;em&gt;system startup&lt;/em&gt;. Make sure the task is setup to run as an administrator. For details on how to schedule a task in windows, check out this &lt;a href=&#34;http://en.lmgtfy.com/?q=scheduled+task+windows&#34;&gt;radical new website that will answer virtually all of your questions&lt;/a&gt;. For each of your TeamCity agents, set up a task the same way at system start-up that will execute &lt;code&gt;agent.bat start&lt;/code&gt; (located in your build agent&amp;rsquo;s &lt;code&gt;bin&lt;/code&gt; directory).&lt;/p&gt;
+
+&lt;p&gt;What will happen now is whenever your machine boots up, your agents will start up, and in parallel, your SYSTEM account will have the expected drive mappings. When your agents start building, they will be able to resolve the mapped drive paths in your code at compile time.&lt;/p&gt;
+
+&lt;p&gt;Now you might be wondering why I don&amp;rsquo;t just do the same and start the agents as services instead of tasks. That did not work - for &lt;em&gt;me&lt;/em&gt; at least. Although tasks seem to have the same limitations regarding drive mappings as the services do, for some reason, giving the SYSTEM user those drive mappings works for the tasks, but not the services. As I said, I&amp;rsquo;m no Windows guru, and to be honest I was just plain happy this worked eventually.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Verifying the mapped drives&lt;/h1&gt;
+
+&lt;p&gt;When you call PsExec for the first time, you will need an elevated command prompt so it can install the PsExec service. And you&amp;rsquo;ll need to accept the terms and conditions at first run as well. You can verify this by using PsExec to get a console and checking if the drives are mapped, as shown below. Before running the above tasks, the call to &lt;code&gt;net use&lt;/code&gt; will inform you that &lt;code&gt;&amp;quot;There are no entries in the list.&amp;quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;C:\tools\PsTools&amp;gt;PsExec.exe -s cmd.exe
+PsExec v1.98 - Execute processes remotely
+Copyright (C) 2001-2010 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+
+Microsoft Windows [Version 6.1.7600]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Windows\system32&amp;gt;whoami
+nt authority\system
+
+C:\Windows\system32&amp;gt;net use
+New connections will be remembered.
+
+Status       Local     Remote                       Network
+
+----------------------------------------------------------------------------------
+OK           X:        \\someserver\some\directory  Microsoft Windows Network
+The command completed successfully.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It&amp;rsquo;s worth mentioning that this approach might cause problems when the mapped network location requires specific permissions - adding the &amp;ldquo;SYSTEM&amp;rdquo; for every build machine to permission lists is not very scalable, especially when you have lots of build boxes in a farm.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
