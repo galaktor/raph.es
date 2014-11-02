@@ -4,88 +4,87 @@ date = "2014-10-16T17:30:59+01:00"
 projects = []
 series = []
 tags = [ "health", "lchf", "science" ]
-title = "lchf"
+title = "n equals one"
 wasblogger = false
 aliases = [ "/on/carbs/" ]
 slug = "lchf"
 draft = true
 +++
-For most of my life, most of my caloric intake was from dietary carbohydrates. Just like the good old food pyramid told my parents. And my parents told me.
+The following is an anecodote about how I changed my diet. And with it, my life.
 
-I at like most people my age did. And I thought it was reasonable. Fibre from oatmeal and cereals for breakfast. Lots of milk for the bones. White bread with nutella because *yum*. Fizzy drinks. Orange juice for the immune system. Rice and noodles with most dishes. Burger King ftw. Beer on the weekends. Cookies for dessert.
+# I got fat after my teens.
+For most of my life, the majority of my caloric intake was from dietary carbohydrates. I made no secret of how much I loved pizza and pasta. Bugers and subs. Fairly reasonable, I thought. Certainly not uber healthy. But not too far off, either.
 
-# Carbs made me fat
-The story is the same for most men my age.
-
-> "Ha ha, I used to eat whatever I want and never gained weight. [Looks at belly] Well, maybe I should go to the gym more often."
+> "Ha ha, I used to eat whatever I want and never gained weight. [Looks at belly] Well, maybe I'll hit the gym tomorrow."
 >
-> -- guys in their thirties
+> -- people in their thirties
 
-I clearly remember being super fit while I was in the military, age 18. I literally ate *ten* white bread sandwiches dripping with Nutella for breakfast - and maintained my weight under 80 kg, which is decent for my size.
+I clearly remember being quite slim while I was sixteen years old. For breakfast I would often eat literally *ten* slices of toast, each dripping with Nutella. I didn't check my weight often, but when I did, it was a good bit under 80 kg. Before I was twenty, my weight hit 90kg.
 
-My body chemistry changed shortly after, but my habits didn't. Habits I had absorbed into my brain during most of my early life.
+Now and then I'd go to the gym. I took up running. I tried a number of diets. These short periods of determination caused dents in my weight curve, but didn't stop the trend. I was getting fat, fast. I genuinely remember the moment when it hit 100 kg. Not a great milestone, to put it mildly.
 
-At the time, like most people to this day, *at least* sixty percent of my daily caloric intake consisted of carbohydrate. Then some moderate amount of protein. And very little fat. Because fat is bad, right? (Spoiler: no).
-
-During my twenties my weight gradually went up to nearly 100 kilos. I genuinely remember the moment when it hit 100.
-
-I tried a number of diets for varying periods of time. I usually dropped a few kilos, felt good about myself. Time to reward myself with cake!
-
-I eventually returned to old habits. Then gained again.
+Now, I wasn't extremely obese. But fat enough to feel very uncomfortable. Especially when I got dragged to the pool or beach and couldn't hide under wide clothes.
 
 Nothing you haven't heard before, I bet.
 
 # Carbs made me sick
-Not only was I wearing much wider clothes. A few hours after most meals I'd get drowsy. The same after drinking beer. People laughed at how I would sometimes doze off when we were out at night. Once even during a loud heavy metal concert (`Fear Factory`).
+Not only was I wearing much wider clothes. Within an hour after meals I'd get drowsy. You know that afternoon low at work, right? But also after drinking beer. It seemed to amuse others how I would sometimes doze off when we were out at night. Most notably during a loud heavy metal concert (`Fear Factory`). Raph is just not a night person, they'd think. So would I. Strangely, I wasn't a morning person, either. I was tired a lot.
 
-Something was wrong, but not wrong enough for anybody to notice. Raph was just a tired guy, they'd think. And I would, too.
+Something was wrong, but not wrong enough for anybody to be concnerned. 
 
-Then a key moment got me worried. I was wandering around the house on a lazy weekend day. This was in my  early twenties. I felt so weak, I nearly blacked out. Literally, I was having that tunnel-vision thing and thought I'd drop to the ground any moment.
+One lazy Sunday I was wandering around the house. This was in my early twenties. I suddenly felt so weak, I nearly blacked out. Literally, I was having that tunnel-vision thing. I thought I'd drop to the ground any moment.
 
-I ~~inhaled~~ ate a yoghurt. Then another. My body was craving sugar. A few minutes later, the weakness had passed. That's when I decided to go to the doctor - I worried I might have diabetes. People in my family had it, so I recognized the pattern.
+More than usual, I *craved* something sweet. I ~~inhaled~~ ate a yoghurt, as if my life depended on it. Then another. A few minutes later, the weakness had passed.
 
-Whatever it was, surely the doctor would find it, right? (Spoiler: no).
+People I know have diabetes, so I knew what *hypoglycemia* looked like. That's when I decided to go to the doctor. Whatever it was, surely the doctor would fix it, right? (Spoiler: no).
 
-# The doctor didn't find it
-Our family doctor was good. A nice guy, competent, had been looking after the family for years.
+# The doctor said I'm fine
+Our family doctor was a good guy. Competent, experienced. He'd been looking after the family for years.
 
-I went for a full check-up. Something I'd do every year, anyway. They took lots of blood, did the ECG - the full monty. I told the doctor about what had happened.
-
-When the results came back, nothing stood out. I was fine, according to standard medicine.
+I went for a full check-up. Something I did once a year, just in case. They took body fluids, made me exhale a lot, did the ECG - the full monty. I told the doctor about what had happened. When the results came back a few days later, nothing stood out. According to standard medicine, I was in great shape.
 
 The thing is, I *wasn't.*
 
-I almost forgot to mention, at the time I would regularly get serious migraine attacks. The kind where you darken the room, wrap yourself in a blanket and hope you don't die until it stops the next day. My doctor's solution was really strong painkillers...
+I almost forgot to mention, at the time I would also regularly get serious migraine attacks. The kind where you darken the room, wrap yourself in a blanket and hope you won't *die* until it stops (usually the next day). My doctor's solution to that was really strong painkillers.
 
 # Atkins fixed my mom
-Without going into too much detail, my mother had been suffering from allergies and joint problems for many years. All doctors could ever do was give her injectios. Some directlly into the bone. Even the spine.
+Without going into too much detail, my mother had been suffering from various allergies and joint problems for many years. All doctors could ever do was give her injections. Some directlly into the bone. The spine.
 
-Nothing helped.
+Nothing helped. She suffered a lot. Like most people when they get a bit desperate, she seeked out alternatives. Acupuncture didn't work (no surprise there). Somewhere she had heard that cutting out grains and carbs had helped others like her.
 
-Like most people when they get a bit desperate, she turned to alternatives. Somewhere she had heard that cutting out grains and carbs had helped other people.
+She bought a random book and got started on the Atkins diet.
 
-She bought a book and got started on the Atkins diet.
+I smiled when she told me. Clearly, cutting carbs was a ridiculous thing to do. Your body needs carbs, right? At best, it sounded extreme. We supported her, but occasionally took humorous stabs at how she missed out on all them tasty noodles and pizzas.
 
-I smiled. Clearly, cutting carbs was a stupid thing to do. We supported her, but kept taking innocent stabs at how was missing out on all them great noodles and pizzas.
+Her joint problems dissapeared after a few weeks. They were *gone*. Her allergies were better, too. We couldn't believe it. The *doctor* couldn't believe it.
 
-Her joint problems dissapeared after a few weeks. I mean, they were *gone*. Her doctor couldn't believe it. We couldn't believe it. Her allergies were better, too.
+As a nice side effect, she had lost lots of weight. And was feeling better than ever.
 
-Not only that, she had lost lots of weight. And was feeling better than ever.
+# Atkins, half-assed
+I was very sceptical, but saw how it helped my mom. Since I had tried virtually all other diets, I figured, what the heck.
 
-# Then I tried Atkins, too
 When I did, I wanted to test it for a few weeks. That's how diets work, right? (Spoiler: no)
 
-I got the little book off my mom, but never really read it - just the recipes. I enjoyed the bit where you got to eat some bacon. But *damn* did I miss the sweet stuff! I remember how much time I spent trying to find the right sweetener. Because obviously you need to replace all thsoe cakes and cookies somehow, right? And why don't they have low carb nutella?
+I should point out that I never really did the *actual* Atkins diet. Just followd some selected rules I found in the book - which itself wasn't *by* Atkins, just derived.
 
-From day one, I couldn't wait for the diet to end so I could have my precious carbs back. The cravings are insane, especially in the beginning.
+I got the little book off my mom, but never really read it - just the recipes. I enjoyed the bit where you got to eat some bacon. But *damn* did I miss the sweet stuff! Most of what I remember from the time was trying to find suitable replacements for cakes, cookies and other sugary things.
+
+I couldn't wait for the diet to end so I could have my precious carbs back. In my mind, not eating carbs was a temporary treatment. It had an expiration date. Take three of these for four weeks. Then everything will be ok.
 
 Long story short: I dropped a bunch of kilos. But caved after a few weeks. Not overnight. It crept back into my habits. The creep starts with an exception (that *one* slice of cake). Then another. Then every Saturday. At this point, what difference does it make anyway?
 
-It always starts with one little exception.
+It always starts with one little exception. One moment of weakness.
 
-I had found out through experimentation with Atkins that cutting carbs did make me lose weight. My weight varied between 80 and 90 kilos. Still far from great. I went through a few phases like this. I was getting better at spotting carbs. They're everywhere. No way I can do this forever.
+# I came out smarter
+I had found out through experimentation with Atkins ideas that cutting carbs did made me lose weight. My weight stabilized (more or less) between 80 and 90 kilos. Not great, but stable.
 
-I should point out that I never really did the *actual* Atkins diet. Just followd some selected rules I found in the book - which itself wasn't *by* Atkins, just derived.
+What made this way of losing weight easier than other diets I had tried? Identifying the stuff I shouldn't eat was much easier - at least the big offenders. Weight watchers concepts and other generic calorie-reduced diet allow you to eat anything, really. Bad stuff uses up all your points or calories or whatever it is they track. Had a double whopper for breakfast? Well, you'll have to get through the rest of the day on water and celery.
+
+On paper, that's great. In practice, people cave after a few days, maybe weeks.
+
+
+
+
 
 # For reals this time
 At some point I finally got curious enough that I read about the underlying science of low carb diets. The most important books being by Atkins *proper* and Stephen Phinney.
@@ -97,6 +96,23 @@ I learned that the condition I had been suffering was called `metabolic syndrome
 That drowsiness I always had? It was *hypoglycemia*.
 
 Armed with knowledge, I decided to cut out carbs for good. From this point on, it wasn't just a way to drop a few kilos when I got desperate. It was the treatment for a medical condition that had me on a sure path to type 2 diabetes.
+
+# What I didn't know
+I now know what I wish someone had told me back then: My body chemistry changed after puberty, but my habits did not.
+
+My diet wasn't so different from other people. At the time, at least sixty percent of my daily caloric intake consisted of carbohydrate. Then some moderate amount of protein, typically from lean meat. And very little fat - because fat is bad, right? (Spoiler: no). Most people in the western world consume a similar ratio of macronutritents.
+
+When we're young and fresh, our bodies require crazy amounts of energy to grow. Not just in size. Also internally. Organs and the likes. In addition to that, I used to spend lots of time outside running around and playing soccer. At the time, my body was pretty good at metabolising all the carbohydrate I was taking in.
+
+After the hormonal shitstorm which is puberty, my body's response to carbhohydrate changed forever.
+
+Without exception, dietary carbohydrate effectively turns into sugar. Don't believe me? Take a bite of the brownest bread you can find. Leave it in your mouth for a few minutes. It will turn sweet. This is your body breaking it down into sugar.
+
+In order to make sugar into energy, our brain tells our pancreas to release insuline. Insuline is a hormone. In theory, it will cause your muscles to take up the energy from the sugar. You'll feel energized. Watch little kids a few minutes after they've had sweets. They'll jump around, shout, be annoying. It's they're body trying to burn off all that new energy.
+
+Unfortunately for most people, this doesn't work forever. Hormones aren't straight-forward and interact in complicated ways. After puberty and years of flooding my cells with insulin, my body got worse at metabolising it. Instead, the insulin causes the energy to be stored as fat.
+
+This is by design. Insulin does this. It makes cells store fat for later. An effective survival strategy.
 
 # LCHF
 The above is a very simple summary of what was a year-long process of trial-and-error, doubt, self-experimentation and varying levels of success.
