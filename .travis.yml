@@ -10,3 +10,5 @@ install:
   
 script:
   - ./hugo_0.12_linux_386
+  - ls output
+  - echo "TODO: push subtree; requires secure environment vars"
