@@ -29,7 +29,6 @@
 }
 
 html {
-
     font-family: Courier, monospace;
     margin: 0;
     padding: 0;
@@ -58,6 +57,21 @@ h3 {
 
 p {
     margin-top: 0;
+}
+
+code {
+    font-size: 1em;
+    font-family: Courier, monospace;
+    font-weight: bold;
+}
+
+pre code {
+    font-weight: normal;
+    border: 0.1em dashed black;    
+    display: block;
+    background-color: #EFEFEF;
+    color: black;
+    padding: 0.5em;
 }
 
 p.disclaimer {
@@ -251,6 +265,8 @@ footer {
     font-size: 0.8em;
     max-width: 40em; /* make sure the logo min-width fits into this */
 }
+
+
 
 footer div {
     clear: both;
