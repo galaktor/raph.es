@@ -7,8 +7,7 @@ install:
   - curl https://github.com/spf13/hugo/releases/download/v0.12/hugo_0.12_linux_386.tar.gz
   - extract
   - chmod +x ./hugo_0.12_linux_386
-  - git checkout https://github.com/galaktor/raph.es.git master raph.es
   
 script:
   - cd raph.es
-  - ../hugo_0.12_linux_386
+  - ./hugo_0.12_linux_386
