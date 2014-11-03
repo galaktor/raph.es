@@ -1,6 +1,10 @@
 before_install:
   - sudo apt-get update -y && sudo apt-get install wget
 
+env:
+  global:
+  - secure: "bVprzXqviV5PIMuiauZlclSgT2ah6sM++q37PxCPFULKgLopOcP8j8ilkK9xGXPQviEZxYBxRxYAbEpSWRAULvxBNVx0wlurA4zvE4yvGmX8MIYSlDWCKBOoZMTb1jzBLVpdufSo5rNk226R93EhJcmjsC8TS794x4x+LD6wtVA="
+
 install:
   - wget https://github.com/spf13/hugo/releases/download/v0.12/hugo_0.12_linux_386.tar.gz
   - tar -zxvf hugo_0.12_linux_386.tar.gz hugo_0.12_linux_386/hugo_0.12_linux_386 --strip-components 1
