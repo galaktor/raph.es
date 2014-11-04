@@ -8,8 +8,8 @@ env:
 install:
   - wget https://github.com/spf13/hugo/releases/download/v0.12/hugo_0.12_linux_386.tar.gz
   - tar -zxvf hugo_0.12_linux_386.tar.gz hugo_0.12_linux_386/hugo_0.12_linux_386 --strip-components 1
-  - chmod +x ./hugo_0.12_linux_386
+  - mv ./hugo_0.12_linux_386 ./hugo
+  - chmod +x ./hugo
   
 script:
-  - ./hugo_0.12_linux_386
-  - ls output
+  - ./deploy.sh
