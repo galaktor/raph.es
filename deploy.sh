@@ -12,7 +12,7 @@ rm -r output
 ./hugo
 
 # Add changes to git.
-git add -
+git add .
 
 # Commit changes.
 msg="rebuilding site `date`"
