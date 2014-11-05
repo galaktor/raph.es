@@ -135,7 +135,7 @@
     <item>
       <title>Understanding and testing enum flags</title>
       <link>http://raph.es/blog/2011/09/Understanding-and-testing-enum-flags/</link>
-      <pubDate>Wed, 14 Sep 2011 05:53:00 IST</pubDate>
+      <pubDate>Wed, 14 Sep 2011 05:53:00 &#43;0100</pubDate>
       
       <guid>http://raph.es/blog/2011/09/Understanding-and-testing-enum-flags/</guid>
       <description>
@@ -293,7 +293,7 @@ AND  100  // 5 - 1 = 4
     <item>
       <title>The Test of Mass Destruction</title>
       <link>http://raph.es/blog/2011/07/The-Test-of-Mass-Destruction/</link>
-      <pubDate>Fri, 15 Jul 2011 13:18:00 IST</pubDate>
+      <pubDate>Fri, 15 Jul 2011 13:18:00 &#43;0100</pubDate>
       
       <guid>http://raph.es/blog/2011/07/The-Test-of-Mass-Destruction/</guid>
       <description>

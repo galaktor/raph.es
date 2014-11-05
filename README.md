@@ -1,2 +1,0 @@
-galaktor.github.io
-==================

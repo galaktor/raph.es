@@ -172,7 +172,7 @@ catch [System.Exception]
     <item>
       <title>Mapping network drives for TeamCity build agents</title>
       <link>http://raph.es/blog/2011/06/Mapping-network-drives-for-TeamCity-build-agents/</link>
-      <pubDate>Sun, 12 Jun 2011 20:18:00 IST</pubDate>
+      <pubDate>Sun, 12 Jun 2011 20:18:00 &#43;0100</pubDate>
       
       <guid>http://raph.es/blog/2011/06/Mapping-network-drives-for-TeamCity-build-agents/</guid>
       <description>

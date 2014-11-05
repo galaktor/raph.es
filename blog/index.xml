@@ -103,7 +103,7 @@
     <item>
       <title>Alcohol sucks</title>
       <link>http://raph.es/blog/2014/10/why-i-dont-drink-alcohol/</link>
-      <pubDate>Fri, 24 Oct 2014 17:35:48 IST</pubDate>
+      <pubDate>Fri, 24 Oct 2014 17:35:48 &#43;0100</pubDate>
       
       <guid>http://raph.es/blog/2014/10/why-i-dont-drink-alcohol/</guid>
       <description>
@@ -168,7 +168,7 @@
     <item>
       <title>on blogging</title>
       <link>http://raph.es/blog/2014/10/on-blogging/</link>
-      <pubDate>Thu, 16 Oct 2014 17:32:23 IST</pubDate>
+      <pubDate>Thu, 16 Oct 2014 17:32:23 &#43;0100</pubDate>
       
       <guid>http://raph.es/blog/2014/10/on-blogging/</guid>
       <description>
@@ -271,7 +271,7 @@
     <item>
       <title>goggle-mounted headlamp from salvaged IKEA USB light</title>
       <link>http://raph.es/blog/2014/10/goggles-headlamp-from-ikea-usb-light/</link>
-      <pubDate>Sun, 12 Oct 2014 19:55:29 IST</pubDate>
+      <pubDate>Sun, 12 Oct 2014 19:55:29 &#43;0100</pubDate>
       
       <guid>http://raph.es/blog/2014/10/goggles-headlamp-from-ikea-usb-light/</guid>
       <description>
@@ -603,7 +603,7 @@
     <item>
       <title>Feasability of powering a Raspberry Pi with a 3.7V battery</title>
       <link>http://raph.es/blog/2014/10/feasible-power-raspberry-pi-3.7V-lipo-battery/</link>
-      <pubDate>Fri, 10 Oct 2014 17:25:49 IST</pubDate>
+      <pubDate>Fri, 10 Oct 2014 17:25:49 &#43;0100</pubDate>
       
       <guid>http://raph.es/blog/2014/10/feasible-power-raspberry-pi-3.7V-lipo-battery/</guid>
       <description>
@@ -849,7 +849,7 @@ off just that tiny single cell lipo!&lt;/p&gt;
     <item>
       <title>autofHACK - forcing activation of a service and dynamic resolution of it&#39;s dependencies</title>
       <link>http://raph.es/blog/2012/10/autofHACK---forcing-activation-of-a-service-and-dynamic-resolution-of-its-dependencies/</link>
-      <pubDate>Tue, 02 Oct 2012 16:47:00 IST</pubDate>
+      <pubDate>Tue, 02 Oct 2012 16:47:00 &#43;0100</pubDate>
       
       <guid>http://raph.es/blog/2012/10/autofHACK---forcing-activation-of-a-service-and-dynamic-resolution-of-its-dependencies/</guid>
       <description>&lt;p&gt;Sorry, I just couldn&amp;rsquo;t resist the &amp;ldquo;autofHack&amp;rdquo; pun.&lt;/p&gt;
@@ -906,7 +906,7 @@ builder.RegisterInstance(m);
     <item>
       <title>Leaving the Comfort Zone</title>
       <link>http://raph.es/blog/2012/09/Leaving-the-Comfort-Zone/</link>
-      <pubDate>Sun, 16 Sep 2012 19:43:00 IST</pubDate>
+      <pubDate>Sun, 16 Sep 2012 19:43:00 &#43;0100</pubDate>
       
       <guid>http://raph.es/blog/2012/09/Leaving-the-Comfort-Zone/</guid>
       <description>
@@ -941,7 +941,7 @@ lol&lt;/p&gt;
     <item>
       <title>The blog gets some love</title>
       <link>http://raph.es/blog/2012/05/The-blog-gets-some-love/</link>
-      <pubDate>Wed, 09 May 2012 08:44:00 IST</pubDate>
+      <pubDate>Wed, 09 May 2012 08:44:00 &#43;0100</pubDate>
       
       <guid>http://raph.es/blog/2012/05/The-blog-gets-some-love/</guid>
       <description>
@@ -1044,7 +1044,7 @@ lol&lt;/p&gt;
     <item>
       <title>On being &#34;Senior&#34;</title>
       <link>http://raph.es/blog/2012/04/On-being-Senior/</link>
-      <pubDate>Tue, 24 Apr 2012 08:30:00 IST</pubDate>
+      <pubDate>Tue, 24 Apr 2012 08:30:00 &#43;0100</pubDate>
       
       <guid>http://raph.es/blog/2012/04/On-being-Senior/</guid>
       <description>
@@ -1630,7 +1630,7 @@ catch [System.Exception]
     <item>
       <title>The Scotty Effect</title>
       <link>http://raph.es/blog/2011/10/The-Scotty-Effect/</link>
-      <pubDate>Thu, 27 Oct 2011 10:33:00 IST</pubDate>
+      <pubDate>Thu, 27 Oct 2011 10:33:00 &#43;0100</pubDate>
       
       <guid>http://raph.es/blog/2011/10/The-Scotty-Effect/</guid>
       <description>
