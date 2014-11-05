@@ -5,12 +5,6 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-# configure git credentials
-echo "*** setting git credentials $GIT_NAME $GH_TOKEN"
-git config credential.helper "store --file=.git/credentials"
-echo "https://${GH_TOKEN}:@github.com" > .git/credentials
-git config user.name $GIT_NAME
-
 # clear output
 echo "*** clearing output"
 rm output -rf
@@ -20,6 +14,12 @@ echo "*** cloning output repo"
 git clone https://github.com/galaktor/galaktor.github.io output
 cd output
 rm * -rf
+
+# configure git credentials
+echo "*** setting git credentials $GIT_NAME $GH_TOKEN"
+git config credential.helper "store --file=.git/credentials"
+echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+git config user.name $GIT_NAME
 cd ..
 
 # Build the project. 
