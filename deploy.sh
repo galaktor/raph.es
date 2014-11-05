@@ -16,7 +16,7 @@ git remote add out https://github.com/galaktor/galaktor.github.io
 git subtree pull --prefix=output out master
 
 # clear output
-rm -rf output
+#rm -rf output
 
 # Build the project. 
 echo "building html"
