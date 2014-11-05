@@ -20,7 +20,7 @@ git config user.name $GIT_NAME
 
 # Add changes to git.
 echo "adding changes to git"
-git add .
+git add -A
 
 # Commit changes.
 msg="rebuilding site `date`"
