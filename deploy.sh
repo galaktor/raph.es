@@ -12,7 +12,7 @@ rm -r output
 ./hugo
 
 # configure git credentials
-git config credential.helpe "store --file=.git/credentials"
+git config credential.helper "store --file=.git/credentials"
 echo "https://${GH_TOKEN}:@github.com" > .git/credentials
 git config user.name $GH_NAME
 
