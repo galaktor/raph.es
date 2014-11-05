@@ -16,7 +16,7 @@ git remote add out https://github.com/galaktor/galaktor.github.io
 git subtree pull --prefix=output out master
 
 # clear output
-#rm -rf output
+git rm output -rf
 
 # Build the project. 
 echo "building html"
@@ -25,6 +25,10 @@ echo "building html"
 # Add changes to git.
 echo "adding changes to git"
 git add output
+
+# restore files we don't want to change
+# todo: move insto 'static'
+git checkout output/CNAME output/LICENSE output/README.md
 
 # Commit changes.
 msg="rebuilding site `date`"
