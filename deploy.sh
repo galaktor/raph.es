@@ -30,6 +30,8 @@ fi
 echo "commiting: $msg"
 git commit -m "$msg"
 
-# push subtree
+# refresh then push subtree
+git remote add out https://github.com/galaktor/galaktor.github.io
+git subtree pull --prefix=output master
 echo "pushing subtree to gh pages"
-git subtree push --prefix=output https://github.com/galaktor/galaktor.github.io master
+git subtree push --prefix=output master
