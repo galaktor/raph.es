@@ -5,8 +5,12 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+# refresh and remove subtree
+git remote add out https://github.com/galaktor/galaktor.github.io
+git subtree pull --prefix=output out master
+
 # clear output
-rm -r output
+rm -rf output
 
 # Build the project. 
 echo "building html"
@@ -30,8 +34,6 @@ fi
 echo "commiting: $msg"
 git commit -m "$msg"
 
-# refresh then push subtree
-git remote add out https://github.com/galaktor/galaktor.github.io
-git subtree pull --prefix=output out master
+# push subtree
 echo "pushing subtree to gh pages"
 git subtree push --prefix=output out master
