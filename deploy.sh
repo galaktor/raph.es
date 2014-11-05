@@ -32,6 +32,6 @@ git commit -m "$msg"
 
 # refresh then push subtree
 git remote add out https://github.com/galaktor/galaktor.github.io
-git subtree pull --prefix=output master
+git subtree pull --prefix=output master out master
 echo "pushing subtree to gh pages"
-git subtree push --prefix=output master
+git subtree push --prefix=output out master
