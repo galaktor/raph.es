@@ -24,7 +24,7 @@ echo "building html"
 
 # Add changes to git.
 echo "adding changes to git"
-git add -A
+git add output
 
 # Commit changes.
 msg="rebuilding site `date`"
