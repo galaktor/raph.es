@@ -23,11 +23,11 @@ git config user.name $GIT_NAME
 cd ..
 
 # Set version from git revision count
-base=$(cat /layouts/partials/version.html)
+base=$(cat ./layouts/partials/version.html)
 rev=$(git log --oneline | wc -l)
 new="$base.$rev"
 echo "setting revision to $new"
-echo "$new" > /layouts/partials/version.html
+echo "$new" > ./layouts/partials/version.html
 
 # Build the project. 
 echo "*** building html"
