@@ -13,10 +13,10 @@ echo "building html"
 ./hugo
 
 # configure git credentials
-echo "setting git credentials $GH_NAME $GH_TOKEN"
+echo "setting git credentials $GIT_NAME $GH_TOKEN"
 git config credential.helper "store --file=.git/credentials"
 echo "https://${GH_TOKEN}:@github.com" > .git/credentials
-git config user.name $GH_NAME
+git config user.name $GIT_NAME
 
 # Add changes to git.
 echo "adding changes to git"
