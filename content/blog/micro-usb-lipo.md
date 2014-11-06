@@ -1,6 +1,6 @@
 +++
 author = "raph"
-date = "2014-10-20T07:55:43+01:00"
+date = "2014-10-14T19:35:00+01:00"
 projects = [ "mudcam" ]
 series = [ "battery pi" ]
 tags = [ "raspberry pi", "power", "hardware", "usb" ]
@@ -8,14 +8,33 @@ title = "Custom lipo-to-usb connector"
 slug = "lipo-battery-to-micro-usb-power-adapter"
 draft = true
 +++
-be as little invasive as possible. go through intended power route, including fuse protection.
+I want to power a Raspberry Pi off a LiPo battery. In an attempt to be as littleinvasive as possible I figured I might just route the power through the micro USB port.
 
+There is a pin on the GPIO that is connected to the +5V rail, but it bypasses the fuse and I'd like to stick to recommended usage scnearios unless I have good reason not to. The Pi is meant to get power through USB, so let's do that.
 
+This is first and foremost an experiment to get a feel for the voltage drop on the way into the `RG2` regulator.
 
+# Power pins
+The Pi doesn't use all of the USB pins. It only takes the +5V on pin 1 and connects to ground on pin 5.
 
-I could take a male micro-usb connector, and attach a JST plug or similar for battery to go into the USB D+ and D- pins. This would feed battery directly into the pi.
-PROBLEM: built in regulator has a drop out voltage of at least 0.9V, with 1A current draw it will be around 1.1V, up to even 1.2V. That means the difference between output (3.3V) and it's input has to be at least 1.1V realistically. that's 3.3V + 1.1V = 4.4V. the specs say min is 4.75V, i suppose to not be to close to the edge given variance in parts and power stability.
+TODO: LINK PETER VIS
 
+So I bought a small pack of male USB connectors and soldered a LiPo to them.
 
+PICS USB SOLDER
 
-So the regulator will not do anything if voltage is below 4.4V - and a single cell lipo will AT BEST (for a brief period of time) provide about 4.2V. most of the time 3.7V. NOT GOING TO WORK!
+That's pretty much it! Now let's find out what happens when we use a vanilla Pi odel A on a standard LiPo.
+
+# Results
+So when I connect up the power to the Pi, it seems to turn off just fine. An SD card running Arch for ARM is in. Hooking up my multimeter probes to the test points `TP1` (+) and `TP2` (-), this is what I get:
+
+* at battery: 3.71v
+* at test points: 3.62v
+* at `RG2` *in*: 3.62v
+* at `RG2` *out*: 2.68v
+
+Knowing that the vanialla regulator at `RG2` has a DO of about 1V or more, I'm not surprised that it's not able to provide good 3.3V anymore given the low voltage from the LiPo.
+
+The Pi seems to be running well enough, but I haven't tried doing anything interesting with it yet. The fact that all components which expect to get 3.3V are now on less than 3V means things won't run reliably. And as battery voltage drops, behaviour is unpredictable. Not great conditions for a project that I want to run stable for hours.
+
+So having seen this, I'm going to have to remove `RG2` and replace it with a voltage regulator that has a lower DO.

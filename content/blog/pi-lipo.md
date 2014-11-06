@@ -139,11 +139,11 @@ Dave Akerman [shows](http://www.daveakerman.com/?page_id=1294) how to replace `R
 This approach is very appealing to me, even if it means modding the Pi and potentially damaging it. It means I can take a farily cheap component, solder it on relatively easy and the result doesn't have any large parts or wires sticking out in the end (as might be the case with a switching regulator).
 
 # Conclusion
-I just want to use a Pi board and cam module. No USB devices, no video output. Ideally i would be able to supply as close to 3.3V as possible, allowing for sufficient current draw under recording/IO load (VERY rough guess: ~500mA - 1A). A single cell LiPo provides between ~3V(ish) (drained) and ~4.2V (charged). This is assuming lipo has undervoltage protection that cuts off at some point, typically a bit over/under 3V.
+I just want to use a Pi board and cam module. No USB devices, no video output. I'll try to supply as close to 3.3V as possible, allowing for sufficient current draw under recording/IO load (rough guess: around 500mA). A single cell LiPo provides between 3V and 4.2V. This is assuming lipo has undervoltage protection that cuts off at some point, typically a bit over/under 3V.
 
-I *think* I'll try replacing `RG2` with an LDO that has a drop out in the mV, which should allow me to get the most out of the LiPo. Maybe I can stick the LiPo directly to the USB power of the Pi.
+I'll try replacing `RG2` with an LDO that has a drop out in the mV range, which should allow me to get the most out of the LiPo. Maybe I can stick the LiPo directly to the USB power of the Pi.
 
-So that's the theory. I'll need to measure actual current requirements running the camera. And decide which regulator to get (hope I can get away with the 1825...). Then order a nice lipo that can fit into my space requirements. I saw some phone and tablet LiPo's which could give a few hours of running time if all goes well.
+So that's the theory. I'll need to measure actual current requirements running the camera. And decide which regulator to use as a replacement for `RG2`. Then order a nice LiPo that can fit into my space requirements. I saw some phone and tablet LiPo's which could give a few hours of running time if all goes well.
 
 # Resources
 * [Dave Akerman on battery life and voltage regulators]( http://www.daveakerman.com/?page_id=1294)

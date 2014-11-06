@@ -1,6 +1,6 @@
 +++
 author = "raph"
-date = "2014-10-20T07:56:12+01:00"
+date = "2014-10-18T20:11:00+01:00"
 projects = [ "mudcam" ]
 series = [ "battery pi" ]
 tags = [ "raspberry pi", "power", "hardware" ]
@@ -31,12 +31,7 @@ in: 5.15V
 out: 3.25V
 do: 
 
-new pi mod a
-at batt: 3.71v
-test points: 3.62v
-reg in: 3.62v
-reg out: 2.68v
-reg diff: 0.96v
+
 
 test after repl rg, NO SD CARD:
 at batt: 4.02V
