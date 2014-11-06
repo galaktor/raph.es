@@ -22,6 +22,12 @@ echo "https://${GH_TOKEN}:@github.com" > .git/credentials
 git config user.name $GIT_NAME
 cd ..
 
+# wipe output repo before build
+echo "wiping output"
+cd output
+git rm * -rf
+cd ..
+
 # Set version from git revision count
 base=$(cat ./layouts/partials/version.html)
 rev=$(git log --oneline | wc -l)
