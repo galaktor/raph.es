@@ -38,7 +38,7 @@ To clarify my reasoning, I thought I'd write a little list of pros and cons.
 
 Now, don't you tell me alcohol doen't taste horrible. It's barely drinkable even when masked by other ingredients (malt, barley in beer; sugar in wine and cocktails). Higher concentrations taste so bad, people frown and gag when they drink it. The only people who enjoy it are either pretending in order to appear tough or maybe alcoholics.
 
-Sure, if you drink the stuff long enough, you'll learn to distinguish tastes. Some drinks will taste better than others, relatively seen. But objectively, it tastes bad and for a good reason: it's toxic. Our body doesn't want it, so we haven't evolved to get any reward for drinking it.
+Sure, if you drink the stuff long enough, you'll learn to distinguish tastes. Some drinks will taste better than others. Just because it doesn't taste terrible doen'st mean it tastes good. Objectively, alcohol tastes bad and for a good reason: because it's *toxic*. Our body doesn't want it, so we haven't evolved to get any reward for drinking it.
 
 Alright, moving on!
 
@@ -55,6 +55,6 @@ My kids will grow up with me as an example for how you can think for yourself an
 
 Most or all of the above could also be said about smoking. If you don't smoke, you probably shouldn't be drinking for the same reason. Smoking is bad for you? Tastes horrible? Expensive? An excuse to socialize with other smokers? A bad example for kids? Check, check, check, check, check.
 
-I'm *that guy* who orders a pot of tea at the bar. I'm not drinking water because I'm driving - I'm the dedicated driver because I don't drink. 
+I'm *that guy* who orders a pot of tea at the bar. I'm don't do so because I *have* to drive. I'm the dedicated driver because I don't drink.
 
 Get over it.
