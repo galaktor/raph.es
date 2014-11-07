@@ -31,7 +31,7 @@ cd output
 git rev-list HEAD --count --all
 cd ..
 base=$(cat ./layouts/partials/version.html)
-rev=$(git log --oneline | wc -l)
+rev=$(git log --oneline --all | wc -l)
 new="$base.$rev"
 echo "***** GIT LOG --ONELINE *****"
 pwd
