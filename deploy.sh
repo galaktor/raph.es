@@ -32,6 +32,9 @@ cd ..
 base=$(cat ./layouts/partials/version.html)
 rev=$(git log --oneline | wc -l)
 new="$base.$rev"
+echo "*** dump log"
+pwd
+git log --oneline
 echo "setting revision to $new"
 echo "$new" > ./layouts/partials/version.html
 
