@@ -8,6 +8,21 @@ title = "replace pi rg2"
 slug = "replace-raspberry-pi-voltage-regulator-rg2"
 draft = true
 +++
+When I connect up the power to the Pi, it seems to turn on just fine. An SD card running Arch for ARM is in. Hooking up my multimeter probes to the test points `TP1` (+) and `TP2` (-), this is what I get:
+
+* at battery: 3.71v
+* at test points: 3.62v
+* at `RG2` *in*: 3.62v
+* at `RG2` *out*: 2.68v
+
+Knowing that the vanilla regulator at `RG2` has a DO of about 1V or more, I'm not surprised that it's not able to provide good 3.3V anymore given the low voltage from the LiPo.
+
+The Pi seems to be running well enough, but I haven't tried doing anything interesting with it yet. The fact that all components which expect to get 3.3V are now on less than 3V means things won't run reliably. And as battery voltage drops, behaviour is unpredictable. Not great conditions for a project that I want to run stable for hours.
+
+So having seen this, I'm going to have to remove `RG2` and replace it with a voltage regulator that has a lower DO.
+
+
+
 maximize usage of battery via lowest possible dropout voltage
 
 new reg much closer to 3.3v on nominal 3.77v from lipo. hope to maximize battery life by replacing reg

@@ -35,25 +35,11 @@ To not have to remember which wire is which it makes sense to stick with convent
 {{% img src="/img/project/mudcam/micro-usb-shrinks_thumb.jpeg" link="/img/project/mudcam/micro-usb-shrinks.jpeg" %}}
 {{% /fig %}}
 
-Finally, I stuck on a glob of hot glue as a form of strain relief. Pretty? Maybe not. But works for me.
+Finally, I stuck on a glob of hot glue as a crude strain relief.
 
 {{% fig %}}
 {{% img src="/img/project/mudcam/micro-usb-pins-close_thumb.jpeg" link="/img/project/mudcam/micro-usb-pins-close.jpeg" %}}
 {{% img src="/img/project/mudcam/micro-usb-glue_thumb.jpeg" link="/img/project/mudcam/micro-usb-glue.jpeg" %}}
 {{% /fig %}}
 
-That's pretty much it! Now let's find out what happens when we use a vanilla Pi odel A on a standard LiPo.
-
-# Results
-When I connect up the power to the Pi, it seems to turn on just fine. An SD card running Arch for ARM is in. Hooking up my multimeter probes to the test points `TP1` (+) and `TP2` (-), this is what I get:
-
-* at battery: 3.71v
-* at test points: 3.62v
-* at `RG2` *in*: 3.62v
-* at `RG2` *out*: 2.68v
-
-Knowing that the vanilla regulator at `RG2` has a DO of about 1V or more, I'm not surprised that it's not able to provide good 3.3V anymore given the low voltage from the LiPo.
-
-The Pi seems to be running well enough, but I haven't tried doing anything interesting with it yet. The fact that all components which expect to get 3.3V are now on less than 3V means things won't run reliably. And as battery voltage drops, behaviour is unpredictable. Not great conditions for a project that I want to run stable for hours.
-
-So having seen this, I'm going to have to remove `RG2` and replace it with a voltage regulator that has a lower DO.
+That's it! Now I can run the Pi off any power source I like.
