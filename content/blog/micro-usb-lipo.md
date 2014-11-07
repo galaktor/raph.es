@@ -17,7 +17,7 @@ This is first and foremost an experiment to get a feel for the voltage drop on t
 The Pi doesn't use all of the USB pins. It only takes the +5V on pin 1 and connects to ground on pin 5.
 
 {{% fig caption="Pins 1 and 5 are for power" attr="Peter Vis" attrlink="http://www.petervis.com/Raspberry_PI/Raspberry_PI_Power_Supply/Raspberry_PI_Micro_USB_B_Specification.html" %}}
-{{% img src="/img/project/mudcam/micro-usb-power-pins_peter-vis.gif"  link="/img/project/headlamp/cut" widht="400em" %}}
+{{% img src="/img/project/mudcam/micro-usb-power-pins_peter-vis.gif"  link="/img/project/mudcam/micro-usb-power-pins_peter-vis.gif" widht="400em" %}}
 {{% /fig %}}
 
 So I bought some male USB connectors.
