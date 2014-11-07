@@ -3,7 +3,7 @@
 # based on the example at:
 # http://gohugo.io/tutorials/github_pages_blog
 
-echo **********************"
+echo "**********************"
 echo "***** DEPLOYING *****"
 
 echo "***** CLEAR OUTPUT *****"
