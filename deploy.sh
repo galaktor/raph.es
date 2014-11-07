@@ -26,6 +26,8 @@ git rm * -rf
 cd ..
 
 echo "***** SET VERSION IN HTML *****"
+echo "***** TEST *****"
+git rev-list HEAD --count
 base=$(cat ./layouts/partials/version.html)
 rev=$(git log --oneline | wc -l)
 new="$base.$rev"
