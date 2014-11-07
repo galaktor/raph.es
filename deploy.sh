@@ -29,7 +29,7 @@ echo "***** SET VERSION IN HTML *****"
 cd output
 rev=$(git rev-list HEAD --count --all)
 cd ..
-rev=(($rev + 1))
+rev=$((rev + 1))
 base=$(cat ./layouts/partials/version.html)
 new="$base.$rev"
 echo "***** NEW REVISION: $new *****"
