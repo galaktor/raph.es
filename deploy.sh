@@ -1,49 +1,46 @@
 #!/bin/bash
 
-# taken from the example at:
+# based on the example at:
 # http://gohugo.io/tutorials/github_pages_blog
 
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+echo **********************"
+echo "***** DEPLOYING *****"
 
-# clear output
-echo "*** clearing output"
+echo "***** CLEAR OUTPUT *****"
 rm output -rf
 
-# refresh and remove subtree
-echo "*** cloning output repo"
+echo "***** CLONING TARGET REPO *****"
 git clone https://github.com/galaktor/galaktor.github.io output
 cd output
 rm * -rf
 
-# configure git credentials
-echo "*** setting git credentials $GIT_NAME $GH_TOKEN"
+echo "***** SET GIT CREDENTIALS *****"
 git config credential.helper "store --file=.git/credentials"
 echo "https://${GH_TOKEN}:@github.com" > .git/credentials
 git config user.name $GIT_NAME
 cd ..
 
-# wipe output repo before build
-echo "wiping output"
+echo "***** WIPING TARGET DIR *****"
 cd output
 git rm * -rf
 cd ..
 
-# Set version from git revision count
+echo "***** SET VERSION IN HTML *****"
 base=$(cat ./layouts/partials/version.html)
 rev=$(git log --oneline | wc -l)
 new="$base.$rev"
-echo "*** dump log"
+echo "***** GIT LOG --ONELINE *****"
 pwd
 git log --oneline
-echo "setting revision to $new"
+echo "***** NEW REVISION: $new *****"
 echo "$new" > ./layouts/partials/version.html
 
 # Build the project. 
-echo "*** building html"
+echo "***** BUILD HTML WITH HUGO *****"
 ./hugo
 
 # Add changes to git.
-echo "*** adding changes to git"
+echo "***** ADD NEW OUTPUT TO TARGET REPO *****"
 cd output
 git add -A
 
@@ -52,9 +49,9 @@ msg="rebuilding site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
-echo "*** commiting: $msg"
+echo "***** COMMITTING: $msg *****"
 git commit -m "$msg"
 
 # push subtree
-echo "*** pushing to gh pages"
+echo "***** PUSH TO TARGEY REPO *****"
 git push
