@@ -27,7 +27,9 @@ cd ..
 
 echo "***** SET VERSION IN HTML *****"
 echo "***** TEST *****"
+cd output
 git rev-list HEAD --count
+cd ..
 base=$(cat ./layouts/partials/version.html)
 rev=$(git log --oneline | wc -l)
 new="$base.$rev"
