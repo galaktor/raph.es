@@ -35,6 +35,7 @@
 
 html {
     font-family: NotCourier, Courier New, monospace;
+    font-size: 1em;
     margin: 0;
     padding: 0;
 }
@@ -67,11 +68,9 @@ p {
 code {
     font-size: 1em;
     font-family: Courier, monospace;
-    font-weight: bold;
 }
 
 pre code {
-    font-weight: normal;
     border: 0.1em dashed black;    
     display: block;
     background-color: #EFEFEF;
