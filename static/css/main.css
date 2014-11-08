@@ -31,11 +31,13 @@
 @font-face {
     font-family: NotCourier;
     src: url(/font/not-courier-sans.woff);
+
 }
 
 html {
     font-family: NotCourier, Courier New, monospace;
-    font-size: 1em;
+    font-size: 1.2em;
+
     margin: 0;
     padding: 0;
 }
@@ -63,6 +65,9 @@ h3 {
 
 p {
     margin-top: 0;
+    letter-spacing: -0.037em;
+    word-spacing: -0.12em;
+    line-height: 1em;
 }
 
 code {
