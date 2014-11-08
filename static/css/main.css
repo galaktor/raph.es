@@ -28,8 +28,13 @@
     }
 }
 
+@font-face {
+    font-family: NotCourier;
+    src: url(/font/not-courier-sans.woff);
+}
+
 html {
-    font-family: Courier New, Courier, monospace;
+    font-family: NotCourier, Courier New, monospace;
     margin: 0;
     padding: 0;
 }
