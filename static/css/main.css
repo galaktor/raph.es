@@ -35,7 +35,7 @@
 }
 
 html {
-    font-family: NotCourier, Courier New, monospace;
+    font-family: Courier New, monospace;
     font-size: 1.2em;
 
     margin: 0;
@@ -65,6 +65,7 @@ h3 {
 
 p {
     margin-top: 0;
+    font-family: NotCourier;
     letter-spacing: -0.037em;
     word-spacing: -0.12em;
     line-height: 1em;
