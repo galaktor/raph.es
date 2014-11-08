@@ -195,6 +195,7 @@ ul.tags li {
 }
 
 div.project-thumb {
+    font-family: Courier, monospace;
     text-align: center;
     margin: 1em 0.2em;
     padding: 0.5em;
