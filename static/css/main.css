@@ -28,18 +28,15 @@
     }
 }
 
-/*
 @font-face {
-    font-family: NotCourier;
-    src: url(/font/not-courier-sans.woff);
+    font-family: Liberation;
+    src: url(/font/liberationmono.woff);
 
 }
-*/
 
 html {
-    font-family: Courier New, monospace;
+    font-family: Liberation, Courier New, monospace;
     font-size: 1.2em;
-
     margin: 0;
     padding: 0;
 }
@@ -67,18 +64,17 @@ h3 {
 
 p {
     margin-top: 0;
-    font-family: Courier New, monospace;
-    line-height: 1.1em;
 }
 
 code {
     font-size: 1em;
-    font-family: Courier, monospace;
+    font-family: Courier New, monospace;
 }
 
 pre code {
     border: 0.1em dashed black;    
     display: block;
+    overflow: auto;
     background-color: #EFEFEF;
     color: black;
     padding: 1em;
