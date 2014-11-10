@@ -28,11 +28,13 @@
     }
 }
 
+/*
 @font-face {
     font-family: NotCourier;
     src: url(/font/not-courier-sans.woff);
 
 }
+*/
 
 html {
     font-family: Courier New, monospace;
@@ -65,10 +67,8 @@ h3 {
 
 p {
     margin-top: 0;
-    font-family: NotCourier;
-    letter-spacing: -0.042em;
-    word-spacing: -0.12em;
-    line-height: 1em;
+    font-family: Courier New, monospace;
+    line-height: 1.1em;
 }
 
 code {
