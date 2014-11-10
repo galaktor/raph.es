@@ -81,7 +81,8 @@ pre code {
     display: block;
     background-color: #EFEFEF;
     color: black;
-    padding: 0.5em;
+    padding: 1em;
+    margin: 0 1em;
 }
 
 p.disclaimer {
