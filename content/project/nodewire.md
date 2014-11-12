@@ -1,5 +1,5 @@
 ---
-ascii: "ascii/na.txt"
+ascii: "ascii/nodes.txt"
 author: "raph"
 date: "2013-05-17T16:50:09+01:00"
 progress: 100
