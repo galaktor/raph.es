@@ -5,7 +5,7 @@ author:    "raph"
 project:   "bags"
 progress:  100
 state:     "done"
-ascii:     "ascii/na.txt"
+ascii:     "ascii/bolt.txt"
 ---
 #These
 are bags
