@@ -5,7 +5,7 @@ draft = true
 title = "This is not the CV you are looking for"
 +++
 {{% anc tldr %}}
-I'm a versatile software engineer, team leader and mentor. In more than a decade I have successfully developed and delivered a large variety of software products. [Currently](#algo) low-latency algorithmic trading systems built on the .NET stack. In my spare time I pursue projects involving linux, electronics and embedded software development.
+I'm a versatile software engineer, team leader and mentor. In over a decade I have successfully developed and delivered a large variety of software products. [Currently](#algo) low-latency algorithmic trading systems built on the .NET stack. In my spare time I pursue projects involving linux, electronics and embedded software development.
 
 {{% anc robots %}}
 ## Warning: Robots not allowed
@@ -13,7 +13,7 @@ If you happen to be a recruitment robot looking to match keywords against an obs
 
 I've been on both ends of the interview process and frankly, I'm not a fan tuning CVs to game recruitment algorithms. Instead, I offer an honest human-readable account of my experience and work ethics.
 
-So in the case that you are a human who is genuinely looking for a talented, passionate and creative addition to their engineering team, please take a few minutes to read on. I think it's only fair considering how much time and effort a candidate is expected to go to before things get interesting. Five minutes spent reading this now helps ensure that follow-up effort is worthwhile for both sides.
+So in the case that you are a human who is genuinely looking for a talented, passionate and creative addition to their engineering team, please take a few minutes to read on.
 
 ### Note
 This is a public web page. To protect the innocent, I've omitted some details below. More information, references and a 'traditional' style CV are available upon request.
@@ -99,7 +99,7 @@ Like many engineers, I'm an introvert. This doesn't mean I'm not a team player. 
 Details and references available upon request.
 
 {{% anc algo %}}
-## *current*: Private financial trading company
+## *current*: Global financial trading company
 as **Senior Software Engineer**
 
 Complex proprietary software and infrastructure to enable in-house algorithmic trading on major exchanges all over the world. Distributed, concurrent, low-latency, near-real-time, event-driven system with primary code base in C#/.NET. Also bits of Python, C/C++ and sophisticated scripts for automation. Strong emphasis on performance as well as safety checks and automated testing.
@@ -115,7 +115,6 @@ Complex proprietary software and infrastructure to enable in-house algorithmic t
  * powershell-based build automation
  * continous integration and deployment
  * concepts of lean software development
-
 
 {{% anc cars %}}
 ## High-traffic eCommerce web platform
@@ -138,15 +137,34 @@ as **&lt;pretty much everything&gt;**
 
 Innovative multiplayer game designed for play without graphics. Cutting-edge haptic feedback controls and three-dimensional audio. Developed pro bono in cooperation with academia for use at local institute for blind and visually impaired players. Custom C/C++ game engine with basic graphics (for development purposes). Integration of industry standard technology to power 3d audio, collision detection and P2P networking.
 
-* Initiated project and devised concept, schedule
-* 
+* Initiated project and organized until completion
+* Point of contact for university, customers, sponsors
+* Conducted UX labs to tune gameplay for target audience
+* Designed and implemented collision detection engine and level editor
+* Represented project at several occasions, conferences
 
 {{% anc dms %}}
-### Premium document management system
-Market-leading data-centric ERP document management system for lawyers and accountants with over 30,000 users. Microsoft stack with TFS integration and SQL Server for storage. Introduced automated unit test integration to the team.
+## Premium document management system
+as **C# Software Developer**
+
+Market-leading data-centric ERP document management system for lawyers and accountants with over 30,000 users. Microsoft stack with TFS integration and SQL Server for storage. Client design based on Microsoft *Compsite UI Application Block* (CAB).
+
+* Port legacy C++/Win32 app to .NET stack
+* Integrate functionality from sibling products
+* Improve database query speeds
+* Develop various tools for crash analysis and automated migration of customer data
+* Advisor on subject of UI design and UX
+* Championed automated unit testing
 
 {{% anc web %}}
-### various web
+## Freelance software developer
+Various projects ranging from web development (static, dynamic, CMS) to highly specialized software, i.e. reverse-engineering of proprietery database schemas for migration into other, vendor-specific formats.
+
+* Liase with customers
+* Gather and document requirements
+* Design and present solutions, schedule
+* Implement, test and deliver projects to deadlines
+* Full ownership and project risk management
 
 # Personal pursuits
 ## wireless retro gamepad
