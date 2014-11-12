@@ -46,6 +46,7 @@ ascii:     "ascii/website.txt"
 
 
 # TODO
+* continuous delivery downside: parallel travis workers -> race condition, not atomic pushes
 * TOC shortcode?
 * GitHub issues for content improvements/changes
 * show revision of source repo as version in subtree html
