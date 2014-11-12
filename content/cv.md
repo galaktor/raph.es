@@ -95,7 +95,7 @@ But to be absolutely clear: I *won't* just go and upload your proprietary code b
 Like many engineers, I'm an introvert. This doesn't mean I'm not a team player. I've a good track record of working well in teams of different sizes and a variety of nationalities. I'm comfortable interacting with other teams, management and customers. I've been told I'm even quite good at it.
 
 {{% anc projects %}}
-# Projects
+# Project examples
 Details and references available upon request.
 
 {{% anc algo %}}
@@ -105,24 +105,41 @@ as **Senior Software Engineer**
 Complex proprietary software and infrastructure to enable in-house algorithmic trading on major exchanges all over the world. Distributed, concurrent, low-latency, near-real-time, event-driven system with primary code base in C#/.NET. Also bits of Python, C/C++ and sophisticated scripts for automation. Strong emphasis on performance as well as safety checks and automated testing.
 
 * primary architect and lead developer on multi-national team of 10
-* designed and developed business-critical next-generation trading system
-* implemented innovative high-throughput concurrent event queues
 * frequent interaction with customers, management, support and other teams
-* championed concepts which later became company standards, i.e.
- * agile team workflow based on Scrum
+* designed and developed business-critical next-generation trading system
+ * scalable, configurable, high-throughput, low-latency requirements
+ * interactive, safe and analysis-friendly
+* championed concepts which would find adoption company-wide, i.e.
+ * agile development workflow
  * test-driven development
  * powershell-based build automation
  * continous integration and deployment
  * concepts of lean software development
 
-## Other previous projects
-{{% anc cars %}}
-### Leading used cars e-commerce website
-Framework design and development for a major e-commerce website. Research, development and optimization of the tools and infrastructure provided to feature developers, QA and operations in order to develop, deploy and maintain business critical high-performance web services and applications.
 
+{{% anc cars %}}
+## High-traffic eCommerce web platform
+as **Senior Software Engineer**
+
+Market leading multi-language platform servicing the automobile market. High volumes of traffic from consumers and businesses in all major European markets. Front-end ASP.NET MVC plus the usual web stack. Complex back-end consisting of inter-connected web services, applications and distributed data stores.
+
+* lead developer on team of 5
+* report directly to CTO and management as well as multiple developer teams
+* implemented agile workflow (scrum-kanban hybrid)
+* prioritize, plan and implement redesign of business critical framework components
+ * continous delivery across multiple environments to hundreds of servers
+ * configuration management
+ * optimized client-side performance
+ * platform-wide dependency management
+ 
 {{% anc game %}}
-### PC game for visually impaired players
-Innovative 3D game designed to be playable without graphics, utilizing cutting-edge haptic feedbackcontrols and three-dimensional audio. Developed pro-bono in cooperation with academia for use at local institute for the blind and visually impaired. C/C++ engine with basic graphics for development. OpenAL for audio. Box2D collision detection.
+## PC game for visually impaired players
+as **&lt;pretty much everything&gt;**
+
+Innovative multiplayer game designed for play without graphics. Cutting-edge haptic feedback controls and three-dimensional audio. Developed pro bono in cooperation with academia for use at local institute for blind and visually impaired players. Custom C/C++ game engine with basic graphics (for development purposes). Integration of industry standard technology to power 3d audio, collision detection and P2P networking.
+
+* Initiated project and devised concept, schedule
+* 
 
 {{% anc dms %}}
 ### Premium document management system

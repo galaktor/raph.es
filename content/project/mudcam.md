@@ -1,10 +1,10 @@
 ---
-date:      "2014-10-06T08:21:11+01:00"
+date:      "2014-11-06T08:21:11+01:00"
 title:     "MudCam HD"
 author:    "raph"
 project:   "mudcam"
-progress:  1
-state:     "research"
+progress:  7
+state:     "mod pi"
 ascii:     "ascii/na.txt"
 ---
 # Materials

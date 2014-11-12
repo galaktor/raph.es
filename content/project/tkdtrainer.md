@@ -1,5 +1,5 @@
 ---
-date:      "2014-10-06T08:21:06+01:00"
+date:      "2014-10-25T08:21:06+01:00"
 title:     "TKD trainer"
 author:    "raph"
 project:   "tkd"
