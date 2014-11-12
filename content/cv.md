@@ -1,91 +1,135 @@
 +++
 date = "2014-09-15T08:09:59+01:00"
+author = "raph"
 draft = true
 title = "This is not the CV you are looking for"
 +++
-I'm a versatile software engineer, team leader and mentor. In more than a decade I have successfully developed and delivered a large variety of software products. More recently (but not at all limited to) complex, distributed, performance-sensitive financial applications centered around the .NET stack. In my spare time I pursue projects involving electronics and embedded software development.
+{{% anc tldr %}}
+I'm a versatile software engineer, team leader and mentor. In more than a decade I have successfully developed and delivered a large variety of software products. [Currently](#algo) low-latency algorithmic trading systems built on the .NET stack. In my spare time I pursue projects involving linux, electronics and embedded software development.
 
+{{% anc robots %}}
 ## Warning: Robots not allowed
-If you happen to be a recruitment robot looking to match keywords against some obscure job profile which you cannot comprehend then I'm afraid you're in for a disapointment. This CV might not compute.
+If you happen to be a recruitment robot looking to match keywords against an obscure job profile then I'm afraid you're in for a disapointment. This CV might not compute.
 
-I've been on both ends of the interview process and frankly, I'm not a fan tuning CVs to game recruitment algorithms.
+I've been on both ends of the interview process and frankly, I'm not a fan tuning CVs to game recruitment algorithms. Instead, I offer an honest human-readable account of my experience and work ethics.
 
-Should you - as I hope - happen to be a human who is genuinely looking for a talented, passionate and creative addition to their engineering team *please read on*.
+So in the case that you are a human who is genuinely looking for a talented, passionate and creative addition to their engineering team, please take a few minutes to read on. I think it's only fair considering how much time and effort a candidate is expected to go to before things get interesting. Five minutes spent reading this now helps ensure that follow-up effort is worthwhile for both sides.
 
-    More detail and references are available upon request.
+### Note
+This is a public web page. To protect the innocent, I've omitted some details below. More information, references and a 'traditional' style CV are available upon request.
 
-# Highlights
+{{% anc ethics %}}
+# Methodology and ethics
+Like other engineers, I love to make stuff. Not many things are as exhilerating as creating something from scratch and releasing it into the wild. When it comes to achieving that, however, opinions among engineers can vary quite a lot.
+
+To give you an impression of how I approach the challenges of engineering, allow me to share some of the opinions I have formed over the years. This could help you gauge how well I might fit into your team and culture.
+
+{{% anc tools %}}
 ## Tools of the trade
-This is where you usually find an ridiculous list of every programming language a developer has ever used for five minutes or longer.
+This is where people typically list every programming language they have ever used for more than five minutes. I'll deliberately spare you the pointless name dropping.
 
 Computers are dumb. It's not hard to tell them what to do. I've done so using many different languages. Strongly typed and dynamic. Compiled and interpeted. Object-oriented, functional and procedural. Various combinations of those.
 
-I prefer unix-like operating systems - specifically GNU/Linux - but any will do. I'm comfortable with any IDE, am pretty fluent in Visual Studio. Personally, I fall more into the emacs camp. 
+I prefer unix-like operating systems - specifically GNU/Linux - but any will do. I'm comfortable with any IDE, am pretty fluent in Visual Studio. When given the choice, I would fall into the emacs camp. 
 
 I've been around long enough to know that having to learn new tools has just as little impact on my productivity as, say, my typing speed (which happens to be pretty decent, by the way). Of course, tools matter. Using the right (or wrong) one  can make all the difference in the world. But *learning* them is rarely the problem.
 
-If I have to, I'll learn how to write lolcode using DVORAK in no time.
+If I have to, I'll learn how to write [lolcode](http://lolcode.org/) in DVORAK in no time.
 
-Much more than the programming language, it's  other things which are specific to your shop which require more time to get used to. The custom in-house software stack. Out-of-date documentation. The development process and risk procedures. Those also happen to be the things *nobody* will bring along when they come in the door.
+Much more than the programming language, it's other, less obvious things at your shop that will take time to get used to. The custom in-house software stack. Out-of-date documentation. The development process and risk procedures.
 
-So don't worry about what language you need me to use. Tell me more about your workflow instead.
+Those also happen to be things *nobody* brings along when they come in the door.
 
+{{% anc design %}}
 ## Form follows function
-Although my degree was specialized in Computer Science, another significant portion was [Communication Dgesign](https://en.wikipedia.org/wiki/Communication_design). Among other things, it heavily influences my perspective on *interfaces*. Not just GUIs but interfaces in general, and the kinds humans interact with in particular. And they're everywhere.
+Although my university degree was specialized in Computer Science, another significant portion of the course was [Communication Design](https://en.wikipedia.org/wiki/Communication_design). What I learned there strongly influences my perspective on *interfaces*. Not just GUIs but interfaces in general, and the kinds humans interact with in particular.
 
-In source code formatting and REST APIs. The names of unit tests and the wording of a user story. In how a project's files are structured. The content of log files when used to debug a crash. 
+Interfaces come in many forms. In source code formatting and REST APIs. The names of unit tests and the wording of a user story. UML diagrams and the structure of project's files. The log files used to debug a crash. 
 
 The end consumer is not the only user of a system. Priorities will vary, but a bit of design can help improve every users' experience as they interact with a product. And as a result improve the product itself.
 
+That being said, I do have an artistic side that rears it's head occasionallly. I love to draw. And when sufficiently inspired, I've been known to create icons, logos, artwork or mouse mats for projects I was involved on.
+
+{{% anc lead %}}
 ## Walking the Walk
 In the software industry my peers tend to be smart people. They won't follow someone who cannot back their Talk with the equivalent amount of Walk. I'm no exception.
 
-I don't like to call myself a "leader". But I do usually end up in some kind of leadership role within the teams I work on. Not because I try to, but because I don't mind making decisions and taking on responsibility when required. Because I set high bar for others, but even higher for myself.
+I don't like to call myself a "leader". But I have a habit of slipping into leadership roles in the teams I am part of. Not because I try to, but because I don't mind making decisions and taking on responsibility when required. Because I set a high bar for myself and others.
 
-With me, I have been told, code reviews and retrospectives aren't always fun. Honest reflection rarely is. But I encourage others to be just as thorough. I *expect* them to be. By pushing each other we will grow as a team.
+With me, I have been told, code reviews and retrospectives can be hard work. Honest reflection is difficult. Growth hurts. But I encourage others to be honest with me the same way. I *expect* them to. I tend to say, conflict is healthy. If it's easy, you're doing it wrong.
 
-I don't explicitly try to lead by example. But by becoming an example, I often end up leading.
+I don't explicitly try to lead by example. But by setting an example, I often end up leading.
 
+{{% anc pragma %}}
 ## Pragmatic
-My attitude towards best practices and patterns has evolved over the years. It used to be that I would cling firmly to the usual literature and enthusiastically spread the word.
+My attitude towards *industry patterns and practices* has evolved in an interesting way. It used to be that I would cling firmly to the usual literature and enthusiastically spread the word.
 
 With experience, however, I have become much more relaxed. Because I learned that those recipies were extracted from specific circumstances and don't always apply to the situation at hand. The reasoning often being "What if someone in the future wants to..."
 
 There is but a thin line between *best practice* and *premature optimisation*.
 
-It's easy to read a book and learn when to apply a tool. Only with experience - and by making mistakes first-hand - can I learn when *not* to.
+It's easy to read a book and learn when you can apply a tool. But only with experience - and by making mistakes first-hand - can you learn when *not* to.
 
+{{% anc agile %}}
 ## Beyond agile
-I'm a proudly **un**certified Scrum Master. *Proud* because since agile methodologies became cool a few years ago, Scrum has turned into a big business. Sold by consultants to enterprise. Implemented as rigid process beneath a blanket of scrum master certificates.
+I'm a proudly **un**certified Scrum Master. *Proud* because after agile methodologies became cool a few years ago, Scrum has become a big business. Sold by consultants to enterprise. Implemented as rigid process beneath a blanket of scrum master certificates.
 
-In my mind, being agile means to focus on what matters and to facilitate communication. How this looks is highly dependant on who you are and what you do.
+Scrum is a just another box of tools which *can* enable teams to work well. When done right, it looks different every time. It *must*, because people are different. Agile by definition cannot be a uniform process. Unfortunately, "it depends" isn't an easy answer, hence doesn't sell very well.
 
-Scrum is a just another box of tools which *can* enable teams to work well. But when done right, it looks different every time. It *must*, because people are different. Agile by definition cannot be a uniform process.
+In my mind, being agile means to focus on what matters and to facilitate communication. Also known as: common sense. How this looks in practice is highly dependant on who you are and what you do.
 
-Agility can only be certified by a working team.
+Agility can only be certified by a working team. 
 
 See also: pragmatic.
 
-## Open-source enthusiast
+{{% anc foss %}}
+## Free as in freedom
 This is going to sound a bit cheesy, but I'm a strong believer in free software and that it makes the world a better place. If you've had a look around my blog, this won't come as much of a surprise. My personal projects - including this cv - are [licensed](/license) accordingly.
 
 I also understand that many projects and businesses cannot and do not work like that. That's fine (and a little bit sad). I encourage my peers to contribute back to FOSS projects they find valuable. And I prefer employers who do so, too.
 
 But to be absolutely clear: I *won't* just go and upload your proprietary code base to GitHub. However, I would certainly be delighted if you asked me to.
 
+{{% anc team %}}
 ## Compatibility
-Like many engineers, I'm an introvert. This doesn't mean I'm not a team player. I've a good track record of working well in teams of different sizes and a variety of nationalities. I'm comfortable interacting with other teams, management and customers.
+Like many engineers, I'm an introvert. This doesn't mean I'm not a team player. I've a good track record of working well in teams of different sizes and a variety of nationalities. I'm comfortable interacting with other teams, management and customers. I've been told I'm even quite good at it.
 
-# Permanent Employments
-## SIG
+{{% anc projects %}}
+# Projects
+Details and references available upon request.
 
-## AS24
+{{% anc algo %}}
+## *current*: Private financial trading company
+as **Senior Software Engineer**
 
-## DATEV
+Complex proprietary software and infrastructure to enable in-house algorithmic trading on major exchanges all over the world. Distributed, concurrent, low-latency, near-real-time, event-driven system with primary code base in C#/.NET. Also bits of Python, C/C++ and sophisticated scripts for automation. Strong emphasis on performance as well as safety checks and automated testing.
 
-# Freelance activities
-## Sonus
-## various web
+* primary architect and lead developer on multi-national team of 10
+* designed and developed business-critical next-generation trading system
+* implemented innovative high-throughput concurrent event queues
+* frequent interaction with customers, management, support and other teams
+* championed concepts which later became company standards, i.e.
+ * agile team workflow based on Scrum
+ * test-driven development
+ * powershell-based build automation
+ * continous integration and deployment
+ * concepts of lean software development
+
+## Other previous projects
+{{% anc cars %}}
+### Leading used cars e-commerce website
+Framework design and development for a major e-commerce website. Research, development and optimization of the tools and infrastructure provided to feature developers, QA and operations in order to develop, deploy and maintain business critical high-performance web services and applications.
+
+{{% anc game %}}
+### PC game for visually impaired players
+Innovative 3D game designed to be playable without graphics, utilizing cutting-edge haptic feedbackcontrols and three-dimensional audio. Developed pro-bono in cooperation with academia for use at local institute for the blind and visually impaired. C/C++ engine with basic graphics for development. OpenAL for audio. Box2D collision detection.
+
+{{% anc dms %}}
+### Premium document management system
+Market-leading data-centric ERP document management system for lawyers and accountants with over 30,000 users. Microsoft stack with TFS integration and SQL Server for storage. Introduced automated unit test integration to the team.
+
+{{% anc web %}}
+### various web
 
 # Personal pursuits
 ## wireless retro gamepad
