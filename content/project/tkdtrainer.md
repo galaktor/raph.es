@@ -5,5 +5,5 @@ author:    "raph"
 project:   "tkd"
 progress:  1
 state:     "idea"
-ascii:     "ascii/na.txt"
+ascii:     "ascii/fist.txt"
 ---
