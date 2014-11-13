@@ -227,7 +227,7 @@ Market-leading data-centric ERP document management system for lawyers and accou
 # Academic background
 ## University of Applied Sciences (Augsburg, Germany)
 * **Course:** Computer Science & Multimedia
-* **Degree**: Diplom-Informatiker FH
+* **Degree**: Diplom-Informatiker FH (CS degree [on par](https://en.wikipedia.org/wiki/Diplom#Comparison_between_Diplom_and_Bologna_Degrees_in_Germany) with MSc)
 * **Rank**: Best 3%
 * Specialized in *Computer Science*
 * Also acquired foundations of *Communications Design*
