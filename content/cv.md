@@ -43,7 +43,7 @@ To give you an impression of how I approach the challenges of engineering, allow
 
 {{% anc tools %}}
 ## Tools of the trade
-This is where people typically list every programming language they have ever used for more than five minutes. I'll deliberately spare you the pointless name dropping.
+This is where people typically list every programming language they have ever used for more than five minutes. I'll deliberately spare you the pointless name dropping. You can find some tools I've used further down where I describe some [projects](#projects) I worked on.
 
 Computers are dumb. It's not hard to tell them what to do. I've done so using many different languages. Strongly typed and dynamic. Compiled and interpreted. Object-oriented, functional and procedural. Various combinations of those.
 
