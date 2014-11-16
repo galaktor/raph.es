@@ -14,7 +14,9 @@ title = "This is not the CV you are looking for"
 
 {{% anc tldr %}}
 # Raphael Estrada
-I'm a versatile Software Engineer, team leader and mentor. In over a decade I have successfully developed and deployed a large [variety](#projects) of software products. [Most recently](#algo) low-latency algorithmic trading systems built on the .NET stack. In my spare time I make *Stuff*, often involving Linux, electronics and embedded software.
+I'm a versatile software engineer, team leader and mentor. In over a decade I have successfully developed and deployed a large [variety](#projects) of products. [Most recently](#algo) low-latency algorithmic trading systems. Pet projects involve wearable electronics, Linux and embedded software.
+
+{{% toc %}}
 
 {{% anc robots %}}
 ## Robots not allowed
@@ -135,6 +137,7 @@ Let me briefly describe some of my past and current projects. Further details an
 * <a href="#gamepad">Wireless retro gamepad</a>
 * <a href="#game">PC game sans graphics</a>
 * <a href="#dms">Document management system</a>
+* <a href="#various">Various electronics/embedded</a>
 
 {{% anc algo %}}
 ## *current*: Global financial trading company
@@ -223,6 +226,14 @@ Market-leading data-centric ERP document management system for lawyers and accou
 
 <a href="#projects">back to top</a>
 
+{{% anc various %}}
+## Various embedded/electronics
+Continuously experimenting with electronics and embedded software development as part of DIY projects during my spare time. Including soldering, wearables, micro-controllers, radio transceivers, ARM architecture, low-level programming...
+
+It's early days for this web-site and I've still to fill in lots of content. Many project details can soon be found on the [projects](/project) page.
+
+<a href="#projects">back to top</a>
+
 {{% anc academia %}}
 # Academic background
 ## University of Applied Sciences (Augsburg, Germany)
@@ -244,10 +255,10 @@ See also: <a href="#design">Form follows function</a>
 {{% anc lang %}}
 ## Languages
 ### German
-fluent
+Native fluency
 
 ### English
-fluent
+Native fluency
 
 ### Spanish:
 Contrary to what my name might suggest, I couldn't order paella if my life depended on it :-(
@@ -256,10 +267,13 @@ Contrary to what my name might suggest, I couldn't order paella if my life depen
 
 {{% anc sports %}}
 ## Sports
-### Taekwondo green belt (ITF)
+### Taekwon-Do green belt (ITF)
 I've won several prizes at national and international competitions.
 
+### Running
+Currently training for a half-marathon in April 2015.
+
 ### Tough Mudder Finisher
-I recently completed the first ever Irish Tough Mudder and plan to take part in more adventure races in the near future.
+Recently completed the first ever Tough Mudder challenge in Ireland.
 
 <a href="#facts">back to top</a>
