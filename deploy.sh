@@ -53,5 +53,5 @@ echo "***** COMMITTING: $msg *****"
 git commit -m "$msg"
 
 # push subtree
-echo "***** PUSH TO TARGEY REPO *****"
+echo "***** PUSH TO TARGET REPO *****"
 git push
