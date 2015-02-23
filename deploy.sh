@@ -18,6 +18,7 @@ echo "***** SET GIT CREDENTIALS *****"
 git config credential.helper "store --file=.git/credentials"
 echo "https://${GH_TOKEN}:@github.com" > .git/credentials
 git config user.name $GIT_NAME
+git config user.email "galaktor@gmx.de"
 cd ..
 
 echo "***** WIPING TARGET DIR *****"
