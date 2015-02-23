@@ -37,7 +37,7 @@ http://www.gnu.org/licenses/licenses.html#GPL
 # Blog text & images
 Unless explicitly stated otherwise, all blog contents is licensed under the
 
-    Creative Commons Attribution-ShareAlike 4.0 International" (CC BY-SA 4.0) license
+    Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) license
 
 version 4.0 *or higher*.
 
@@ -49,4 +49,4 @@ This includes (but is not exclusively limited to):
 ## Latest version
 At any given time the most current release of the license applies. For the newest and currently valid license text visit:
 
-http://creativecommons.org/licenses/by-sa/4.0/
+http://creativecommons.org/licenses/by-nd/4.0/
