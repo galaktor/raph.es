@@ -10,7 +10,7 @@ title: "LCHF bread/cake base"
 wasblogger: false
 slug: "low-carb-high-fat-lchf-cake-bread"
 ---
-Here's a little recipe I use to bake breads and cakes without any flour. The below describes the base which results in a bread-like loaf. By adding spices or sweetener or whatever you like you can easily modify it to your taste, including sweet cake or muffins by throwing in your sweetener of choice.
+Here's a little recipe I use to bake breads and cakes low in carbs and high in fat - without wheat or sugar. The below describes the base which results in a bread-like loaf. By adding spices or sweetener or whatever you like you can easily modify it to your taste, including sweet cake or muffins by throwing in your sweetener of choice. You can even modify it to make pancakes, pizza dough etc.
 
 Most recipes for "low carb bread" you will find online try to be high in protein but low in fat. This here is my adaptation which is still medium to high in protein but also has a high fat content.
 
