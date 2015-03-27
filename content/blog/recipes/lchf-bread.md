@@ -62,7 +62,7 @@ I'll split this up into essential base ingredients and then list some things you
 * ...your imagination is the limit
 
 # Preparation
-Not much science here, just mix it all together, maybe starting with the molten butter, eggs and cream to get them stirred up well. Add the nuts and other ingredients. You will know that the ratio of ingredients is right when the dough is a firm goo - I prefer it to still wobble and move a bit. Be careful to not make it too sticky, especially if you're working with protein powder. 
+Not much science here, just mix it all together, maybe starting with the molten butter, eggs and cream to get them stirred up well. Add the nuts and other ingredients. You will know that the ratio of ingredients is right when the dough is a firm goo - I prefer it to still wobble and move a bit. Be careful to not make it too sticky, especially if you're working with protein powder. Let the dough stand for at least fifteen minutes to let seeds soak and the dough to firm up. Mix a bit every now and then.
 
 Pour into pan lined with baking paper (or form buns with thicker dough if that's what you're going for). Stick into preheated oven at around 160 degrees Celsius.
 
