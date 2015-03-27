@@ -43,6 +43,7 @@ I'll split this up into essential base ingredients and then list some things you
 * 8-10 eggs
 * 100+ml whipping cream
 * 100+g butter
+* 1 teaspoon baking powder
 * 20+g coconut oil
 * 150+g various ground nuts and/or seeds (see above)
 * 20g psyllium husks
