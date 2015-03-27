@@ -53,6 +53,7 @@ The exact amounts depend on the size of your baking pan. I usually use a tray ab
 ## Regarding the nuts
 The eggs and nuts are what give the bread it's form. I use different nuts every time - whatever is around the kitchen - but they should be mostly ground (not necessarily to a flour, although that can help). You can buy them pre-ground or throw them into a food processor and gring yourself - the sky is the limit. Seeds also absorb water so they can help make the bread firm. Leave some chunky bits in if you like that. Here are just some of the things I typically throw in (mostly ground)
 * flax seed
+* coconut (dessicated or flour)
 * chia seeds (whole)
 * pumpkin seeds
 * sunflower seeds
