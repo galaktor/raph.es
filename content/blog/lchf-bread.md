@@ -45,16 +45,18 @@ I'll split this up into essential base ingredients and then list some things you
 * 20g psyllium husks
 
 ## Optional, to taste
-* 100+g Xylitol (optional, for sweet bread or cakes)
-* Protein powder
+* 100+g Xylitol or sweetener of choice (for sweet bread or cakes)
+* Protein powder (for firmer dough, e.g. when making buns)
 * Peanut butter, or other nut butters
 * Cocoa (powder or chunks)
+* Cream cheese
+* Very dark chocolate (at least 85% cocoa)
 * One or more shots of espresso
 * Berries
 * Salt, spices, tiny splash of vinegar (for bread variety)
 * Grated cheese
 * Fried onions
-* Bits of tomato
+* Bits of veggies, e.g. tomato, broccoli, cauliflower
 * Avocado
 * ...your imagination is the limit
 
