@@ -6,6 +6,7 @@ projects:
 tags:
  - "recipes"
  - "lchf"
+ - "health"
 title: "LCHF bread/cake base"
 wasblogger: false
 slug: "low-carb-high-fat-lchf-cake-bread"
