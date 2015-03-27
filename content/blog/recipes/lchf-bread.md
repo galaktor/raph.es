@@ -18,18 +18,19 @@ Most recipes for "low carb bread" you will find online try to be high in protein
 ## Output size
 The exact amounts depend on the size of your baking pan. I usually use a tray about 3cm deep, lined with baking paper (I prefer the re-usable silicon variant). The below makes a full oven-wide and oven-deep tray of about 2-3cm high bread/cake. You will have to try and tweak to get optimal results. 
 
-## Regarding the nuts
-The eggs and nuts are what give the bread it's form. I use different nuts every time - whatever is around the kitchen - but they should be mostly ground (not necessarily to a flour, although that can help). You can buy them pre-ground or throw them into a food processor and gring yourself - the sky is the limit. Seeds also absorb water so they can help make the bread firm. Leave some chunky bits in if you like that. Here are just some of the things I typically throw in (mostly ground)
-* flax seed
+## Nuts and seeds
+The eggs and nuts are what give the bread it's form. I use different nuts every time - whatever is around the kitchen - but they should be mostly ground (not necessarily to a flour, although that can help). You can buy them pre-ground or throw them into a food processor and gring yourself - the sky is the limit. Seeds also absorb water so they can help make the bread firm. Leave some chunky bits in if you like that. Here are just some of the things I typically throw in
+
+* flax seed (whole or ground)
 * coconut (dessicated or flour)
 * chia seeds (whole)
-* pumpkin seeds
-* sunflower seeds
-* sesame seeds
-* peanuts
-* macadamia nuts
-* brazil nuts
-* psyllium husks
+* pumpkin seeds (whole)
+* sunflower seeds (whole)
+* sesame seeds (whole)
+* peanuts (mostly ground)
+* macadamia nuts (mostly ground)
+* brazil nuts (ground)
+* psyllium husks (entire husks)
 
 ## Protein powder
 You can get good results when using protein powder to stiffen up the dough but I tend to use it lightly to not at all, nuts taste better and work fine. For smaller loafs and bread buns you might want to experiment with bigger amounts of protein powder, it helps a lot. Just make sure to get some that tastes neutral and is low in carbs, but high in protein and not full of sugar or other weird chemicals.
