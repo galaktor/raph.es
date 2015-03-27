@@ -27,9 +27,10 @@ The eggs and nuts are what give the bread it's form. I use different nuts every 
 * pumpkin seeds (whole)
 * sunflower seeds (whole)
 * sesame seeds (whole)
-* peanuts (mostly ground)
-* macadamia nuts (mostly ground)
-* brazil nuts (ground)
+* peanuts (chopped or ground)
+* walnuts (chopped or ground)
+* macadamia nuts (chopped or ground)
+* brazil nuts (chopped or ground)
 * psyllium husks (entire husks)
 
 ## Protein powder
