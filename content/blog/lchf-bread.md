@@ -25,6 +25,7 @@ Most recipes for "low carb bread" you will find online try to be high in protein
 # Optional Ingredients
 * 100+g Xylitol (optional, for sweet bread or cakes)
 * Protein powder
+* Peanut butter, or other nut butters
 * Cocoa (powder or chunks)
 * One or more shots of espresso
 * Berries
