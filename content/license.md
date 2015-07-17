@@ -8,7 +8,7 @@ tags = [ "license", "software", "foss" ]
 title = "license"
 +++
 # Author & copyright
-Copyright (c) Raphael Estrada 2011 - 2014.
+Copyright (c) Raphael Estrada 2011 - 2015.
 
 Some rights reserved. You may use the source code and contents of this website under the conditions layed out in the licenses below.
 
