@@ -3,8 +3,8 @@ date:      "2014-11-09T21:00:59+01:00"
 title:     "This website"
 author:    "raph"
 project:   "website"
-progress:  80
-state:     "import blogger"
+progress:  90
+state:     "finalize content"
 ascii:     "ascii/website.txt"
 ---
 # requirements
@@ -52,19 +52,19 @@ ascii:     "ascii/website.txt"
 * show revision of source repo as version in subtree html
 * embed history/versions of a given content?
 * highlight currently selected menu section
-* auto-deploy from tavis to github pages
+* ~~auto-deploy from tavis to github pages~~
 * stale projects where date > x
 * highlight latest blog posts, projects
 * ~~shrinkify pngs for project, way to large~~
 * ~~watermark images~~
-* add other projects, i.e. software ones
+* add project pages, i.e. software ones
  * dansguardian
- * nodewire
- * gogre3d, llcoi
- * gorf24
+ * ~~nodewire~~
+ * ~~gogre3d, llcoi~~
+ * ~~gorf24~~
  * more
 * next/prev content by date
 * style code snippets better
-* license page  "/license"
+* ~~license page  "/license"~~
 * new domain with DNS config
-* cv
+* ~~cv~~
