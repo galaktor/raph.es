@@ -58,10 +58,3 @@ Most or all of the above could also be said about smoking. If you don't smoke, y
 I'm *that guy* who orders a pot of tea at the bar. I'm don't do so because I *have* to drive. I'm the dedicated driver because I don't drink.
 
 Get over it.
-
-# Update (2015-07-17):
-I just found a recent xkcd comic which happens to go with this post remarkably well.
-
-{{% fig caption="xkcd.com: **Beer**" attr="Randall Munroe" attrlink="http://xkcd.com/1534/" %}}
-{{% img src="http://imgs.xkcd.com/comics/beer.png"  link="http://xkcd.com/1534/" alt="Mmmm, this is such a positive experience! I feel no social pressure to enjoy it at all!" widht="400em" %}}
-{{% /fig %}}
