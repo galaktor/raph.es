@@ -11,7 +11,9 @@ slug = "retropie-game-emulator-kids-raspberry-pi"
 +++
 I often behave like a I am still just a kid, only with more than five bucks allowance. As such, I somtimes spend unreasonable money on gimmicks and gadgets based solely on the awesome things I *imagine* I can use them for.
 
-TODO PIC KID IN CANDY SHOP
+{{% fig caption="Steam sales are the worst." attr="Allie Brosh" attrlink="http://hyperboleandahalf.blogspot.ie/2010/06/this-is-why-ill-never-be-adult.html" %}}
+{{% img src="/static/img/projects/retropi/buy-things_thumb.png"  link="/static/img/projects/retropi/buy-things.png" alt="When I go into a buying rage for no mature reason whatsoever." widht="400em" %}}
+{{% /fig %}}
 
 Reality catches up eventually, and in one such case I found myself with several spare Raspberry Pi computers in my Command Centre (aka "where we hang the clothes to dry").
 
