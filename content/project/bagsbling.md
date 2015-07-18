@@ -7,6 +7,5 @@ progress:  100
 state:     "done"
 ascii:     "ascii/bolt.txt"
 ---
-#These
-are bags
+As a first wearables project we geeked up the kids' schoolbags by adding animated LED motifs to them. One red/yellow heart and one blue/white flashing lightning bolt.
 
