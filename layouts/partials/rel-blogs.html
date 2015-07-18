@@ -1,0 +1,9 @@
+{{ $related := index .Site.Taxonomies.projects .Params.project }}
+{{ if $related }}
+  <h1>More in the blog:</h1>
+  <ul class="blogs">
+  {{ range $related }}
+    {{ .Page.Render "li" }}
+  {{ end }}  
+  </ul>
+{{ end }}
