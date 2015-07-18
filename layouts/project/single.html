@@ -4,12 +4,6 @@
   {{ partial "top.html" . }}
   <h1>{{ .Title }} <span class="metadata">&lt;{{ .Params.state }}&gt;</span></h1>
   <p>{{ .Content }}</p>
-  <h1>More in the blog:</h1>
-  {{ $related := index .Site.Taxonomies.projects .Params.project }}
-  <ul class="blogs">
-  {{ range $related }}
-    {{ .Page.Render "li" }}
-  {{ end }}  
-  </ul>
+  {{ partial "rel-blogs.html" . }}
   {{ partial "foot.html" . }}
 </body>
