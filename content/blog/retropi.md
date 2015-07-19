@@ -25,9 +25,9 @@ Born in the early eighties, I am among the first generation of kids to grow up w
 {{% img src="/img/project/retropi/cryengine_thumb.jpeg" link="/img/project/retropi/cryengine.jpeg" width="400em" %}}
 {{% /fig %}}
 
-Kids today grow up with flashy graphics and epic soindtracks. Technically, they are amazing. But gameplay is not always on par. Older games had to work with many more constraints. And constraints fosters creativity in important ways.
+Kids today grow up with flashy graphics and epic soundtracks. Technically, they are amazing. But gameplay is not always on par. Older games had to work with many more constraints. And constraints foster creativity in important ways.
 
-Thus, finding good modern games for kids is not as easy as you might expect. Most of the plethora of mobile games are full of ads, in-app purchases or are designed around a single mind-numbing yet addictive mechanic for more generic appeal. Or all of the above.
+Thus, finding good modern games for kids is not as easy as you might expect. Most of the plethora of mobile games are full of ads, in-app purchases or are designed around a single mind-numbing, yet addictive mechanic for more generic appeal. Or all of the above.
 
 Some notable exceptions exist, of course. Like *Minecraft*, which ironically was never designed with kids in mind but turns out to be mind-boggingly successful with young players. Parents all over the world try to understand their childrens' fascination with Minecraft.
 
@@ -35,7 +35,7 @@ Some notable exceptions exist, of course. Like *Minecraft*, which ironically was
 {{% img src="/img/project/retropi/stampy_thumb.jpeg" link="/img/project/retropi/stampy.jpeg" width="400em" %}}
 {{% /fig %}}
 
-Console games for kids are not much better. Most are either badly executed, too difficult or simply not appropriate for smaller kids. Many of the best console games seem innocent enough but have simple violent mechanics at their core. They are made by and made for cash-strapped former children like myself, not actual children.
+Console games for kids are not much better. Most are either badly executed, too difficult or simply not appropriate for smaller kids. Many of the best console games seem innocent enough but have violent mechanics at their core. They are made *by* and made *for* cash-strapped ex-children like myself, not *actual* children.
 
 One of my offspring is still traumatized from that time we tried out the demo of *Castle Crashers*. Granted, I could have noticed the PEGI 18, but for fuck's sake.
 
