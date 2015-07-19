@@ -1,6 +1,6 @@
 +++
 author = "raph"
-date = "2015-10-17T18:55:48+01:00"
+date = "2015-07-17T18:55:48+01:00"
 projects = []
 series = []
 tags = [ "health", "lchf", "rants", "xkcd" ]
