@@ -6,7 +6,7 @@ series = []
 tags = [ "linux", "parenting", "kids", "pi", "gaming" ]
 title = "Why I made a retro game console for the kids"
 wasblogger = false
-draft = true
+draft = false
 slug = "retropie-game-emulator-kids-raspberry-pi"
 +++
 I often behave like a I am still just a kid, only with more than five bucks allowance. As such, I somtimes spend unreasonable money on gimmicks and gadgets based solely on the awesome things I *imagine* I can use them for.
