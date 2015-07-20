@@ -1,8 +1,5 @@
 sudo: false
 
-before_install:
-  - apt-get update -y && apt-get install wget
-
 env:
   global:
   - secure: "G4frRAyffxbiSCyQ21Fo2R5o2xWlQjGO4GzudOx76apIQgA5ELmQpfaKyUBwfrdIFozFONLKPyBnEW1dySaQqAoIcspLYPGqZFjNGpNHY0qu5JV9GAgjhm7azeO5XSxvZPAYGoCXfvP87UdnumeVCdaWfRiZBTqPUHuxcAO5up8="
