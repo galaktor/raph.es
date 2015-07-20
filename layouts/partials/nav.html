@@ -1,7 +1,7 @@
 
 <div id="menu">
   <ul>
-    {{ range .Site.Menus.main }}<li><a href="{{ .Url }}">&#47;{{ lower .Name }}</a></li>{{ end }}
+    {{ range .Site.Menus.main }}<li><a href="{{ .URL }}">&#47;{{ lower .Name }}</a></li>{{ end }}
   </ul>
 </div>
 

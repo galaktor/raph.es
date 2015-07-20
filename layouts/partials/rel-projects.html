@@ -2,7 +2,7 @@
   <h2>Related projects</h2>
   {{ $blog := . }}
   <ul class="blogs">
-  {{ range where .Site.Recent "Section" "project" }}
+  {{ range where .Site.Pages "Section" "project" }}
     {{ $proj := . }}
     {{ range $blog.Params.projects }}
       {{ if eq . $proj.Params.project }}
