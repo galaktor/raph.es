@@ -1,5 +1,7 @@
+sudo: false
+
 before_install:
-  - sudo apt-get update -y && sudo apt-get install wget
+  - apt-get update -y && apt-get install wget
 
 env:
   global:
