@@ -43,7 +43,11 @@ One of my offspring is still traumatized from that time we tried out the demo of
 {{% youtube BsLHvg93bX4 %}}
 {{% /fig %}}
 
-~~Old~~ Retro games, on the other hand, couldn't even be scary if they tried. And they did. Granted, Doom scared the shit out of me at the time, but even that is comically dated by today's standards. With literally thousands of games to choose from, very low system requirements, and technical limitations so severe that catchy gameplay is almost guaranteed, retro games make the perfect choice for kids.
+I won't pretend to believe that the majority of games - new or old - don't have destructive mechanics at their centre. Shoot, beat and kill-em-ups have been around since day one. But with their blocky graphics and chirpy sounds, ~~old~~ retro games couldn't even be scary if they tried.
+
+And how they tried. Doom, for instance, scared the shit out of me at the time. But even that is comically dated by today's standards. The more immersive modern games become, the more I feel they can have unintended negative effects, particulaly on young brains. The next wave of Virtual Reality gizmos is on the horizon, and you might want to hold off from plugging your kids into them for just a little while, just sayin'.
+
+With literally thousands of games to choose from, very low system requirements, and technical limitations so severe that catchy gameplay is almost guaranteed, retro games make the perfect choice for kids.
 
 So, we have a retro console using a Pi, and I will tell you how we did it. In a later post. See you there!
 
