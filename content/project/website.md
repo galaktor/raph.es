@@ -46,7 +46,7 @@ ascii:     "ascii/website.txt"
 
 
 # TODO
-* continuous delivery downside: parallel travis workers -> race condition, not atomic pushes
+* ~~continuous delivery downside: parallel travis workers -> race condition, not atomic pushes~~ "fixed" by limiting travis to one single concurrent build at a time.
 * TOC shortcode?
 * GitHub issues for content improvements/changes
 * show revision of source repo as version in subtree html
