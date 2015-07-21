@@ -18,31 +18,39 @@ A steady stream of superhero flicks keeps tearing up the box office and whatever
 {{% img src="/img/blog/marvel-phase3.jpeg" alt="Marvel MCU phase 3  movie announcements until 2019" link="/img/blog/marvel-phase3.jpeg" width="500em" %}}
 {{% /fig %}}
 
-Nerdstalgia aside, I'm also a parent. And as such I am very critical of the media I expose my children to. There's a lot of junk out there targetted at children. I won't go into the details of rampant sexism and capitalist brainwashing present in so-called chilren's entertainment - although I probably will expand on that in later posts. Suffice to say for now that I have an aggressive bullshit filter for things I let through to my children's sensitive brains.
+Nerdstalgia aside, I'm also a parent. And as such I am very critical of the media I expose my children to. There's a lot of junk out there targetted at children. I will try not to get caught up in the details of rampant sexism and capitalist brainwashing present in so-called chilren's entertainment - although I probably will expand on that in later posts. Suffice to say for now that I have an aggressive bullshit filter for things I let through to my children's sensitive brains.
 
 # Fear not!
 
-Not all is lost. Some people are making really good, progressive stuff, very suitable for - not just - children. I'd like to highlight one such gem now.
+Not all is lost. Some people are making really good, progressive comics, very suitable for children. I'd like to highlight one such gem right now.
 
-*[Zita The Spacegirl](http://zitaspacegirl.com)* began as a [web comic](http://zitaspacegirl.com/webcomics) by [Ben Hatke](http://www.benhatke.com), which he later turned it into a [graphic novel](http://www.goodreads.com/book/show/8879121-zita-the-spacegirl) trilogy telling her origin story.
+*[Zita The Spacegirl](http://zitaspacegirl.com)* began as a [web comic](http://zitaspacegirl.com/webcomics) by [Ben Hatke](http://www.benhatke.com), which he later turned into a [graphic novel](http://www.goodreads.com/book/show/8879121-zita-the-spacegirl) origin story trilogy.
 
-The story starts with Zita's friend falling into a wormhole of some sort. And it's Zita's fault. That's some serious drama right off the bat. Just because it's a story for children, doesn't mean it has to be fluffy kittens, right?
+Zita's adventure begins with her best friend Joseph falling into a wormhole of some sort - and it's *Zita's* fault. That's some serious drama right off the bat. Just because it's a story for children, doesn't mean it has to be fluffy kittens, right?
 
-The plot features action, high stakes and sacrifice, but is not over-the-top gruesome or violent. It's fresh and not at all as predictable as many others are, especially compared to all the other stories "for kids". It never gets too dark, thanks to Hatke's excellent organic hand-drawn style, lighting and colouring.
+The plot that develops over the next three books has action, high stakes and sacrifice, but is not over-the-top gruesome or violent. It's fresh and not at all as predictable as most books in the children's section would be. Hatke's excellent organic hand-drawn style, lighting and colouring keep even the darkest moments light enough to avoid trauma.
 
 {{% fig caption="The stakes are high, even on page one." attr="Ben Hatke" attrlink="http://www.benhatke.com" %}}
 {{% vimeo 16484045 %}}
 {{% /fig %}}
 
-Besides having cool visuals, the plot is what really stands out. It avoids most typical tropes you'd usually find in mainstream comics. The protagnonists deal with difficult topics such as responsibility, sacrifice and even slavery in a gentle yet gripping way.
+Besides having cool visuals, the plot is what really stands out. It avoids most of the stereotypical tropes of mainstream comics. Hatke handles difficult topics like responsibility, tolerance, sacrifice or slavery in a sensitive, tasteful way.
 
-The main protagonists have complex relationships, for instance Zita and her friend Josef, who gets kidnapped by aliens because Zita was being careless. That guilt become part of the overall trilogy's plot.
+The main protagonists have complex relationships, for instance Zita and her friend Joseph, who gets kidnapped by aliens because Zita was having a reckless moment - something children do all the time.
 
-But maybe even more interesting are all the details Hatke has given the world and it's many inhabitants. Some characters show up for just a few panels or pages, yet remain memorable in their own ways.
+But maybe even more interesting are all the details Hatke has given the world and it's many inhabitants. Some memorable characters show up for just a few panels or pages.
 
 PIC EXAMPLE MEMORABLE LITTLE CHARACTER
 
-One of my favorite things about Zita is that none of the characters are overly sexualized, most notably obviously Zita.
+One of my favorite things about Zita is that none of the characters are overly sexualized.
+
+Zita herself
+
+Maldrigal
+
+Males, too
+
+Two males, two females, diversity, respect.
 
 This might seem like a strange thing to point out, especially since she's a *young girl*. But if you've looked at any female character in the big franchises - even young ones - you'll notice a disturbing tendency among artists to exagerate their female anatomies far beyond comfortable territory.
 
