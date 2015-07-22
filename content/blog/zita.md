@@ -7,11 +7,6 @@ series = []
 tags = [ "parenting", "books", "kids" ]
 title = "the world needs zita the spacegirl"
 +++
-# tl;dr
-Your children *need* Zita The Spacegirl.
-
-# Heroes, heroes, everywhere
-
 A steady stream of superhero flicks keeps tearing up the box office and whatever is left of television programmes, with no [end](https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Future) in [sight](https://en.wikipedia.org/wiki/DC_Comics%27_shared_universe_films#Future). For kids trapped inside adult bodies like me, this is the best time to be alive.
 
 {{% fig caption="Enjoy the comic craze while it lasts" attr="Modern Myth Media" attrlink="http://www.modernmythmedia.com/2014/11/marvel-releases-phase-3-timeline-poster" %}}
@@ -22,74 +17,78 @@ Nerdstalgia aside, I'm also a parent. And as such I am very critical of the medi
 
 # Fear not!
 
-Not all is lost. Some people are making really good, progressive comics, very suitable for children. I'd like to highlight one such gem right now.
+Not all is lost. Some people are making really good, progressive comics (also known by their grown-up name: *graphic novels*). I'd like to highlight one such gem right now.
 
-*[Zita The Spacegirl](http://zitaspacegirl.com)* began as a [web comic](http://zitaspacegirl.com/webcomics) by [Ben Hatke](http://www.benhatke.com). Hatke later set out to tell Zita's origin story in the form of a [graphic novel](http://www.goodreads.com/book/show/8879121-zita-the-spacegirl) trilogy.
+{{% fig %}}
+{{% img class="inline" src="/img/project/zita/spacegirl1.jpeg" alt="Cover of the graphic novel Zita The Spacegirl" width="220em" link="/img/project/zita/spacegirl1.jpeg" %}}
+{{% img class="inline" src="/img/blog/graphic-novel.png" alt="Dr. Evil from the film Austin Powers making quotes with his fingers, saying Graphic Novel" link="/img/blog/graphic-novel.png" width="410em" %}}
+{{% /fig %}}
+
+*[Zita The Spacegirl](http://zitaspacegirl.com)* began as a [web comic](http://zitaspacegirl.com/webcomics) by [Ben Hatke](http://www.benhatke.com). Hatke later set out to tell Zita's origin story in the form of a paperback [trilogy](http://www.goodreads.com/book/show/8879121-zita-the-spacegirl).
 
 Zita's adventure begins with her best friend Joseph being kidnapped by a creepy alien thing - and it's *Zita's* fault. That's some serious drama right off the bat. Just because it's a story for children, doesn't mean it has to be fluffy kittens, right?
 
-The events spanning the books have it all: action, spaceships, giant mice,  high stakes and sacrifice. But is never gruesome or overly violent. It's never as predictable as most books in the children's section would be.
+There's spaceships, lasers and explosions - albeit never excessively violent. The plot is not as ~~lame~~ predictable as many other books in the children's section would be.
 
-The illustrations are excellent. Hatke knows how to do composition and lighting to great effect. Even though space is usually a dark place, the story is mostly bright and colourful. The occasional dark moments remain light-hearted enough to keep nightmares at bay.
+The illustrations are excellent. Hatke obviously knows how to do composition and lighting, and uses his skills well. Space is a dark place, yet the story is mostly bright and colourful. The odd dark moment never crosses into nightmare-inducing territory. The story has depth, but never gets too complicated and doesn't need much explaining in order for kids to follow along.
 
-I personally love the slightly rough art style. Why hide the fact that this was drawn by hand? Making kids realize that these things are made by people with a pen and some paper shows them that with soem practice, they could do something like it, too. The sketches included at the end of each book show how much fun and love Hatke put into the works, for adults and kids to appreciate.
+Writing, drawing, inking, lettering - Hatke did virtually everything himself, and mostly by hand. Especially the sketchy line art gives the story a personal touch, making no attempt to hide that this story is being told by a human being. And that with some practice, kids could do something like it, too. The sketches included at the end of each book further show how much fun (and work) Hatke poured into them, for adults and kids to appreciate.
 
 {{% fig caption="The stakes are high, even on page one." attr="Ben Hatke" attrlink="http://zitaspacegirl.com" %}}
 {{% vimeo 16484045 %}}
 {{% /fig %}}
 
-# More than just art
-Besides being easy on the eyes, the plot is what really makes Zita special. Hatke avoids most of the overused tropes known from mainstream comics. He handles difficult topics like responsibility, tolerance, sacrifice or slavery in sensitive, tasteful ways. The story never gets to complicated and doesn't need much explaining for kids to follow along.
+# Subliminal messages
+Besides being easy on the eyes, what really makes the Zita books special is the characters. They are fresh, loveable and relatable. Hatke avoids most of the overused tropes we have all become so used to from mainstream comics. He tackles difficult topics such as responsibility, tolerance, sacrifice - even *slavery* - in sensitive, tasteful ways.
 
-The characters are loveable and relatable. Also very interesting are all the tiny details scattered throughout the books, giving a charming sense of authenticity to the world and it's many inhabitants. Some characters show up in just a few panels, yet still manage to be memorable.
+The world is full of details and feels organic and alive. Many characters appear in just a few panels, yet have distinct memorable personalities.
 
 PIC EXAMPLE MEMORABLE LITTLE CHARACTER
 
-# Just a quick rant
-One of my favorite things about the Zita books is that none of the charactes are overly sexualized.
+PIC ZITA SOLD AS SLAVE
 
-Zita herself is a young girl, so there's something really *wrong* about having to point this out at all. Girls grow up seeing sexed-up females virtually everywhere, and sadly toys and media for children are no exception. Comics are merely one of the more obvious cases where female as well as male bodies are exaggerated beyond belief, creating unrealistic role models for girls and boys alike.
+## Diversity
+One pet hate of mine is when entertainment - especially they kind supposedly made for children - deploys and perpetuates anti-social sterotypes. It's taking creative shortcuts, resulting not just in less interesting stories but also sending outdated and essentially *harmful* messages to children.
+
+Comics in particular have a terrible track record when it comes to diversifying race and gender. The good news is that Zita fairs very well in both regards. The four central humanoid protagonists consist of two males and two females. Three of them are white. But considering how all the other characters are literally *aliens* - many of whom play important roles in the story - there is certainly no shortage of racial diversity within the Zita universe. Interestingly, all antagonists are aliens. Hatke successfully dodged *that* bullet.
+
+> "I tend to write adventurous female protagonists, but that’s probably **because it’s what I’m surrounded by** in my day-to-day life. I have four kick-ass daughters and a badass lady friend. If I need inspiration I just watch what they’re doing.”
+>
+> <cite>--Ben Hatke; @[flickeringmyth.com](http://www.flickeringmyth.com/2014/11/girl-power-ben-hatke-talks-return-zita-spacegirl.html)</cite>
+
+## Objectification (or lack thereof)
+One of my favorite things about the Zita books is that none of the charactes are overly sexualized. It's one of those things you suddenly become aware of when you are the father to daughters. Everywhere girls look, they are presented with incredibly unrealistic and unnatural images of women.
+
+PIC 90s XMEN WOMEN, UNPRACTICAL CLOTHES. PSYLOCKE?
+
+
+Zita has no exaggerated physical features, she looks like the normal young girl that she is. It's disturbing that I even have to point that out. Her interactions with other characters have nothing to do with her being a girl. For instance, her relationship to Joseph is never romantic. It's a friendship where one person just happens to be female.
 
 PIC MONSTER HIGH
 
-Exhibit B: Maldrigal, the second female protagonist, is an adult. A lesser artist might have created her as a one-dimensional love interest of Piper and left it at that. Hatke, however, does better. What we get resembles more a Zoe from Firefly than Xena.
+OK, so Zita is a little girl. Let's *pretend* for a moment that even the most twisted, misogynistic artist wouldn't have objectified this character.
 
-REVIEW THIS
-Exhibit B: *Madrigal*, a central supporting character, is an mixed-race, mysterious, tough and strong-minded woman who - in the hands of a lesser artist - would have easily been cast into the hyper-sexual amazonian exotic pornstar mold that is so often used.
+Exhibit B: Madrigal, the adult female. She's a badass pirate, and a lesser artist could have easily portrayed here as a scantily-clad space babe. The Madrigal Hatke gives us is mature and attractive, but not because she wears tight/slutty/barely any clothes. Instead, what she wears is a reflection of her own character. She wears comfortable, practical clothes. She has tatoos. It's convincingly the style of a confident woman who likes to express herself, as opposed to the premature wet dream of some white male artist.
 
-TODO BETTER EXAMPLE THAN XENA
+In the spirit of equality, I find it important to emphasize that it's not just the female characters which are free of the usual comic stereotypes. The males are *not* testosterone-drenched muscle-packed warriors, but normal, flawed human beings with feelings. Joseph initially needs saving by Zita, a welcome twist on the Damsel In Distress trope. Piper has no discernable super powers other than his intelligence and paranoia. And get this: his weapon of choice is a flute. Not a gun. Not a sword. *Music*. The language of the soul.
 
-> "it’s impossible not to sexualise [comic] characters"
+
+> "it’s impossible **not** to sexualise [comic] characters"
 > 
 > <cite>Axel Alonso; Marvel editor-in-chief; src: [The Telegraph](http://www.telegraph.co.uk/women/womens-life/11071016/Marvel-comic-book-editor-I-wont-say-no-to-sexy-female-superheroes.-Comics-still-need-to-be-naughty-and-fun.html)</cite>
 
-PIC SEXUALIZED MARVEL CHARACTER
-
-INTERVIEW HATKE ON GIRL POWER
-http://www.flickeringmyth.com/2014/11/girl-power-ben-hatke-talks-return-zita-spacegirl.html
-
-
-
-On the race-and-gender scale (tm), the books tip a bit heavy on the male/caucasian side, but overall it's rather balanced out. Just consider all the aliens of undefined race or gender. In general, the big plus is that females are independant, powerful and not just defined by their relationship to males in the story. The stuff decent role models are made of.
-
-Heck, Zita sets out to save her male friend, and not the other way around. And did I mention that it's her fault, too? I find that highly unusual, in a good way.
-
 # <3
-Love and friendship are at the heart of the story.
+Let me conclude by saying that I really think the world needs more comics like Zita The Spacegirl. Not only because it scores high marks on the relevant gender/diversity scales. But because, at it's core, it's about love and respect.
 
 TODO PIC web comic about love
 http://zitaspacegirl.com/webcomics-2/
 
-Good role model for girls. See also: cosplay.
+Hatke has hinted that there might be more Zita comics in the future. If so, I cannot wait to throw my money at it. I also really hope that Zita will inspire other authors to make high quality, progressive graphic novels which are compatible with adults' and childrens' minds alike.
 
-Presents a decent female character to boys. Also, male protagonists are not overblown muscle monsters (except for maybe strong-strong).
+Part of me would really love to see this made into a film. Then again, it feels like Zita is just perfect as a graphic novel, and any form of reinterpretation might do more harm than good. It *could*, however, make for an awesome video game.
 
-Outtakes and making-of snippets at the end of each book.
+From a more practical point of view, you can get the complete story in three inexpensive books. This means you can introduce children to a comic that has a beinning, a middle and an end without much trouble. Sure beats trying to catch up on literally *hundreds* of inherently inconsistent issues of Spider-Man.
 
-Concludes as a trilogy, making it easy to get all books and have a round story as opposed to Marvel or DC where you would need to read four million comics with zero continuity to catch up.
-
-Part of me would really love to see this made into a film. Then again, it feels like Zita is just perfect as a graphic novel.
-
-It would however make for an excellent video game. I might give the idea a shot with the kids, seems like an achievable way to learn some game design chops.
-
-Support less-mainstream comic artists and publishers.
+> "I’m hoping to one day create a second trilogy [and some short stories]. However Zita will be a few years older when we see her again."
+>
+> <cite>--Ben Hatke; @[flickeringmyth.com](http://www.flickeringmyth.com/2014/11/girl-power-ben-hatke-talks-return-zita-spacegirl.html)</cite>
