@@ -1,6 +1,6 @@
 +++
 author = "raph"
-date = "2015-07-21T14:26:47+01:00"
+date = "2015-07-23T14:26:47+01:00"
 draft = true
 projects = [ "zita" ]
 series = []
@@ -57,13 +57,13 @@ Comics in particular have a terrible track record when it comes to diversifying 
 > <cite>--Ben Hatke; @[flickeringmyth.com](http://www.flickeringmyth.com/2014/11/girl-power-ben-hatke-talks-return-zita-spacegirl.html)</cite>
 
 ## Objectification (or lack thereof)
-One of my favorite things about the Zita books is that none of the charactes are overly sexualized. It's one of those things you suddenly become aware of when you are the father to daughters. Everywhere girls look, they are presented with incredibly unrealistic and unnatural images of women.
+One of my favorite things about the Zita books is that none of the characters are overly sexualized. It's one of those things you suddenly become aware of when you are the father to daughters. Everywhere girls look, they are presented with incredibly unrealistic and unnatural images of women.
 
 {{% fig caption="This is not how ninjas dress" attr="flickeringmyth.com" attrlink="http://www.flickeringmyth.com/2015/06/olivia-munn-shows-off-psylockes-sword-skills-for-x-men-apocalypse.html/psylocke" %}}
 {{% img src="/img/blog/psylocke.jpeg" alt="Marvel ninja Psylocke dressed in tight latext" width="400em" link="/img/blog/psylocke.jpeg" %}}
 {{% /fig %}}
 
-Zita has no exaggerated physical features, she looks like the normal young girl that she is. It's disturbing that I even have to point that out. Her interactions with other characters have nothing to do with her being a girl. For instance, her relationship to Joseph is never romantic. It's a friendship where one person just happens to be female.
+Zita's female physique is not exaggerared, she just looks like a normal girl. It's disturbing that I even have to point that out. Her interactions with other characters have nothing to do with her being a girl. For instance, her relationship to Joseph is never romantic. It's a friendship where one person just happens to be female.
 
 {{% fig caption="My best guess is they starved to death." attr="Wikipedia" attrlink="https://en.wikipedia.org/wiki/Monster_High#/media/File:Monster_High_dolls.jpg" %}}
 {{% img src="/img/blog/monster-high.jpeg" alt="Monster high dolls by Mattel" link="/img/blog/monster-high.jpeg" width="400em" %}}
@@ -75,13 +75,12 @@ Exhibit B: Madrigal, the adult female. She's a badass pirate, and a lesser artis
 
 In the spirit of equality, I find it important to emphasize that it's not just the female characters which are free of the usual comic stereotypes. The males are *not* testosterone-drenched muscle-packed warriors, but normal, flawed human beings with feelings. Joseph initially needs saving by Zita, a welcome twist on the Damsel In Distress trope. Piper has no discernable super powers other than his intelligence and paranoia. And get this: his weapon of choice is a flute. Not a gun. Not a sword. *Music*. The language of the soul.
 
-
 > "it’s impossible **not** to sexualise [comic] characters"
 > 
 > <cite>Axel Alonso; Marvel editor-in-chief; src: [The Telegraph](http://www.telegraph.co.uk/women/womens-life/11071016/Marvel-comic-book-editor-I-wont-say-no-to-sexy-female-superheroes.-Comics-still-need-to-be-naughty-and-fun.html)</cite>
 
 # <3
-Let me conclude by saying that I really think the world needs more comics like Zita The Spacegirl. Not only because it scores high marks on the relevant gender/diversity scales. But because, at it's core, it's about love and respect.
+Let me conclude by saying that I really think the world needs more comics like Zita The Spacegirl. Not only because it passes the [Bechdel Test](https://en.m.wikipedia.org/wiki/Bechdel_test). But because, at it's core, it's about love and respect.
 
 {{% fig caption="(click for full strip)" attr="Ben Hatke" attrlink="http://zitaspacegirl.com/webcomics-2/" %}}
 {{% img src="/img/project/zita/zita-love.jpeg" link="/img/project/zita/zita-love-full.jpeg" alt="Zita bridges language barrier with alien though hugging" width="500em" %}}
