@@ -63,7 +63,7 @@ One of my favorite things about the Zita books is that none of the characters ar
 {{% img src="/img/blog/psylocke.jpeg" alt="Marvel ninja Psylocke dressed in tight latext" width="400em" link="/img/blog/psylocke.jpeg" %}}
 {{% /fig %}}
 
-Zita's female physique is not exaggerared, she just looks like a normal girl. It's disturbing that I even have to point that out. Her interactions with other characters have nothing to do with her being a girl. For instance, her relationship to Joseph is never romantic. It's a friendship where one person just happens to be female.
+Zita's female physique is not exaggerarated in any sexual way, and it's bizzare that I even have to point that out. Her interactions with other characters have nothing to do with her being a girl. For instance, her relationship to Joseph is never romantic. It's a friendship where one person just happens to be female.
 
 {{% fig caption="My best guess is they starved to death." attr="Wikipedia" attrlink="https://en.wikipedia.org/wiki/Monster_High#/media/File:Monster_High_dolls.jpg" %}}
 {{% img src="/img/blog/monster-high.jpeg" alt="Monster high dolls by Mattel" link="/img/blog/monster-high.jpeg" width="400em" %}}
