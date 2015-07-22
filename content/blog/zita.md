@@ -59,12 +59,15 @@ Comics in particular have a terrible track record when it comes to diversifying 
 ## Objectification (or lack thereof)
 One of my favorite things about the Zita books is that none of the charactes are overly sexualized. It's one of those things you suddenly become aware of when you are the father to daughters. Everywhere girls look, they are presented with incredibly unrealistic and unnatural images of women.
 
-PIC 90s XMEN WOMEN, UNPRACTICAL CLOTHES. PSYLOCKE?
-
+{{% fig caption="This is not how ninjas dress" attr="flickeringmyth.com" attrlink="http://www.flickeringmyth.com/2015/06/olivia-munn-shows-off-psylockes-sword-skills-for-x-men-apocalypse.html/psylocke" %}}
+{{% img src="/img/blog/psylocke.jpeg" alt="Marvel ninja Psylocke dressed in tight latext" width="400em" link="/img/blog/psylocke.jpeg" %}}
+{{% /fig %}}
 
 Zita has no exaggerated physical features, she looks like the normal young girl that she is. It's disturbing that I even have to point that out. Her interactions with other characters have nothing to do with her being a girl. For instance, her relationship to Joseph is never romantic. It's a friendship where one person just happens to be female.
 
-PIC MONSTER HIGH
+{{% fig caption="My best guess is they starved to death." attr="Wikipedia" attrlink="https://en.wikipedia.org/wiki/Monster_High#/media/File:Monster_High_dolls.jpg" %}}
+{{% img src="/img/blog/monster-high.jpeg" alt="Monster high dolls by Mattel" link="/img/blog/monster-high.jpeg" width="400em" %}}
+{{% /fig %}}
 
 OK, so Zita is a little girl. Let's *pretend* for a moment that even the most twisted, misogynistic artist wouldn't have objectified this character.
 
@@ -80,8 +83,9 @@ In the spirit of equality, I find it important to emphasize that it's not just t
 # <3
 Let me conclude by saying that I really think the world needs more comics like Zita The Spacegirl. Not only because it scores high marks on the relevant gender/diversity scales. But because, at it's core, it's about love and respect.
 
-TODO PIC web comic about love
-http://zitaspacegirl.com/webcomics-2/
+{{% fig caption="(click for full strip)" attr="Ben Hatke" attrlink="http://zitaspacegirl.com/webcomics-2/" %}}
+{{% img src="/img/project/zita/zita-love.jpeg" link="/img/project/zita/zita-love-full.jpeg" alt="Zita bridges language barrier with alien though hugging" width="500em" %}}
+{{% /fig %}}
 
 Hatke has hinted that there might be more Zita comics in the future. If so, I cannot wait to throw my money at it. I also really hope that Zita will inspire other authors to make high quality, progressive graphic novels which are compatible with adults' and childrens' minds alike.
 
