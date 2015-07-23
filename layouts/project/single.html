@@ -3,7 +3,7 @@
 <body>
   {{ partial "top.html" . }}
   <h1>{{ .Title }} <span class="metadata">&lt;{{ .Params.state }}&gt;</span></h1>
-  <p>{{ .Content }}</p>
+  {{ .Content }}
   {{ partial "rel-blogs.html" . }}
   {{ partial "foot.html" . }}
 </body>

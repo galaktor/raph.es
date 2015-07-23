@@ -7,7 +7,7 @@
   {{ if .Params.wasblogger }}
     {{ partial "disclaimer-blogger.html" . }}
   {{ end }}
-  <p>{{ .Content }}</p>
+  {{ .Content }}
   {{ partial "tags.html" . }}
   {{ partial "related.html" . }}
   {{ partial "foot.html" . }}

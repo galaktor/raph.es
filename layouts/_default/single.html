@@ -4,7 +4,7 @@
   {{ partial "top.html" . }}
   <h1>{{ title .Title }}</h1>
   <span class="metadata">{{ .Params.author }} @ {{ .Date.Format "2006-01-02 15:04" }}</span>
-  <p>{{ .Content }}</p>
+  {{ .Content }}
   {{ partial "tags.html" . }}
   {{ partial "foot.html" . }}
 </body>
