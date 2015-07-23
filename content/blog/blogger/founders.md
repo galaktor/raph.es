@@ -9,7 +9,7 @@ title = "Book review: Founders at Work"
 wasblogger = true
 aliases = [ "/2011/08/book-review-founders-at-work.html" ]
 +++
-{{% img class="inline" src="/img/blogger/founders_cover.jpeg" alt="Founders At Work by Jessica Livingston" link="/img/blogger/founders_cover.jpeg" width="150px" %}}
+{{% img class="inline" src="/img/blogger/founders_cover.jpeg" alt="Founders At Work by Jessica Livingston" link="/img/blogger/founders_cover.jpeg" width="150em" %}}
 
 A few weeks ago, I finished reading the book [Founders at Work](http://www.foundersatwork.com/) by Jessica Livingston. It's a collection of interviews with founders and early employees of various (successful!) technology companies. Many of them are web start-ups founded in the era of the [dot-com bubble](http://en.wikipedia.org/wiki/Dot-com_bubble). They talk about how they got started, highs and lows, good and bad experiences with venture capitalists and lots of funny things that happened along the way.
 
@@ -53,7 +53,7 @@ Not much to add here. It reminds me of Apple's highly user-centric design philos
 I believe Ms. Trott makes a good point here. So the number of women in IT is not as high as some arbitrary percentage people decided would be "fair" - who cares? Maybe it's just something most women don't like to do, and that's that? Back when I was at the University my programme was a mix of computer science and design. The male/female ratio was fairly balanced. Until we had to decide what to specialize on: CS or the design thing. Nearly all the women went for design, leaving mostly guys in the CS classes. It was a natural decision, those ladies simply wanted to do design. While preconceptions based on stereotypes can be harmful and encouraging them is not good, we should not try to force them out of existence, either. For example, most boys like trucks while girls usually prefer dolls. Not wanting girls to play with trucks would be just as harmful as not wanting them to play with dolls, just for the sake of eradicating a stereotype. To get back to the point: maybe most women simply prefer design over software development. Don't try to draw more women into the field just in order to make a point. Having said that, I do think that more female software developers could really benefit the industry.
 
 {{% fig caption="Flags mark the many quotes I enjoyed." %}}
-{{% img src="/img/blogger/founders_bookmarks.jpeg" link="/img/blogger/founders_bookmarks.jpeg" attr="Image: me" width="400em" %}}
+{{% img src="/img/blogger/founders_bookmarks.jpeg" link="/img/blogger/founders_bookmarks.jpeg" attr="Image: me" width="400px" %}}
 {{% /fig %}}
 
 ## Sabeer Bhatia, [Hotmail](http://de.wikipedia.org/wiki/Hotmail)
@@ -68,7 +68,7 @@ He interchangeably uses the terms "software writers", "architect" and software d
 He continues to explain that you should be willing to invest into creating a working environment that people enjoy working in. Losing them to competition is much more expensive in the long run. And it's the long-term things that some people tend to lose out of sight.
 
 {{% fig %}}
-{{% img class="inline" src="/img/blogger/all-like-ms.jpeg" link="/img/blogger/all-like-ms.jpeg" width="300em" %}}
+{{% img class="inline" src="/img/blogger/all-like-ms.jpeg" link="/img/blogger/all-like-ms.jpeg" width="300px" %}}
 {{% /fig %}}
 
 ## Joel Spolsky, [Fog Creek Software](http://www.fogcreek.com/)
