@@ -9,7 +9,7 @@ title = "Book review: Founders at Work"
 wasblogger = true
 aliases = [ "/2011/08/book-review-founders-at-work.html" ]
 +++
-{{% img class="inline" src="/img/blogger/founders_cover.jpeg" alt="Founders At Work by Jessica Livingston" link="/img/blogger/founders_cover.jpeg" width="150em" %}}
+{{% img class="inline" src="/img/blogger/founders_cover.jpeg" alt="Founders At Work by Jessica Livingston" link="/img/blogger/founders_cover.jpeg" width="150px" %}}
 
 A few weeks ago, I finished reading the book [Founders at Work](http://www.foundersatwork.com/) by Jessica Livingston. It's a collection of interviews with founders and early employees of various (successful!) technology companies. Many of them are web start-ups founded in the era of the [dot-com bubble](http://en.wikipedia.org/wiki/Dot-com_bubble). They talk about how they got started, highs and lows, good and bad experiences with venture capitalists and lots of funny things that happened along the way.
 
