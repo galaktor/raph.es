@@ -11,12 +11,12 @@ aliases = [ "/2011/12/revisited-mapping-network-drives-for.html" ]
 +++
 In an older [post](/2011/06/mapping-network-drives-for-teamcity.html) I mentioned how hard it is to have TeamCity agents have access to mapped drives. Unfortunately, Windows only maps network drives during a user's login process. But you do not want to log in for every build agent - ideally they will run as daemons and, for instance, start automatically when the system boots without a user having to get involved.
 
-So what I did before was an ugly hack - I used [psexec](http://technet.microsoft.com/en-us/sysinternals/bb897553) to map the drives I want agents to see to the root user ("SYSTEM"). I never really understood why it worked, but I never liked the solution. Plus, it still did not give you a real Windows service, only a scheduled task that sort of behaved the same way.
+So what I did before was an ugly hack - I used [psexec](http://technet.microsoft.com/en-us/sysinternals/bb897553) to map the drives I want agents to see to the root user ("SYSTpx"). I never really understood why it worked, but I never liked the solution. Plus, it still did not give you a real Windows service, only a scheduled task that sort of behaved the same way.
 
 I recently did some reworking of my agents and decided to get rid of the psexec hack. What I did this time is much simpler: I gave up. Yep, I gave up trying to map the drives for the agents. If I want agents to be services, and services cannot map drives, so be it.
 
 {{% fig %}}
-{{% img src="/img/blogger/troll-mappings.jpeg" link="/img/blogger/troll-mappings.jpeg" width="400em" %}}
+{{% img src="/img/blogger/troll-mappings.jpeg" link="/img/blogger/troll-mappings.jpeg" width="400px" %}}
 {{% /fig %}}
 
 # Work with it, not against it
@@ -34,7 +34,7 @@ Keep in mind that your build machines will by default have a [PowerShell executi
     powershell.exe .\myscript.ps1 <path> -executionPolicy Bypass. 
 
 {{% fig %}}
-{{% img src="/img/blogger/tc-unmap-drives-step-highlight.jpeg" link="/img/blogger/tc-unmap-drives-step-highlight.jpeg" width="350em" %}}
+{{% img src="/img/blogger/tc-unmap-drives-step-highlight.jpeg" link="/img/blogger/tc-unmap-drives-step-highlight.jpeg" width="350px" %}}
 {{% /fig %}}
 
 # Example script (PowerShell)

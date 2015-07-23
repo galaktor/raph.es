@@ -9,7 +9,7 @@ title = "Book review: Founders at Work"
 wasblogger = true
 aliases = [ "/2011/08/book-review-founders-at-work.html" ]
 +++
-{{% img class="inline" src="/img/blogger/founders_cover.jpeg" alt="Founders At Work by Jessica Livingston" link="/img/blogger/founders_cover.jpeg" width="150em" %}}
+{{% img class="inline" src="/img/blogger/founders_cover.jpeg" alt="Founders At Work by Jessica Livingston" link="/img/blogger/founders_cover.jpeg" width="150px" %}}
 
 A few weeks ago, I finished reading the book [Founders at Work](http://www.foundersatwork.com/) by Jessica Livingston. It's a collection of interviews with founders and early employees of various (successful!) technology companies. Many of them are web start-ups founded in the era of the [dot-com bubble](http://en.wikipedia.org/wiki/Dot-com_bubble). They talk about how they got started, highs and lows, good and bad experiences with venture capitalists and lots of funny things that happened along the way.
 
@@ -22,7 +22,7 @@ Some of my favorites also happen to be with people who are somehow affiliated wi
 Interestingly, Gmail is the closest the book gets to Google. Somehow I instinctively associate the ~~ad~~ ~~search~~ ~~meh~~ giant with the term "startup" (kudos to their [CI](http://en.wikipedia.org/wiki/Corporate_Identity) team, I guess) so I expected them to be featured. Maybe their story is just too popular? But on the other hand, Apple is in it, and their history must be one of the best-known out there considering the legions of fan-boys that are in love with Steve Jobs. That and it's coverage in other [books](http://books.google.com/books?id=mShXzzKtpmEC). Nevertheless, Steve Wozniak (the *other* Steve) gives what I felt was the longest and most self-praising interview in the entire book.
 
 {{% fig caption="Excited about the newest iThing?" %}}
-{{% img src="/img/blogger/fanboi.jpeg" link="/img/blogger/fanboi.jpeg" attr="Image: BBC" width="350em" %}}
+{{% img src="/img/blogger/fanboi.jpeg" link="/img/blogger/fanboi.jpeg" attr="Image: BBC" width="350px" %}}
 {{% /fig %}}
 
 # Some nice quotes
@@ -39,7 +39,7 @@ I like this because it is so true. Financial trading has a very high concentrati
 This is probably my favorite part of the book. It points out something that I believe is a serious problem in most software development teams. Many engineers massively overestimate their own capabilities, especially so-called "senior" people. They are convinced that what they do is perfect and won't consider that they might be able to improve their skills. "I don't need unit tests because I write working code". Sure... That makes evolving a team unnecessarily difficult (albeit, thank goodness, not impossible!).
 
 {{% fig caption="In aviation, Darwin takes care of Mavericks." attr="img: Wikipedia" %}}
-{{% img src="/img/blogger/maverick.jpeg" link="/img/blogger/maverick.jpeg" attr="Image: Wikipedia" width="500em" %}}
+{{% img src="/img/blogger/maverick.jpeg" link="/img/blogger/maverick.jpeg" attr="Image: Wikipedia" width="500px" %}}
 {{% /fig %}}
 
 ## Paul Graham, Viaweb

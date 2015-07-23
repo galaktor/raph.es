@@ -20,7 +20,7 @@ I'm drifting a bit here. The other day I read Bret Victor's [opinion](http://wor
 The touchscreens in modern devices might be closer to what we expect from futuristic high-tech devices. But just because they let us use a mobile web browser more efficiently, does that mean the future will be all chrome and touchscreens? 
 
 {{% fig caption="Everything is chrome in the future!" attrlink="http://www.unitedspongebob.com/" attr="Nickelodeon" %}}
-{{% img src="/img/blogger/chrome.jpeg" link="/img/blogger/chrome.jpeg" alt="Squidward dreams of a future where everything is literally chrome" width="300em" %}}
+{{% img src="/img/blogger/chrome.jpeg" link="/img/blogger/chrome.jpeg" alt="Squidward dreams of a future where everything is literally chrome" width="300px" %}}
 {{% /fig %}}
 
 # Usability is hard
@@ -41,7 +41,7 @@ Email is simply the wrong tool for multi-user, text-based conversations. It gets
 There are [much](http://xmpp.org/extensions/xep-0045.html) [better](http://trac-hacks.org/wiki/DiscussionPlugin) [tools](http://www.coordino.com/) available for online discussions. They were designed to allow for sane reading, backtracking, quoting and searching. And above all, they're much less redundant than when using email.
 
 {{% fig caption="Mailing lists are sooo 80's. And, unlike this here boombox, they *suck*." attr="Wikipedia" attrlink="http://www.wikipedia.org" %}}
-{{% img src="/img/blogger/boombox.jpeg" link="/img/blogger/boombox.jpeg" alt="A classic, cool cassette player from the eighties" width="400em" %}}
+{{% img src="/img/blogger/boombox.jpeg" link="/img/blogger/boombox.jpeg" alt="A classic, cool cassette player from the eighties" width="400px" %}}
 {{% /fig %}}
 
 ## Avoiding OOP features in OOP languages
@@ -61,7 +61,7 @@ When I go to your blog, I want to read it - not watch a stupid video. Chances ar
 "Perforce" and "control" is an contradiction. There you go. I just had to put this one in.
 
 {{% fig caption="Me when I see your vlog" attr="thestupiditburns.com" attrlink="http://www.thestupiditburns.com" %}}
-{{% img src="/img/blogger/thestupiditburns.jpeg" link="/img/blogger/thestupiditburns.jpeg" alt="when something is so stupid that makes your head hurt" width="450em" %}}
+{{% img src="/img/blogger/thestupiditburns.jpeg" link="/img/blogger/thestupiditburns.jpeg" alt="when something is so stupid that makes your head hurt" width="450px" %}}
 {{% /fig %}}
 
 # The thin line between a pragmatist and a moron

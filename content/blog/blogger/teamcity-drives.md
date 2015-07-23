@@ -75,4 +75,4 @@ When you call PsExec for the first time, you will need an elevated command promp
     OK           X:        \\someserver\some\directory  Microsoft Windows Network
     The command completed successfully.
 
-It's worth mentioning that this approach might cause problems when the mapped network location requires specific permissions - adding the "SYSTEM" for every build machine to permission lists is not very scalable, especially when you have lots of build boxes in a farm.
+It's worth mentioning that this approach might cause problems when the mapped network location requires specific permissions - adding the "SYSTpx" for every build machine to permission lists is not very scalable, especially when you have lots of build boxes in a farm.
