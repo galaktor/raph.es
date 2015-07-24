@@ -1,6 +1,9 @@
 #!/bin/bash
 
-for img in **/*.* **/**/*.*; do
+current=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+p=${1:-$current}
+
+for img in $p/*.*; do
   # todo: exclude files already converted; e.g. by adding "wm" to file name or similar
   echo processing \"$img\"
   base=${img%.*} # no dir: $(basename ${img%.*}
