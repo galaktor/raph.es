@@ -127,22 +127,23 @@ img {
 figure img {
     margin-left: auto;
     margin-right: auto;
+    display: inline;
+    width: 95%;
+}
+
+figure p {
+
     display: block;
     width: 100%;
 }
 
-figure p {
-    margin: 0.1em 0;
-    float: left;
-    width: 100%;
-}
-
 figcaption p {
-    float: none;
+    margin-top: 0.5em;
+    float: left;
+    display: inline;
 }
 
 figcaption {
-    text-align: center;
     font-style: oblique;
 }
 
