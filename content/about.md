@@ -13,7 +13,7 @@ With that out of the way, I do try to structure my thoughts so that they are som
 
 Constructive feedback is always welcome! Sometimes I might even listen. You can find ways to contact me at the bottom of the site. 
 
-{{% fig caption="tl;dr raph" %}}
+{{% fig %}}
 {{% img class="inline" src="/img/about_raph_thumb.jpeg" alt="Accomplishments makes me happy." link="/img/about_raph.jpeg" %}}
 {{% clear %}}
 * **father**&nbsp;&nbsp;&nbsp;of children
