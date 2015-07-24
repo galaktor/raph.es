@@ -63,7 +63,7 @@ ascii:     "ascii/website.txt"
  * ~~gogre3d, llcoi~~
  * ~~gorf24~~
  * more
-* next/prev content by date
+* ~~next/prev content by date~~
 * style code snippets better
 * ~~license page  "/license"~~
 * new domain with DNS config

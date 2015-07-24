@@ -109,6 +109,10 @@ span.metadata {
     font-style: oblique;
 }
 
+a.next {
+    font-weight: bold;
+}
+
 figure {
     float: left;
     margin: 1em;

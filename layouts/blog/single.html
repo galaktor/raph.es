@@ -3,7 +3,9 @@
 <body>
   {{ partial "top.html" . }}
   <h1>{{ title .Title }}</h1>
-  <span class="metadata">{{ .Params.author }} @ {{ .Date.Format "2006-01-02 15:04" }}</span>
+  <span class="metadata">{{ .Params.author }} @ {{ .Date.Format "2006-01-02 15:04" }}</span>  {{ partial "prev-entry.html" . }}{{ partial "next-entry.html" . }}
+  
+  
   {{ if .Params.wasblogger }}
     {{ partial "disclaimer-blogger.html" . }}
   {{ end }}
