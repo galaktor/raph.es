@@ -93,7 +93,7 @@ In the spirit of equality, I find it important to emphasize that it's not just t
 Let me conclude by saying that I really think the world needs more comics like Zita The Spacegirl. Not only because it passes the [Bechdel Test](https://en.m.wikipedia.org/wiki/Bechdel_test). But because, at it's core, it's about love and respect.
 
 {{% fig caption="(click for full strip)" attr="Ben Hatke" attrlink="http://zitaspacegirl.com/webcomics-2/" %}}
-{{% img src="/img/project/zita/zita-love_thumb.jpeg" link="/img/project/zita/zita-love-full.jpeg" alt="Zita bridges language barrier with alien though hugging" width="120%" %}}
+{{% img src="/img/project/zita/zita-love_thumb.jpeg" link="/img/project/zita/zita-love.jpeg" alt="Zita bridges language barrier with alien though hugging" width="120%" %}}
 {{% /fig %}}
 
 Hatke has hinted that there might be more Zita comics in the future. If so, I cannot wait to throw my money at it. I also really hope that Zita will inspire other authors to make high quality, progressive graphic novels which are compatible with adults' and childrens' minds alike.
