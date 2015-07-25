@@ -30,16 +30,16 @@ Zita's adventure begins with her best friend Joseph being kidnapped by a creepy 
 
 There's spaceships, lasers and explosions - albeit never excessively violent. The plot is not as ~~lame~~ predictable as many other books in the children's section would be.
 
-{{% fig %}}
-{{% img src="/img/project/zita/sketches_thumb.jpeg" link="/img/project/zita/sketches.jpeg" alt="Sketches at the back of a Zita book" width="150%" %}}
+{{% fig caption="The stakes are high, even on page one." attr="Ben Hatke" attrlink="http://zitaspacegirl.com" %}}
+{{% vimeo 16484045 %}}
 {{% /fig %}}
 
 The illustrations are excellent. Hatke obviously knows how to do composition and lighting, and uses his skills well. Space is a dark place, yet the story is mostly bright and colourful. The odd dark moment never crosses into nightmare-inducing territory. The story has depth, but never gets too complicated and doesn't need much explaining in order for kids to follow along.
 
 Writing, drawing, inking, lettering - Hatke did virtually everything himself, and mostly by hand. Especially the sketchy line art gives the story a personal touch, making no attempt to hide that this story is being told by a human being. And that with some practice, kids could do something like it, too. The sketches included at the end of each book further show how much fun (and work) Hatke poured into them, for adults and kids to appreciate.
 
-{{% fig caption="The stakes are high, even on page one." attr="Ben Hatke" attrlink="http://zitaspacegirl.com" %}}
-{{% vimeo 16484045 %}}
+{{% fig %}}
+{{% img src="/img/project/zita/sketches_thumb.jpeg" link="/img/project/zita/sketches.jpeg" alt="Sketches at the back of a Zita book" width="150%" %}}
 {{% /fig %}}
 
 # Subliminal messages
@@ -69,19 +69,21 @@ Comics in particular have a terrible track record when it comes to diversifying 
 ## Objectification (or lack thereof)
 One of my favorite things about the Zita books is that none of the characters are overly sexualized. It's one of those things you suddenly become aware of when you are the father to daughters. Everywhere girls look, they are presented with incredibly unrealistic and unnatural images of women.
 
-{{% fig caption="This is not how ninjas dress" attr="flickeringmyth.com" attrlink="http://www.flickeringmyth.com/2015/06/olivia-munn-shows-off-psylockes-sword-skills-for-x-men-apocalypse.html/psylocke" %}}
-{{% img src="/img/blog/psylocke_thumb.jpeg" alt="Marvel ninja Psylocke dressed in tight latext" link="/img/blog/psylocke.jpeg" width="130%" %}}
+{{% fig caption="My best guess is they starved to death." attr="Wikipedia" attrlink="https://en.wikipedia.org/wiki/Monster_High#/media/File:Monster_High_dolls.jpg" %}}
+{{% img src="/img/blog/monster-high_thumb.jpeg" alt="Monster high dolls by Mattel" link="/img/blog/monster-high.jpeg" %}}
 {{% /fig %}}
 
 Zita's female physique is not exaggerarated in any sexual way, and it's bizzare that I even have to point that out. Her interactions with other characters have nothing to do with her being a girl. For instance, her relationship to Joseph is never romantic. It's a friendship where one person just happens to be female.
 
-{{% fig caption="My best guess is they starved to death." attr="Wikipedia" attrlink="https://en.wikipedia.org/wiki/Monster_High#/media/File:Monster_High_dolls.jpg" %}}
-{{% img src="/img/blog/monster-high_thumb.jpeg" alt="Monster high dolls by Mattel" link="/img/blog/monster-high.jpeg" %}}
+{{% fig caption="This is not how ninjas dress" attr="flickeringmyth.com" attrlink="http://www.flickeringmyth.com/2015/06/olivia-munn-shows-off-psylockes-sword-skills-for-x-men-apocalypse.html/psylocke" %}}
+{{% img src="/img/blog/psylocke_thumb.jpeg" alt="Marvel ninja Psylocke dressed in tight latext" link="/img/blog/psylocke.jpeg" width="130%" %}}
 {{% /fig %}}
 
 OK, so Zita is a little girl. Let's *pretend* for a moment that even the most twisted, misogynistic artist wouldn't have objectified this character.
 
 Exhibit B: Madrigal, the adult female. She's a badass pirate, and a lesser artist could have easily portrayed here as a scantily-clad space babe. The Madrigal Hatke gives us is mature and attractive, but not because she wears tight/slutty/barely any clothes. Instead, what she wears is a reflection of her own character. She wears comfortable, practical clothes. She has tatoos. It's convincingly the style of a confident woman who likes to express herself, as opposed to the premature wet dream of some white male artist.
+
+// TODO RAPH: picture of madrigal
 
 In the spirit of equality, I find it important to emphasize that it's not just the female characters which are free of the usual comic stereotypes. The males are *not* testosterone-drenched muscle-packed warriors, but normal, flawed human beings with feelings. Joseph initially needs saving by Zita, a welcome twist on the Damsel In Distress trope. Piper has no discernable super powers other than his intelligence and paranoia. And get this: his weapon of choice is a flute. Not a gun. Not a sword. *Music*. The language of the soul.
 
