@@ -19,7 +19,7 @@ Nerdstalgia aside, I'm also a parent. And as such I am very critical of the medi
 
 Not all is lost. Some people are making really good, progressive comics (also known by their grown-up name: *graphic novels*). I'd like to highlight one such gem right now.
 
-{{% fig %}}
+{{% fig attr="First Second Books" attrlink="http://us.macmillan.com/books/9781596434462" %}}
 {{% img src="/img/project/zita/spacegirl_thumb.jpeg" alt="Cover of the graphic novel Zita The Spacegirl" link="/img/project/zita/spacegirl.jpeg" %}}
 {{% img src="/img/blog/graphic-novel_thumb.jpeg" alt="Dr. Evil from the film Austin Powers making quotes with his fingers, saying Graphic Novel" link="/img/blog/graphic-novel.jpeg" %}}
 {{% /fig %}}
@@ -38,7 +38,7 @@ The illustrations are excellent. Hatke obviously knows how to do composition and
 
 Writing, drawing, inking, lettering - Hatke did virtually everything himself, and mostly by hand. Especially the sketchy line art gives the story a personal touch, making no attempt to hide that this story is being told by a human being. And that with some practice, kids could do something like it, too. The sketches included at the end of each book further show how much fun (and work) Hatke poured into them, for adults and kids to appreciate.
 
-{{% fig %}}
+{{% fig attr="First Second Books" attrlink="http://us.macmillan.com/books/9781596434462" %}}
 {{% img src="/img/project/zita/sketches_thumb.jpeg" link="/img/project/zita/sketches.jpeg" alt="Sketches at the back of a Zita book" width="150%" %}}
 {{% /fig %}}
 
@@ -47,11 +47,11 @@ Besides being easy on the eyes, what really makes the Zita books special is the 
 
 The world is full of details and feels organic and alive. Many characters appear in just a few panels, yet have distinct memorable personalities.
 
-{{% fig caption="Zita faces the consequences of her actions" %}}
+{{% fig caption="Zita faces the consequences of her actions" attr="First Second Books" attrlink="http://us.macmillan.com/books/9781596434462" %}}
 {{% img src="/img/project/zita/consequences_thumb.jpeg" link="/img/project/zita/consequences.jpeg" alt="Zita is charged with crimes in a court." width="120%" %}}
 {{% /fig %}}
 
-{{% fig caption="Dop is one of our favorite characters." %}}
+{{% fig caption="Dop is one of our favorite characters." attr="First Second Books" attrlink="http://us.macmillan.com/books/9781596434462" %}}
 {{% img src="/img/project/zita/dop_thumb.jpeg" link="/img/project/zita/dop.jpeg" alt="Dop is a character from the Zita books." width="120%" %}}
 {{% img src="/img/project/zita/detail_thumb.jpeg" link="/img/project/zita/detail.jpeg" alt="Little detail characters are everywhere in the books" width="120%" %}}
 {{% /fig %}}
