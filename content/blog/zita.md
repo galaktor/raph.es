@@ -17,14 +17,17 @@ Nerdstalgia aside, I'm also a parent. And as such I am very critical of the medi
 
 # Fear not!
 
-Not all is lost. Some people are making really good, progressive comics (also known by their grown-up name: *graphic novels*). I'd like to highlight one such gem right now.
-
-{{% fig attr="First Second Books" attrlink="http://us.macmillan.com/books/9781596434462" %}}
-{{% img src="/img/project/zita/spacegirl_thumb.jpeg" alt="Cover of the graphic novel Zita The Spacegirl" link="/img/project/zita/spacegirl.jpeg" %}}
+{{% fig %}}
 {{% img src="/img/blog/graphic-novel_thumb.jpeg" alt="Dr. Evil from the film Austin Powers making quotes with his fingers, saying Graphic Novel" link="/img/blog/graphic-novel.jpeg" %}}
 {{% /fig %}}
 
+Not all is lost. Some people are making really good, progressive comics (also known by their grown-up name: *graphic novels*). I'd like to highlight one such gem right now.
+
 *[Zita The Spacegirl](http://zitaspacegirl.com)* began as a [web comic](http://zitaspacegirl.com/webcomics) by [Ben Hatke](http://www.benhatke.com). Hatke later set out to tell Zita's origin story in the form of a paperback [trilogy](http://www.goodreads.com/book/show/8879121-zita-the-spacegirl).
+
+{{% fig attr="First Second Books" attrlink="http://us.macmillan.com/books/9781596434462" %}}
+{{% img src="/img/project/zita/spacegirl_thumb.jpeg" alt="Cover of the graphic novel Zita The Spacegirl" link="/img/project/zita/spacegirl.jpeg" %}}
+{{% /fig %}}
 
 Zita's adventure begins with her best friend Joseph being kidnapped by a creepy alien thing - and it's *Zita's* fault. That's some serious drama right off the bat. Just because it's a story for children, doesn't mean it has to be fluffy kittens, right?
 
