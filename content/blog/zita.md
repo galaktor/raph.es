@@ -25,15 +25,12 @@ Not all is lost. Some people are making really good, progressive comics (also kn
 
 *[Zita The Spacegirl](http://zitaspacegirl.com)* began as a [web comic](http://zitaspacegirl.com/webcomics) by [Ben Hatke](http://www.benhatke.com). Hatke later set out to tell Zita's origin story in the form of a paperback [trilogy](http://www.goodreads.com/book/show/8879121-zita-the-spacegirl).
 
-{{% fig attr="First Second Books" attrlink="http://us.macmillan.com/books/9781596434462" %}}
-{{% img src="/img/project/zita/spacegirl_thumb.jpeg" alt="Cover of the graphic novel Zita The Spacegirl" link="/img/project/zita/spacegirl.jpeg" %}}
-{{% /fig %}}
-
 Zita's adventure begins with her best friend Joseph being kidnapped by a creepy alien thing - and it's *Zita's* fault. That's some serious drama right off the bat. Just because it's a story for children, doesn't mean it has to be fluffy kittens, right?
 
 There's spaceships, lasers and explosions - albeit never excessively violent. The plot is not as ~~lame~~ predictable as many other books in the children's section would be.
 
 {{% fig caption="The stakes are high, even on page one." attr="Ben Hatke" attrlink="http://zitaspacegirl.com" %}}
+{{% img src="/img/project/zita/spacegirl_thumb.jpeg" alt="Cover of the graphic novel Zita The Spacegirl" link="/img/project/zita/spacegirl.jpeg" %}}
 {{% vimeo 16484045 %}}
 {{% /fig %}}
 
