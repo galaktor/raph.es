@@ -4,7 +4,7 @@ date = "2015-07-24T22:41:47+01:00"
 draft = false
 projects = [ "zita" ]
 series = []
-tags = [ "parenting", "books", "kids" ]
+tags = [ "parenting", "books", "kids", "comics" ]
 title = "the world needs zita the spacegirl"
 +++
 A steady stream of superhero flicks keeps tearing up the box office and whatever is left of television programmes, with no [end](https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Future) in [sight](https://en.wikipedia.org/wiki/DC_Comics%27_shared_universe_films#Future). For kids trapped inside adult bodies like me, this is the best time to be alive.
