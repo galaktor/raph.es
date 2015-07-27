@@ -30,7 +30,7 @@ Zita's adventure begins with her best friend Joseph being kidnapped by a creepy 
 There's spaceships, lasers and explosions - albeit never excessively violent. The plot is not as ~~lame~~ predictable as many other books in the children's section would be.
 
 {{% fig caption="The stakes are high, even on page one." attr="Ben Hatke" attrlink="http://zitaspacegirl.com" %}}
-{{% img src="/img/project/zita/spacegirl_thumb.jpeg" alt="Cover of the graphic novel Zita The Spacegirl" link="/img/project/zita/spacegirl.jpeg" %}}
+{{% img src="/img/project/zita/spacegirl_thumb.jpeg" alt="Cover of the graphic novel Zita The Spacegirl" link="/img/project/zita/spacegirl.jpeg" width="50%" %}}
 {{% vimeo 16484045 %}}
 {{% /fig %}}
 
