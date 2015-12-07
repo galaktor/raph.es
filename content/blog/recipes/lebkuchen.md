@@ -1,0 +1,81 @@
+---
+author: "raph"
+date: "2015-12-06T16:25:31+01:00"
+draft: true
+projects:
+tags:
+ - "recipes"
+ - "lchf"
+ - "health"
+title: "LCHF Nürnberger Elisen-Lebkuchen"
+wasblogger: false
+slug: "low-carb-high-fat-lchf-nuernberger-elisen-lebkuchen"
+---
+TODO: image lebkuchen einzeln
+
+This is my recipe for sugar-free variant of Nürnberger Elisten-[Lebkuchen](https://en.wikipedia.org/wiki/Lebkuchen). You'll find many variations of these all over Germany, but this recipe is based on an original old recipe from Nürnberg. There's only two ingredients in the original Elisen-Lebkuchen which are problematic if you are avoding sugar:
+* **The "Oblate"**: a little wafer that holds the cake. You can just leave this out.
+* **The sugar**: (duh) which can easily be replaced with alternative sweeteners such as Xylitol or Stevia.
+
+The result is just the same as your run-off-the-mill sugary home-baked Lebkuchen, just without all that insuline-spiking sugar! Yay!
+
+# Requirements
+* 4 eggs
+* 200g ground raw macadamia nuts
+* 200g ground raw brazil nuts
+* 15g psyllium husks
+* Xmas-y spices (cinnamon, cloves, anise, etc.)
+* Cocoa powder (100%, unsweetened)
+* Lemon juice
+* Baking powder
+* ~30g thick cut diabetic orange marmalade (optional)
+* ~50g Xylitol (optional) or your preferred sweenter
+
+This yields more or less 1 large baking tray, or ~20 medium Lebkuchen.
+
+# Implementation
+In summary, the steps are easy. It's the spices and sweetening where I recommend you take some time and taste your way through.
+## Short version
+* Mix nuts, eggs, psyllium husks, baking powder
+* Add some cinnamon, cloves, cocoa, orange peel, lemon juice to taste
+* Sweeten using orange marmalade and/or Xylitol
+* Bake for 15 minutes, let cool
+
+## Long version
+### The easy bit
+Whisk together: nuts, eggs and psyllium husks. Add a dash of baking powder.
+
+### Christmas-y spices
+These are Christmas treats, so add the usual suspects: cinnamon, cloves, anise, whatever floats your boat. I like to use off-the-shelf spice mixes because I'm lazy.
+
+Add a large spoonful of cocoa powder to the mix. Or more if you like. Don't worry if it doesn't darken very much. Be careful to not add too much, it can make the dough bitter and you might find yourself adding more sweetener at the end to balance it out.
+
+TODO: image xmas spices from tesco or something
+
+### The Orangeat problem
+Lebkuchen" traditionally contain [Orangeat](https://de.wikipedia.org/wiki/Orangeat) and [Zitronat](https://de.wikipedia.org/wiki/Zitronat), which translates to candied orange and lemon peel. This is what happens when people soak bitter food in sugar because - apparently - everything has to taste sweet in order to taste good (or so the logic seems to go).
+
+Obviously, *candied* means sugar, which I'm going to avoid.
+
+The strategy you choose to sweeten your Lebkuchen depends on how sweet you like your treats to be (if at all), and then what kind of sugar alternatives you prefer. You can start off entirely un-sweet by using some actual (uncandied) orange and lemon peel, then sweeten the whole thing afterwards to taste. But be careful, you can come out on the very bitter end, which isn't everybody's thing.
+
+You can't really go wrong with a splash or two of pure lemon juice to get started.
+
+What I then tend to do is add one or two big spoonfuls of thick-cut diabetic orange marmalade. This adds the slightly bitter orange taste and also a bit of sweet, which I can subtract from the Xylitol I would otherwise add later. The brands I can find in my area are sweetened with sugar alcohols (Sorbitol or Maltritol), which isn't as good as Xylitol but beats aspartame nonetheless.
+
+TODO: image diabetic orange marmalade
+
+I strongly recommend you take your time and gradually add very little sweet and give it a taste. Stop when it tastes sweet enough, then add a final tiny dash of sweet - the sweet taste tends to go away a bit during the baking process.
+
+However: There is no shame in err'ing on the less-sweet side. I find it more than sufficient to have the Lebkuchen only subtly sweet, leaving room for the other spices and nuts to come through.
+
+### Drying, not baking
+Put baking paper or the fancy silicon stuff onto a baking tray. Using a large spoon, distribute blobs of the dough onto the tray. Leave a bit of space between them, but don't worry about them melting or growing much - there's not much butter or cream in the recipe, so they should pretty much stay put.
+
+We're not going to bake these like you would a cake. Just heat them up to dry a little bit, then let 'em cool. I shouldn't have to poin this out, but... the longer you dry them, the drier they will be. I prefer them rather moist.
+
+Stick it into the oven at 120 degrees Celsius for about 12-15 minutes. Take out the tray and let them cool.
+
+If you so desire you can glaze them with chocolate. I usually just melt high-cocoa sugar-free chocolate with some coconut oil and spread that on top. This part is optional and up to you!
+
+TODO: lebkuchen viele
