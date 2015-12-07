@@ -12,8 +12,9 @@ wasblogger: false
 slug: "low-carb-high-fat-lchf-nuernberger-elisen-lebkuchen"
 ---
 TODO: image lebkuchen einzeln
+TODO: image [Christkindlesmarkt](https://en.wikipedia.org/wiki/Christkindlesmarkt,_Nuremberg)
 
-This is my recipe for sugar-free variant of Nürnberger Elisten-[Lebkuchen](https://en.wikipedia.org/wiki/Lebkuchen). You'll find many variations of these all over Germany, but this recipe is based on an original old recipe from Nürnberg. There's only two ingredients in the original Elisen-Lebkuchen which are problematic if you are avoding sugar:
+This is my recipe for sugar-free variant of [Nürnberger](https://en.wikipedia.org/wiki/Christkindlesmarkt,_Nuremberg) Elisten-[Lebkuchen](https://en.wikipedia.org/wiki/Lebkuchen). You'll find variations of *Lebkuchen* all over Germany (and beyond), but this recipe is based on an old-school recipe from Nürnberg. There's only two ingredients in the original Elisen-Lebkuchen which are problematic if you are avoding sugar:
 * **The "Oblate"**: a little wafer that holds the cake. You can just leave this out.
 * **The sugar**: (duh) which can easily be replaced with alternative sweeteners such as Xylitol or Stevia.
 
@@ -24,7 +25,7 @@ The result is just the same as your run-off-the-mill sugary home-baked Lebkuchen
 * 200g ground raw macadamia nuts
 * 200g ground raw brazil nuts
 * 15g psyllium husks
-* Xmas-y spices (cinnamon, cloves, anise, etc.)
+* Xmas-y spices (cinnamon, nutmeg, cloves, allspice, etc.)
 * Cocoa powder (100%, unsweetened)
 * Lemon juice
 * Baking powder
@@ -45,8 +46,8 @@ In summary, the steps are easy. It's the spices and sweetening where I recommend
 ### The easy bit
 Whisk together: nuts, eggs and psyllium husks. Add a dash of baking powder.
 
-### Christmas-y spices
-These are Christmas treats, so add the usual suspects: cinnamon, cloves, anise, whatever floats your boat. I like to use off-the-shelf spice mixes because I'm lazy.
+### A dash of Christmas
+These are Christmas treats, so add the usual suspects: cinnamon, nutmeg, cloves, anise, allspice - whatever floats your boat. I don't mind using off-the-shelf "Christmas Spice" mixes, because I'm lazy. You can find dedicated "Lebkuchen" spice mixes, too - but those often contain sugar and wheat, so make sure you understand what you are buying.
 
 Add a large spoonful of cocoa powder to the mix. Or more if you like. Don't worry if it doesn't darken very much. Be careful to not add too much, it can make the dough bitter and you might find yourself adding more sweetener at the end to balance it out.
 
@@ -63,7 +64,7 @@ You can't really go wrong with a splash or two of pure lemon juice to get starte
 
 What I then tend to do is add one or two big spoonfuls of thick-cut diabetic orange marmalade. This adds the slightly bitter orange taste and also a bit of sweet, which I can subtract from the Xylitol I would otherwise add later. The brands I can find in my area are sweetened with sugar alcohols (Sorbitol or Maltritol), which isn't as good as Xylitol but beats aspartame nonetheless.
 
-TODO: image diabetic orange marmalade
+TODO: Image [Stute Thick Cut Diabetic Orange Marmalade](http://www.stute-foods.com/itemlist.php?clasrefr=CatRef2)
 
 I strongly recommend you take your time and gradually add very little sweet and give it a taste. Stop when it tastes sweet enough, then add a final tiny dash of sweet - the sweet taste tends to go away a bit during the baking process.
 
