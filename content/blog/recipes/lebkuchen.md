@@ -27,6 +27,7 @@ Traditionally, the best Lebkuchen are those with the highest possible nuts-to-fl
 Knowing this, I cranked up the nut contents to nearly 100 % - which by the [German Food Guide](http://www.germanfoodguide.com/lebkuchen.cfm) technically qualifies as the most premium Lebkuchen one can possibly make, all the while being low in carbs and high in good fats and fibre.
 
 There's only two ingredients in the original Elisen-Lebkuchen which are bad carb-offenders:
+
 * **The "Oblate"**: a little tasteless wafer that holds the cake. You can just leave this out.
 * **The sugar**: (duh) which can easily be replaced with alternative sweeteners such as Xylitol or Stevia.
 
