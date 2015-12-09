@@ -22,9 +22,9 @@ Traditionally, the best Lebkuchen are those with the highest possible nuts-to-fl
   >
   > "Als besonderes Qualitätsmerkmal gilt ein hoher Anteil von Mandel- und Nusskernen und eine geringe Zugabe von Mehl oder sogar der völlige Verzicht darauf. [...] Oblatenlebkuchen der höchsten Qualität gemäß Deutschem Lebensmittelbuch heißen „Elisenlebkuchen“ und nehmen bei praktisch allen Nürnberger Anbietern einen prominenten Platz im Sortiment ein; sie müssen eine besonders hochwertige Zusammensetzung mit mindestens 25% Mandeln, Haselnüssen oder Walnüssen aufweisen, dürfen keine anderen Ölsamen und maximal 10% Mehl oder 7,5% Stärke enthalten."
   >
-  > "A special quality characteristic is a high content of almond and nut kernels and minimal addition - or even avoidance of - flour. [...] According to the German Food Guide, "Oblatenlebkuchen" of the highest quality are called "Elisenlebkuchen" and take a prominent position within the range of products offered by Nuremberg's producers; they must have a particularly high-quality composition of at least 25% almonds, hazelnuts or walnuts, may not contain other oilseeds and at most 10% flour or 7.5% starch."
+  > "A special quality characteristic is a high content of almond and nut kernels and minimal addition - or even avoidance of - flour. [...] According to the German Food Guide, 'Oblatenlebkuchen' of the highest quality are called 'Elisenlebkuchen' and take a prominent position within the range of products offered by Nuremberg's producers; they must have a particularly high-quality composition of at least 25% almonds, hazelnuts or walnuts, may not contain other oilseeds and at most 10% flour or 7.5% starch."
 
-Knowing this, I cranked up the nut contents to nearly 100% - which by the [German Food Guide](http://www.germanfoodguide.com/lebkuchen.cfm) technically qualifies as the most premium Lebkuchen one can possibly make, all the while being low in carbs and high in good fats and fibre.
+Knowing this, I cranked up the nut contents to nearly 100% - which according to the [German Food Guide](http://www.germanfoodguide.com/lebkuchen.cfm) technically qualifies as the most premium Lebkuchen one can possibly make, all the while being low in carbs and high in good fats and fibre.
 
 There's only two ingredients in the original Elisen-Lebkuchen which are bad carb-offenders:
 
@@ -45,7 +45,7 @@ There's only two ingredients in the original Elisen-Lebkuchen which are bad carb
 * Lemon juice
 * Baking powder
 * ~30g thick cut diabetic orange marmalade (optional)
-* ~50g Xylitol (optional) or your preferred sweenter
+* ~50g Xylitol (optional) or your preferred sweetener
 
 This yields more or less 1 large baking tray, or ~20 medium Lebkuchen.
 
@@ -71,26 +71,26 @@ Lebkuchen" traditionally contain [Orangeat](https://de.wikipedia.org/wiki/Orange
 
 "Candied" == sugar.
 
-The strategy you choose to sweeten your Lebkuchen depends on how sweet you like your treats to be (if at all), and then what kind of sugar alternatives you prefer. You can start off entirely un-sweet by using some actual (uncandied) orange and lemon peel, then sweeten the whole thing afterwards to taste. But be careful, you can come out on the very bitter end, which isn't everybody's thing.
+The strategy you choose to sweeten your Lebkuchen depends on how sweet you like your treats to be (if at all), and then what kind of sugar alternatives you prefer. You can start off entirely un-sweet by using some actual (*not* candied) orange and lemon peel, then sweeten the whole thing afterwards to taste. But be careful, you can come out on the very bitter end, which isn't everybody's thing.
 
 You can't really go wrong with a splash or two of pure lemon juice to get started.
 
-What I then tend to do is add one or two big spoonfuls of thick-cut diabetic orange marmalade. This adds the slightly bitter orange taste and also a bit of sweet, which I can subtract from the Xylitol I would otherwise add later. The brands I can find in my area are sweetened with sugar alcohols (Sorbitol or Maltritol), which isn't as good as Xylitol but beats aspartame nonetheless.
+What I then tend to do is add one or two big spoonfuls of thick-cut diabetic orange marmalade. This adds the slightly bitter orange taste and also a bit of sweet, which I can subtract from the Xylitol I would otherwise have added later. The brands I can find in my area are sweetened with sugar alcohols (Sorbitol or Maltritol), which isn't as good as Xylitol, but still beats aspartame by a mile.
 
 {{% fig caption="Diabetic marmalades are usually sweetened with sugar alcohols." attr="Stute" attrlink="http://www.stute-foods.com/itemlist.php?clasrefr=CatRef2" %}}
-{{% img width="300px" src="/img/blog/recipes/lebkuchen/marmalade_thumb.jpeg" alt="Picture of *oblaten* wafers." link="/img/blog/recipes/lebkuchen/marmalade.jpeg" %}}
+{{% img width="300px" src="/img/blog/recipes/lebkuchen/marmalade_thumb.jpeg" alt="Picture of *oblaten* wafers." link="/img/blog/recipes/lebkuchen/marmalade.jpg" %}}
 {{% /fig %}}
 
-I strongly recommend you take your time and gradually add very little sweet and give it a taste. Stop when it tastes sweet enough, then add a final tiny dash of sweet - the sweet taste tends to go away a bit during the baking process.
+I strongly recommend you take your time and gradually add very little sweet and give it a taste. Stop when it tastes sweet enough - *then* add a final tiny dash of sweet. The sweet taste tends to go away a bit during the baking process.
 
 However: There is no shame in err'ing on the less-sweet side. I find it more than sufficient to have the Lebkuchen only subtly sweet, leaving room for the other spices and nuts to come through.
 
 ### Drying, not baking
-Put baking paper or the fancy silicon stuff onto a baking tray. Using a large spoon, distribute blobs of the dough onto the tray. Leave a bit of space between them, but don't worry about them melting or growing much - there's not much butter or cream in the recipe, so they should pretty much stay put.
+Put baking paper (or the fancy silicon stuff) onto a baking tray. Using a large spoon, distribute blobs of the dough onto the tray. Leave a bit of space between them, but don't worry about them melting or otherwise growing much - there's not much butter or cream in the recipe, so they should pretty much stay put.
 
-We're not going to bake these like you would a cake. Just heat them up to dry a little bit, then let 'em cool. I shouldn't have to poin this out, but... the longer you dry them, the drier they will be. I prefer them rather moist.
+We're not going to bake these like you would bake a cake. Just heat them up to dry a little bit, then let 'em cool. I shouldn't have to point this out, but... the longer you dry them, the drier they will be. I prefer them rather moist.
 
-Stick it into the oven at 120 degrees Celsius for about 12-15 minutes. Take out the tray and let them cool.
+Stick it into the (pre-heated) oven at 120 degrees Celsius for about 12-15 minutes. Take out the tray and let them cool.
 
 {{% fig caption="Ta-dah!" %}}
 {{% img width="450px" src="/img/blog/recipes/lebkuchen/one_thumb.jpeg" alt="Close up of one Lebkuchen I made this way." link="/img/blog/recipes/lebkuchen/one.jpeg" %}}
@@ -98,11 +98,13 @@ Stick it into the oven at 120 degrees Celsius for about 12-15 minutes. Take out 
 {{% /fig %}}
 
 # Mixing it up
-Traditional Lebkuchen contain almonds, hazelnuts and/or walnuts. But that doesn't mean you can't use other kinds! I like to use macadamia and brazil nuts. Dessicated *coconut*, even. Go crazy.
+Traditional Lebkuchen contain almonds, hazelnuts and/or walnuts. But that doesn't mean you can't use other kinds of nuts! I like to use macadamia and brazil nuts. Dessicated *coconut*, even. Go crazy.
 
 Obviously, you can experiment with the spices. I recommend trying less sweetener and more cinnamon and cocoa.
 
 If you so desire you can glaze them with chocolate. I usually just melt high-cocoa sugar-free chocolate with some coconut oil and spread that on top. This part is optional and up to you.
+
+Just be careful adding any liquids such as cream or butter/oils which can turn liquid in the oven. Your Lebkuchen might melt when heated. Best leave these out.
 
 # References
 * [en.wikipedia: Lebkuchen](https://en.wikipedia.org/wiki/Lebkuchen)
