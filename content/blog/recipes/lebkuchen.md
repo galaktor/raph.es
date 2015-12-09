@@ -65,10 +65,10 @@ Add a large spoonful of cocoa powder to the mix. Or more if you like. Don't worr
 
 TODO: image xmas spices from tesco or something
 
-### The Orangeat problem
+### The *Orangeat* problem
 Lebkuchen" traditionally contain [Orangeat](https://de.wikipedia.org/wiki/Orangeat) and [Zitronat](https://de.wikipedia.org/wiki/Zitronat), which translates to candied orange and lemon peel. This is what happens when people soak bitter food in sugar because - apparently - everything has to taste sweet in order to taste good (or so the logic seems to go).
 
-Obviously, *candied* means sugar, which I'm going to avoid.
+"Candied" == sugar.
 
 The strategy you choose to sweeten your Lebkuchen depends on how sweet you like your treats to be (if at all), and then what kind of sugar alternatives you prefer. You can start off entirely un-sweet by using some actual (uncandied) orange and lemon peel, then sweeten the whole thing afterwards to taste. But be careful, you can come out on the very bitter end, which isn't everybody's thing.
 
