@@ -11,7 +11,7 @@ title: "LCHF Nuremberger Elisenlebkuchen"
 wasblogger: false
 slug: "low-carb-high-fat-lchf-nuernberger-nuremberger-elisen-lebkuchen"
 ---
-TODO: image "oldschool.jpeg", src: https://en.wikipedia.org/wiki/Lebkuchen
+{{% fig caption="Premium old-school *Lebkuchen* are naturally low in carbs" attr="en.wikipedia: Lebkuchen" attrlink="https://en.wikipedia.org/wiki/Lebkuchen" %}} {{% img src="/img/blog/recipes/oldschool_thumb.jpeg" alt="*Lebküchner* from an illustrated manuscript in the Stadtbibliothek Nürnberg, ca. 1520" link="/img/blog/recipes/oldschool.jpeg" %}}{{% /fig %}}
 
 Here I'd like to share the recipe for my low-carb-high-fat (and by extension, gluten and sugar-free) variant of [Nuremberger Elisenlebkuchen](http://www.germanfoodguide.com/lebkuchen.cfm). You can find variations of *Lebkuchen* all over Germany (and beyond), but the one I present here is based on an original, old-school recipe straight from the source: Nuremberg.
 
@@ -29,7 +29,7 @@ There's only two ingredients in the original Elisen-Lebkuchen which are bad carb
 * **The "Oblate"**: a little tasteless wafer that holds the cake. You can just leave this out.
 * **The sugar**: (duh) which can easily be replaced with alternative sweeteners such as Xylitol or Stevia.
 
-TODO: image oblaten
+{{% fig caption="Oblaten are basically cardboard. Would you eat cardboard?" %}} {{% img src="/img/blog/recipes/oblaten_thumb.jpeg" alt="Picture of *oblaten* wafers." link="/img/blog/recipes/oblaten.jpeg" %}}{{% /fig %}}
 
 # Requirements
 * 4 eggs
@@ -62,8 +62,6 @@ These are Christmas treats, so add the usual suspects: cinnamon, nutmeg, cloves,
 
 Add a large spoonful of cocoa powder to the mix. Or more if you like. Don't worry if it doesn't darken very much. Be careful to not add too much, it can make the dough bitter and you might find yourself adding more sweetener at the end to balance it out.
 
-TODO: image xmas spices from tesco or something
-
 ### The *Orangeat* problem
 Lebkuchen" traditionally contain [Orangeat](https://de.wikipedia.org/wiki/Orangeat) and [Zitronat](https://de.wikipedia.org/wiki/Zitronat), which translates to candied orange and lemon peel. This is what happens when people soak bitter food in sugar because - apparently - everything has to taste sweet in order to taste good (or so the logic seems to go).
 
@@ -75,7 +73,7 @@ You can't really go wrong with a splash or two of pure lemon juice to get starte
 
 What I then tend to do is add one or two big spoonfuls of thick-cut diabetic orange marmalade. This adds the slightly bitter orange taste and also a bit of sweet, which I can subtract from the Xylitol I would otherwise add later. The brands I can find in my area are sweetened with sugar alcohols (Sorbitol or Maltritol), which isn't as good as Xylitol but beats aspartame nonetheless.
 
-TODO: Image [Stute Thick Cut Diabetic Orange Marmalade](http://www.stute-foods.com/itemlist.php?clasrefr=CatRef2)
+{{% fig caption="Oblaten are basically cardboard. Would you eat cardboard?" attr="Stute" attrlink="http://www.stute-foods.com/itemlist.php?clasrefr=CatRef2" %}} {{% img src="/img/blog/recipes/marmalade_thumb.jpeg" alt="Picture of *oblaten* wafers." link="/img/blog/recipes/marmalade.jpeg" %}}{{% /fig %}}
 
 I strongly recommend you take your time and gradually add very little sweet and give it a taste. Stop when it tastes sweet enough, then add a final tiny dash of sweet - the sweet taste tends to go away a bit during the baking process.
 
@@ -88,7 +86,7 @@ We're not going to bake these like you would a cake. Just heat them up to dry a 
 
 Stick it into the oven at 120 degrees Celsius for about 12-15 minutes. Take out the tray and let them cool.
 
-TODO: lebkuchen viele
+{{% fig caption="Ta-dah!" %}} {{% img src="/img/blog/recipes/one_thumb.jpeg" alt="Close up of one Lebkuchen I made this way." link="/img/blog/recipes/one.jpeg" %}} {{% img src="/img/blog/recipes/many_thumb.jpeg" alt="Picture of several Lebkuchen I recently made." link="/img/blog/recipes/many.jpeg" %}}{{% /fig %}}
 
 # Mixing it up
 Traditional Lebkuchen contain almonds, hazelnuts and/or walnuts. But that doesn't mean you can't use other kinds! I like to use macadamia and brazil nuts. Dessicated *coconut*, even. Go crazy.
