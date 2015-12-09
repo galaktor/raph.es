@@ -11,7 +11,7 @@ wasblogger: false
 slug: "low-carb-high-fat-lchf-nuernberger-nuremberger-elisen-lebkuchen"
 ---
 {{% fig caption="Premium old-school *Lebkuchen* are naturally low in carbs" attr="en.wikipedia: Lebkuchen" attrlink="https://en.wikipedia.org/wiki/Lebkuchen" %}}
-{{% img src="/img/blog/recipes/lebkuchen/oldschool_thumb.jpeg" alt="*Lebküchner* from an illustrated manuscript in the Stadtbibliothek Nürnberg, ca. 1520" link="/img/blog/recipes/lebkuchen/oldschool.jpeg" %}}
+{{% img width="300px" src="/img/blog/recipes/lebkuchen/oldschool_thumb.jpeg" alt="*Lebküchner* from an illustrated manuscript in the Stadtbibliothek Nürnberg, ca. 1520" link="/img/blog/recipes/lebkuchen/oldschool.jpeg" %}}
 {{% /fig %}}
 
 Here I'd like to share the recipe for my low-carb-high-fat (and by extension, gluten and sugar-free) variant of [Nuremberger Elisenlebkuchen](http://www.germanfoodguide.com/lebkuchen.cfm). You can find variations of *Lebkuchen* all over Germany (and beyond), but the one I present here is based on an original, old-school recipe straight from the source: Nuremberg.
@@ -31,7 +31,7 @@ There's only two ingredients in the original Elisen-Lebkuchen which are bad carb
 * **The sugar**: (duh) which can easily be replaced with alternative sweeteners such as Xylitol or Stevia.
 
 {{% fig caption="Oblaten are basically cardboard. Would you eat cardboard?" %}}
-{{% img src="/img/blog/recipes/lebkuchen/oblaten_thumb.jpeg" alt="Picture of *oblaten* wafers." link="/img/blog/recipes/lebkuchen/oblaten.jpeg" %}}
+{{% img width="300px" src="/img/blog/recipes/lebkuchen/oblaten_thumb.jpeg" alt="Picture of *oblaten* wafers." link="/img/blog/recipes/lebkuchen/oblaten.jpeg" %}}
 {{% /fig %}}
 
 # Requirements
@@ -77,7 +77,7 @@ You can't really go wrong with a splash or two of pure lemon juice to get starte
 What I then tend to do is add one or two big spoonfuls of thick-cut diabetic orange marmalade. This adds the slightly bitter orange taste and also a bit of sweet, which I can subtract from the Xylitol I would otherwise add later. The brands I can find in my area are sweetened with sugar alcohols (Sorbitol or Maltritol), which isn't as good as Xylitol but beats aspartame nonetheless.
 
 {{% fig caption="Oblaten are basically cardboard. Would you eat cardboard?" attr="Stute" attrlink="http://www.stute-foods.com/itemlist.php?clasrefr=CatRef2" %}}
-{{% img src="/img/blog/recipes/lebkuchen/marmalade_thumb.jpeg" alt="Picture of *oblaten* wafers." link="/img/blog/recipes/lebkuchen/marmalade.jpeg" %}}
+{{% img width="300px" src="/img/blog/recipes/lebkuchen/marmalade_thumb.jpeg" alt="Picture of *oblaten* wafers." link="/img/blog/recipes/lebkuchen/marmalade.jpeg" %}}
 {{% /fig %}}
 
 I strongly recommend you take your time and gradually add very little sweet and give it a taste. Stop when it tastes sweet enough, then add a final tiny dash of sweet - the sweet taste tends to go away a bit during the baking process.
@@ -92,8 +92,8 @@ We're not going to bake these like you would a cake. Just heat them up to dry a 
 Stick it into the oven at 120 degrees Celsius for about 12-15 minutes. Take out the tray and let them cool.
 
 {{% fig caption="Ta-dah!" %}}
-{{% img src="/img/blog/recipes/lebkuchen/one_thumb.jpeg" alt="Close up of one Lebkuchen I made this way." link="/img/blog/recipes/lebkuchen/one.jpeg" %}}
-{{% img src="/img/blog/recipes/lebkuchen/many_thumb.jpeg" alt="Picture of several Lebkuchen I recently made." link="/img/blog/recipes/lebkuchen/many.jpeg" %}}
+{{% img width="450px" src="/img/blog/recipes/lebkuchen/one_thumb.jpeg" alt="Close up of one Lebkuchen I made this way." link="/img/blog/recipes/lebkuchen/one.jpeg" %}}
+{{% img width="450px" src="/img/blog/recipes/lebkuchen/many_thumb.jpeg" alt="Picture of several Lebkuchen I recently made." link="/img/blog/recipes/lebkuchen/many.jpeg" %}}
 {{% /fig %}}
 
 # Mixing it up
