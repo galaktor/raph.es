@@ -67,7 +67,7 @@ These are Christmas treats, so add the usual suspects: cinnamon, nutmeg, cloves,
 Add a large spoonful of cocoa powder to the mix. Or more if you like. Don't worry if it doesn't darken very much. Be careful to not add too much, it can make the dough bitter and you might find yourself adding more sweetener at the end to balance it out.
 
 ### The *Orangeat* problem
-Lebkuchen" traditionally contain [Orangeat](https://de.wikipedia.org/wiki/Orangeat) and [Zitronat](https://de.wikipedia.org/wiki/Zitronat), which translates to candied orange and lemon peel. This is what happens when people soak bitter food in sugar because - apparently - everything has to taste sweet in order to taste good (or so the logic seems to go).
+Lebkuchen traditionally contain [Orangeat](https://de.wikipedia.org/wiki/Orangeat) and [Zitronat](https://de.wikipedia.org/wiki/Zitronat), which translates to candied orange and lemon peel. This is what happens when people soak bitter food in sugar because - apparently - everything has to taste sweet in order to taste good (or so the logic seems to go).
 
 "Candied" == sugar.
 
