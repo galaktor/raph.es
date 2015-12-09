@@ -24,6 +24,8 @@ Traditionally, the best Lebkuchen are those with the highest possible nuts-to-fl
   >
   > "A special quality characteristic is a high content of almond and nut kernels and minimal addition - or even avoidance of - flour. [...] According to the German Food Code, "Oblatenlebkuchen" of the highest quality are called "Elisenlebkuchen" and take a prominent position within the range of products offered by Nuremberg's producers; they must have a particularly high-quality composition of at least 25 % almonds, hazelnuts or walnuts, may not contain other oilseeds and at most 10 % flour or 7.5 % starch."
 
+Knowing this, I cranked up the nut contents to nearly 100 % - which by the *German Food Code* technically qualifies as the most premium Lebkuchen one can possibly make, all the while being low in carbs and high in good fats and fibre.
+
 There's only two ingredients in the original Elisen-Lebkuchen which are bad carb-offenders:
 * **The "Oblate"**: a little tasteless wafer that holds the cake. You can just leave this out.
 * **The sugar**: (duh) which can easily be replaced with alternative sweeteners such as Xylitol or Stevia.
