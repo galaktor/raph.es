@@ -11,10 +11,9 @@ title: "LCHF Nuremberger Elisenlebkuchen"
 wasblogger: false
 slug: "low-carb-high-fat-lchf-nuernberger-nuremberger-elisen-lebkuchen"
 ---
-TODO: image lebkuchen einzeln
-TODO: image [Christkindlesmarkt](http://www.christkindlesmarkt.de/en/)
+TODO: image "oldschool.jpeg", src: https://en.wikipedia.org/wiki/Lebkuchen
 
-Here I'd like to share the recipe for my low-carb-high-fat (and by extension, gluten and sugar-free) variant of [Nuremberger Elisenlebkuchen](https://en.wikipedia.org/wiki/Lebkuchen). You can find variations of *Lebkuchen* all over Germany (and beyond), but the one I present here is based on an original, old-school recipe straight from the source: Nuremberg.
+Here I'd like to share the recipe for my low-carb-high-fat (and by extension, gluten and sugar-free) variant of [Nuremberger Elisenlebkuchen](http://www.germanfoodguide.com/lebkuchen.cfm). You can find variations of *Lebkuchen* all over Germany (and beyond), but the one I present here is based on an original, old-school recipe straight from the source: Nuremberg.
 
 Traditionally, the best Lebkuchen are those with the highest possible nuts-to-flour ratio. This is unlike the cheaper ones you can find in supermarkets and Christmas markets all over the world, which contain more flour and sugar than nuts. The original recipes favour nuts over flour and starch; a perfectly reasonable definition of "premium" to me, and taken further, gives you the ideal LCHF treat.
 
@@ -97,3 +96,10 @@ Traditional Lebkuchen contain almonds, hazelnuts and/or walnuts. But that doesn'
 Obviously, you can experiment with the spices. I recommend trying less sweetener and more cinnamon and cocoa.
 
 If you so desire you can glaze them with chocolate. I usually just melt high-cocoa sugar-free chocolate with some coconut oil and spread that on top. This part is optional and up to you.
+
+# References
+* [en.wikipedia: Lebkuchen](https://en.wikipedia.org/wiki/Lebkuchen)
+* [de.wikipedia: Nuernberger Lebkuchen](https://de.wikipedia.org/wiki/N%C3%BCrnberger_Lebkuchen)
+* [de.wikipedia: Lebkuchengewuerz](https://de.wikipedia.org/wiki/Lebkuchengew%C3%BCrz)
+* [German Food Guide: Lebkuchen](www.germanfoodguide.com/lebkuchen.cfm)
+* [Lebkuchen Schmidt](http://www.lebkuchen-schmidt.com/en/) - where I used to buy Lebkuchen online from abroad before I ditched carbs
