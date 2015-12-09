@@ -28,6 +28,8 @@ There's only two ingredients in the original Elisen-Lebkuchen which are bad carb
 * **The "Oblate"**: a little tasteless wafer that holds the cake. You can just leave this out.
 * **The sugar**: (duh) which can easily be replaced with alternative sweeteners such as Xylitol or Stevia.
 
+TODO: image oblaten
+
 # Requirements
 * 4 eggs
 * 200g ground raw almonds
