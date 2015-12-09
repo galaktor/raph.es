@@ -7,23 +7,22 @@ tags:
  - "recipes"
  - "lchf"
  - "health"
-title: "LCHF Nürnberger Elisen-Lebkuchen"
+title: "LCHF Nuremberger Elisenlebkuchen"
 wasblogger: false
-slug: "low-carb-high-fat-lchf-nuernberger-elisen-lebkuchen"
+slug: "low-carb-high-fat-lchf-nuernberger-nuremberger-elisen-lebkuchen"
 ---
 TODO: image lebkuchen einzeln
 TODO: image [Christkindlesmarkt](http://www.christkindlesmarkt.de/en/)
 
-This is my recipe for sugar-free variant of Nuremberger Elisen-[Lebkuchen](https://en.wikipedia.org/wiki/Lebkuchen). You'll find variations of *Lebkuchen* all over Germany (and beyond), but this recipe is based on an old-school recipe from Nürnberg.
+Here I'd like to share the recipe for my low-carb-high-fat (and by extension, gluten and sugar-free) variant of [Nuremberger Elisenlebkuchen](https://en.wikipedia.org/wiki/Lebkuchen). You can find variations of *Lebkuchen* all over Germany (and beyond), but the one I present here is based on an original, old-school recipe straight from the source: Nuremberg.
 
-Traditionally, the best Lebkuchen are those with a high nuts-to-flour ratio. This is unlike the cheaper ones you can find in supermarkets and Christmas markets all over the world, which contain more flour and sugar than nuts. The original recipe favours nuts over flour and starch; a perfectly reasonable definition of "premium" to me, and taken further, gives you the ideal LCHF treat.
+Traditionally, the best Lebkuchen are those with the highest possible nuts-to-flour ratio. This is unlike the cheaper ones you can find in supermarkets and Christmas markets all over the world, which contain more flour and sugar than nuts. The original recipes favour nuts over flour and starch; a perfectly reasonable definition of "premium" to me, and taken further, gives you the ideal LCHF treat.
 
+  > *Src: [Wikipedia.de](https://de.wikipedia.org/wiki/N%C3%BCrnberger_Lebkuchen); Translated to English by me*
+  >
   > "Als besonderes Qualitätsmerkmal gilt ein hoher Anteil von Mandel- und Nusskernen und eine geringe Zugabe von Mehl oder sogar der völlige Verzicht darauf. [...] Oblatenlebkuchen der höchsten Qualität gemäß Deutschem Lebensmittelbuch heißen „Elisenlebkuchen“ und nehmen bei praktisch allen Nürnberger Anbietern einen prominenten Platz im Sortiment ein; sie müssen eine besonders hochwertige Zusammensetzung mit mindestens 25 % Mandeln, Haselnüssen oder Walnüssen aufweisen, dürfen keine anderen Ölsamen und maximal 10 % Mehl oder 7,5 % Stärke enthalten."
   >
   > "A special quality characteristic is a high content of almond and nut kernels and minimal addition - or even avoidance of - flour. [...] According to the German Food Code, "Oblatenlebkuchen" of the highest quality are called "Elisenlebkuchen" and take a prominent position within the range of products offered by Nuremberg's producers; they must have a particularly high-quality composition of at least 25 % almonds, hazelnuts or walnuts, may not contain other oilseeds and at most 10 % flour or 7.5 % starch."
-  >
-  > Src: *[Wikipedia.de](https://de.wikipedia.org/wiki/N%C3%BCrnberger_Lebkuchen)*
-  > Translation to English: *me*
 
 There's only two ingredients in the original Elisen-Lebkuchen which are bad carb-offenders:
 * **The "Oblate"**: a little tasteless wafer that holds the cake. You can just leave this out.
@@ -31,8 +30,8 @@ There's only two ingredients in the original Elisen-Lebkuchen which are bad carb
 
 # Requirements
 * 4 eggs
-* 200g ground raw macadamia nuts
-* 200g ground raw brazil nuts
+* 200g ground raw almonds
+* 200g ground raw hazelnuts
 * 15g psyllium husks
 * Xmas-y spices (cinnamon, nutmeg, cloves, allspice, etc.)
 * Cocoa powder (100%, unsweetened)
@@ -86,6 +85,11 @@ We're not going to bake these like you would a cake. Just heat them up to dry a 
 
 Stick it into the oven at 120 degrees Celsius for about 12-15 minutes. Take out the tray and let them cool.
 
-If you so desire you can glaze them with chocolate. I usually just melt high-cocoa sugar-free chocolate with some coconut oil and spread that on top. This part is optional and up to you!
-
 TODO: lebkuchen viele
+
+# Mixing it up
+Traditional Lebkuchen contain almonds, hazelnuts and/or walnuts. But that doesn't mean you can't use other kinds! I like to use macadamia and brazil nuts. Dessicated *coconut*, even. Go crazy.
+
+Obviously, you can experiment with the spices. I recommend trying less sweetener and more cinnamon and cocoa.
+
+If you so desire you can glaze them with chocolate. I usually just melt high-cocoa sugar-free chocolate with some coconut oil and spread that on top. This part is optional and up to you.
