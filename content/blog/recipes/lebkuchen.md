@@ -76,7 +76,7 @@ You can't really go wrong with a splash or two of pure lemon juice to get starte
 
 What I then tend to do is add one or two big spoonfuls of thick-cut diabetic orange marmalade. This adds the slightly bitter orange taste and also a bit of sweet, which I can subtract from the Xylitol I would otherwise add later. The brands I can find in my area are sweetened with sugar alcohols (Sorbitol or Maltritol), which isn't as good as Xylitol but beats aspartame nonetheless.
 
-{{% fig caption="Oblaten are basically cardboard. Would you eat cardboard?" attr="Stute" attrlink="http://www.stute-foods.com/itemlist.php?clasrefr=CatRef2" %}}
+{{% fig caption="Diabetic marmalades are usually sweetened with sugar alcohols." attr="Stute" attrlink="http://www.stute-foods.com/itemlist.php?clasrefr=CatRef2" %}}
 {{% img width="300px" src="/img/blog/recipes/lebkuchen/marmalade_thumb.jpeg" alt="Picture of *oblaten* wafers." link="/img/blog/recipes/lebkuchen/marmalade.jpeg" %}}
 {{% /fig %}}
 
