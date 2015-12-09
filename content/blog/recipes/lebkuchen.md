@@ -12,13 +12,22 @@ wasblogger: false
 slug: "low-carb-high-fat-lchf-nuernberger-elisen-lebkuchen"
 ---
 TODO: image lebkuchen einzeln
-TODO: image [Christkindlesmarkt](https://en.wikipedia.org/wiki/Christkindlesmarkt,_Nuremberg)
+TODO: image [Christkindlesmarkt](http://www.christkindlesmarkt.de/en/)
 
-This is my recipe for sugar-free variant of [Nürnberger](https://en.wikipedia.org/wiki/Christkindlesmarkt,_Nuremberg) Elisten-[Lebkuchen](https://en.wikipedia.org/wiki/Lebkuchen). You'll find variations of *Lebkuchen* all over Germany (and beyond), but this recipe is based on an old-school recipe from Nürnberg. There's only two ingredients in the original Elisen-Lebkuchen which are problematic if you are avoding sugar:
-* **The "Oblate"**: a little wafer that holds the cake. You can just leave this out.
+This is my recipe for sugar-free variant of Nuremberger Elisen-[Lebkuchen](https://en.wikipedia.org/wiki/Lebkuchen). You'll find variations of *Lebkuchen* all over Germany (and beyond), but this recipe is based on an old-school recipe from Nürnberg.
+
+Traditionally, the best Lebkuchen are those with a high nuts-to-flour ratio. This is unlike the cheaper ones you can find in supermarkets and Christmas markets all over the world, which contain more flour and sugar than nuts. The original recipe favours nuts over flour and starch; a perfectly reasonable definition of "premium" to me, and taken further, gives you the ideal LCHF treat.
+
+  > "Als besonderes Qualitätsmerkmal gilt ein hoher Anteil von Mandel- und Nusskernen und eine geringe Zugabe von Mehl oder sogar der völlige Verzicht darauf. [...] Oblatenlebkuchen der höchsten Qualität gemäß Deutschem Lebensmittelbuch heißen „Elisenlebkuchen“ und nehmen bei praktisch allen Nürnberger Anbietern einen prominenten Platz im Sortiment ein; sie müssen eine besonders hochwertige Zusammensetzung mit mindestens 25 % Mandeln, Haselnüssen oder Walnüssen aufweisen, dürfen keine anderen Ölsamen und maximal 10 % Mehl oder 7,5 % Stärke enthalten."
+  >
+  > "A special quality characteristic is a high content of almond and nut kernels and minimal addition - or even avoidance of - flour. [...] According to the German Food Code, "Oblatenlebkuchen" of the highest quality are called "Elisenlebkuchen" and take a prominent position within the range of products offered by Nuremberg's producers; they must have a particularly high-quality composition of at least 25 % almonds, hazelnuts or walnuts, may not contain other oilseeds and at most 10 % flour or 7.5 % starch."
+  >
+  > Src: *[Wikipedia.de](https://de.wikipedia.org/wiki/N%C3%BCrnberger_Lebkuchen)*
+  > Translation to English: *me*
+
+There's only two ingredients in the original Elisen-Lebkuchen which are bad carb-offenders:
+* **The "Oblate"**: a little tasteless wafer that holds the cake. You can just leave this out.
 * **The sugar**: (duh) which can easily be replaced with alternative sweeteners such as Xylitol or Stevia.
-
-The result is just the same as your run-off-the-mill sugary home-baked Lebkuchen, just without all that insuline-spiking sugar! Yay!
 
 # Requirements
 * 4 eggs
