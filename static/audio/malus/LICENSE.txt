@@ -9,9 +9,9 @@ Music is licensed under the
 
 license.
 
-Some rights reserved. You may use these songs under the conditions layed out in the licenses below.
+Some rights reserved. You may use these songs under the conditions layed out in the licens below.
 
-You must get permission from the author should you wish to use source code or content in a way not compatible with the licenses.
+You must get permission from the author should you wish to use the music in a way not compatible with the license.
 
 Raphael Estrada <galaktor@gmx.de>
 
