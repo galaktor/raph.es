@@ -19,6 +19,6 @@ Later, on the [port](https://github.com/galaktor/gorf24/tree/port) branch, I beg
 
 I tried to use idiomatic Golang and find a nice abstraction of the radio's functions. The final (last) combining facade ([rf24.go](https://github.com/galaktor/gorf24/blob/port/rf24.go))is lacking some design decisions for the whole thing to come together. However, all the underlying logic is well-covered by in-memory unit tests, so I'm confident that it implements the Nordic specifications.
 
-Too bad the final thing doesn't work yet!  `\_(ツ)_/¯`
+Too bad the final thing doesn't work yet!  `¯\_(ツ)_/¯`
 
 That said, this was a clear case where using TDD for low-level logic was a blessing - the bulk of the code is tested even though the usability questions aren't decided yet. Very little risk in the final steps. Not that anybody cares.
