@@ -3,9 +3,9 @@ ascii = "ascii/zita.txt"
 author = "mayra"
 date = "2015-07-21T13:01:25+01:00"
 progress = 100
-project = "zita"
+project = "cosplay"
 state = "nailed it"
-title = "zita-cosplay"
+title = "kids-cosplay"
 +++
 Inspired by videos of cosplayers online, my daughter set out to make a Zita costume. Zita is rather on the simple side as cosplay goes, making it ideal as a first project of this kind. And if the pictures of Zita costumes on Hatke's blog [are](http://www.benhatke.com/2014/10/a-halloween-post-with-trick-and-treat.html) [any](http://www.benhatke.com/2013/11/the-great-zita-spacegirl-costume-parade_5.html) [indication](http://www.benhatke.com/2013/11/the-great-zita-spacegirl-costume-parade.html), we aren't the first fans to work on a costume, either.
 
@@ -14,6 +14,15 @@ Inspired by videos of cosplayers online, my daughter set out to make a Zita cost
 {{% /fig %}}
 
 It took only a few hours from finding the right materials to stitching everything together. I encouraged her to document the process and write up a little recap.
+
+Soon after, we also made an Enderman costume for my son from scratch.
+
+Both of them showcased their outfits at MCM Comic Con in 2015.
+
+{{% fig %}}
+{{% img src="/img/project/cosplay/zita_thumb.jpeg" alt="Zita the Spacegirl costume" link="/img/project/cosplay/zita.jpeg" %}}
+{{% img src="/img/project/cosplay/enderman_thumb.jpeg" alt="Minecraft Engerman costume" link="/img/project/cosplay/enderman.jpeg" %}}
+{{% /fig %}}
 
 {{% fig caption="Kids cosplay is the best type of cosplay" attr="BleedingCool.com" attrlink="http://www.bleedingcool.com/2014/11/06/when-kids-cosplay-at-new-york-comic-con-video/" %}}
 {{% youtube lmlrr47NGmI %}}
