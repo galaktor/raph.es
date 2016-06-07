@@ -15,7 +15,7 @@ As part of the [wireless gamepad](/project/gamepad) project, I wrote middleware 
 What's on the [master](https://github.com/galaktor/gorf24/tree/master) branch is a fairly straightforward port of the Arduino library. I used this for my proof-of-concept. 
 
 # v2: Custom driver from scratch
-Later, on the [port](https://github.com/galaktor/gorf24/tree/port) branch, I began writing my own user-space driver from scratch, bit-banging the Linux SPI drivers on the [Retro-Pie](project/retro-pi/).
+Later, on the [port](https://github.com/galaktor/gorf24/tree/port) branch, I began writing my own user-space driver from scratch, bit-banging the Linux SPI drivers on the [Retro-Pie](/project/retro-pi/).
 
 I tried to use idiomatic Golang and find a nice abstraction of the radio's functions. The final (last) combining facade ([rf24.go](https://github.com/galaktor/gorf24/blob/port/rf24.go))is lacking some design decisions for the whole thing to come together. However, all the underlying logic is well-covered by in-memory unit tests, so I'm confident that it implements the Nordic specifications.
 
