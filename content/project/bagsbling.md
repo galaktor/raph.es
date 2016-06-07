@@ -10,8 +10,8 @@ ascii:     "ascii/bolt.txt"
 As a first wearables project we geeked up the kids' schoolbags by adding animated LED motifs to them. One red/yellow heart and one blue/white flashing lightning bolt.
 
 {{% fig %}}
-{{% img src="/img/project/bling-heart.gif" alt="The heart-shaped LEDs flash on and off." %}}
-{{% img src="/img/project/bling-lightning.gif" alt="The lightning-shaped LEDs flash on and off." %}}
+{{% img src="/img/project/bagsbling/bling-heart.gif" alt="The heart-shaped LEDs flash on and off." %}}
+{{% img src="/img/project/bagsbling/bling-lightning.gif" alt="The lightning-shaped LEDs flash on and off." %}}
 {{% /fig %}}
 
 Because nothing says "too cool for school" like MCU-driven LED backpacks do.
