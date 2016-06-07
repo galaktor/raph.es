@@ -16,3 +16,4 @@ Since Go has rather neat C-bindings, it made sense to first abstract the C++ Ogr
 
 The Ogre community never sleeps, but I've discontinued my efforts on this front. So chances are, someone forked and continued without me; I haven't checked yet.
 
+{{% fig %}}{{% img src="/img/project/gogre/gogre-head.gif" %}}{{% /fig %}}
