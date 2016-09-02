@@ -5,7 +5,7 @@ author:    "raph"
 project:   "cmdr-pixel"
 progress:  99
 state:     "in production"
-ascii:     "ascii/na.txt"
+ascii:     "ascii/keyboard.txt"
 ---
 My first stab at a custom-designed keyboard. It's for a [61-key VP3 from WASD](http://www.wasdkeyboards.com/index.php/products/mechanical-keyboard/wasd-vp3-61-key-custom-mechanical-keyboard.html).
 
