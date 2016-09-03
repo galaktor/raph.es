@@ -17,9 +17,9 @@ The font I used for the legends is [Telegrama raw](http://www.yoworks.com/telegr
 ## Layout features
 * swapped the `@` and `"` (more UK-ish)
 * dedicated legends for some of the VP3's default layer functions:
-* arrow keys on `JIKL`
-* volume control on `SDF`
-* default layer selector on `M`
+ * arrow keys on `JIKL`
+ * volume control on `SDF`
+ * default layer selector on `M`
 * Emacs `Command` and `Meta` keys where I like them (`CAPS` and `Left-Alt`)
 * `0` through `9` in binary
 * A red self-destruct button for `ESC`
