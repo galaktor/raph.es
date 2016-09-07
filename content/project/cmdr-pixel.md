@@ -3,7 +3,7 @@ date:      "2016-09-03T19:24:01+01:00"
 title:     "cmdr-pixel"
 author:    "raph"
 project:   "cmdr-pixel"
-progress:  99
+progress:  60
 state:     "in production"
 ascii:     "ascii/keyboard.txt"
 ---
@@ -44,3 +44,7 @@ The keyboard is in production with WASD - I won't know if this design is any goo
 
 {{% fig caption="Inspiration for the sci-fi theme" attr="Elite Dangerous Wiki" attrlink="http://elite-dangerous.wikia.com/wiki/HUD"  %}} {{% img src="/img/project/cmdr-pixel/elite-hud.jpeg" link="/img/project/cmdr-pixel/elite-hud.jpeg" width="500px" %}} {{% /fig %}}
 
+
+# TODO
+* Pics of actual keyboard when it arrives
+* Add backlighting by soldering on LEDS, as shown [here](https://medium.com/@DavidNZ/adding-led-lights-to-a-pok3r-keyboard-e772fdea86f0#.71gyefutn) and [here](http://imgur.com/a/Y2Yyn)
