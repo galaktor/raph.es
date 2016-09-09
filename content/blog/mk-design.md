@@ -13,7 +13,9 @@ draft = false
 # The dream
 I always wanted a mechanical keyboard. And while I'm at it, I wanted it to be something special - something only I could love.
 
-When I had some bucks left to spend from a cash reward, the time had come. I pulled the trigger and got me a [60% VP3 from WASD](http://www.wasdkeyboards.com/index.php/products/mechanical-keyboard/wasd-vp3-61-key-custom-mechanical-keyboard.html) - essentially a non-backlit [Vortex Pok3r](https://corus-kb.com/en/27-pok3r) with custom-designed legends and keycap colours. The ABS keycaps from WASD aren't suppoosed to be top notch, but I can upgrade those later. Neither is the lack of backlighting an issue for me, because LEDs can be added on later, too. Other than that, the pok3r is supposed to be a pretty solid MK.
+When I had some bucks left to spend from a cash reward, the time had come. I pulled the trigger and got me a [60% VP3 from WASD](http://www.wasdkeyboards.com/index.php/products/mechanical-keyboard/wasd-vp3-61-key-custom-mechanical-keyboard.html) - essentially a non-backlit [Vortex Pok3r](https://corus-kb.com/en/27-pok3r) with custom-designed legends and keycaps printed by WASD.
+
+The ABS keycaps from WASD aren't supposed to be top notch, but I can upgrade those later. Neither is the lack of backlighting an issue for me, because LEDs can be added on later, too. Other than that, the pok3r is supposed to be a pretty solid MK.
 
 # The design
 It's a retro-kitsch take on the HUD of a space simulator game with a dash of 8-bit nostalgia. Word fragments are loosely based on [Elite: Dangerous](https://en.wikipedia.org/wiki/Elite:_Dangerous). Elite uses more orange in the spaceship HUDs, but I think the classic black-green sci-fi palette worked better.
