@@ -13,10 +13,10 @@ draft = false
 # The dream
 I always wanted a mechanical keyboard. And while I'm at it, I wanted it to be something special - something only I could love.
 
-When I had some bucks left to spend from a cash reward, the time had come. I pulled the trigger and got me a [60% VP3 from WASD](http://www.wasdkeyboards.com/index.php/products/mechanical-keyboard/wasd-vp3-61-key-custom-mechanical-keyboard.html) - essentially a non-backlit [Vortext Pok3r](https://corus-kb.com/en/27-pok3r) with custom-designed legends and keycap colours. The ABS keycaps from WASD aren't suppoosed to be legendary, but I can upgrade later. The backlighting isn't an issue, because it can be added on later, too. Other than that, the pok3r is supposed to be a pretty solid MK.
+When I had some bucks left to spend from a cash reward, the time had come. I pulled the trigger and got me a [60% VP3 from WASD](http://www.wasdkeyboards.com/index.php/products/mechanical-keyboard/wasd-vp3-61-key-custom-mechanical-keyboard.html) - essentially a non-backlit [Vortex Pok3r](https://corus-kb.com/en/27-pok3r) with custom-designed legends and keycap colours. The ABS keycaps from WASD aren't suppoosed to be top notch, but I can upgrade those later. Neiter is the lack of backlighting an issue, because LEDs can be added on later, too. Other than that, the pok3r is supposed to be a pretty solid MK.
 
 # The design
-It's a retro-kitsch take on the HUD of a sci-fi simulator game with a dash of 8-bit nostalgia. Terminology loosely based on [Elite: Dangerous](https://en.wikipedia.org/wiki/Elite:_Dangerous). Elite uses more orange in the HUDs, but I think the classic black-green sci-fi palette worked better.
+It's a retro-kitsch take on the HUD of a space simulator game with a dash of 8-bit nostalgia. Word fragments are loosely based on [Elite: Dangerous](https://en.wikipedia.org/wiki/Elite:_Dangerous). Elite uses more orange in the spaceship HUDs, but I think the classic black-green sci-fi palette worked better.
 
 The font I used for the legends is [Telegrama raw](http://www.yoworks.com/telegrama/index.html) by [YOWorks](http://www.yoworks.com).
 
@@ -29,7 +29,7 @@ The font I used for the legends is [Telegrama raw](http://www.yoworks.com/telegr
 * Emacs `Command` and `Meta` keys where I like them (`CAPS` and `Left-Alt`)
 * `0` through `9` in binary
 * A red self-destruct button for `ESC`
-* Plenty of techno-babble from `Elite: Dangerous`
+* Plenty of techno-babble from *Elite: Dangerous*
 * Notalgia-licious pixel legends
 
 {{% fig caption="Legends only" %}}
